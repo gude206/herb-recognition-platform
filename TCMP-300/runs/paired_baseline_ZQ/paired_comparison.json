@@ -1,0 +1,49 @@
+{
+  "evaluation_a": "D:\\Study\\AI\u5168\u6808\u5f00\u53d1\\TCMP-300\\runs\\resnet50_7030_baseline\\paired_test_evaluation",
+  "evaluation_b": "D:\\Study\\AI\u5168\u6808\u5f00\u53d1\\TCMP-300\\runs\\resnet50_7030_ZQ\\paired_test_evaluation",
+  "checkpoint_sha256_a": "0853621287adc1055a79b9e937c0b58027b0e6c3f65fc76f310255809fbd571d",
+  "checkpoint_sha256_b": "1d8769dd6b9852dafbb2bf575b1d5c7b75c1331e5916e546e27a4f197f47f592",
+  "split_hash": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09",
+  "dataset_fingerprint": "02eb52aeebfc35dcc547bf13c4e74a26e903a389de74fdaef5d638f74ff4d1aa",
+  "evaluation_settings": {
+    "batch_size": 16,
+    "workers": 2,
+    "device": "cuda",
+    "autocast_float16": true,
+    "preprocessing": "Resize256_CenterCrop224_RGB_ImageNetNormalize_v1"
+  },
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20261001,
+  "method": "paired IID image bootstrap percentile 95% CI; exact two-sided McNemar",
+  "scope": "two fixed checkpoints; not an estimate of variation across training seeds",
+  "top1": {
+    "images": 4735,
+    "accuracy_a": 0.7985216473072861,
+    "accuracy_b": 0.8,
+    "difference_b_minus_a": 0.0014783526927138332,
+    "difference_ci95": [
+      -0.008447729672650475,
+      0.011615628299894404
+    ],
+    "only_a_correct": 287,
+    "only_b_correct": 294,
+    "both_correct": 3494,
+    "both_wrong": 660,
+    "mcnemar_exact_two_sided_p": 0.8034471355975804
+  },
+  "top5": {
+    "images": 4735,
+    "accuracy_a": 0.9229144667370645,
+    "accuracy_b": 0.928194297782471,
+    "difference_b_minus_a": 0.005279831045406547,
+    "difference_ci95": [
+      -0.0014783526927138332,
+      0.012038014783526927
+    ],
+    "only_a_correct": 126,
+    "only_b_correct": 151,
+    "both_correct": 4244,
+    "both_wrong": 214,
+    "mcnemar_exact_two_sided_p": 0.1491647696917017
+  }
+}

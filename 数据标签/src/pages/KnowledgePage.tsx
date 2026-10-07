@@ -1,0 +1,23 @@
+import { useEffect, useState } from 'react'
+import { ArrowRight, BookOpen, Eye, Flame, Flower2, Leaf, ScrollText, ShieldCheck, Sun, X } from 'lucide-react'
+import { PageHero } from '../components/common/PageHero'
+import { SectionTitle } from '../components/common/SectionTitle'
+import { getArticles } from '../api/knowledge'
+import { mockArticles } from '../data/mockArticles'
+import type { Article } from '../types/article'
+
+const categories=[['本草故事',ScrollText],['草药背景',Leaf],['节气养生',Sun],['药食同源',Flower2],['名医典故',BookOpen],['安全常识',ShieldCheck]] as const
+export function KnowledgePage() {
+ const [articles,setArticles]=useState<Article[]>(mockArticles);const [category,setCategory]=useState('全部');const [active,setActive]=useState<Article>()
+ useEffect(()=>{void getArticles().then(setArticles)},[])
+ const selected=category==='全部'?articles:articles.filter(item=>item.category===category||category==='草药背景'&&item.category==='植物知识')
+ const featured=articles[0]
+ return <div className="page-shell knowledge-page"><PageHero eyebrow="本草文化 · 科普阅读" title="本草科普" subtitle="走进中医药文化，了解本草知识与植物智慧。传承千年本草智慧，用易懂的语言连接自然、历史与现代。" variant="library"/>
+  <div className="knowledge-categories">{categories.map(([name,Icon])=><button key={name} className={category===name?'active':''} onClick={()=>setCategory(category===name?'全部':name)}><span><Icon size={21}/></span><b>{name}</b><small>探索本草知识</small><ArrowRight size={15}/></button>)}</div>
+  <div className="knowledge-layout"><div className="knowledge-main"><section className="paper-card featured-article"><img src={featured.image} alt={featured.title}/><div className="featured-copy"><span className="eyebrow">今日推荐 · {featured.category}</span><h2>{featured.title}</h2><div className="tag-row"><span className="tag">本草故事</span><span className="tag">植物知识</span></div><p>{featured.excerpt}</p><button className="button button-primary" onClick={()=>setActive(featured)}>阅读故事 <ArrowRight size={16}/></button></div><div className="featured-seal">今日<br/>推荐</div></section>
+   <section className="paper-card article-library"><SectionTitle icon={<BookOpen/>} title="科普文章" sub="从植物、历史、功效到生活应用，发现更多有趣的本草知识" action={<div className="article-tabs"><button className={category==='全部'?'active':''} onClick={()=>setCategory('全部')}>全部</button>{categories.slice(0,5).map(([name])=><button className={category===name?'active':''} key={name} onClick={()=>setCategory(name)}>{name}</button>)}</div>}/><div className="article-grid">{selected.map(article=><button className="article-card" key={article.id} onClick={()=>setActive(article)}><img src={article.image} alt={article.title}/><div><span className="tag">{article.category}</span><h3>{article.title}</h3><p>{article.excerpt}</p><span className="article-read">阅读全文 <ArrowRight size={14}/></span></div></button>)}</div>{!selected.length&&<div className="empty-state">这个专题的内容正在整理中，先看看其他本草文章。</div>}</section>
+  </div><aside className="knowledge-aside"><section className="paper-card reading-list"><SectionTitle icon={<Flame/>} title="热门阅读" action={<span>查看更多 →</span>}/>{articles.slice(0,5).map((article,index)=><button key={article.id} onClick={()=>setActive(article)}><b className={`rank rank-${index+1}`}>{index+1}</b><img src={article.image} alt=""/><span><strong>{article.title}</strong><small>{article.category}</small></span><small><Eye size={13}/>{article.reads}</small></button>)}</section><section className="paper-card special-topics"><SectionTitle icon={<BookOpen/>} title="科普专题"/><button onClick={()=>setCategory('药食同源')}><span><b>药食同源</b><small>从餐桌到本草的生活智慧</small></span><ArrowRight/></button><button onClick={()=>setCategory('名医典故')}><span><b>本草典籍</b><small>循着古籍，读懂草木知识</small></span><ArrowRight/></button></section></aside></div>
+  <section className="seasons-section"><SectionTitle icon={<Sun/>} title="四季本草" sub="跟随时节变化，观察草木生长与传统文化中的自然节律"/><div>{[['春','新芽初生','万物萌发 · 识草木'],['夏','花叶正盛','观花辨叶 · 读本草'],['秋','果实成熟','采撷秋实 · 品自然'],['冬','根藏土中','循藏养息 · 温故知新']].map(([season,title,desc],index)=><button key={season} onClick={()=>setCategory(index===0?'植物知识':'节气养生')}><strong>{season}</strong><span>{title}</span><small>{desc}</small></button>)}</div></section>
+  {active&&<div className="modal-backdrop" role="presentation" onClick={()=>setActive(undefined)}><article className="article-modal paper-card" role="dialog" aria-modal="true" aria-label={active.title} onClick={event=>event.stopPropagation()}><button className="modal-close" onClick={()=>setActive(undefined)} aria-label="关闭"><X/></button><img src={active.image} alt=""/><span className="eyebrow">{active.category} · 本草科普</span><h2>{active.title}</h2><p className="article-modal-lead">{active.excerpt}</p><p>{active.body}</p><p>本平台内容用于课程学习与植物知识科普，帮助读者理解草木形态与传统文化。具体应用请查阅专业资料。</p></article></div>}
+ </div>
+}

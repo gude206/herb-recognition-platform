@@ -1,0 +1,43 @@
+.platform*.json
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+/mysql-local/
+
+# Dependencies, caches, generated files and logs
+node_modules/
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+.build/
+*.tsbuildinfo
+*.log
+.DS_Store
+Thumbs.db
+
+# Models are stored in GitHub Releases, not regular Git history
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Full dataset and local research/database caches
+/TCMP-300/data/author_tcmp_300/images/
+/TCMP-300/data/author_tcmp_300/before_*/
+/TCMP-300/data/author_tcmp_300/enrichment_sources_*/
+/TCMP-300/data/author_tcmp_300/review_research_*/
+*.sql
+*.sql.gz
+
+# Downloaded archives stay local
+.downloads/

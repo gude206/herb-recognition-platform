@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "action": "source_review_completion_synced",
+  "verified_at": "2026-09-30T15:23:17.276951+00:00",
+  "host": "127.0.0.1",
+  "port": 3306,
+  "database": "tcmp_300",
+  "mysql_version": "8.4.9",
+  "charset": "utf8mb4",
+  "row_counts": {
+    "plants": 300,
+    "medicinal_materials": 219,
+    "image_candidates": 509,
+    "field_sources": 12956,
+    "review_queue": 1663
+  },
+  "plants_source_columns": 103,
+  "verification": "All five tables match CSV values after commit; main table embeds all associated introductions and evidence.",
+  "database_backup": "D:\\Study\\AI全栈开发\\TCMP-300\\data\\author_tcmp_300\\before_review_refinement_20260930\\tcmp_300_before_sync_20260930.sql.gz",
+  "files": {
+    "plants": {
+      "filename": "tcmp-info-20250329.csv",
+      "sha256": "8c012f0aaec2f405a81499638477c0caf7857bf4c410a5c2cd061e3c51a1f324"
+    },
+    "medicinal_materials": {
+      "filename": "tcmp-medicinal-materials.csv",
+      "sha256": "c4e4a1d7fe64aa9501fcef8459868ea5ccc81f533bdcfdd5fcd3c4c0b4c36348"
+    },
+    "image_candidates": {
+      "filename": "tcmp-image-candidates.csv",
+      "sha256": "0bb7917e88e91b4ac3463f540aa876bec09d39cec70e3bc9a875556d6d08aa6f"
+    },
+    "field_sources": {
+      "filename": "tcmp-field-sources.csv",
+      "sha256": "42869523bfb3ede6ab93da5bd94ebf1e36032cd57ad4a4240752df6f349760e8"
+    },
+    "review_queue": {
+      "filename": "tcmp-review-queue.csv",
+      "sha256": "5bee0e8b885ed0403b507e8925f079c93420bc9474318319713053519b982f14"
+    }
+  }
+}

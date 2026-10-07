@@ -1,0 +1,32 @@
+.recognition-result .name-score{flex-wrap:wrap;gap:6px}
+.recognition-result .name-score h2{overflow-wrap:anywhere}
+.recognition-result .latin{overflow-wrap:anywhere}
+.recognition-result .prediction-row{min-height:27px}
+.recognition-result .prediction-row>span{min-width:0;overflow-wrap:anywhere}
+.recognition-result .prediction-row>strong{flex-shrink:0;font-variant-numeric:tabular-nums}
+.home-workspace{align-items:stretch}
+.upload-card .upload-layout{align-items:start;grid-template-columns:minmax(0,1fr)}
+.upload-input{min-width:0}
+.upload-card .drop-zone{height:clamp(220px,18vw,280px);min-height:0}
+.drop-zone.has-preview{padding:8px}
+.drop-zone .upload-preview{position:static;display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain;flex-shrink:0}
+.upload-actions{display:flex;justify-content:center;padding-top:10px}
+.recognition-result .result-main>img{width:auto;height:auto;max-width:96px;max-height:104px;object-fit:contain;align-self:flex-start;flex-shrink:0}
+@media(max-width:767px){.recognition-result .result-main>img{max-width:88px;max-height:140px}}
+.recognition-error{grid-column:1/-1}
+.knowledge-pending{font-size:12px;color:#65746a;line-height:1.8;padding:12px 0}
+.knowledge-pending strong{font-size:18px;color:#315742}
+.assistant-card .chat-body{height:240px}
+.assistant-card .chat-bubble{white-space:pre-wrap;overflow-wrap:anywhere;flex-shrink:0}
+.assistant-card .bot-avatar{flex-shrink:0}
+.chat-error{font-size:12px;line-height:1.6;color:#a34a30;background:#fff2e9;border-radius:8px;padding:8px 10px;margin:4px 0}
+.prompt-chips button:disabled{opacity:.6;cursor:wait}
+.prediction-status{margin:6px 0}
+.prediction-warning{padding:8px 10px;margin:8px 0;border:1px solid #ecd2b8;border-radius:8px;background:#fff4e8;color:#86542f;font-size:11px;line-height:1.6}
+.prediction-warning strong{display:flex;align-items:center;gap:5px}
+.prediction-warning p{margin:4px 0;overflow-wrap:anywhere}
+.prediction-candidate{display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px}
+.prediction-candidate small{font-size:9px;color:#748477}
+.prediction-candidate .candidate-conflict{color:#a34a30;font-weight:650}
+.chat-context{font-size:11px;line-height:1.6;padding:8px 10px;background:#edf4eb;border-radius:8px;color:#496f58;margin:0 0 10px}
+.chat-context small{display:block;color:#6e8072;font-size:10px;margin-top:3px}

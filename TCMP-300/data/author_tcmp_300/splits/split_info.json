@@ -1,0 +1,8 @@
+{
+  "source": "data/author_tcmp_300/images/tcmp-300/val",
+  "seed": 20260927,
+  "test_ratio": 0.3,
+  "classes": 300,
+  "validation_images": 11030,
+  "test_images": 4735
+}

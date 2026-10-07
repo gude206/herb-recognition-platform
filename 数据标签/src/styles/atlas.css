@@ -1,0 +1,84 @@
+/* Source-backed plant atlas; follows the site's paper and green palette. */
+#filters,#herb-list,#distribution{scroll-margin-top:90px}
+.plant-image{position:relative;margin:0;min-width:0;width:100%;height:160px;overflow:hidden;border-radius:8px;background:#edf1e6}
+.plant-image>img{display:block;width:100%;height:100%;object-fit:cover}
+.plant-image figcaption{position:absolute;bottom:0;left:0;right:0;padding:5px 6px;background:rgba(25,57,40,.78);color:#fff;font-size:10px;line-height:1.4;text-align:center}
+.plant-image-placeholder{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#6e8774;font-size:11px}
+.herb-card,.herb-card-copy,.detail-main,.detail-intro{min-width:0}
+.herb-grid .herb-card>.plant-image{height:132px}
+.herb-card .latin{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.herb-card .tag-row{min-width:0;gap:4px;flex-wrap:wrap}
+.herb-card .tag{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.herb-card .herb-description,.card-distribution{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.card-distribution{font-size:11px;line-height:1.6;color:#547461;margin:7px 0}
+.card-distribution svg{vertical-align:-2px;margin-right:3px}
+.herb-card-compact>.plant-image{height:105px;align-self:stretch}
+.herb-card-compact .plant-image figcaption{font-size:8px;padding:3px}
+.atlas-select-filter{display:block;min-width:0;margin:14px 0}
+.atlas-select-filter>span{display:block;font-size:12px;color:#345d46;margin-bottom:6px}
+.atlas-select-filter select{width:100%;min-width:0;padding:9px 7px;border:1px solid #d7e2d4;border-radius:7px;color:#365840;background:#fffef7;font:inherit;font-size:12px;text-overflow:ellipsis}
+.medicinal-filters{margin-top:18px;padding-top:14px;border-top:1px solid #e0e7db}
+.medicinal-filters summary,.atlas-fulltext summary{color:#326b4e;cursor:pointer;font-weight:600;font-size:13px}
+.medicinal-filters p{color:#6e7d72;font-size:11px;line-height:1.6}
+.atlas-pagination{display:flex;align-items:center;justify-content:center;gap:18px;padding:20px 0;font-size:12px;color:#526e59}
+.atlas-pagination button{padding:8px 15px;border:1px solid #b9cdb9;border-radius:7px;background:#fffef8;color:#276747}
+.atlas-pagination button:disabled{opacity:.45;cursor:default}
+.atlas-guide{padding:17px;font-size:12px;line-height:1.9;color:#65756a}
+.atlas-guide h3,.atlas-guide h4{color:#31553d;margin:10px 0 6px}
+.atlas-guide hr{border:0;border-top:1px solid #e0e7db;margin:20px 0}
+.atlas-warning{padding:12px;background:#fff4da;border:1px solid #e4cd96;border-radius:8px;color:#80632c;font-size:12px;line-height:1.7;margin:0 0 12px}
+.atlas-warning p{margin:5px 0 0}
+.herb-card .atlas-warning{padding:5px;font-size:10px;margin:6px 0}
+.atlas-detail-layout{display:grid;grid-template-columns:minmax(0,1fr) 225px;gap:14px;align-items:start}
+.atlas-detail-guide{position:sticky;top:85px}
+.plant-image.detail-image{height:315px}
+.atlas-section{padding:22px;min-width:0;overflow-wrap:anywhere}
+.atlas-section>h3{display:flex;align-items:center;gap:9px;margin:0 0 17px;color:#305c42;font-size:18px}
+.atlas-section p,.atlas-dl{font-size:14px;line-height:1.9;color:#586b5f;white-space:pre-line}
+.atlas-dl{display:grid;grid-template-columns:110px minmax(0,1fr);gap:9px 14px;margin:16px 0}
+.atlas-dl>div{display:contents}
+.atlas-dl dt{color:#386b4c;font-weight:600}
+.atlas-dl dd{margin:0;min-width:0}
+.atlas-dl small,.atlas-sources small{display:block;color:#899184;font-size:11px;line-height:1.7;margin-top:5px}
+.atlas-features dd{padding-bottom:12px;border-bottom:1px solid #e8ece2}
+.atlas-muted,.detail-intro .atlas-muted{color:#7d897d;font-size:12px!important;line-height:1.8}
+.atlas-fulltext{margin-top:16px;padding:14px;background:#f5f7ed;border:1px solid #e1e7d8;border-radius:8px}
+.atlas-fulltext p{white-space:pre-line;overflow-wrap:anywhere}
+.atlas-materials{display:grid;gap:12px;margin-top:16px}
+.atlas-materials article{padding:17px;background:#fafaf2;border:1px solid #e2e8d8;border-radius:9px}
+.atlas-materials h4{margin:0;color:#31533b;font-size:17px}
+.atlas-prose h4{color:#375e42}
+.atlas-sources{list-style:none;padding:0;margin:0}
+.atlas-sources li{padding:12px 0;border-bottom:1px solid #e6ebde;font-size:13px}
+.atlas-sources a{color:#28734e}
+.knowledge-preview>.plant-image{height:190px}
+.knowledge-preview dd{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;overflow-wrap:anywhere}
+.recent-item>.plant-image{width:44px;height:42px;flex:none}
+.recent-item .plant-image figcaption{display:none}
+.recent-item .plant-image-placeholder span{display:none}
+.recent-item .plant-image-placeholder svg{width:22px}
+.gallery-layout .herb-grid.list-layout{grid-template-columns:1fr}
+.list-layout .herb-card>.plant-image{height:170px}
+.prediction-row>a{color:#347655}
+@media(max-width:1250px){.gallery-aside .atlas-guide{grid-column:1/-1}}
+@media(max-width:767px){
+ #filters,#herb-list,#distribution{scroll-margin-top:75px}
+ .gallery-layout .herb-grid .herb-card>.plant-image{height:130px}
+ .herb-card-compact>.plant-image{height:100px}
+ .herb-card-compact .herb-more{font-size:9px}
+ .atlas-detail-layout{grid-template-columns:minmax(0,1fr)}
+ .atlas-detail-guide{position:static}
+ .plant-image.detail-image{height:260px}
+ .atlas-section{padding:16px}
+ .atlas-section>h3{font-size:17px}
+ .atlas-section p,.atlas-dl{font-size:13px}
+ .atlas-dl{grid-template-columns:82px minmax(0,1fr);gap:10px}
+ .atlas-materials article{padding:12px}
+ .knowledge-preview>.plant-image{height:160px}
+ .gallery-layout .herb-grid.list-layout{grid-template-columns:1fr}
+ .list-layout .herb-card{grid-template-columns:110px minmax(0,1fr)}
+ .list-layout .herb-card .herb-description{display:-webkit-box}
+ .gallery-layout .list-layout .herb-card>.plant-image{height:170px}
+ .atlas-pagination{gap:12px}
+ .detail-back{gap:8px}
+}

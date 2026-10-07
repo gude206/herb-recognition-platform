@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "repository": "gude206/herb-recognition-platform",
+  "release_tag": "models-20261007",
+  "release_url": "https://github.com/gude206/herb-recognition-platform/releases/tag/models-20261007",
+  "models": [
+    {
+      "path": "TCMP-300/runs/resnet50_7030_baseline/best.pt",
+      "asset_name": "resnet50_7030_baseline-best.pt",
+      "bytes": 96821106,
+      "sha256": "0853621287adc1055a79b9e937c0b58027b0e6c3f65fc76f310255809fbd571d",
+      "default": true
+    },
+    {
+      "path": "TCMP-300/runs/resnet50_7030_baseline/last.pt",
+      "asset_name": "resnet50_7030_baseline-last.pt",
+      "bytes": 289939820,
+      "sha256": "edcc3377cfbcbfbeb59d32edce6118444b401c378cd332bcef9929ec61bc3302",
+      "default": false
+    },
+    {
+      "path": "TCMP-300/runs/resnet50_7030_ZQ/best.pt",
+      "asset_name": "resnet50_7030_ZQ-best.pt",
+      "bytes": 96821106,
+      "sha256": "1d8769dd6b9852dafbb2bf575b1d5c7b75c1331e5916e546e27a4f197f47f592",
+      "default": false
+    },
+    {
+      "path": "TCMP-300/runs/resnet50_7030_ZQ/last.pt",
+      "asset_name": "resnet50_7030_ZQ-last.pt",
+      "bytes": 289939820,
+      "sha256": "ad64b22e1e43c2e7261039996fdfd7f141179b6c3bb4f8b8258b681613bb043f",
+      "default": false
+    },
+    {
+      "path": "TCMP-300/runs/resnet50_all300_old/best.pt",
+      "asset_name": "resnet50_all300_old-best.pt",
+      "bytes": 96820978,
+      "sha256": "18bbeac55d37c5e22a0ae9a403d0e49f9013392dd51f9c3a7458ce4df2df96dc",
+      "default": false
+    },
+    {
+      "path": "TCMP-300/runs/resnet50_all300_old/last.pt",
+      "asset_name": "resnet50_all300_old-last.pt",
+      "bytes": 289939692,
+      "sha256": "e8711567dc4b1c2643bc1d31c56f398ef83c63721fff8094806bd033799990d5",
+      "default": false
+    },
+    {
+      "path": "TCMP-300/weights/torch_hub/checkpoints/resnet50-11ad3fa6.pth",
+      "asset_name": "imagenet-resnet50-11ad3fa6.pth",
+      "bytes": 102540417,
+      "sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+      "default": false
+    }
+  ]
+}

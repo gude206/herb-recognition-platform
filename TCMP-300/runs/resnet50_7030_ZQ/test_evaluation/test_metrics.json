@@ -1,0 +1,14 @@
+{
+  "checkpoint": "D:\\Study\\AI全栈开发\\TCMP-300\\runs\\resnet50_7030_ZQ\\best.pt",
+  "epoch": 20,
+  "validation_accuracy": 0.8015412511332729,
+  "test_images": 4735,
+  "test_correct": 3788,
+  "test_accuracy": 0.8,
+  "test_top5_accuracy": 0.928194297782471,
+  "test_loss": 1.3139230291090647,
+  "macro_precision": 0.7966923117637634,
+  "macro_recall": 0.7822707891464233,
+  "macro_f1": 0.7826645374298096,
+  "split_hash": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09"
+}

@@ -1,0 +1,2 @@
+import type { ReactNode } from 'react'
+export function PageHero({eyebrow,title,subtitle,children,variant='mountain'}:{eyebrow?:string;title:string;subtitle:string;children?:ReactNode;variant?:'mountain'|'library'|'garden'}) { return <section className={`page-hero page-hero-${variant}`}><div className="page-hero-inner"><div className="seal">本草</div>{eyebrow&&<span className="eyebrow">{eyebrow}</span>}<h1>{title}</h1><p>{subtitle}</p>{children}</div><span className="hero-ornament" aria-hidden="true">山 · 草 · 木 · 生</span></section> }
