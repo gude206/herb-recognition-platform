@@ -1,0 +1,13 @@
+{
+  "device": "cpu",
+  "model": "Q",
+  "samples": 4735,
+  "top1": 0.7900739176346356,
+  "top5": 0.9174234424498416,
+  "ce": 1.3796751727366732,
+  "macro_precision": 0.7892931978624204,
+  "macro_recall": 0.7702339405508069,
+  "macro_f1": 0.7701282542023885,
+  "model_sha256": "9894b6fd0a28111581e50a2f66caf28dd738e54298217bc0b5ea0316f3294b74",
+  "split_fingerprint": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09"
+}

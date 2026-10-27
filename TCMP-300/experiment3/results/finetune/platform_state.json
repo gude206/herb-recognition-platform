@@ -1,0 +1,45 @@
+{
+  "epoch": 26,
+  "counters": {
+    "epoch": 26,
+    "best_ce": 1.6739392869704544,
+    "best_top1": 0.7380779691749774,
+    "ce_stale": 23,
+    "top1_stale": 8,
+    "lr_reductions": 5,
+    "epochs_since_reduction": 3
+  },
+  "checks": [
+    {
+      "condition": "epochs >= 5",
+      "value": 26,
+      "met": true
+    },
+    {
+      "condition": "val CE stale >= 8",
+      "value": 23,
+      "met": true
+    },
+    {
+      "condition": "val Top-1 stale >= 8",
+      "value": 8,
+      "met": true
+    },
+    {
+      "condition": "lr reductions >= 2",
+      "value": 5,
+      "met": true
+    },
+    {
+      "condition": "epochs since last reduction >= 3",
+      "value": 3,
+      "met": true
+    }
+  ],
+  "stop": true,
+  "best": {
+    "epoch": 18,
+    "val_top1": 0.7380779691749774,
+    "val_ce": 1.9910340825459234
+  }
+}

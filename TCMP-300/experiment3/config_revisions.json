@@ -1,0 +1,14 @@
+{
+  "revisions": [
+    {
+      "revision": 1,
+      "sha256": "7c833d491e8643fe7d06c17ee31772b493f3d03aaffedbb8a55c5c7c4c6ba8d3",
+      "note": "阶段 4-7（审计、A 基线、量化三档 0-127、剪枝初筛、剪枝微调 26 轮）在此哈希下运行；runs/finetune/best.pt 内记录的就是该哈希"
+    },
+    {
+      "revision": 2,
+      "sha256": "4e179c23fa17484dfc0b91a1c827a3f29589e2651ad3d2d8a9e7499be0c23e63",
+      "note": "方案 B：量化激活上界 0-127 -> 0-255；并修复 make_qconfig 硬编码问题，使所有量化参数真正来自配置。阶段 5 重跑、8 冻结、9 最终测试与测速在此哈希下运行。"
+    }
+  ]
+}

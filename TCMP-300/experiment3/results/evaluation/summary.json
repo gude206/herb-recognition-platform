@@ -1,0 +1,58 @@
+{
+  "split_fingerprint": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09",
+  "image_count": 4735,
+  "results": {
+    "cpu:A": {
+      "device": "cpu",
+      "model": "A",
+      "samples": 4735,
+      "top1": 0.799155227032735,
+      "top5": 0.9231256599788806,
+      "ce": 1.3251621029388618,
+      "macro_precision": 0.7947190521460294,
+      "macro_recall": 0.7805440770419794,
+      "macro_f1": 0.7804063557226265,
+      "model_sha256": "ae788f749ae034aa9c1e9ebfb4d0c6e3416d7b49caed13aed66e22908891a94b",
+      "split_fingerprint": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09"
+    },
+    "cpu:Q": {
+      "device": "cpu",
+      "model": "Q",
+      "samples": 4735,
+      "top1": 0.7900739176346356,
+      "top5": 0.9174234424498416,
+      "ce": 1.3796751727366732,
+      "macro_precision": 0.7892931978624204,
+      "macro_recall": 0.7702339405508069,
+      "macro_f1": 0.7701282542023885,
+      "model_sha256": "9894b6fd0a28111581e50a2f66caf28dd738e54298217bc0b5ea0316f3294b74",
+      "split_fingerprint": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09"
+    },
+    "cuda:0:A": {
+      "device": "cuda:0",
+      "model": "A",
+      "samples": 4735,
+      "top1": 0.799155227032735,
+      "top5": 0.9231256599788806,
+      "ce": 1.3251620025556752,
+      "macro_precision": 0.7947190521460294,
+      "macro_recall": 0.7805440770419794,
+      "macro_f1": 0.7804063557226265,
+      "model_sha256": "ae788f749ae034aa9c1e9ebfb4d0c6e3416d7b49caed13aed66e22908891a94b",
+      "split_fingerprint": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09"
+    },
+    "cuda:0:P": {
+      "device": "cuda:0",
+      "model": "P",
+      "samples": 4735,
+      "top1": 0.7446673706441393,
+      "top5": 0.8944033790918691,
+      "ce": 1.952930606834952,
+      "macro_precision": 0.7380301235810858,
+      "macro_recall": 0.7242939922241841,
+      "macro_f1": 0.7219587712669733,
+      "model_sha256": "da0a3be1cb6ad4c36a5d18efe94db070d8618aaf6257a9cf092294de8c7f0263",
+      "split_fingerprint": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09"
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "engine": "fbgemm",
+  "quantized_conv_count": 53,
+  "quantized_linear_count": 1,
+  "float_conv_count": 0,
+  "float_linear_count": 0,
+  "converted_module_count": 55,
+  "converted_modules": [
+    {
+      "module": "conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer1.0.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer1.0.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer1.0.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer1.0.downsample.0",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer1.1.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer1.1.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer1.1.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer1.2.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer1.2.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer1.2.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer2.0.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer2.0.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer2.0.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer2.0.downsample.0",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer2.1.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer2.1.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer2.1.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer2.2.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer2.2.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer2.2.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer2.3.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer2.3.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer2.3.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer3.0.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.0.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.0.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer3.0.downsample.0",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer3.1.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.1.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.1.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer3.2.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.2.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.2.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer3.3.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.3.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.3.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer3.4.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.4.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.4.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer3.5.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.5.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer3.5.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer4.0.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer4.0.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer4.0.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer4.0.downsample.0",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer4.1.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer4.1.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer4.1.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "layer4.2.conv1",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer4.2.conv2",
+      "type": "torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d"
+    },
+    {
+      "module": "layer4.2.conv3",
+      "type": "torch.ao.nn.quantized.modules.conv.Conv2d"
+    },
+    {
+      "module": "fc",
+      "type": "torch.ao.nn.quantized.modules.linear.Linear"
+    },
+    {
+      "module": "fc._packed_params",
+      "type": "torch.ao.nn.quantized.modules.linear.LinearPackedParams"
+    }
+  ],
+  "remaining_float_modules": [],
+  "quantize_boundaries": [
+    "quantize_per_tensor -> <built-in method quantize_per_tensor of type object at 0x00007FFA8CFB1250>"
+  ],
+  "dequantize_boundaries": [
+    "dequantize_73 -> dequantize"
+  ],
+  "key_convolutions_all_quantized": true,
+  "claim_note": "Quantization changes storage and compute type; logical parameter count stays that of A and must not be reported as a 75% structural reduction."
+}

@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "experiment": "实验三：模型量化与结构化剪枝",
+    "config_version": 1,
+    "created_at": "2026-10-27",
+    "supersedes": "旧 experiment3「蒸馏＋资源优化」方案（其结果已归档，代码不保留）",
+    "formal_models": {
+      "A": "原始 FP32 ResNet-50（实验二基础版第19轮 best.pt）",
+      "Q": "由 A 独立得到的 CPU INT8 训练后静态量化模型",
+      "P": "由 A 独立得到的真实结构化通道剪枝 + 验证平台微调后的 FP32 模型"
+    },
+    "independence_note": "量化与剪枝均从 A 独立开始；不建立剪枝＋量化联合模型。",
+    "excluded_work": [
+      "知识蒸馏",
+      "资源占用优化（权重稀疏化 / 内存复用 / 动态加载）",
+      "鲁棒性训练与对抗实验",
+      "3.2 部署实验（ONNX / TensorRT / OpenVINO / 跨平台）",
+      "剪枝＋量化联合模型",
+      "其他网络结构",
+      "额外训练种子",
+      "超参数搜索"
+    ],
+    "no_scope_creep": "未在本配置中列出的实验、候选、参数搜索或补救方法一律不开展。"
+  },
+  "paths": {
+    "workspace_root": "D:\\Study\\AI全栈开发",
+    "experiment_dir": "D:\\Study\\AI全栈开发\\TCMP-300\\experiment3",
+    "model_a_best": "D:\\Study\\AI全栈开发\\TCMP-300\\runs\\resnet50_7030_baseline\\best.pt",
+    "model_a_sha256": "0853621287adc1055a79b9e937c0b58027b0e6c3f65fc76f310255809fbd571d",
+    "model_a_epoch": 19,
+    "data_root": "D:\\Study\\AI全栈开发\\TCMP-300\\data\\author_tcmp_300\\images\\tcmp-300",
+    "train_dir": "D:\\Study\\AI全栈开发\\TCMP-300\\data\\author_tcmp_300\\images\\tcmp-300\\train",
+    "val_dir": "D:\\Study\\AI全栈开发\\TCMP-300\\data\\author_tcmp_300\\images\\tcmp-300\\val",
+    "val_manifest": "D:\\Study\\AI全栈开发\\TCMP-300\\data\\author_tcmp_300\\splits\\val.csv",
+    "test_manifest": "D:\\Study\\AI全栈开发\\TCMP-300\\data\\author_tcmp_300\\splits\\test.csv",
+    "train_manifest_not_used": "D:\\Study\\AI全栈开发\\TCMP-300\\data\\author_tcmp_300\\splits\\train.csv",
+    "runs_dir": "D:\\Study\\AI全栈开发\\TCMP-300\\experiment3\\runs",
+    "archive_of_old_plan": "D:\\Study\\AI全栈开发\\报告工作\\实验三旧方案结果_20261027_120640"
+  },
+  "environment": {
+    "python": "D:\\miniconda3\\envs\\sxlwfx\\python.exe",
+    "python_version": "3.10.20",
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "numpy": "2.2.5",
+    "pillow": "11.2.1",
+    "matplotlib": "3.10.3",
+    "device_train": "cuda:0",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU (4GB)",
+    "device_quant_cpu_eval": "cpu",
+    "cpu_threads": 4,
+    "cpu_interop_threads": 1,
+    "float_compute": "FP32",
+    "amp": false,
+    "fp16": false,
+    "tf32": false,
+    "deterministic": true,
+    "cudnn_benchmark": false,
+    "cublas_workspace_config": ":4096:8",
+    "new_dependencies": "none (PyTorch built-in quantization + plain tensor ops for pruning)",
+    "new_downloads": "none (no other network weights, no other datasets)",
+    "train_deterministic": false
+  },
+  "determinism_exception": {
+    "discovered_during": "阶段3 工程冒烟（量化模型导出/回读检查）",
+    "conflict": "PyTorch 2.5.1 的 CPU 量化算子（quantized_resize_cpu_ 等）没有确定性实现，在 torch.use_deterministic_algorithms(True) 下直接抛错。",
+    "scope": "仅 CPU INT8 量化模型的前向执行：量化后验证评估、量化模型导出/回读校验、Q 的最终测试与 Q 的 CPU 测速。",
+    "handling": "在这些路径上用 model_ops.relaxed_determinism() 临时关闭确定性算法，其余全部 FP32 路径（A/P 训练与评估、校准、剪枝构造）保持严格确定性。",
+    "evidence": "冒烟中额外测量同一输入重复 3 次量化前向是否逐位一致，结果写入 smoke_report.json。",
+    "requires_user_confirmation": true,
+    "alternative_if_rejected": "若用户不接受该例外，则 CPU INT8 相关阶段无法在确定性算法开启下执行，需要用户给出新的明确设置。"
+  },
+  "data": {
+    "classes": 300,
+    "class_order": "torchvision ImageFolder 排序后的目录名顺序，与实验二完全一致",
+    "class_index_convention": "class_index == ImageFolder.classes 列表下标",
+    "train_images": 36324,
+    "val_images": 11030,
+    "test_images": 4735,
+    "train_source": "实际图片目录（ImageFolder 语义：README 中的扩展名列表，不含 .gif）",
+    "warn_train_csv": "splits/train.csv 为 0 字节，不使用",
+    "split_seed": 20260927,
+    "split_test_ratio": 0.3,
+    "split_fingerprint_expected": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09",
+    "split_fingerprint_rule": "sha256( val.csv 字节 + b'\\n' + test.csv 字节 + b'\\n' )，与实验二 train_resnet50.py:split_fingerprint 相同",
+    "no_resplit": true,
+    "no_image_deletion": true,
+    "no_label_change": true,
+    "no_class_sampling_weight": true,
+    "use_of_splits": {
+      "train": "校准抽样与剪枝微调",
+      "val": "方案选择、调度与停止",
+      "test": "仅最终冻结模型一次评估"
+    }
+  },
+  "preprocessing": {
+    "input_mode": "RGB",
+    "load_truncated_images": true,
+    "interpolation": "bilinear",
+    "antialias": true,
+    "normalize_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "normalize_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "eval_resize_short_side": 256,
+    "eval_center_crop": 224,
+    "train_random_resized_crop": 224,
+    "train_scale": [
+      0.8,
+      1.0
+    ],
+    "train_ratio": [
+      0.9,
+      1.1
+    ],
+    "train_horizontal_flip_p": 0.5,
+    "other_augmentation": "none",
+    "seed": 42,
+    "determinism_rule": "数据顺序与增强由 (epoch, 样本索引) 决定；shuffle 随机生成器与 worker 启动随机生成器分开，避免续训改变样本顺序"
+  },
+  "calibration": {
+    "source": "训练集按类别抽取",
+    "per_class_permutation_seed": 42,
+    "tiers_per_class": [
+      2,
+      5,
+      10
+    ],
+    "tiers_total": [
+      600,
+      1500,
+      3000
+    ],
+    "nested": true,
+    "save_image_list": true,
+    "reinitialize_observers_per_candidate": true,
+    "batch_size": 8,
+    "insufficient_class_rule": "某类数量不足时停止报告，不从验证／测试集补样本"
+  },
+  "quantization": {
+    "method": "训练后静态量化（post-training static quantization），PyTorch FX 流程",
+    "flow": "torch.ao.quantization.quantize_fx.prepare_fx / convert_fx",
+    "device": "cpu",
+    "engine": "fbgemm",
+    "rebuild_from_a_per_candidate": true,
+    "activation_observer": "HistogramObserver",
+    "activation_observer_bins": 2048,
+    "activation_dtype": "quint8",
+    "activation_qscheme": "per_tensor_affine",
+    "activation_quant_min": 0,
+    "activation_quant_max": 255,
+    "activation_reduce_range": false,
+    "weight_observer": "PerChannelMinMaxObserver",
+    "weight_dtype": "qint8",
+    "weight_qscheme": "per_channel_symmetric",
+    "weight_ch_axis": 0,
+    "weight_quant_min": -128,
+    "weight_quant_max": 127,
+    "observer_eps": "torch.finfo(torch.float32).eps（FP32 机器精度，使用观察器默认值）",
+    "mode": "eval",
+    "grad": "disabled",
+    "qat": false,
+    "post_quant_finetune": false,
+    "selection_rule": [
+      "测量 A 在 CPU 上的验证 Top-1",
+      "先运行 600 张校准（每类 2 张）",
+      "若量化后验证 Top-1 下降不超过 2 个百分点，立即选定，不继续增加校准量",
+      "否则依次尝试 1500 张（每类 5 张）、3000 张（每类 10 张）",
+      "三档都未达到目标时，选择验证 Top-1 最高者；并列时依次选择验证 CE 较低、校准量较少者，并明确报告目标未达到",
+      "不自动更换量化引擎、观察器、精度或新增方法"
+    ],
+    "required_checks": [
+      "卷积和全连接是否实际转换为量化算子",
+      "记录剩余 FP32 算子及量化／反量化边界",
+      "关键卷积仍全部为 FP32 时，不能宣称量化成功",
+      "不把逻辑参数个数写成减少 75%；量化主要改变存储和计算类型"
+    ],
+    "activation_range_note": "原设置 0-127 只用 7 bit；三档校准均未达 <=2pp 目标后，用户于 2026-10-27 批准方案 B：仅把激活上界改为 255（标准 quint8 全量程），其余设置（FX+fgbemm+Histogram2048+逐通道对称权重+三档校准与选型规则）不变。",
+    "qconfig_source": "model_ops.make_qconfig(config[quantization])，所有量化参数均从配置读取（2026-10-27 修复：此前 quant_min/quant_max 等硬编码在代码里，导致激活上界改动未生效）"
+  },
+  "pruning": {
+    "scope": "仅标准 groups=1 的 ResNet-50 Bottleneck 内部通道",
+    "selection_rule_conv1": "按 conv1 各输出通道的 L1 范数选保留集合 I1",
+    "selection_rule_conv2": "按原始 conv2 各完整输出滤波器的 L1 范数选保留集合 I2",
+    "slicing": {
+      "conv1": "保留 I1 输出",
+      "bn1": "保留 I1 对应参数与统计量",
+      "conv2": "保留 I1 输入、I2 输出",
+      "bn2": "保留 I2 对应参数与统计量",
+      "conv3": "仅保留 I2 输入",
+      "unchanged": "conv3 输出、bn3、残差下采样分支、首层卷积、最终分类层"
+    },
+    "ratios": [
+      0.1,
+      0.2,
+      0.3
+    ],
+    "independent_from_a": true,
+    "no_cumulative": true,
+    "keep_channels_formula": "ceil((1 - ratio) * 原通道数)",
+    "tie_break": "L1 并列时按原通道编号较小者",
+    "output_order": "选定后按原索引升序排列",
+    "copy_rule": "完整复制 stride、padding、dilation、BN 参数、运行统计量及计数；替换层后重新设置 eval 模式",
+    "record_actual_ratio": "由于向上取整，实际剪枝比例可能略低于标称值，必须逐层记录",
+    "screening": "三档候选只做结构检查、参数／计算量统计和完整验证集初筛，只选择一档进行正式微调",
+    "selection_rule": [
+      "优先考虑理论主算子 FLOPs 下降 ≥ 30% 的候选",
+      "在合格候选中选择未微调验证 Top-1 最高者",
+      "并列时选择验证 CE 较低者，再并列选择剪枝比例较低者",
+      "若三档均未达到计算量目标，仍选 30% 档完成微调，并报告该目标未达到",
+      "不增加比例，不剪残差输出通道，不自动改成其他剪枝算法"
+    ],
+    "claim_rule": "这是按未微调验证结果选出的方案，不能宣称找到了微调后的最优剪枝率"
+  },
+  "finetune": {
+    "target": "选中的一个剪枝模型，全部参数参与训练",
+    "seed_reset": 42,
+    "seed_reset_note": "开始微调前重新设置种子 42，避免构造候选消耗随机状态影响训练",
+    "loss": "普通交叉熵，无类别权重，无标签平滑",
+    "physical_batch": 4,
+    "grad_accumulation": 4,
+    "effective_batch": 16,
+    "last_partial_group": "保留，按实际样本数处理",
+    "bn": "训练时更新，验证时 eval；按物理 batch 统计",
+    "optimizer": "AdamW",
+    "backbone_lr": 2e-05,
+    "head_lr": 0.0002,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.0001,
+    "amsgrad": false,
+    "grad_clip_l2_norm": 1.0,
+    "dataloader": {
+      "workers": 2,
+      "multiprocessing_context": "spawn",
+      "persistent_workers": true,
+      "prefetch_factor": 2,
+      "pin_memory": true
+    },
+    "val_batch": 8,
+    "val_shuffle": false,
+    "max_epochs": null,
+    "scheduler": {
+      "type": "ReduceLROnPlateau",
+      "monitor": "验证集硬标签 CE",
+      "mode": "min",
+      "factor": 0.5,
+      "patience": 3,
+      "threshold": 0.001,
+      "threshold_mode": "rel",
+      "cooldown": 0,
+      "eps": 0,
+      "min_lr_backbone": 2e-07,
+      "min_lr_head": 2e-06
+    },
+    "stop_conditions_all_required": [
+      "已训练至少 5 轮",
+      "验证 CE 连续 8 轮未获得超过 0.1% 的相对改善",
+      "验证 Top-1 连续 8 轮未获得超过 0.1 个百分点的改善",
+      "学习率至少实际下降 2 次",
+      "最近一次下降后又训练至少 3 轮"
+    ],
+    "stop_note": "5 轮是最低训练要求不是终点；指标完全不改善时最早约第 12 轮停止，不能承诺跑 5 轮就完成",
+    "best_weight_selection": "正式微调所有 epoch 中按验证 Top-1 最高、CE 较低、轮次较早的顺序选择；初筛的未微调模型不参与最终最佳权重选择",
+    "extra_unpruned_control": false,
+    "claim_rule": "评价「剪枝＋微调」整体效果，不单独宣称两者的因果贡献",
+    "stop_params": {
+      "min_epochs": 5,
+      "ce_patience": 8,
+      "top1_patience": 8,
+      "ce_threshold": 0.001,
+      "top1_threshold": 0.001,
+      "min_lr_reductions": 2,
+      "min_epochs_after_reduction": 3
+    },
+    "stop_rule_decision": {
+      "requested_by_user": "2026-10-27「缩短到四轮」",
+      "applied": false,
+      "reason": "核查后发现第 23 轮已发生第 5 次学习率下降，真正卡住的是「降后至少 3 轮」而非 Top-1 的 8 轮阈值：改 4 轮不会改变停止轮次（仍为第 26 轮），而重启会丢失第 18 轮最优权重（仅存于内存）。因此本次仍按 8 轮运行并自然停在第 26 轮。",
+      "how_to_apply_later": "如需改为 4 轮，修改 stop_params.top1_patience 并重新固定配置哈希后重跑 finetune。"
+    }
+  },
+  "export": {
+    "all_models": "A、Q、P 采用同一策略导出 TorchScript 推理文件",
+    "method": "trace",
+    "extra_freeze": false,
+    "extra_inference_optimization": false,
+    "trace_batch_size": 1,
+    "verify_batch_sizes": [
+      1,
+      8
+    ],
+    "verify_rule": "导出后重新加载，检查 batch=1、8 的形状及输出一致性",
+    "checkpoint_separate": "训练断点另存 state_dict、结构索引、优化器、调度器、平台计数和随机状态，不混入推理文件大小"
+  },
+  "evaluation": {
+    "device_model_pairs": {
+      "cpu": [
+        "A",
+        "Q"
+      ],
+      "cuda:0": [
+        "A",
+        "P"
+      ]
+    },
+    "purpose": {
+      "cpu_A_vs_Q": "判断量化精度变化",
+      "gpu_A_vs_P": "判断剪枝与微调后的精度变化"
+    },
+    "test_images": 4735,
+    "test_batch": 1,
+    "one_final_evaluation_per_frozen_model_device": true,
+    "no_test_tuning": "配置冻结前不得根据测试结果调参",
+    "save": [
+      "Top-1、Top-5",
+      "宏平均 Precision / Recall / F1",
+      "300 类逐类指标和混淆矩阵",
+      "逐图预测、图片内容哈希、模型哈希、数据划分指纹"
+    ],
+    "top5_tie_rule": "Top-5 并列分数按固定类别顺序处理",
+    "zero_denominator_rule": "零分母指标按 0 计算",
+    "dataloader_workers": 2
+  },
+  "params_and_flops": {
+    "params": {
+      "A": "真实参数总数",
+      "P": "真实参数总数",
+      "Q": "逻辑参数量沿用 A，不能用量化模型 .parameters() 得到 0 后宣称参数消失"
+    },
+    "flops": {
+      "scope": "Conv + Linear 理论主算子计算量",
+      "mac_to_flops": 2,
+      "excluded": "BN、激活、池化、残差加法不计入该数值，表中必须明确统计范围",
+      "Q_reporting": "报告逻辑 MAC 数与 A 相同、数值类型改变，不写成结构计算量下降"
+    }
+  },
+  "timing": {
+    "device_model_pairs": {
+      "cpu": [
+        "A",
+        "Q"
+      ],
+      "cuda:0": [
+        "A",
+        "P"
+      ]
+    },
+    "compare_within_same_device": true,
+    "batch_sizes": [
+      1,
+      8
+    ],
+    "input_source": "验证清单前 32 张，确定性预处理后循环构成相同输入",
+    "warmup_iterations": 40,
+    "measured_iterations": 100,
+    "rounds": 3,
+    "gpu_sync": "计时前后同步 CUDA",
+    "cpu_clock": "高精度墙钟",
+    "scope": "只测模型推理，不包含读盘、预处理、HTTP 或网页时间",
+    "report": "中位数、P95 及吞吐量；吞吐量报告 3 轮均值与样本标准差",
+    "process_isolation": "每个模型／设备／批大小组合用独立进程",
+    "forbidden_claim": "不用 CPU INT8 与 GPU FP32 之间的差异宣称量化加速",
+    "excluded": [
+      "能耗",
+      "跨平台部署",
+      "1000 次内存稳定性实验"
+    ]
+  },
+  "targets": {
+    "quantization": {
+      "primary": "验证 Top-1 下降 ≤ 2 个百分点",
+      "file_size": "文件体积明显缩小，75% 仅作为理想参考"
+    },
+    "pruning": {
+      "channel_keep_ratio_min": 0.7,
+      "main_operator_flops_drop_min": 0.3,
+      "top1_drop_max_percentage_points": 3.0
+    },
+    "speed": "如实报告，不保证与 FLOPs 同比改善"
+  },
+  "smoke_scope": [
+    "合成张量验证 L1 选择、通道切片、BN 复制、残差形状、参数与计算量统计",
+    "0% 剪枝重建的一致性测试（工程检查，不作为新增实验候选）",
+    "三档剪枝结构各做一个真实 batch 前向",
+    "选中剪枝模型做一个真实 batch 前后向，不执行优化器更新",
+    "量化使用 4 张训练图片做临时工程校准，检查量化算子、导出和回读；该临时模型不进入正式结果",
+    "模型导出／回读检查",
+    "最后不足累积组处理",
+    "数据划分检查",
+    "早停及断点恢复测试"
+  ],
+  "smoke_exclusions": [
+    "不在冒烟阶段运行完整 epoch",
+    "不在冒烟阶段运行最终测试"
+  ],
+  "run_order": [
+    "清理、归档和重建",
+    "写入本计划对应的新配置并固定配置哈希",
+    "编码和冒烟",
+    "完整数据指纹审计、A 的验证基线",
+    "量化校准和验证选型",
+    "三档剪枝初筛，选定一档",
+    "选中剪枝模型微调至平台",
+    "冻结 A／Q／P 及配置",
+    "最终测试与测速",
+    "整理报告并同步 GitHub 代码"
+  ],
+  "exception_policy": {
+    "pause_and_report_on": [
+      "OOM",
+      "非有限损失",
+      "解码失败",
+      "结构错误",
+      "输出校验失败",
+      "配置／数据不匹配"
+    ],
+    "never_auto": [
+      "缩小 batch",
+      "改精度",
+      "扩大剪枝比例",
+      "更换算法"
+    ],
+    "checkpoints": "每轮保存完整断点，保留最新与上一代",
+    "resume": "断点恢复保留学习率、优化器、计数及随机状态；中途失败重做未完成轮次",
+    "refuse_silent_resume": "软件或配置变化时拒绝无声续训",
+    "no_scheduled_training": "不创建定时训练，不自动后台跑长任务"
+  },
+  "deliverables": [
+    "可重复执行的代码、完整配置和环境记录",
+    "校准图片清单、剪枝通道索引、数据及模型指纹",
+    "A／Q／P 推理模型、P 的续训断点",
+    "验证、测试、测速的原始 JSON／CSV",
+    "剪枝比例初筛表、微调曲线、精度／大小／计算量／速度对比图、类别误差热力图",
+    "独立的实验三报告，不覆盖旧报告",
+    "GitHub 实际变更记录，明确远端旧代码是否存在及是否需要删除"
+  ],
+  "github": {
+    "repo": "gude206/herb-recognition-platform",
+    "default_branch": "main",
+    "remote_state_checked": "2026-10-27: 远端 main 完整文件树中未发现 TCMP-300/experiment3 目录（执行前需复查）",
+    "nested_repo_warning": "本地 TCMP-300/.git 的远端为作者仓库 winycg/TCMP-300，不得从该嵌套仓库推送或清理工作区",
+    "rules": [
+      "使用正确仓库的独立检出目录或连接工具",
+      "远端旧实验文件若确实存在，只删除已确认属于旧实验三的路径",
+      "新代码验证通过后，只同步新实验目录及必要文档",
+      "发布前核对差异，禁止夹带本地其他已有修改／删除",
+      "不使用强制推送，不重写历史，不删除仓库或 Release",
+      "模型、原始图片、旧结果归档、临时文件及密钥不上传",
+      "远端权限不可用时明确报告「本地完成、远端未完成」"
+    ]
+  },
+  "scope_authorization": {
+    "authorized_stages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "authorized_note": "工程检查已通过；阶段 4-9 已授权。配置在第 7 阶段结束后修订为 revision 2（激活上界 255），剪枝微调在 revision 1 下完成。",
+    "long_tasks_authorized": true,
+    "approval_basis": "用户 2026-10-27 选择加速方案 B，并接受其给出的总时长 3.6-5.1 小时"
+  },
+  "speedup_decision": {
+    "approved_by_user": "2026-10-27，用户选择方案 B",
+    "changes": [
+      "验证/测试 DataLoader workers 0 -> 2（该值计划未固定，属实现选择）",
+      "剪枝微调的训练阶段关闭确定性算法（cudnn.deterministic=False 且 use_deterministic_algorithms(False)），仅为提速；验证/测试/量化评估仍开启确定性算法"
+    ],
+    "measured_effect": {
+      "train_step_bs4_deterministic_on_s": 0.1659,
+      "train_step_bs4_deterministic_off_s": 0.0663,
+      "epoch_minutes_before": 26.7,
+      "epoch_minutes_after": 11.3,
+      "source": "runs/epoch_time_probe.json（有界工程探针，非正式测速）"
+    },
+    "unchanged": [
+      "FP32；不启用 AMP/FP16/TF32",
+      "物理 batch 4 × 梯度累积 4（有效 16）",
+      "数据顺序、增强随机性（种子/epoch/样本索引决定）、学习率、调度器、停止规则、指标口径、评估与测速设置",
+      "模型定义、A 的权重与哈希"
+    ],
+    "not_guaranteed": "训练阶段 cuDNN 可能选择不同算法，逐位可复现不再保证；同种子重跑会得到数值接近但不完全相同的结果",
+    "note": "该例外只作用于 finetune 的 train_one_epoch，验证与最终评估仍在确定性算法开启下执行，报告须写明这一点"
+  },
+  "config_revisions": [
+    {
+      "revision": 1,
+      "sha256": "7c833d491e8643fe7d06c17ee31772b493f3d03aaffedbb8a55c5c7c4c6ba8d3",
+      "note": "阶段 4-7（审计、A 基线、量化三档 0-127、剪枝初筛、剪枝微调 26 轮）在此哈希下运行"
+    },
+    {
+      "revision": 2,
+      "sha256": null,
+      "note": "方案 B：量化激活上界 0-127 -> 0-255；阶段 5 重跑、8 冻结、9 最终测试与测速在此哈希下运行",
+      "sha256_note": "见同目录 config_revisions.json：文件无法包含自身哈希"
+    }
+  ]
+}

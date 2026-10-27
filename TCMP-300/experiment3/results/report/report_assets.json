@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-10-27T19:18:45",
+  "note": "Report assets only. Reads frozen artefacts; runs no experiment.",
+  "test_top1": {
+    "cpu:A": 0.799155227032735,
+    "cpu:Q": 0.7900739176346356,
+    "cuda:0:A": 0.799155227032735,
+    "cuda:0:P": 0.7446673706441393
+  },
+  "delta_top1_pp": {
+    "Q_cpu": -0.9081309398099369,
+    "P_gpu": -5.448785638859565
+  },
+  "sizes_bytes": {
+    "A": 97021029,
+    "Q": 24888151,
+    "P": 62860751
+  },
+  "parameter_ratio_P": 0.6461467963081462,
+  "flops_drop_P": 0.35699747851743724,
+  "mean_class_error": {
+    "A": 0.21945591666666664,
+    "P": 0.27570595666666664
+  },
+  "figures": [
+    "fig_accuracy.png",
+    "fig_class_error_heatmap.png",
+    "fig_finetune_curve.png",
+    "fig_pruning_screening.png",
+    "fig_size_params_flops.png",
+    "fig_speed.png"
+  ]
+}

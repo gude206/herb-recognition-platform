@@ -1,0 +1,52 @@
+{
+  "runs": [
+    {
+      "model": "A",
+      "device": "cpu",
+      "batch": 1,
+      "exit": 0
+    },
+    {
+      "model": "A",
+      "device": "cpu",
+      "batch": 8,
+      "exit": 0
+    },
+    {
+      "model": "Q",
+      "device": "cpu",
+      "batch": 1,
+      "exit": 0
+    },
+    {
+      "model": "Q",
+      "device": "cpu",
+      "batch": 8,
+      "exit": 0
+    },
+    {
+      "model": "A",
+      "device": "cuda:0",
+      "batch": 1,
+      "exit": 0
+    },
+    {
+      "model": "A",
+      "device": "cuda:0",
+      "batch": 8,
+      "exit": 0
+    },
+    {
+      "model": "P",
+      "device": "cuda:0",
+      "batch": 1,
+      "exit": 0
+    },
+    {
+      "model": "P",
+      "device": "cuda:0",
+      "batch": 8,
+      "exit": 0
+    }
+  ]
+}

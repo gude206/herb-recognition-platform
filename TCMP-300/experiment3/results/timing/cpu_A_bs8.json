@@ -1,0 +1,28 @@
+{
+  "model": "A",
+  "device": "cpu",
+  "batch_size": 8,
+  "warmup_iterations": 40,
+  "measured_iterations": 100,
+  "rounds": 3,
+  "round_median_ms": [
+    397.167149996676,
+    393.9681000010751,
+    394.8664000017743
+  ],
+  "round_p95_ms": [
+    421.96359999798005,
+    419.3119000046863,
+    424.473000006401
+  ],
+  "round_throughput_per_s": [
+    20.142652785022513,
+    20.306212609544197,
+    20.260017058843328
+  ],
+  "median_ms": 394.8664000017743,
+  "p95_ms": 421.96359999798005,
+  "throughput_mean": 20.23629415113668,
+  "throughput_std": 0.08432103125516581,
+  "scope": "model inference only; no disk IO, preprocessing, HTTP or web time"
+}

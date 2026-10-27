@@ -1,0 +1,13 @@
+{
+  "device": "cuda:0",
+  "model": "A",
+  "samples": 4735,
+  "top1": 0.799155227032735,
+  "top5": 0.9231256599788806,
+  "ce": 1.3251620025556752,
+  "macro_precision": 0.7947190521460294,
+  "macro_recall": 0.7805440770419794,
+  "macro_f1": 0.7804063557226265,
+  "model_sha256": "ae788f749ae034aa9c1e9ebfb4d0c6e3416d7b49caed13aed66e22908891a94b",
+  "split_fingerprint": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09"
+}

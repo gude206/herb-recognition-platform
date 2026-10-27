@@ -1,0 +1,3006 @@
+{
+  "count": 600,
+  "source": "train split only",
+  "rows": [
+    {
+      "relative_path": "001.Veronica persica Poir/c0f3810f80d9f63bbe469a8e85c3533b.jpg",
+      "class_index": 0,
+      "class_name": "001.Veronica persica Poir"
+    },
+    {
+      "relative_path": "001.Veronica persica Poir/55e2828c46bfb45df50d5a82e9ba3a77.jpg",
+      "class_index": 0,
+      "class_name": "001.Veronica persica Poir"
+    },
+    {
+      "relative_path": "002.Lysimachia clethroides Duby/95641cbce58166e3f0c76d40c2c05d9c.jpg",
+      "class_index": 1,
+      "class_name": "002.Lysimachia clethroides Duby"
+    },
+    {
+      "relative_path": "002.Lysimachia clethroides Duby/cffc06cf201cc86b700c7f0632485175.jpg",
+      "class_index": 1,
+      "class_name": "002.Lysimachia clethroides Duby"
+    },
+    {
+      "relative_path": "003.Alangium chinense (Lour.) Harms/0212f78f49b22c2f6364d45ee8b35961.jpg",
+      "class_index": 2,
+      "class_name": "003.Alangium chinense (Lour.) Harms"
+    },
+    {
+      "relative_path": "003.Alangium chinense (Lour.) Harms/e99748817429e68d07089de0f56da5f9.jpg",
+      "class_index": 2,
+      "class_name": "003.Alangium chinense (Lour.) Harms"
+    },
+    {
+      "relative_path": "004.Smilax china L/327123ce834a26c70b777e8c1bb4a05f.jpg",
+      "class_index": 3,
+      "class_name": "004.Smilax china L"
+    },
+    {
+      "relative_path": "004.Smilax china L/d506fbdaa2e54f43b5dbccb862ed000f.jpg",
+      "class_index": 3,
+      "class_name": "004.Smilax china L"
+    },
+    {
+      "relative_path": "005.Datura metel L/17cb7c4fa45037a3027ca125162d2061.jpg",
+      "class_index": 4,
+      "class_name": "005.Datura metel L"
+    },
+    {
+      "relative_path": "005.Datura metel L/d4231f0cb82123b5d6bbec35b6ccd662.jpeg",
+      "class_index": 4,
+      "class_name": "005.Datura metel L"
+    },
+    {
+      "relative_path": "006.Bletilla striata (Thunb. ex A. Murray) Rchb. f/4f0ffcb8fd038ad004dde9e1fb32db14.jpg",
+      "class_index": 5,
+      "class_name": "006.Bletilla striata (Thunb. ex A. Murray) Rchb. f"
+    },
+    {
+      "relative_path": "006.Bletilla striata (Thunb. ex A. Murray) Rchb. f/0c8ee5249780238aa6072bb62b5c98da.png",
+      "class_index": 5,
+      "class_name": "006.Bletilla striata (Thunb. ex A. Murray) Rchb. f"
+    },
+    {
+      "relative_path": "007.Fraxinus chinensis Roxb/97bbe4f3d1e0e2b5565d8ef1bec79810.jpg",
+      "class_index": 6,
+      "class_name": "007.Fraxinus chinensis Roxb"
+    },
+    {
+      "relative_path": "007.Fraxinus chinensis Roxb/de7d389802b3e239003e71d14139fadf.jpg",
+      "class_index": 6,
+      "class_name": "007.Fraxinus chinensis Roxb"
+    },
+    {
+      "relative_path": "008.Ampelopsis japonica (Thunb.) Makino/d6ac5c38da873eb21e972a3d4936ac1a.jpg",
+      "class_index": 7,
+      "class_name": "008.Ampelopsis japonica (Thunb.) Makino"
+    },
+    {
+      "relative_path": "008.Ampelopsis japonica (Thunb.) Makino/bc7e5ced6656f2d3f770d82abbb78e40.jpg",
+      "class_index": 7,
+      "class_name": "008.Ampelopsis japonica (Thunb.) Makino"
+    },
+    {
+      "relative_path": "009.Chelidonium majus L/eb11647fefb2ac3ae6238da0efae8635.jpg",
+      "class_index": 8,
+      "class_name": "009.Chelidonium majus L"
+    },
+    {
+      "relative_path": "009.Chelidonium majus L/fc92b60c29e0794f47d7d2d3c5457e98.jpg",
+      "class_index": 8,
+      "class_name": "009.Chelidonium majus L"
+    },
+    {
+      "relative_path": "010.Cynanchum bungei Decne/ba8d4f96c6e446f122e57f7295ee4a35.jpg",
+      "class_index": 9,
+      "class_name": "010.Cynanchum bungei Decne"
+    },
+    {
+      "relative_path": "010.Cynanchum bungei Decne/9b5f249e3aa40468f32c200589eebe16.jpg",
+      "class_index": 9,
+      "class_name": "010.Cynanchum bungei Decne"
+    },
+    {
+      "relative_path": "011.Pulsatilla chinensis (Bunge) Regel/6fc7bb4cf05d2fa9d2d6ac7c02d8bcfa.jpg",
+      "class_index": 10,
+      "class_name": "011.Pulsatilla chinensis (Bunge) Regel"
+    },
+    {
+      "relative_path": "011.Pulsatilla chinensis (Bunge) Regel/0b2898f5fd553d0d14a9a4abc02bb39c.jpg",
+      "class_index": 10,
+      "class_name": "011.Pulsatilla chinensis (Bunge) Regel"
+    },
+    {
+      "relative_path": "012.Solanum lyratum Thunb/80c2baf26168fe1af8528cf051f9d0c6.jpg",
+      "class_index": 11,
+      "class_name": "012.Solanum lyratum Thunb"
+    },
+    {
+      "relative_path": "012.Solanum lyratum Thunb/020ca791e45b92a4577ff49b7d4814da.jpg",
+      "class_index": 11,
+      "class_name": "012.Solanum lyratum Thunb"
+    },
+    {
+      "relative_path": "013.Angelica dahurica (Fisch. ex Hoffm.) Benth. & Hook. f. ex Franch. & Sav/dab8de101d2831d4eac9aeb1a71bc55b.jpg",
+      "class_index": 12,
+      "class_name": "013.Angelica dahurica (Fisch. ex Hoffm.) Benth. & Hook. f. ex Franch. & Sav"
+    },
+    {
+      "relative_path": "013.Angelica dahurica (Fisch. ex Hoffm.) Benth. & Hook. f. ex Franch. & Sav/5692cde93ac5c781beba5bc305e54ae1.jpg",
+      "class_index": 12,
+      "class_name": "013.Angelica dahurica (Fisch. ex Hoffm.) Benth. & Hook. f. ex Franch. & Sav"
+    },
+    {
+      "relative_path": "014.Lilium brownii F. E. Brown ex Miellez var. viridulum Baker/bfc81edffd0d0aed1ff315d6e2ec35a8.jpg",
+      "class_index": 13,
+      "class_name": "014.Lilium brownii F. E. Brown ex Miellez var. viridulum Baker"
+    },
+    {
+      "relative_path": "014.Lilium brownii F. E. Brown ex Miellez var. viridulum Baker/cda177dac7e7b5688359f86fa8d7e492.jpg",
+      "class_index": 13,
+      "class_name": "014.Lilium brownii F. E. Brown ex Miellez var. viridulum Baker"
+    },
+    {
+      "relative_path": "015.Patrinia scabiosaefolia Fisch.ex Trev/8cdfcfdb14fe7bb0949f25af782b3694.jpg",
+      "class_index": 14,
+      "class_name": "015.Patrinia scabiosaefolia Fisch.ex Trev"
+    },
+    {
+      "relative_path": "015.Patrinia scabiosaefolia Fisch.ex Trev/da2b503f07f605ddc22e95c7c57b2cc5.jpg",
+      "class_index": 14,
+      "class_name": "015.Patrinia scabiosaefolia Fisch.ex Trev"
+    },
+    {
+      "relative_path": "016.Euphorbia maculata L/b8bc885f25ff1086cbc923e50ffd6173.jpg",
+      "class_index": 15,
+      "class_name": "016.Euphorbia maculata L"
+    },
+    {
+      "relative_path": "016.Euphorbia maculata L/30cb44181855e03cf555e1c101f5cb8a.jpg",
+      "class_index": 15,
+      "class_name": "016.Euphorbia maculata L"
+    },
+    {
+      "relative_path": "017.Bothriospermum chinense Bunge/4cad7a24ced2c44c9cebeb671403ea21.jpg",
+      "class_index": 16,
+      "class_name": "017.Bothriospermum chinense Bunge"
+    },
+    {
+      "relative_path": "017.Bothriospermum chinense Bunge/40faad8c66942333adb41db8cffa522e.jpg",
+      "class_index": 16,
+      "class_name": "017.Bothriospermum chinense Bunge"
+    },
+    {
+      "relative_path": "018.Lobelia chinensis Lour/ce521309e7dc32296f7cda5392068a5a.jpg",
+      "class_index": 17,
+      "class_name": "018.Lobelia chinensis Lour"
+    },
+    {
+      "relative_path": "018.Lobelia chinensis Lour/46a32f6e41e6986847392d9e95dc3a0b.png",
+      "class_index": 17,
+      "class_name": "018.Lobelia chinensis Lour"
+    },
+    {
+      "relative_path": "019.Pinellia ternata (Thunb.) Ten. ex Breitenb/735d8567a51c6e0c5678f9702b7c196d.png",
+      "class_index": 18,
+      "class_name": "019.Pinellia ternata (Thunb.) Ten. ex Breitenb"
+    },
+    {
+      "relative_path": "019.Pinellia ternata (Thunb.) Ten. ex Breitenb/d6535c7d050a951dac9a53b353d75183.jpg",
+      "class_index": 18,
+      "class_name": "019.Pinellia ternata (Thunb.) Ten. ex Breitenb"
+    },
+    {
+      "relative_path": "020.Scutellaria barbata D. Don/1cf9b95daf72fc890208ecddddac77b0.jpeg",
+      "class_index": 19,
+      "class_name": "020.Scutellaria barbata D. Don"
+    },
+    {
+      "relative_path": "020.Scutellaria barbata D. Don/03b089d296bcfd6f3609833b8d021674.jpg",
+      "class_index": 19,
+      "class_name": "020.Scutellaria barbata D. Don"
+    },
+    {
+      "relative_path": "021.Mentha canadensis L/5ba913f0b210af9b20c19e53b6d7d040.jpg",
+      "class_index": 20,
+      "class_name": "021.Mentha canadensis L"
+    },
+    {
+      "relative_path": "021.Mentha canadensis L/e5bbe5d687d4214b0aac480923f669db.jpg",
+      "class_index": 20,
+      "class_name": "021.Mentha canadensis L"
+    },
+    {
+      "relative_path": "022.Polygonum aviculare L/288f91a3149455cdfb23a45e4532ba11.jpg",
+      "class_index": 21,
+      "class_name": "022.Polygonum aviculare L"
+    },
+    {
+      "relative_path": "022.Polygonum aviculare L/c64f0a6fa21223d006705d03e4812ac4.jpg",
+      "class_index": 21,
+      "class_name": "022.Polygonum aviculare L"
+    },
+    {
+      "relative_path": "023.Menispermum dauricum DC/8b3badeb23d972ce042fb5f8be7d00c7.jpg",
+      "class_index": 22,
+      "class_name": "023.Menispermum dauricum DC"
+    },
+    {
+      "relative_path": "023.Menispermum dauricum DC/da9e574232e02e4197de1e942cc2a9c0.jpg",
+      "class_index": 22,
+      "class_name": "023.Menispermum dauricum DC"
+    },
+    {
+      "relative_path": "024.Areca catechu L/100514cbf55adba47660c2f87c6514d5.jpg",
+      "class_index": 23,
+      "class_name": "024.Areca catechu L"
+    },
+    {
+      "relative_path": "024.Areca catechu L/e55c0741b4b067ab65e063120803df55.jpg",
+      "class_index": 23,
+      "class_name": "024.Areca catechu L"
+    },
+    {
+      "relative_path": "025.Descurainia sophia (L.) Webb ex Prantl/8b08ded2683a645340c7c3379f670d24.jpg",
+      "class_index": 24,
+      "class_name": "025.Descurainia sophia (L.) Webb ex Prantl"
+    },
+    {
+      "relative_path": "025.Descurainia sophia (L.) Webb ex Prantl/199ffc70e02a168f2764da06bfcf51b8.jpg",
+      "class_index": 24,
+      "class_name": "025.Descurainia sophia (L.) Webb ex Prantl"
+    },
+    {
+      "relative_path": "026.Macleaya cordata (Willd.) R. Br/72b502129b58ed55cce5ebdf5fcdcc61.jpg",
+      "class_index": 25,
+      "class_name": "026.Macleaya cordata (Willd.) R. Br"
+    },
+    {
+      "relative_path": "026.Macleaya cordata (Willd.) R. Br/4eefae8496e8140bfe8bf830d0b18fc9.jpg",
+      "class_index": 25,
+      "class_name": "026.Macleaya cordata (Willd.) R. Br"
+    },
+    {
+      "relative_path": "027.Xanthium strumarium L/732654517137a3f5a19dc6a790f9b18f.jpg",
+      "class_index": 26,
+      "class_name": "027.Xanthium strumarium L"
+    },
+    {
+      "relative_path": "027.Xanthium strumarium L/ec5d58a52018f5ad02cd4acbbafa5b10.jpg",
+      "class_index": 26,
+      "class_name": "027.Xanthium strumarium L"
+    },
+    {
+      "relative_path": "028.Atractylodes lancea (Thunb.) DC/da38a42a36b5f9b5f7ccc4a3d609439d.jpg",
+      "class_index": 27,
+      "class_name": "028.Atractylodes lancea (Thunb.) DC"
+    },
+    {
+      "relative_path": "028.Atractylodes lancea (Thunb.) DC/5a3fe544350384588819fc58d9a4e0be.jpg",
+      "class_index": 27,
+      "class_name": "028.Atractylodes lancea (Thunb.) DC"
+    },
+    {
+      "relative_path": "029.Platycladus orientalis (L.) Franco/b6e8c896901f6d18cec47c28ee7a56d8.jpg",
+      "class_index": 28,
+      "class_name": "029.Platycladus orientalis (L.) Franco"
+    },
+    {
+      "relative_path": "029.Platycladus orientalis (L.) Franco/c1074b93027d9310e752ae20168702de.jpg",
+      "class_index": 28,
+      "class_name": "029.Platycladus orientalis (L.) Franco"
+    },
+    {
+      "relative_path": "030.Acorus calamus L/e9f9b7adca3064bd533e54ca6e70930b.jpg",
+      "class_index": 29,
+      "class_name": "030.Acorus calamus L"
+    },
+    {
+      "relative_path": "030.Acorus calamus L/ad40d4e218be5ce1d09ab254e04c51dc.jpg",
+      "class_index": 29,
+      "class_name": "030.Acorus calamus L"
+    },
+    {
+      "relative_path": "031.Hedera nepalensis var. sinensis (Tobler) Rehder/8eb961e2c4928e405ef0da83f452fdc5.jpg",
+      "class_index": 30,
+      "class_name": "031.Hedera nepalensis var. sinensis (Tobler) Rehder"
+    },
+    {
+      "relative_path": "031.Hedera nepalensis var. sinensis (Tobler) Rehder/29c0d155f92249e82e5cde4ca88ea2b3.jpg",
+      "class_index": 30,
+      "class_name": "031.Hedera nepalensis var. sinensis (Tobler) Rehder"
+    },
+    {
+      "relative_path": "032.Plantago asiatica L/9f4c116f2b45b4e5652c2bd2b4ebfa5b.jpg",
+      "class_index": 31,
+      "class_name": "032.Plantago asiatica L"
+    },
+    {
+      "relative_path": "032.Plantago asiatica L/bdc2f890b5f9a204b9b2c3bd01ba70ea.jpg",
+      "class_index": 31,
+      "class_name": "032.Plantago asiatica L"
+    },
+    {
+      "relative_path": "033.Penthorum chinense Pursh/f95611ed887f4053ef2e53bffce37b2c.jpg",
+      "class_index": 32,
+      "class_name": "033.Penthorum chinense Pursh"
+    },
+    {
+      "relative_path": "033.Penthorum chinense Pursh/45f9ed808a279f7ae08ba66aa5daf212.jpg",
+      "class_index": 32,
+      "class_name": "033.Penthorum chinense Pursh"
+    },
+    {
+      "relative_path": "034.Thladiantha dubia Bunge/9f3539e51a9699df737ab8571ecf7d02.jpg",
+      "class_index": 33,
+      "class_name": "034.Thladiantha dubia Bunge"
+    },
+    {
+      "relative_path": "034.Thladiantha dubia Bunge/5c58883b927c07630aff51718c7d8152.jpg",
+      "class_index": 33,
+      "class_name": "034.Thladiantha dubia Bunge"
+    },
+    {
+      "relative_path": "035.Clerodendrum bungei Steud/743a44193714cd50247a2e876285ac4f.jpg",
+      "class_index": 34,
+      "class_name": "035.Clerodendrum bungei Steud"
+    },
+    {
+      "relative_path": "035.Clerodendrum bungei Steud/d12a7f0ce682f613c01e1a580b96f099.jpg",
+      "class_index": 34,
+      "class_name": "035.Clerodendrum bungei Steud"
+    },
+    {
+      "relative_path": "036.Cyathula officinalis K. C. Kuan/5edda5d7217f845d8487c20ab711f9bb.jpg",
+      "class_index": 35,
+      "class_name": "036.Cyathula officinalis K. C. Kuan"
+    },
+    {
+      "relative_path": "036.Cyathula officinalis K. C. Kuan/ab2159150792384bb89b17cc117eb96f.jpg",
+      "class_index": 35,
+      "class_name": "036.Cyathula officinalis K. C. Kuan"
+    },
+    {
+      "relative_path": "037.Ligusticum chuanxiong Hort/534fda90e4be874173f5ba1937dc90e1.jpg",
+      "class_index": 36,
+      "class_name": "037.Ligusticum chuanxiong Hort"
+    },
+    {
+      "relative_path": "037.Ligusticum chuanxiong Hort/fd54dd9122823027a3ab467575fb5726.png",
+      "class_index": 36,
+      "class_name": "037.Ligusticum chuanxiong Hort"
+    },
+    {
+      "relative_path": "038.Andrographis paniculata (Burm. f.) Wall. ex Nees in Wallich/cf5f1dfbfbd700c2fd562b41eebcad02.jpg",
+      "class_index": 37,
+      "class_name": "038.Andrographis paniculata (Burm. f.) Wall. ex Nees in Wallich"
+    },
+    {
+      "relative_path": "038.Andrographis paniculata (Burm. f.) Wall. ex Nees in Wallich/0338af0f4d2e9a850b12bd1a47e2fbeb.jpg",
+      "class_index": 37,
+      "class_name": "038.Andrographis paniculata (Burm. f.) Wall. ex Nees in Wallich"
+    },
+    {
+      "relative_path": "039.Sagittaria trifolia subsp. leucopetala (Miquel) Q. F. Wang/d40881f9a39bd96f08f22cde6398e252.jpg",
+      "class_index": 38,
+      "class_name": "039.Sagittaria trifolia subsp. leucopetala (Miquel) Q. F. Wang"
+    },
+    {
+      "relative_path": "039.Sagittaria trifolia subsp. leucopetala (Miquel) Q. F. Wang/8e70a7e9810d3094674b344f208e2ae1.jpg",
+      "class_index": 38,
+      "class_name": "039.Sagittaria trifolia subsp. leucopetala (Miquel) Q. F. Wang"
+    },
+    {
+      "relative_path": "040.Cirsium arvense var. integrifolium Wimm. & Grab/b4668661ef28976fbde9a3318cda0e8a.jpg",
+      "class_index": 39,
+      "class_name": "040.Cirsium arvense var. integrifolium Wimm. & Grab"
+    },
+    {
+      "relative_path": "040.Cirsium arvense var. integrifolium Wimm. & Grab/ec0f83079ce3f307b061a759d3840b53.jpg",
+      "class_index": 39,
+      "class_name": "040.Cirsium arvense var. integrifolium Wimm. & Grab"
+    },
+    {
+      "relative_path": "041.Aralia elata (Miq.) Seem/9c0a57b803f08cb26a974f9625276894.jpg",
+      "class_index": 40,
+      "class_name": "041.Aralia elata (Miq.) Seem"
+    },
+    {
+      "relative_path": "041.Aralia elata (Miq.) Seem/c6de9ab5aa3adf4e4f9d4e0e6b0980a7.jpg",
+      "class_index": 40,
+      "class_name": "041.Aralia elata (Miq.) Seem"
+    },
+    {
+      "relative_path": "042.Euphorbia pekinensis Rupr/8fb5fd4ac0e01a00c737c376641c683d.jpg",
+      "class_index": 41,
+      "class_name": "042.Euphorbia pekinensis Rupr"
+    },
+    {
+      "relative_path": "042.Euphorbia pekinensis Rupr/1ad2b42f37344da5b47f1587c063866e.jpg",
+      "class_index": 41,
+      "class_name": "042.Euphorbia pekinensis Rupr"
+    },
+    {
+      "relative_path": "043.Sargentodoxa cuneata (Oliv.) Rehd. & E. H. Wilson in C. S. Sargent/98e9c182fc44020f47adefdf7c51ea1c.jpeg",
+      "class_index": 42,
+      "class_name": "043.Sargentodoxa cuneata (Oliv.) Rehd. & E. H. Wilson in C. S. Sargent"
+    },
+    {
+      "relative_path": "043.Sargentodoxa cuneata (Oliv.) Rehd. & E. H. Wilson in C. S. Sargent/4da8a730fbc21317661a1c761ba2daf4.jpg",
+      "class_index": 42,
+      "class_name": "043.Sargentodoxa cuneata (Oliv.) Rehd. & E. H. Wilson in C. S. Sargent"
+    },
+    {
+      "relative_path": "044.Salvia miltiorrhiza Bunge/76effabb844b68498819c26ef627c410.jpg",
+      "class_index": 43,
+      "class_name": "044.Salvia miltiorrhiza Bunge"
+    },
+    {
+      "relative_path": "044.Salvia miltiorrhiza Bunge/92cc619655c181a9dc3d447bebaa97f2.jpg",
+      "class_index": 43,
+      "class_name": "044.Salvia miltiorrhiza Bunge"
+    },
+    {
+      "relative_path": "045.Mazus stachydifolius (Turcz.) Maxim/8c10db7f794c7c8260d0426dba94efa3.jpeg",
+      "class_index": 44,
+      "class_name": "045.Mazus stachydifolius (Turcz.) Maxim"
+    },
+    {
+      "relative_path": "045.Mazus stachydifolius (Turcz.) Maxim/ea8713333759697cac865d7fc08691fb.jpg",
+      "class_index": 44,
+      "class_name": "045.Mazus stachydifolius (Turcz.) Maxim"
+    },
+    {
+      "relative_path": "046.Angelica sinensis (Oliv.) Diels/f16946356f763db9dae7e45d6d83749e.jpg",
+      "class_index": 45,
+      "class_name": "046.Angelica sinensis (Oliv.) Diels"
+    },
+    {
+      "relative_path": "046.Angelica sinensis (Oliv.) Diels/8eff0c9f8542fbed095e7d134d8dcfeb.jpg",
+      "class_index": 45,
+      "class_name": "046.Angelica sinensis (Oliv.) Diels"
+    },
+    {
+      "relative_path": "047.Codonopsis pilosula (Franch.) Nannf/b2eb4991ced5e42f808a6daf8eafff84.jpg",
+      "class_index": 46,
+      "class_name": "047.Codonopsis pilosula (Franch.) Nannf"
+    },
+    {
+      "relative_path": "047.Codonopsis pilosula (Franch.) Nannf/ad4efd71e958d9da9bb527d1cf6936bf.jpg",
+      "class_index": 46,
+      "class_name": "047.Codonopsis pilosula (Franch.) Nannf"
+    },
+    {
+      "relative_path": "048.Lapsanastrum apogonoides (Maxim.) Pak & K.Bremer/5ab8cd97ff69643fb9d9cf35aa96b7a6.jpg",
+      "class_index": 47,
+      "class_name": "048.Lapsanastrum apogonoides (Maxim.) Pak & K.Bremer"
+    },
+    {
+      "relative_path": "048.Lapsanastrum apogonoides (Maxim.) Pak & K.Bremer/3e29e0bdd79ea772c013619d23187da4.jpg",
+      "class_index": 47,
+      "class_name": "048.Lapsanastrum apogonoides (Maxim.) Pak & K.Bremer"
+    },
+    {
+      "relative_path": "049.Juncus effusus L/d8ee0f6c0c3e6286db723a0f9891ad77.jpg",
+      "class_index": 48,
+      "class_name": "049.Juncus effusus L"
+    },
+    {
+      "relative_path": "049.Juncus effusus L/e05b63f74cc202d647b455084e7cdbc9.jpg",
+      "class_index": 48,
+      "class_name": "049.Juncus effusus L"
+    },
+    {
+      "relative_path": "050.Hypericum japonicum Thunb. in Murr/bf473cbd821b076269e32a2aa6ed6060.jpeg",
+      "class_index": 49,
+      "class_name": "050.Hypericum japonicum Thunb. in Murr"
+    },
+    {
+      "relative_path": "050.Hypericum japonicum Thunb. in Murr/6207d647c6b04d4c3d5f4d1ad4b68c56.jpg",
+      "class_index": 49,
+      "class_name": "050.Hypericum japonicum Thunb. in Murr"
+    },
+    {
+      "relative_path": "051.Geranium wilfordii Maxim/9ad69ef05c28cf1b01bdc0559441e05b.jpg",
+      "class_index": 50,
+      "class_name": "051.Geranium wilfordii Maxim"
+    },
+    {
+      "relative_path": "051.Geranium wilfordii Maxim/3a1254bda297ad8d1e68577c7e11cdba.jpg",
+      "class_index": 50,
+      "class_name": "051.Geranium wilfordii Maxim"
+    },
+    {
+      "relative_path": "052.Rehmannia glutinosa (Gaertn.) Libosch. ex Fisch. & C. A. Mey/45f5d63e9810dcc14c6da506e48f1b8f.jpg",
+      "class_index": 51,
+      "class_name": "052.Rehmannia glutinosa (Gaertn.) Libosch. ex Fisch. & C. A. Mey"
+    },
+    {
+      "relative_path": "052.Rehmannia glutinosa (Gaertn.) Libosch. ex Fisch. & C. A. Mey/02c78f6b42bad72fd8ae5de49333d502.jpeg",
+      "class_index": 51,
+      "class_name": "052.Rehmannia glutinosa (Gaertn.) Libosch. ex Fisch. & C. A. Mey"
+    },
+    {
+      "relative_path": "053.Lycopus lucidus Turcz. ex Benth/92829f85c27c33b9436230bd3d49a2fd.jpg",
+      "class_index": 52,
+      "class_name": "053.Lycopus lucidus Turcz. ex Benth"
+    },
+    {
+      "relative_path": "053.Lycopus lucidus Turcz. ex Benth/b167a4d7332b4533a889440876230639.jpg",
+      "class_index": 52,
+      "class_name": "053.Lycopus lucidus Turcz. ex Benth"
+    },
+    {
+      "relative_path": "054.Sanguisorba officinalis L/478aeae18aad2e758a91582c16f11290.jpg",
+      "class_index": 53,
+      "class_name": "054.Sanguisorba officinalis L"
+    },
+    {
+      "relative_path": "054.Sanguisorba officinalis L/26b240837ca925851c70fb3777d66942.jpg",
+      "class_index": 53,
+      "class_name": "054.Sanguisorba officinalis L"
+    },
+    {
+      "relative_path": "055.Atropa belladonna L/22b4164e59ad0ac3027392f713387315.jpg",
+      "class_index": 54,
+      "class_name": "055.Atropa belladonna L"
+    },
+    {
+      "relative_path": "055.Atropa belladonna L/a7019a2be4a179672a66dfef15d985c5.jpg",
+      "class_index": 54,
+      "class_name": "055.Atropa belladonna L"
+    },
+    {
+      "relative_path": "056.Androsace umbellata (Lour.) Merr/3a45f18ed70ed5349c1b87a82b5111eb.jpg",
+      "class_index": 55,
+      "class_name": "056.Androsace umbellata (Lour.) Merr"
+    },
+    {
+      "relative_path": "056.Androsace umbellata (Lour.) Merr/f0aa443ee7b7aa3d2e5af227969020bd.jpg",
+      "class_index": 55,
+      "class_name": "056.Androsace umbellata (Lour.) Merr"
+    },
+    {
+      "relative_path": "057.Sauromatum giganteum (Engl.) Cusimano & Hett/6df6af41cdc9284d931e29ceb7911986.jpg",
+      "class_index": 56,
+      "class_name": "057.Sauromatum giganteum (Engl.) Cusimano & Hett"
+    },
+    {
+      "relative_path": "057.Sauromatum giganteum (Engl.) Cusimano & Hett/1cf3c1aae306a289a395dc859bd9d1c0.jpg",
+      "class_index": 56,
+      "class_name": "057.Sauromatum giganteum (Engl.) Cusimano & Hett"
+    },
+    {
+      "relative_path": "058.Asarum forbesii Maxim/5c22c3c68a376a43baaf3e5eebb4e13c.jpg",
+      "class_index": 57,
+      "class_name": "058.Asarum forbesii Maxim"
+    },
+    {
+      "relative_path": "058.Asarum forbesii Maxim/46dfaac726a3fe5ee5ae6e17297791fe.jpg",
+      "class_index": 57,
+      "class_name": "058.Asarum forbesii Maxim"
+    },
+    {
+      "relative_path": "059.Eucommia ulmoides Oliv/8dd36cf85dc91632a8d1ed39ee7e979d.jpg",
+      "class_index": 58,
+      "class_name": "059.Eucommia ulmoides Oliv"
+    },
+    {
+      "relative_path": "059.Eucommia ulmoides Oliv/a1ae011ce0095694075f7044567f7d10.jpg",
+      "class_index": 58,
+      "class_name": "059.Eucommia ulmoides Oliv"
+    },
+    {
+      "relative_path": "060.Crocus sativus L/122e03d810ff82ee5849a1cdf6316324.jpg",
+      "class_index": 59,
+      "class_name": "060.Crocus sativus L"
+    },
+    {
+      "relative_path": "060.Crocus sativus L/12da7c14977a0e1061da278facdf975c.jpg",
+      "class_index": 59,
+      "class_name": "060.Crocus sativus L"
+    },
+    {
+      "relative_path": "061.Potentilla discolor Bunge/9f7d51261c2da71ff59962fd41f0371c.jpg",
+      "class_index": 60,
+      "class_name": "061.Potentilla discolor Bunge"
+    },
+    {
+      "relative_path": "061.Potentilla discolor Bunge/4136c67ba8a1ee4c2c78d47137f6e634.jpg",
+      "class_index": 60,
+      "class_name": "061.Potentilla discolor Bunge"
+    },
+    {
+      "relative_path": "062.Stellaria media (L.) Vill/17f37e900c4649cf0f66da1efc3ae822.jpg",
+      "class_index": 61,
+      "class_name": "062.Stellaria media (L.) Vill"
+    },
+    {
+      "relative_path": "062.Stellaria media (L.) Vill/a0cf1b720422e86a9ebcc0778d6016ed.jpg",
+      "class_index": 61,
+      "class_name": "062.Stellaria media (L.) Vill"
+    },
+    {
+      "relative_path": "063.Saposhnikovia divaricata (Turcz.) Schischk/b0d712f10de665bd7d557b84e0b99fbf.jpg",
+      "class_index": 62,
+      "class_name": "063.Saposhnikovia divaricata (Turcz.) Schischk"
+    },
+    {
+      "relative_path": "063.Saposhnikovia divaricata (Turcz.) Schischk/828a3185d6cbb31f6d5ec37a98039ae8.jpg",
+      "class_index": 62,
+      "class_name": "063.Saposhnikovia divaricata (Turcz.) Schischk"
+    },
+    {
+      "relative_path": "064.Euphorbia hirta L/3c609d63ef206b6d5a958f06d57ce73f.jpg",
+      "class_index": 63,
+      "class_name": "064.Euphorbia hirta L"
+    },
+    {
+      "relative_path": "064.Euphorbia hirta L/6ebc46acda973172b641a80a2737e786.jpg",
+      "class_index": 63,
+      "class_name": "064.Euphorbia hirta L"
+    },
+    {
+      "relative_path": "065.Phedimus aizoon (L.) 't Hart/274b00d14d476743ea5daadb675e04f1.jpg",
+      "class_index": 64,
+      "class_name": "065.Phedimus aizoon (L.) 't Hart"
+    },
+    {
+      "relative_path": "065.Phedimus aizoon (L.) 't Hart/fc6c986edae73bb20701ec3424c533a1.jpeg",
+      "class_index": 64,
+      "class_name": "065.Phedimus aizoon (L.) 't Hart"
+    },
+    {
+      "relative_path": "066.Stephania tetrandra S. Moore/351c0e06e06075c4e5f22d6bd22532b0.jpg",
+      "class_index": 65,
+      "class_name": "066.Stephania tetrandra S. Moore"
+    },
+    {
+      "relative_path": "066.Stephania tetrandra S. Moore/88f81d09eda78740698b6f23ff425689.jpg",
+      "class_index": 65,
+      "class_name": "066.Stephania tetrandra S. Moore"
+    },
+    {
+      "relative_path": "067.Clinopodium chinense (Benth.) Kuntze/da2d48ad3932bac7e72f516fa62fb8c2.jpg",
+      "class_index": 66,
+      "class_name": "067.Clinopodium chinense (Benth.) Kuntze"
+    },
+    {
+      "relative_path": "067.Clinopodium chinense (Benth.) Kuntze/089fbe77a873db968a8d49c7a3eb236a.jpg",
+      "class_index": 66,
+      "class_name": "067.Clinopodium chinense (Benth.) Kuntze"
+    },
+    {
+      "relative_path": "068.Coniogramme japonica (Thunb.) Diels/2d183538a5c252911a4baacfb26dc857.jpg",
+      "class_index": 67,
+      "class_name": "068.Coniogramme japonica (Thunb.) Diels"
+    },
+    {
+      "relative_path": "068.Coniogramme japonica (Thunb.) Diels/6ed2a2d573d4edb6afbc84ba2885a40d.jpg",
+      "class_index": 67,
+      "class_name": "068.Coniogramme japonica (Thunb.) Diels"
+    },
+    {
+      "relative_path": "069.Impatiens balsamina L/59eb02c31cd6b2789610e9c435b4979e.jpg",
+      "class_index": 68,
+      "class_name": "069.Impatiens balsamina L"
+    },
+    {
+      "relative_path": "069.Impatiens balsamina L/23e075bf6d060720b10a6ac1d8493767.jpg",
+      "class_index": 68,
+      "class_name": "069.Impatiens balsamina L"
+    },
+    {
+      "relative_path": "070.Trigonotis peduncularis (Trevis.) Benth. ex Baker & S. Moore/48e8255992379dc35f6cd314399db264.jpg",
+      "class_index": 69,
+      "class_name": "070.Trigonotis peduncularis (Trevis.) Benth. ex Baker & S. Moore"
+    },
+    {
+      "relative_path": "070.Trigonotis peduncularis (Trevis.) Benth. ex Baker & S. Moore/7bfb0611b7148635f590ea3458dc9c66.jpg",
+      "class_index": 69,
+      "class_name": "070.Trigonotis peduncularis (Trevis.) Benth. ex Baker & S. Moore"
+    },
+    {
+      "relative_path": "071.Rubus idaeus L/06f4e675d236fda1a3ba3b1d89422be7.jpg",
+      "class_index": 70,
+      "class_name": "071.Rubus idaeus L"
+    },
+    {
+      "relative_path": "071.Rubus idaeus L/b04efa4c824a54cd8d5286163da0f758.webp",
+      "class_index": 70,
+      "class_name": "071.Rubus idaeus L"
+    },
+    {
+      "relative_path": "072.Stachys sieboldii Miq/1c656de2e14b6a2385e0352ae8a3d842.jpg",
+      "class_index": 71,
+      "class_name": "072.Stachys sieboldii Miq"
+    },
+    {
+      "relative_path": "072.Stachys sieboldii Miq/0911e5873c69f864e3dbb51a7df76a1f.jpg",
+      "class_index": 71,
+      "class_name": "072.Stachys sieboldii Miq"
+    },
+    {
+      "relative_path": "073.Periploca sepium Bunge/b66d3fd97cccc17c2486ec4cdf6d9b40.jpg",
+      "class_index": 72,
+      "class_name": "073.Periploca sepium Bunge"
+    },
+    {
+      "relative_path": "073.Periploca sepium Bunge/5724a66477e28449d28801c2f245d0f3.jpg",
+      "class_index": 72,
+      "class_name": "073.Periploca sepium Bunge"
+    },
+    {
+      "relative_path": "074.Rhodiola cretinii subsp. sinoalpina (Fröd.) H. Ohba/c276a4f181c3f43c67e1d5905ae6bc6a.jpg",
+      "class_index": 73,
+      "class_name": "074.Rhodiola cretinii subsp. sinoalpina (Fröd.) H. Ohba"
+    },
+    {
+      "relative_path": "074.Rhodiola cretinii subsp. sinoalpina (Fröd.) H. Ohba/d347b17a65c4a791b3e3a9572adf9104.jpg",
+      "class_index": 73,
+      "class_name": "074.Rhodiola cretinii subsp. sinoalpina (Fröd.) H. Ohba"
+    },
+    {
+      "relative_path": "075.Pueraria montana var. lobata (Ohwi) Maesen & S. M. Almeida/f8baccc1f08fca1749fc2072bd10a89b.jpg",
+      "class_index": 74,
+      "class_name": "075.Pueraria montana var. lobata (Ohwi) Maesen & S. M. Almeida"
+    },
+    {
+      "relative_path": "075.Pueraria montana var. lobata (Ohwi) Maesen & S. M. Almeida/9c9655e744cb4a4451344977c79ea0f6.jpg",
+      "class_index": 74,
+      "class_name": "075.Pueraria montana var. lobata (Ohwi) Maesen & S. M. Almeida"
+    },
+    {
+      "relative_path": "076.Ilex cornuta Lindl. & Paxton/074e2768b833161b7ec87919b093ffd1.jpg",
+      "class_index": 75,
+      "class_name": "076.Ilex cornuta Lindl. & Paxton"
+    },
+    {
+      "relative_path": "076.Ilex cornuta Lindl. & Paxton/32226ed8ab58bf8033a51042c9c2bad6.jpg",
+      "class_index": 75,
+      "class_name": "076.Ilex cornuta Lindl. & Paxton"
+    },
+    {
+      "relative_path": "077.Lycium chinense Mill/9771ae676a80214df82497f5669c2cd6.jpg",
+      "class_index": 76,
+      "class_name": "077.Lycium chinense Mill"
+    },
+    {
+      "relative_path": "077.Lycium chinense Mill/5c15f54e0d0032df6509a6b924dc3730.jpg",
+      "class_index": 76,
+      "class_name": "077.Lycium chinense Mill"
+    },
+    {
+      "relative_path": "078.Broussonetia papyrifera (L.) L'Hér. ex Vent/85ff3d00fc57c2557078daebe639025e.jpeg",
+      "class_index": 77,
+      "class_name": "078.Broussonetia papyrifera (L.) L'Hér. ex Vent"
+    },
+    {
+      "relative_path": "078.Broussonetia papyrifera (L.) L'Hér. ex Vent/9d3f3c0eba397b4b6921d9559542fa39.jpg",
+      "class_index": 77,
+      "class_name": "078.Broussonetia papyrifera (L.) L'Hér. ex Vent"
+    },
+    {
+      "relative_path": "079.Eriocaulon buergerianum Körn/702d509d513209075848e87de5303382.jpg",
+      "class_index": 78,
+      "class_name": "079.Eriocaulon buergerianum Körn"
+    },
+    {
+      "relative_path": "079.Eriocaulon buergerianum Körn/9476cece3c99b411de7d6cb19861395b.jpg",
+      "class_index": 78,
+      "class_name": "079.Eriocaulon buergerianum Körn"
+    },
+    {
+      "relative_path": "080.Polygala japonica Houtt/7e4f5c6ede185a5ef302d42d23914a25.jpg",
+      "class_index": 79,
+      "class_name": "080.Polygala japonica Houtt"
+    },
+    {
+      "relative_path": "080.Polygala japonica Houtt/a0d864f90d7d6d8912468d568feaf232.jpeg",
+      "class_index": 79,
+      "class_name": "080.Polygala japonica Houtt"
+    },
+    {
+      "relative_path": "081.Alkekengi officinarum var. franchetii (Mast.) R. J. Wang/9f3668af42fcb7032958f7f0f8a5ee5d.jpg",
+      "class_index": 80,
+      "class_name": "081.Alkekengi officinarum var. franchetii (Mast.) R. J. Wang"
+    },
+    {
+      "relative_path": "081.Alkekengi officinarum var. franchetii (Mast.) R. J. Wang/694dff9e0462d8c775f9cd55a9564b0f.jpg",
+      "class_index": 80,
+      "class_name": "081.Alkekengi officinarum var. franchetii (Mast.) R. J. Wang"
+    },
+    {
+      "relative_path": "082.Hypericum perforatum L/7ff04589b1daaa7eb2f8aef909dca062.png",
+      "class_index": 81,
+      "class_name": "082.Hypericum perforatum L"
+    },
+    {
+      "relative_path": "082.Hypericum perforatum L/45f582da05dfe0505637da70eda7c3cb.jpg",
+      "class_index": 81,
+      "class_name": "082.Hypericum perforatum L"
+    },
+    {
+      "relative_path": "083.Cyrtomium fortunei J. Sm/dd5d89eb0df17620ca111dc5104e1602.jpg",
+      "class_index": 82,
+      "class_name": "083.Cyrtomium fortunei J. Sm"
+    },
+    {
+      "relative_path": "083.Cyrtomium fortunei J. Sm/0f6bb1c459560aee7c3522c7f8ef2c68.jpg",
+      "class_index": 82,
+      "class_name": "083.Cyrtomium fortunei J. Sm"
+    },
+    {
+      "relative_path": "084.Vicia cracca L/363183c6591754290582f79e94101c7d.jpg",
+      "class_index": 83,
+      "class_name": "084.Vicia cracca L"
+    },
+    {
+      "relative_path": "084.Vicia cracca L/1e150a7404c2847e1c55b0b160519451.jpg",
+      "class_index": 83,
+      "class_name": "084.Vicia cracca L"
+    },
+    {
+      "relative_path": "085.Bidens pilosa L/38f1f5564ec3905ce6a2e5a40ab2f940.jpg",
+      "class_index": 84,
+      "class_name": "085.Bidens pilosa L"
+    },
+    {
+      "relative_path": "085.Bidens pilosa L/96378a0f017cb38b22ff1d2210d2416b.jpg",
+      "class_index": 84,
+      "class_name": "085.Bidens pilosa L"
+    },
+    {
+      "relative_path": "086.Lysimachia christinae Hance/4efd91e87372011653607a49b89591c3.jpg",
+      "class_index": 85,
+      "class_name": "086.Lysimachia christinae Hance"
+    },
+    {
+      "relative_path": "086.Lysimachia christinae Hance/d7b5734ca3f2228cdc4bf22966403ab1.jpg",
+      "class_index": 85,
+      "class_name": "086.Lysimachia christinae Hance"
+    },
+    {
+      "relative_path": "087.Lygodium japonicum (Thunb.) Sw/67267347d48ced97cccef2745d7df859.jpeg",
+      "class_index": 86,
+      "class_name": "087.Lygodium japonicum (Thunb.) Sw"
+    },
+    {
+      "relative_path": "087.Lygodium japonicum (Thunb.) Sw/030db2d2b7f2154be71b5acd7f593160.jpg",
+      "class_index": 86,
+      "class_name": "087.Lygodium japonicum (Thunb.) Sw"
+    },
+    {
+      "relative_path": "088.Pittosporum tobira (Thunb.) W. T. Aiton/96a38ab56d3ea79fac952edf28fe01e7.jpg",
+      "class_index": 87,
+      "class_name": "088.Pittosporum tobira (Thunb.) W. T. Aiton"
+    },
+    {
+      "relative_path": "088.Pittosporum tobira (Thunb.) W. T. Aiton/a30bbae09c702ceb6e390271523c95a5.jpg",
+      "class_index": 87,
+      "class_name": "088.Pittosporum tobira (Thunb.) W. T. Aiton"
+    },
+    {
+      "relative_path": "089.Clerodendrum trichotomum Thunb/cc0e277fcdcc85c643aeeb4661340219.jpg",
+      "class_index": 88,
+      "class_name": "089.Clerodendrum trichotomum Thunb"
+    },
+    {
+      "relative_path": "089.Clerodendrum trichotomum Thunb/cbda3cf4fefa529dcba90abce76f3ea6.jpg",
+      "class_index": 88,
+      "class_name": "089.Clerodendrum trichotomum Thunb"
+    },
+    {
+      "relative_path": "090.Mimosa pudica L/56bc623bc29362bcc1c1842f38c20296.jpg",
+      "class_index": 89,
+      "class_name": "090.Mimosa pudica L"
+    },
+    {
+      "relative_path": "090.Mimosa pudica L/b489d79ee105c6460ae55629085e6fc3.jpg",
+      "class_index": 89,
+      "class_name": "090.Mimosa pudica L"
+    },
+    {
+      "relative_path": "091.Scutellaria indica L/60da79762796486377f68de3b4f9a53b.jpg",
+      "class_index": 90,
+      "class_name": "091.Scutellaria indica L"
+    },
+    {
+      "relative_path": "091.Scutellaria indica L/dca409c75de9db164f4c6c93a988ee50.jpg",
+      "class_index": 90,
+      "class_name": "091.Scutellaria indica L"
+    },
+    {
+      "relative_path": "092.Rorippa indica (L.) Hiern/fd94fcf03dda2e9e3c05735246cb44a4.jpg",
+      "class_index": 91,
+      "class_name": "092.Rorippa indica (L.) Hiern"
+    },
+    {
+      "relative_path": "092.Rorippa indica (L.) Hiern/e6e3c85b708c0ff5349155dc584f570b.jpg",
+      "class_index": 91,
+      "class_name": "092.Rorippa indica (L.) Hiern"
+    },
+    {
+      "relative_path": "093.Albizia julibrissin Durazz/f34ef6b60f78c452c6f3c85af6275eea.jpg",
+      "class_index": 92,
+      "class_name": "093.Albizia julibrissin Durazz"
+    },
+    {
+      "relative_path": "093.Albizia julibrissin Durazz/61b54959058444dc7a9fe096d51dcc5a.jpeg",
+      "class_index": 92,
+      "class_name": "093.Albizia julibrissin Durazz"
+    },
+    {
+      "relative_path": "094.Pleuropterus multiflorus (Thunb.) Nakai/a82253650f0a8fee1617a007a9fa163f.jpg",
+      "class_index": 93,
+      "class_name": "094.Pleuropterus multiflorus (Thunb.) Nakai"
+    },
+    {
+      "relative_path": "094.Pleuropterus multiflorus (Thunb.) Nakai/fbbf393fd00a85454ef117e52f7794ba.jpg",
+      "class_index": 93,
+      "class_name": "094.Pleuropterus multiflorus (Thunb.) Nakai"
+    },
+    {
+      "relative_path": "095.Taxus wallichiana var. chinensis (Pilg.) Florin/8bf60aa3b617e26f4a69a840396e08ac.jpg",
+      "class_index": 94,
+      "class_name": "095.Taxus wallichiana var. chinensis (Pilg.) Florin"
+    },
+    {
+      "relative_path": "095.Taxus wallichiana var. chinensis (Pilg.) Florin/462c2a9137db8b9eb310388277bb35b8.jpeg",
+      "class_index": 94,
+      "class_name": "095.Taxus wallichiana var. chinensis (Pilg.) Florin"
+    },
+    {
+      "relative_path": "096.Carthamus tinctorius L/0a22d0afcf460b1948b79252cc8cd0d2.jpg",
+      "class_index": 95,
+      "class_name": "096.Carthamus tinctorius L"
+    },
+    {
+      "relative_path": "096.Carthamus tinctorius L/fae5cc4db1c85de833f8dfc1bc24d925.jpg",
+      "class_index": 95,
+      "class_name": "096.Carthamus tinctorius L"
+    },
+    {
+      "relative_path": "097.Oxalis corymbosa DC/25ef6f5d56b8c7c8684597ebe9891431.jpg",
+      "class_index": 96,
+      "class_name": "097.Oxalis corymbosa DC"
+    },
+    {
+      "relative_path": "097.Oxalis corymbosa DC/9e8194e659d2666374aabc1dcf93c503.jpg",
+      "class_index": 96,
+      "class_name": "097.Oxalis corymbosa DC"
+    },
+    {
+      "relative_path": "098.Lycoris aurea (L'Hér.) Herb/a94fec57a1d0441a7deca0fab4d0dec0.jpg",
+      "class_index": 97,
+      "class_name": "098.Lycoris aurea (L'Hér.) Herb"
+    },
+    {
+      "relative_path": "098.Lycoris aurea (L'Hér.) Herb/0e08b072e4cd7754c8de91cb92ff206f.jpg",
+      "class_index": 97,
+      "class_name": "098.Lycoris aurea (L'Hér.) Herb"
+    },
+    {
+      "relative_path": "099.Drynaria roosii Nakaike/e016f0b02e6677c18d5a7374b9be3634.jpg",
+      "class_index": 98,
+      "class_name": "099.Drynaria roosii Nakaike"
+    },
+    {
+      "relative_path": "099.Drynaria roosii Nakaike/ddc8b9c71b63f026229c1f6bddd8ce1a.jpg",
+      "class_index": 98,
+      "class_name": "099.Drynaria roosii Nakaike"
+    },
+    {
+      "relative_path": "100.Saxifraga stolonifera Curtis/41ec894c767d2a5fbab519e0d36debfc.jpg",
+      "class_index": 99,
+      "class_name": "100.Saxifraga stolonifera Curtis"
+    },
+    {
+      "relative_path": "100.Saxifraga stolonifera Curtis/73e465fe376f11eb8c37ce13414dee9e.jpg",
+      "class_index": 99,
+      "class_name": "100.Saxifraga stolonifera Curtis"
+    },
+    {
+      "relative_path": "101.Reynoutria japonica Houtt/4b8476d5dc74465edd9eece01add6cd8.jpg",
+      "class_index": 100,
+      "class_name": "101.Reynoutria japonica Houtt"
+    },
+    {
+      "relative_path": "101.Reynoutria japonica Houtt/a27becbffbada2c0bbdd5743ebb576f7.jpg",
+      "class_index": 100,
+      "class_name": "101.Reynoutria japonica Houtt"
+    },
+    {
+      "relative_path": "102.Styphnolobium japonicum (L.) Schott/547dc7c0ad4fd027efe3145d39bf254f.jpg",
+      "class_index": 101,
+      "class_name": "102.Styphnolobium japonicum (L.) Schott"
+    },
+    {
+      "relative_path": "102.Styphnolobium japonicum (L.) Schott/a737844ab398a4932b4aecb2b0b8328e.jpg",
+      "class_index": 101,
+      "class_name": "102.Styphnolobium japonicum (L.) Schott"
+    },
+    {
+      "relative_path": "103.Youngia japonica (L.) DC/9eefdb7619ee5c8a1ea4bfa63914fc74.jpg",
+      "class_index": 102,
+      "class_name": "103.Youngia japonica (L.) DC"
+    },
+    {
+      "relative_path": "103.Youngia japonica (L.) DC/42b36054f13d4240401bb743fcad600c.jpg",
+      "class_index": 102,
+      "class_name": "103.Youngia japonica (L.) DC"
+    },
+    {
+      "relative_path": "104.Hemerocallis citrina Baroni/10c7dc4f64da5724594c9a3aa4250365.jpg",
+      "class_index": 103,
+      "class_name": "104.Hemerocallis citrina Baroni"
+    },
+    {
+      "relative_path": "104.Hemerocallis citrina Baroni/9a26ca5bea767accb4c30bbf4c9a9af2.jpeg",
+      "class_index": 103,
+      "class_name": "104.Hemerocallis citrina Baroni"
+    },
+    {
+      "relative_path": "105.Vitex negundo L/5f5254620a1648d4db37e26ae1f7c89f.jpg",
+      "class_index": 104,
+      "class_name": "105.Vitex negundo L"
+    },
+    {
+      "relative_path": "105.Vitex negundo L/5ded85a7ed46aecadbe3eff9795a4675.jpg",
+      "class_index": 104,
+      "class_name": "105.Vitex negundo L"
+    },
+    {
+      "relative_path": "106.Polygonatum sibiricum Redouté/d655a986c61dd88d80e2135a6620fd60.jpg",
+      "class_index": 105,
+      "class_name": "106.Polygonatum sibiricum Redouté"
+    },
+    {
+      "relative_path": "106.Polygonatum sibiricum Redouté/14130e627c487a8fd3d6b887fc9b30e4.jpg",
+      "class_index": 105,
+      "class_name": "106.Polygonatum sibiricum Redouté"
+    },
+    {
+      "relative_path": "107.Berberis amurensis Rupr/a742f7ca9b8d91f794710b49039f9e99.jpg",
+      "class_index": 106,
+      "class_name": "107.Berberis amurensis Rupr"
+    },
+    {
+      "relative_path": "107.Berberis amurensis Rupr/e514920d35653b913c197db88c099ac2.jpg",
+      "class_index": 106,
+      "class_name": "107.Berberis amurensis Rupr"
+    },
+    {
+      "relative_path": "108.Scutellaria baicalensis Georgi/276229f9e5d2976f452299cce78f8b41.jpg",
+      "class_index": 107,
+      "class_name": "108.Scutellaria baicalensis Georgi"
+    },
+    {
+      "relative_path": "108.Scutellaria baicalensis Georgi/c65621c62afaf7d0e6e8339ac12d3c38.jpg",
+      "class_index": 107,
+      "class_name": "108.Scutellaria baicalensis Georgi"
+    },
+    {
+      "relative_path": "109.Ranunculus chinensis Bunge/96e573afd08aff50156bdd1c297c4c30.jpg",
+      "class_index": 108,
+      "class_name": "109.Ranunculus chinensis Bunge"
+    },
+    {
+      "relative_path": "109.Ranunculus chinensis Bunge/7cd12a7a2fa37f3ba6472fa922ce2a4c.jpg",
+      "class_index": 108,
+      "class_name": "109.Ranunculus chinensis Bunge"
+    },
+    {
+      "relative_path": "110.Glechoma longituba (Nakai) Kupr/077dd598a9bd0bbc74dd820329e2268d.jpg",
+      "class_index": 109,
+      "class_name": "110.Glechoma longituba (Nakai) Kupr"
+    },
+    {
+      "relative_path": "110.Glechoma longituba (Nakai) Kupr/6db2f78404435a8afa2987c1514e416c.jpg",
+      "class_index": 109,
+      "class_name": "110.Glechoma longituba (Nakai) Kupr"
+    },
+    {
+      "relative_path": "111.Sedum sarmentosum Bunge/46cc6d4198a574be4abc3689830e104e.png",
+      "class_index": 110,
+      "class_name": "111.Sedum sarmentosum Bunge"
+    },
+    {
+      "relative_path": "111.Sedum sarmentosum Bunge/3a4cfdc110d60f99882afb371009d4ae.jpg",
+      "class_index": 110,
+      "class_name": "111.Sedum sarmentosum Bunge"
+    },
+    {
+      "relative_path": "112.Agastache rugosa (Fisch. & C. A. Mey.) Kuntze/db100baade27602466e31d15b389fbc2.jpg",
+      "class_index": 111,
+      "class_name": "112.Agastache rugosa (Fisch. & C. A. Mey.) Kuntze"
+    },
+    {
+      "relative_path": "112.Agastache rugosa (Fisch. & C. A. Mey.) Kuntze/e46d21f6cd74a1c72aead6ff70a2550c.jpg",
+      "class_index": 111,
+      "class_name": "112.Agastache rugosa (Fisch. & C. A. Mey.) Kuntze"
+    },
+    {
+      "relative_path": "113.Rhodotypos scandens (Thunb.) Makino/dc747853621d7e371387d2d33e415534.jpg",
+      "class_index": 112,
+      "class_name": "113.Rhodotypos scandens (Thunb.) Makino"
+    },
+    {
+      "relative_path": "113.Rhodotypos scandens (Thunb.) Makino/3c3bdb13c8e74d0d9311a088bb4c1b54.jpg",
+      "class_index": 112,
+      "class_name": "113.Rhodotypos scandens (Thunb.) Makino"
+    },
+    {
+      "relative_path": "114.Paederia  foetida L/676a88e9632245cf0ad926f2fef528f5.jpg",
+      "class_index": 113,
+      "class_name": "114.Paederia  foetida L"
+    },
+    {
+      "relative_path": "114.Paederia  foetida L/7ee3dbd0d3b5f11c6cfd7a36a9a93b5e.jpg",
+      "class_index": 113,
+      "class_name": "114.Paederia  foetida L"
+    },
+    {
+      "relative_path": "115.Viola acuminata Ledeb/ef453c64c454f51b8c61382fe88d4920.jpg",
+      "class_index": 114,
+      "class_name": "115.Viola acuminata Ledeb"
+    },
+    {
+      "relative_path": "115.Viola acuminata Ledeb/dfb696aee60c1a29569d74359a5113c8.jpg",
+      "class_index": 114,
+      "class_name": "115.Viola acuminata Ledeb"
+    },
+    {
+      "relative_path": "116.Chloranthus serratus (Thunb.) Roem. & Schult/75d0b49e8b6c8f74a16b494d12e191ba.jpg",
+      "class_index": 115,
+      "class_name": "116.Chloranthus serratus (Thunb.) Roem. & Schult"
+    },
+    {
+      "relative_path": "116.Chloranthus serratus (Thunb.) Roem. & Schult/86656035bb76f90297bd28ab6610a2a0.jpg",
+      "class_index": 115,
+      "class_name": "116.Chloranthus serratus (Thunb.) Roem. & Schult"
+    },
+    {
+      "relative_path": "117.Houttuynia cordata Thunb/2035df2ba22d29a8dde715ec665d2fc4.jpg",
+      "class_index": 116,
+      "class_name": "117.Houttuynia cordata Thunb"
+    },
+    {
+      "relative_path": "117.Houttuynia cordata Thunb/1c87426e4a9359dfc524990b40018415.jpg",
+      "class_index": 116,
+      "class_name": "117.Houttuynia cordata Thunb"
+    },
+    {
+      "relative_path": "118.Cirsium japonicum Fisch. ex DC/7a50350b09b6fabe65007ae380444385.jpg",
+      "class_index": 117,
+      "class_name": "118.Cirsium japonicum Fisch. ex DC"
+    },
+    {
+      "relative_path": "118.Cirsium japonicum Fisch. ex DC/bb53fd2296395bff481668e334a7daa8.jpeg",
+      "class_index": 117,
+      "class_name": "118.Cirsium japonicum Fisch. ex DC"
+    },
+    {
+      "relative_path": "119.Nerium oleander L/3d4d73e3930a05e5f5ae06fd445c3733.jpg",
+      "class_index": 118,
+      "class_name": "119.Nerium oleander L"
+    },
+    {
+      "relative_path": "119.Nerium oleander L/ec50b78bfbf10e292f5c034be826ec83.jpg",
+      "class_index": 118,
+      "class_name": "119.Nerium oleander L"
+    },
+    {
+      "relative_path": "120.Crepidiastrum sonchifolium (Bunge) Pak & Kawano/685e4ed55fae76ecdb1def5a72c1b05e.jpg",
+      "class_index": 119,
+      "class_name": "120.Crepidiastrum sonchifolium (Bunge) Pak & Kawano"
+    },
+    {
+      "relative_path": "120.Crepidiastrum sonchifolium (Bunge) Pak & Kawano/78aa185675d6676769dfc44d3988bbc6.jpg",
+      "class_index": 119,
+      "class_name": "120.Crepidiastrum sonchifolium (Bunge) Pak & Kawano"
+    },
+    {
+      "relative_path": "121.Gynostemma pentaphyllum (Thunb.) Makino/aa67f59934222da5d0b43fed1f616e48.jpg",
+      "class_index": 120,
+      "class_name": "121.Gynostemma pentaphyllum (Thunb.) Makino"
+    },
+    {
+      "relative_path": "121.Gynostemma pentaphyllum (Thunb.) Makino/6c985c8009b7e737dd7eb062871c9b20.jpeg",
+      "class_index": 120,
+      "class_name": "121.Gynostemma pentaphyllum (Thunb.) Makino"
+    },
+    {
+      "relative_path": "122.Sambucus javanica Reinw. ex Blume/53cf7455669c6413000c04c92db27050.jpg",
+      "class_index": 121,
+      "class_name": "122.Sambucus javanica Reinw. ex Blume"
+    },
+    {
+      "relative_path": "122.Sambucus javanica Reinw. ex Blume/4779eabda3e29c97ac08a1bfc355be56.jpg",
+      "class_index": 121,
+      "class_name": "122.Sambucus javanica Reinw. ex Blume"
+    },
+    {
+      "relative_path": "123.Sambucus williamsii Hance/49b2fa7e86ed985c788f6741af5cebf4.jpg",
+      "class_index": 122,
+      "class_name": "123.Sambucus williamsii Hance"
+    },
+    {
+      "relative_path": "123.Sambucus williamsii Hance/baa0a2a96d30ebb78ffbe01478bda1a6.jpg",
+      "class_index": 122,
+      "class_name": "123.Sambucus williamsii Hance"
+    },
+    {
+      "relative_path": "124.Cuscuta japonica Choisy in Zoll/497680404b1f4aa840190ff43b4f4ea2.jpg",
+      "class_index": 123,
+      "class_name": "124.Cuscuta japonica Choisy in Zoll"
+    },
+    {
+      "relative_path": "124.Cuscuta japonica Choisy in Zoll/fd0a86c806cf060815ba79b5374550c3.jpg",
+      "class_index": 123,
+      "class_name": "124.Cuscuta japonica Choisy in Zoll"
+    },
+    {
+      "relative_path": "125.Stephania cephalantha Hayata/433f3149823ae9d4f0f4be97863d437d.jpg",
+      "class_index": 124,
+      "class_name": "125.Stephania cephalantha Hayata"
+    },
+    {
+      "relative_path": "125.Stephania cephalantha Hayata/135e1c0d4829548230ec715dbfb57f26.jpg",
+      "class_index": 124,
+      "class_name": "125.Stephania cephalantha Hayata"
+    },
+    {
+      "relative_path": "126.Rosa laevigata Michx/dc78b3ef4c4d9735494ae43002c44ce2.jpg",
+      "class_index": 125,
+      "class_name": "126.Rosa laevigata Michx"
+    },
+    {
+      "relative_path": "126.Rosa laevigata Michx/f7b2ec7577a4ee75c691e630a2e5d9be.jpg",
+      "class_index": 125,
+      "class_name": "126.Rosa laevigata Michx"
+    },
+    {
+      "relative_path": "127.Lysimachia grammica Hance/a2ac0c0e0c5cbf327db3563a2cb29ede.jpg",
+      "class_index": 126,
+      "class_name": "127.Lysimachia grammica Hance"
+    },
+    {
+      "relative_path": "127.Lysimachia grammica Hance/dfe64f3026d23cc121223a7608fa5364.jpg",
+      "class_index": 126,
+      "class_name": "127.Lysimachia grammica Hance"
+    },
+    {
+      "relative_path": "128.Ajuga decumbens Thunb/46f4bc72ae17dc5ec0c9b1a4f0a3ebc4.jpeg",
+      "class_index": 127,
+      "class_name": "128.Ajuga decumbens Thunb"
+    },
+    {
+      "relative_path": "128.Ajuga decumbens Thunb/d68afdea87db12a774901585bb80f48a.jpg",
+      "class_index": 127,
+      "class_name": "128.Ajuga decumbens Thunb"
+    },
+    {
+      "relative_path": "129.Nepeta cataria L/b69b156fc180ecade6f37921928d6e7b.jpg",
+      "class_index": 128,
+      "class_name": "129.Nepeta cataria L"
+    },
+    {
+      "relative_path": "129.Nepeta cataria L/3d1fd699c231cff5daf3e341369b572e.jpg",
+      "class_index": 128,
+      "class_name": "129.Nepeta cataria L"
+    },
+    {
+      "relative_path": "130.Vicia sativa L/8111fa59ddb0cdb41ca1478b259c1cdb.jpg",
+      "class_index": 129,
+      "class_name": "130.Vicia sativa L"
+    },
+    {
+      "relative_path": "130.Vicia sativa L/2d3ebfa267f4960a4bb71c66a9599d1b.jpg",
+      "class_index": 129,
+      "class_name": "130.Vicia sativa L"
+    },
+    {
+      "relative_path": "131.Platycodon grandiflorus (Jacq.) A. DC/47337ebe05444c208313c8de6fdae807.jpg",
+      "class_index": 130,
+      "class_name": "131.Platycodon grandiflorus (Jacq.) A. DC"
+    },
+    {
+      "relative_path": "131.Platycodon grandiflorus (Jacq.) A. DC/2ca00cf701a877ba008e447f8a290c12.jpg",
+      "class_index": 130,
+      "class_name": "131.Platycodon grandiflorus (Jacq.) A. DC"
+    },
+    {
+      "relative_path": "132.Chrysanthemum morifolium Ramat/028117fabe1cb62ba30e488f2dfe8e26.jpg",
+      "class_index": 131,
+      "class_name": "132.Chrysanthemum morifolium Ramat"
+    },
+    {
+      "relative_path": "132.Chrysanthemum morifolium Ramat/1a7d7cbf05d2b39825e93918c29cef55.jpg",
+      "class_index": 131,
+      "class_name": "132.Chrysanthemum morifolium Ramat"
+    },
+    {
+      "relative_path": "133.Gynura japonica (Thunb.) Juel/d899f9790da27dc881867b61f3771bd8.png",
+      "class_index": 132,
+      "class_name": "133.Gynura japonica (Thunb.) Juel"
+    },
+    {
+      "relative_path": "133.Gynura japonica (Thunb.) Juel/7e633f93051cc4e3821fefddd62b3124.jpg",
+      "class_index": 132,
+      "class_name": "133.Gynura japonica (Thunb.) Juel"
+    },
+    {
+      "relative_path": "134.Selaginella tamariscina (P. Beauv.) Spring/3cedbc845a6570e00990ac39f2cbcc13.jpeg",
+      "class_index": 133,
+      "class_name": "134.Selaginella tamariscina (P. Beauv.) Spring"
+    },
+    {
+      "relative_path": "134.Selaginella tamariscina (P. Beauv.) Spring/74bd32896cbf393037c48a477357434c.jpg",
+      "class_index": 133,
+      "class_name": "134.Selaginella tamariscina (P. Beauv.) Spring"
+    },
+    {
+      "relative_path": "135.Senna tora (L.) Roxb/92a00131e8334c09a74db2dfb4c30aa0.jpg",
+      "class_index": 134,
+      "class_name": "135.Senna tora (L.) Roxb"
+    },
+    {
+      "relative_path": "135.Senna tora (L.) Roxb/c00072b72728233a7c9f641f7c31b70d.jpg",
+      "class_index": 134,
+      "class_name": "135.Senna tora (L.) Roxb"
+    },
+    {
+      "relative_path": "136.Justicia procumbens L/1cef3ddf416813bea5fab119993b8f56.jpeg",
+      "class_index": 135,
+      "class_name": "136.Justicia procumbens L"
+    },
+    {
+      "relative_path": "136.Justicia procumbens L/c89636b054d7e216277f3e2bfad5a268.jpg",
+      "class_index": 135,
+      "class_name": "136.Justicia procumbens L"
+    },
+    {
+      "relative_path": "137.Persicaria perfoliata (L.) H. Gross/5187b8fafc07453b0aa832fef3092f06.jpg",
+      "class_index": 136,
+      "class_name": "137.Persicaria perfoliata (L.) H. Gross"
+    },
+    {
+      "relative_path": "137.Persicaria perfoliata (L.) H. Gross/6ead7032ac469c3fac76bcc5553206bd.jpg",
+      "class_index": 136,
+      "class_name": "137.Persicaria perfoliata (L.) H. Gross"
+    },
+    {
+      "relative_path": "138.Corydalis incisa (Thunb.) Pers/dd3d2f49d638d19399a2311498de3070.jpg",
+      "class_index": 137,
+      "class_name": "138.Corydalis incisa (Thunb.) Pers"
+    },
+    {
+      "relative_path": "138.Corydalis incisa (Thunb.) Pers/f836cb77e1e9407f4ccfb4bcfcfb3986.jpeg",
+      "class_index": 137,
+      "class_name": "138.Corydalis incisa (Thunb.) Pers"
+    },
+    {
+      "relative_path": "139.Sophora flavescens Aiton/e1fe7c8bff154289a55614e51323314b.jpg",
+      "class_index": 138,
+      "class_name": "139.Sophora flavescens Aiton"
+    },
+    {
+      "relative_path": "139.Sophora flavescens Aiton/3258042e99e6a771589a3783fa53a3ab.jpg",
+      "class_index": 138,
+      "class_name": "139.Sophora flavescens Aiton"
+    },
+    {
+      "relative_path": "140.Trichosanthes kirilowii Maxim/09940cf2b1740d1c8fa098e81fbfd0b1.jpg",
+      "class_index": 139,
+      "class_name": "140.Trichosanthes kirilowii Maxim"
+    },
+    {
+      "relative_path": "140.Trichosanthes kirilowii Maxim/ccb17111158c8d334139551bd7844036.jpg",
+      "class_index": 139,
+      "class_name": "140.Trichosanthes kirilowii Maxim"
+    },
+    {
+      "relative_path": "141.Geranium wilfordii Maxim/335dd7bba4af87eb8b3e2b777c7d90d6.jpg",
+      "class_index": 140,
+      "class_name": "141.Geranium wilfordii Maxim"
+    },
+    {
+      "relative_path": "141.Geranium wilfordii Maxim/6dfb63cccd636db6fe33a092a517a3f9.png",
+      "class_index": 140,
+      "class_name": "141.Geranium wilfordii Maxim"
+    },
+    {
+      "relative_path": "142.Amana edulis (Miq.) Honda/bf57dd7c434f144b46c81dc11525fa69.jpg",
+      "class_index": 141,
+      "class_name": "142.Amana edulis (Miq.) Honda"
+    },
+    {
+      "relative_path": "142.Amana edulis (Miq.) Honda/0e52d5dbbdeff9f83f141455b0c228de.jpg",
+      "class_index": 141,
+      "class_name": "142.Amana edulis (Miq.) Honda"
+    },
+    {
+      "relative_path": "143.Viola japonica Langsd. ex DC/242fb2e7c706029c84c41f48603336ce.jpg",
+      "class_index": 142,
+      "class_name": "143.Viola japonica Langsd. ex DC"
+    },
+    {
+      "relative_path": "143.Viola japonica Langsd. ex DC/913f5f511100ddf33dac6f51f2557a1d.jpg",
+      "class_index": 142,
+      "class_name": "143.Viola japonica Langsd. ex DC"
+    },
+    {
+      "relative_path": "144.Chenopodium album L/a3bdfe2832a449dd4d712ad970c43236.jpeg",
+      "class_index": 143,
+      "class_name": "144.Chenopodium album L"
+    },
+    {
+      "relative_path": "144.Chenopodium album L/70f653e320ffa0a147d8f9c8fd2e7f95.jpg",
+      "class_index": 143,
+      "class_name": "144.Chenopodium album L"
+    },
+    {
+      "relative_path": "145.Veratrum nigrum L/db274c07f5dc21f79da23faf9dfa34bf.jpg",
+      "class_index": 144,
+      "class_name": "145.Veratrum nigrum L"
+    },
+    {
+      "relative_path": "145.Veratrum nigrum L/fe245808bc15c2aa6abc01314e2b9c14.jpeg",
+      "class_index": 144,
+      "class_name": "145.Veratrum nigrum L"
+    },
+    {
+      "relative_path": "146.Eclipta prostrata (L.) L/2d0370ddc081bbf2c736a385efbc2abb.jpg",
+      "class_index": 145,
+      "class_name": "146.Eclipta prostrata (L.) L"
+    },
+    {
+      "relative_path": "146.Eclipta prostrata (L.) L/4ebcfa933ae1a441e8edd64825633d1e.jpg",
+      "class_index": 145,
+      "class_name": "146.Eclipta prostrata (L.) L"
+    },
+    {
+      "relative_path": "147.Salvia plebeia R. Br/7e56d187a4d5ca4019198b6a643d7dcf.jpg",
+      "class_index": 146,
+      "class_name": "147.Salvia plebeia R. Br"
+    },
+    {
+      "relative_path": "147.Salvia plebeia R. Br/b56cb48929183871494b55de7d9eb01e.jpg",
+      "class_index": 146,
+      "class_name": "147.Salvia plebeia R. Br"
+    },
+    {
+      "relative_path": "148.Forsythia suspensa (Thunb.) Vahl/1f38a3c43268b8b916656709bf6fba69.jpg",
+      "class_index": 147,
+      "class_name": "148.Forsythia suspensa (Thunb.) Vahl"
+    },
+    {
+      "relative_path": "148.Forsythia suspensa (Thunb.) Vahl/a88798beeec3f1a28a3404ce991b4959.jpg",
+      "class_index": 147,
+      "class_name": "148.Forsythia suspensa (Thunb.) Vahl"
+    },
+    {
+      "relative_path": "149.Hyoscyamus niger L/4650d62247d8f4d28c30a524e8a50f83.jpg",
+      "class_index": 148,
+      "class_name": "149.Hyoscyamus niger L"
+    },
+    {
+      "relative_path": "149.Hyoscyamus niger L/55da465ab145df20be5a1b4bc075dd9f.jpg",
+      "class_index": 148,
+      "class_name": "149.Hyoscyamus niger L"
+    },
+    {
+      "relative_path": "150.Lysimachia congestiflora Hemsl/168065be71fc9acd9770e40a1008bc81.jpg",
+      "class_index": 149,
+      "class_name": "150.Lysimachia congestiflora Hemsl"
+    },
+    {
+      "relative_path": "150.Lysimachia congestiflora Hemsl/2a2d24bf42888477ccc12a19d5c6e625.jpg",
+      "class_index": 149,
+      "class_name": "150.Lysimachia congestiflora Hemsl"
+    },
+    {
+      "relative_path": "151.Solanum nigrum L/f18d4be79765d75a4e54273b8ef31056.jpg",
+      "class_index": 150,
+      "class_name": "151.Solanum nigrum L"
+    },
+    {
+      "relative_path": "151.Solanum nigrum L/3dd859c06601d839e5f4fe3699ed72c2.jpg",
+      "class_index": 150,
+      "class_name": "151.Solanum nigrum L"
+    },
+    {
+      "relative_path": "152.Agrimonia pilosa Ledeb/16ed15a41f44a14b11e7d4c4461db368.jpg",
+      "class_index": 151,
+      "class_name": "152.Agrimonia pilosa Ledeb"
+    },
+    {
+      "relative_path": "152.Agrimonia pilosa Ledeb/788e4864c615aab5e86f858543318243.jpg",
+      "class_index": 151,
+      "class_name": "152.Agrimonia pilosa Ledeb"
+    },
+    {
+      "relative_path": "153.Adenophora tetraphylla (Thunb.) Fisch/12a387b788a1b74b3e6099df61f77c1a.jpg",
+      "class_index": 152,
+      "class_name": "153.Adenophora tetraphylla (Thunb.) Fisch"
+    },
+    {
+      "relative_path": "153.Adenophora tetraphylla (Thunb.) Fisch/80093b9eb6862e74321fdd3a52105a2e.jpg",
+      "class_index": 152,
+      "class_name": "153.Adenophora tetraphylla (Thunb.) Fisch"
+    },
+    {
+      "relative_path": "154.Apocynum venetum L/cfa8165795b96dfd0aa48c13a8bab5bb.jpg",
+      "class_index": 153,
+      "class_name": "154.Apocynum venetum L"
+    },
+    {
+      "relative_path": "154.Apocynum venetum L/8051ddb7433390b6e33fb4256ce030ea.jpg",
+      "class_index": 153,
+      "class_name": "154.Apocynum venetum L"
+    },
+    {
+      "relative_path": "155.Raphanus sativus L/ab1566310f2634f610dcda8b3975682a.jpg",
+      "class_index": 154,
+      "class_name": "155.Raphanus sativus L"
+    },
+    {
+      "relative_path": "155.Raphanus sativus L/3ff137b10daead78100e2b4f08d638ed.jpg",
+      "class_index": 154,
+      "class_name": "155.Raphanus sativus L"
+    },
+    {
+      "relative_path": "156.Cynanchum rostellatum (Turcz.) Liede & Khanum/04b865a7d99cedb4c16cc4001dd11a7a.jpg",
+      "class_index": 155,
+      "class_name": "156.Cynanchum rostellatum (Turcz.) Liede & Khanum"
+    },
+    {
+      "relative_path": "156.Cynanchum rostellatum (Turcz.) Liede & Khanum/fca307a7550f5d97646447bfa4f62565.png",
+      "class_index": 155,
+      "class_name": "156.Cynanchum rostellatum (Turcz.) Liede & Khanum"
+    },
+    {
+      "relative_path": "157.Trachelospermum jasminoides (Lindl.) Lem/5b586d6cd411e2cd6c0d332e25583408.jpg",
+      "class_index": 156,
+      "class_name": "157.Trachelospermum jasminoides (Lindl.) Lem"
+    },
+    {
+      "relative_path": "157.Trachelospermum jasminoides (Lindl.) Lem/39a3ed81f9fdca6cc1dc7f9582c49528.jpg",
+      "class_index": 156,
+      "class_name": "157.Trachelospermum jasminoides (Lindl.) Lem"
+    },
+    {
+      "relative_path": "158.Astilbe chinensis (Maxim.) Franch. & Sav/aeed1b8fdabc710d562990a6ad1e68cb.jpg",
+      "class_index": 157,
+      "class_name": "158.Astilbe chinensis (Maxim.) Franch. & Sav"
+    },
+    {
+      "relative_path": "158.Astilbe chinensis (Maxim.) Franch. & Sav/354cad330545344edff773c7ec3099f7.jpg",
+      "class_index": 157,
+      "class_name": "158.Astilbe chinensis (Maxim.) Franch. & Sav"
+    },
+    {
+      "relative_path": "159.Humulus scandens (Lour.) Merr/c5dc9921a716bbc9c8f6f1f16d5c31a9.jpg",
+      "class_index": 158,
+      "class_name": "159.Humulus scandens (Lour.) Merr"
+    },
+    {
+      "relative_path": "159.Humulus scandens (Lour.) Merr/7af2c880cd7fe6b96b48f80828810129.png",
+      "class_index": 158,
+      "class_name": "159.Humulus scandens (Lour.) Merr"
+    },
+    {
+      "relative_path": "160.Verbena officinalis L/4b4bd88eb28fce3fa99582f68dab2cbb.jpg",
+      "class_index": 159,
+      "class_name": "160.Verbena officinalis L"
+    },
+    {
+      "relative_path": "160.Verbena officinalis L/77125a1b8d0c573e42c3b46d6e3feefb.jpg",
+      "class_index": 159,
+      "class_name": "160.Verbena officinalis L"
+    },
+    {
+      "relative_path": "161.Zehneria indica (Lour.)Keraudren/bebf5672319971e1b3acd14f2b1a1705.jpg",
+      "class_index": 160,
+      "class_name": "161.Zehneria indica (Lour.)Keraudren"
+    },
+    {
+      "relative_path": "161.Zehneria indica (Lour.)Keraudren/65e4aa7cfb608a96ddd2c695ed3c5b05.jpeg",
+      "class_index": 160,
+      "class_name": "161.Zehneria indica (Lour.)Keraudren"
+    },
+    {
+      "relative_path": "162.Portulaca oleracea L/42a5e2da8829229b49d10a2459b42bb6.jpg",
+      "class_index": 161,
+      "class_name": "162.Portulaca oleracea L"
+    },
+    {
+      "relative_path": "162.Portulaca oleracea L/c2012cd2971b4bfd4b0dfa6eae33b21e.png",
+      "class_index": 161,
+      "class_name": "162.Portulaca oleracea L"
+    },
+    {
+      "relative_path": "163.Aristolochia debilis Siebold & Zucc/15d8e5761c68d5c6d716cb222171d7e5.jpg",
+      "class_index": 162,
+      "class_name": "163.Aristolochia debilis Siebold & Zucc"
+    },
+    {
+      "relative_path": "163.Aristolochia debilis Siebold & Zucc/b9f6f4a54ffbd05d99c08e77813bd6d7.jpg",
+      "class_index": 162,
+      "class_name": "163.Aristolochia debilis Siebold & Zucc"
+    },
+    {
+      "relative_path": "164.Baphicacanthus cusia(Nees)Bremek/3feed9d7282e2738a13712867fc3767b.jpeg",
+      "class_index": 163,
+      "class_name": "164.Baphicacanthus cusia(Nees)Bremek"
+    },
+    {
+      "relative_path": "164.Baphicacanthus cusia(Nees)Bremek/249f8fe585b2f901ec05b7b6119342aa.jpg",
+      "class_index": 163,
+      "class_name": "164.Baphicacanthus cusia(Nees)Bremek"
+    },
+    {
+      "relative_path": "165.Ophiopogon japonicus (L. f.) Ker Gawl/aef4d965fcb766bb6972bd66f701ac08.png",
+      "class_index": 164,
+      "class_name": "165.Ophiopogon japonicus (L. f.) Ker Gawl"
+    },
+    {
+      "relative_path": "165.Ophiopogon japonicus (L. f.) Ker Gawl/f383ec318ee113cd9d74057531aaea97.jpg",
+      "class_index": 164,
+      "class_name": "165.Ophiopogon japonicus (L. f.) Ker Gawl"
+    },
+    {
+      "relative_path": "166.Vaccaria segetalis(Neck.)Garcke/c9f9853195445a535a039651ea801381.jpg",
+      "class_index": 165,
+      "class_name": "166.Vaccaria segetalis(Neck.)Garcke"
+    },
+    {
+      "relative_path": "166.Vaccaria segetalis(Neck.)Garcke/97e22a62652afdc78234cabccdfcc26e.jpg",
+      "class_index": 165,
+      "class_name": "166.Vaccaria segetalis(Neck.)Garcke"
+    },
+    {
+      "relative_path": "167.Ranunculus ternatus Thunb/a7d9b6ebaf1236ebeb5cf9b11ec5c1f6.jpg",
+      "class_index": 166,
+      "class_name": "167.Ranunculus ternatus Thunb"
+    },
+    {
+      "relative_path": "167.Ranunculus ternatus Thunb/2141933f1948f1d687ceb68910b80b54.jpg",
+      "class_index": 166,
+      "class_name": "167.Ranunculus ternatus Thunb"
+    },
+    {
+      "relative_path": "168.Ranunculus japonicus Thunb/1622e9683cc33fa8385505cbe2114eb3.jpg",
+      "class_index": 167,
+      "class_name": "168.Ranunculus japonicus Thunb"
+    },
+    {
+      "relative_path": "168.Ranunculus japonicus Thunb/97b7f48293373337006b03f0c366845d.jpg",
+      "class_index": 167,
+      "class_name": "168.Ranunculus japonicus Thunb"
+    },
+    {
+      "relative_path": "169.Spatholobus suberectus Dunn/8cd2de234045c58c988fbbe8a0997c10.jpg",
+      "class_index": 168,
+      "class_name": "169.Spatholobus suberectus Dunn"
+    },
+    {
+      "relative_path": "169.Spatholobus suberectus Dunn/dfd334ed9711e10cb627b1c3f7193c76.jpg",
+      "class_index": 168,
+      "class_name": "169.Spatholobus suberectus Dunn"
+    },
+    {
+      "relative_path": "170.Vitex negundo var. cannabifolia (Siebold & Zucc.) Hand.-Mazz/cb4662a7d15f0ba5b0b4b17fb7e93067.jpg",
+      "class_index": 169,
+      "class_name": "170.Vitex negundo var. cannabifolia (Siebold & Zucc.) Hand.-Mazz"
+    },
+    {
+      "relative_path": "170.Vitex negundo var. cannabifolia (Siebold & Zucc.) Hand.-Mazz/56e639b9e7525e0e671d4cad707d042d.jpg",
+      "class_index": 169,
+      "class_name": "170.Vitex negundo var. cannabifolia (Siebold & Zucc.) Hand.-Mazz"
+    },
+    {
+      "relative_path": "171.Momordica cochinchinensis (Lour.) Spreng/ab498958900e631a1e42de3a495c8a06.jpg",
+      "class_index": 170,
+      "class_name": "171.Momordica cochinchinensis (Lour.) Spreng"
+    },
+    {
+      "relative_path": "171.Momordica cochinchinensis (Lour.) Spreng/3d1dc6ee69115fe37bd846fe3e2fda8f.jpg",
+      "class_index": 170,
+      "class_name": "171.Momordica cochinchinensis (Lour.) Spreng"
+    },
+    {
+      "relative_path": "172.Cocculus orbiculatus (L.) DC/0810461a3fe8dc4a450d9b965b4e91dc.jpg",
+      "class_index": 171,
+      "class_name": "172.Cocculus orbiculatus (L.) DC"
+    },
+    {
+      "relative_path": "172.Cocculus orbiculatus (L.) DC/f7988a27c8bfe2a6f0fed8a7205fc598.jpeg",
+      "class_index": 171,
+      "class_name": "172.Cocculus orbiculatus (L.) DC"
+    },
+    {
+      "relative_path": "173.Oroxylum indicum (L.) Kurz/8034e6c9fa32b0c5e66ac6525a020ace.jpg",
+      "class_index": 172,
+      "class_name": "173.Oroxylum indicum (L.) Kurz"
+    },
+    {
+      "relative_path": "173.Oroxylum indicum (L.) Kurz/63876a009b547f8243a526aecae4b9ac.jpg",
+      "class_index": 172,
+      "class_name": "173.Oroxylum indicum (L.) Kurz"
+    },
+    {
+      "relative_path": "174.Hibiscus syriacus L/bf9868f965211cfa3a4d1cd19169e934.jpg",
+      "class_index": 173,
+      "class_name": "174.Hibiscus syriacus L"
+    },
+    {
+      "relative_path": "174.Hibiscus syriacus L/1b4974a33e90cfb2b482e8656a8de397.jpg",
+      "class_index": 173,
+      "class_name": "174.Hibiscus syriacus L"
+    },
+    {
+      "relative_path": "175.Equisetum hyemale L/16133018b26f320ffca0780f81db79f2.jpg",
+      "class_index": 174,
+      "class_name": "175.Equisetum hyemale L"
+    },
+    {
+      "relative_path": "175.Equisetum hyemale L/5cb1f8d7e94b82734890ecd9e7988e0b.jpg",
+      "class_index": 174,
+      "class_name": "175.Equisetum hyemale L"
+    },
+    {
+      "relative_path": "176.Nandina domestica Thunb/cf74085e306a61b26c8cecb3993e3d28.jpg",
+      "class_index": 175,
+      "class_name": "176.Nandina domestica Thunb"
+    },
+    {
+      "relative_path": "176.Nandina domestica Thunb/ab10dceb76faa30fa62fdf212fed7e5b.jpg",
+      "class_index": 175,
+      "class_name": "176.Nandina domestica Thunb"
+    },
+    {
+      "relative_path": "177.Arctium lappa L/072665324fc1a42d745f35077e3a25ea.jpg",
+      "class_index": 176,
+      "class_name": "177.Arctium lappa L"
+    },
+    {
+      "relative_path": "177.Arctium lappa L/837a10dc808cafdea76a91dba98eb1f7.jpg",
+      "class_index": 176,
+      "class_name": "177.Arctium lappa L"
+    },
+    {
+      "relative_path": "178.Achyranthes bidentata Blume/2c592c4c4527171d729aa0dfbc3eceba.jpg",
+      "class_index": 177,
+      "class_name": "178.Achyranthes bidentata Blume"
+    },
+    {
+      "relative_path": "178.Achyranthes bidentata Blume/a53a0abe87e102375b19f33e0ada5d3f.jpg",
+      "class_index": 177,
+      "class_name": "178.Achyranthes bidentata Blume"
+    },
+    {
+      "relative_path": "179.Origanum vulgare L/35156d1e22b0cb669c66007778289ebf.jpg",
+      "class_index": 178,
+      "class_name": "179.Origanum vulgare L"
+    },
+    {
+      "relative_path": "179.Origanum vulgare L/ee022814a184d459e21e3d027c673e1a.jpg",
+      "class_index": 178,
+      "class_name": "179.Origanum vulgare L"
+    },
+    {
+      "relative_path": "180.Ligustrum lucidum W. T. Aiton/be29e534f76114750e2b1b6b33300e5e.jpg",
+      "class_index": 179,
+      "class_name": "180.Ligustrum lucidum W. T. Aiton"
+    },
+    {
+      "relative_path": "180.Ligustrum lucidum W. T. Aiton/ca173d5dccc177cfb1c459628210e2fd.jpg",
+      "class_index": 179,
+      "class_name": "180.Ligustrum lucidum W. T. Aiton"
+    },
+    {
+      "relative_path": "181.Eupatorium fortunei Turcz/dd99af33179ad3bea197fda444430e64.jpeg",
+      "class_index": 180,
+      "class_name": "181.Eupatorium fortunei Turcz"
+    },
+    {
+      "relative_path": "181.Eupatorium fortunei Turcz/cbe5b189f25fb5b12456a835c0349b68.jpg",
+      "class_index": 180,
+      "class_name": "181.Eupatorium fortunei Turcz"
+    },
+    {
+      "relative_path": "182.Eriobotrya japonica (Thunb.) Lindl/a498a6740280a8ccb5f22227aaa82383.jpg",
+      "class_index": 181,
+      "class_name": "182.Eriobotrya japonica (Thunb.) Lindl"
+    },
+    {
+      "relative_path": "182.Eriobotrya japonica (Thunb.) Lindl/643154c68762f0c438dbd2d771cf18aa.jpg",
+      "class_index": 181,
+      "class_name": "182.Eriobotrya japonica (Thunb.) Lindl"
+    },
+    {
+      "relative_path": "183.Sinosenecio oldhamianus (Maxim.) B. Nord/5e2b31fb4fe5dc9c3d20182e1c4016db.jpg",
+      "class_index": 182,
+      "class_name": "183.Sinosenecio oldhamianus (Maxim.) B. Nord"
+    },
+    {
+      "relative_path": "183.Sinosenecio oldhamianus (Maxim.) B. Nord/a7388428506cee33611efff94e5e7a58.jpg",
+      "class_index": 182,
+      "class_name": "183.Sinosenecio oldhamianus (Maxim.) B. Nord"
+    },
+    {
+      "relative_path": "184.Taraxacum mongolicum Hand.-Mazz/eede0ee7b8efa1ddefdb45be1fcfef74.jpg",
+      "class_index": 183,
+      "class_name": "184.Taraxacum mongolicum Hand.-Mazz"
+    },
+    {
+      "relative_path": "184.Taraxacum mongolicum Hand.-Mazz/74815de84634f754b9e2e42ab5a9c84a.jpg",
+      "class_index": 183,
+      "class_name": "184.Taraxacum mongolicum Hand.-Mazz"
+    },
+    {
+      "relative_path": "185.Viola diffusa Ging. in DC/ec770eb50729d04e6fd5fc51104ddde6.jpg",
+      "class_index": 184,
+      "class_name": "185.Viola diffusa Ging. in DC"
+    },
+    {
+      "relative_path": "185.Viola diffusa Ging. in DC/6c2aa2cdaaac47be548b7bba3c8afef8.jpg",
+      "class_index": 184,
+      "class_name": "185.Viola diffusa Ging. in DC"
+    },
+    {
+      "relative_path": "186.Paris polyphylla Sm/61f53debb8268bea73a7f52144c95e91.jpg",
+      "class_index": 185,
+      "class_name": "186.Paris polyphylla Sm"
+    },
+    {
+      "relative_path": "186.Paris polyphylla Sm/0d8f55964916577b3017512e66ed01b2.jpg",
+      "class_index": 185,
+      "class_name": "186.Paris polyphylla Sm"
+    },
+    {
+      "relative_path": "187.Capsella bursa-pastoris (L.) Medik/07b7bcd295e2c3dfab2a236ca9e9a4c5.jpg",
+      "class_index": 186,
+      "class_name": "187.Capsella bursa-pastoris (L.) Medik"
+    },
+    {
+      "relative_path": "187.Capsella bursa-pastoris (L.) Medik/c1dceaf08e25a91638f2f0b73b0f9abd.jpg",
+      "class_index": 186,
+      "class_name": "187.Capsella bursa-pastoris (L.) Medik"
+    },
+    {
+      "relative_path": "188.Adenophora trachelioides Maxim/99fb4c45738c5b4b4a0d81c7c44322db.jpg",
+      "class_index": 187,
+      "class_name": "188.Adenophora trachelioides Maxim"
+    },
+    {
+      "relative_path": "188.Adenophora trachelioides Maxim/0f51fe6c1d234277d77992ee26d555ee.jpg",
+      "class_index": 187,
+      "class_name": "188.Adenophora trachelioides Maxim"
+    },
+    {
+      "relative_path": "189.Senecio scandens Buch.-Ham. ex D. Don/3b9428ff533cbc608092da136dc12801.jpg",
+      "class_index": 188,
+      "class_name": "189.Senecio scandens Buch.-Ham. ex D. Don"
+    },
+    {
+      "relative_path": "189.Senecio scandens Buch.-Ham. ex D. Don/80c4bc59bd4a9fd34cf3ba8c01737d24.jpg",
+      "class_index": 188,
+      "class_name": "189.Senecio scandens Buch.-Ham. ex D. Don"
+    },
+    {
+      "relative_path": "190.Ipomoea nil (L.) Roth/e022bc310f617c7e4677f785bf4258ee.jpg",
+      "class_index": 189,
+      "class_name": "190.Ipomoea nil (L.) Roth"
+    },
+    {
+      "relative_path": "190.Ipomoea nil (L.) Roth/b33041180a05569a91dee4b928b40751.jpg",
+      "class_index": 189,
+      "class_name": "190.Ipomoea nil (L.) Roth"
+    },
+    {
+      "relative_path": "191.Peucedanum praeruptorum Dunn/4ae4dddebfdc6e1c4fbdc8d582530104.png",
+      "class_index": 190,
+      "class_name": "191.Peucedanum praeruptorum Dunn"
+    },
+    {
+      "relative_path": "191.Peucedanum praeruptorum Dunn/71c04e1148ced5b377c7228ae69c83e8.jpg",
+      "class_index": 190,
+      "class_name": "191.Peucedanum praeruptorum Dunn"
+    },
+    {
+      "relative_path": "192.Euryale ferox Salisb. ex K. D. Koenig & Sims/d542182a6c470a9958a9f2acaa9e5763.jpg",
+      "class_index": 191,
+      "class_name": "192.Euryale ferox Salisb. ex K. D. Koenig & Sims"
+    },
+    {
+      "relative_path": "192.Euryale ferox Salisb. ex K. D. Koenig & Sims/2368ff6af9198da3750be0d35b868501.jpg",
+      "class_index": 191,
+      "class_name": "192.Euryale ferox Salisb. ex K. D. Koenig & Sims"
+    },
+    {
+      "relative_path": "193.Rubia  cordifolia L/d7265655cb149a2ed456567b929487a5.jpg",
+      "class_index": 192,
+      "class_name": "193.Rubia  cordifolia L"
+    },
+    {
+      "relative_path": "193.Rubia  cordifolia L/965ec3bb6cfc7bd9aa6085799d0f9cee.jpg",
+      "class_index": 192,
+      "class_name": "193.Rubia  cordifolia L"
+    },
+    {
+      "relative_path": "194.Fagopyrum esculentum Moench/246da3330e37bd5e0e4ccef98f3e9663.jpg",
+      "class_index": 193,
+      "class_name": "194.Fagopyrum esculentum Moench"
+    },
+    {
+      "relative_path": "194.Fagopyrum esculentum Moench/266a5c21fc01784fe433df1846017795.jpg",
+      "class_index": 193,
+      "class_name": "194.Fagopyrum esculentum Moench"
+    },
+    {
+      "relative_path": "195.Cardiocrinum cathayanum (E. H. Wilson) Stearn/e5f80e42f4c22cc85627af71e5442499.jpg",
+      "class_index": 194,
+      "class_name": "195.Cardiocrinum cathayanum (E. H. Wilson) Stearn"
+    },
+    {
+      "relative_path": "195.Cardiocrinum cathayanum (E. H. Wilson) Stearn/7a594770b104bb82939cd15ec2a0cc6a.jpg",
+      "class_index": 194,
+      "class_name": "195.Cardiocrinum cathayanum (E. H. Wilson) Stearn"
+    },
+    {
+      "relative_path": "196.Torilis scabra (Thunb.) DC/cf7efaacc343a5334c3e2eea5a35dd87.jpg",
+      "class_index": 195,
+      "class_name": "196.Torilis scabra (Thunb.) DC"
+    },
+    {
+      "relative_path": "196.Torilis scabra (Thunb.) DC/360cbf148b9659505d751076c1f48d6b.jpg",
+      "class_index": 195,
+      "class_name": "196.Torilis scabra (Thunb.) DC"
+    },
+    {
+      "relative_path": "197.Abutilon theophrasti Medikus/19c5af9dcde8f1cff72ba539614a44e7.jpg",
+      "class_index": 196,
+      "class_name": "197.Abutilon theophrasti Medikus"
+    },
+    {
+      "relative_path": "197.Abutilon theophrasti Medikus/f6a5809062d1a74d11d2d95e8640441c.jpg",
+      "class_index": 196,
+      "class_name": "197.Abutilon theophrasti Medikus"
+    },
+    {
+      "relative_path": "198.Dianthus superbus L/36e0288f46e843b13e95718d626c72aa.jpg",
+      "class_index": 197,
+      "class_name": "198.Dianthus superbus L"
+    },
+    {
+      "relative_path": "198.Dianthus superbus L/9fe7a5ea425fd012833aa95183505104.jpg",
+      "class_index": 197,
+      "class_name": "198.Dianthus superbus L"
+    },
+    {
+      "relative_path": "199.P.bistorta L/6e72975577c66135c2aa1fe9f63b636b.jpg",
+      "class_index": 198,
+      "class_name": "199.P.bistorta L"
+    },
+    {
+      "relative_path": "199.P.bistorta L/179aea637e6f014dabd43e395de26240.jpeg",
+      "class_index": 198,
+      "class_name": "199.P.bistorta L"
+    },
+    {
+      "relative_path": "200.Panax ginseng C. A. Mey/8b53e36707d69ba0a4001224fb219136.jpg",
+      "class_index": 199,
+      "class_name": "200.Panax ginseng C. A. Mey"
+    },
+    {
+      "relative_path": "200.Panax ginseng C. A. Mey/1dcda24902824018f753a29929d864a2.jpg",
+      "class_index": 199,
+      "class_name": "200.Panax ginseng C. A. Mey"
+    },
+    {
+      "relative_path": "201.Lonicera japonica Thunb/3545099f6e8f0907abffa9efb1ceb133.jpg",
+      "class_index": 200,
+      "class_name": "201.Lonicera japonica Thunb"
+    },
+    {
+      "relative_path": "201.Lonicera japonica Thunb/da0c348ac1dc51b5d30a7d0e19554836.jpg",
+      "class_index": 200,
+      "class_name": "201.Lonicera japonica Thunb"
+    },
+    {
+      "relative_path": "202.Euphorbia esula L/f48c0e316e9c152ddcdf90b981b17c39.jpg",
+      "class_index": 201,
+      "class_name": "202.Euphorbia esula L"
+    },
+    {
+      "relative_path": "202.Euphorbia esula L/76586434f2273750dd79cfdd0587f03d.png",
+      "class_index": 201,
+      "class_name": "202.Euphorbia esula L"
+    },
+    {
+      "relative_path": "203.Saururus chinensis (Lour.) Baill/b1000a18bd8535f9d88cd3a6bc9e122c.jpg",
+      "class_index": 202,
+      "class_name": "203.Saururus chinensis (Lour.) Baill"
+    },
+    {
+      "relative_path": "203.Saururus chinensis (Lour.) Baill/1f5867eebca257ee4bfb2d9765ef4653.jpg",
+      "class_index": 202,
+      "class_name": "203.Saururus chinensis (Lour.) Baill"
+    },
+    {
+      "relative_path": "204.Coptis deltoidea C. Y. Cheng & P. G. Xiao/51c6e8a84d54834520714df2ce82148f.jpg",
+      "class_index": 203,
+      "class_name": "204.Coptis deltoidea C. Y. Cheng & P. G. Xiao"
+    },
+    {
+      "relative_path": "204.Coptis deltoidea C. Y. Cheng & P. G. Xiao/891c01a7f38f37f106bbc7865aef7b7b.jpg",
+      "class_index": 203,
+      "class_name": "204.Coptis deltoidea C. Y. Cheng & P. G. Xiao"
+    },
+    {
+      "relative_path": "205.Panax notoginseng (Burkill) F. H. Chen ex C. H. Chow/baf2bdf3cdb6e70cda4a7c5983b29499.jpg",
+      "class_index": 204,
+      "class_name": "205.Panax notoginseng (Burkill) F. H. Chen ex C. H. Chow"
+    },
+    {
+      "relative_path": "205.Panax notoginseng (Burkill) F. H. Chen ex C. H. Chow/d1ac9b08f7083c0e7574b919d8dcee3e.jpg",
+      "class_index": 204,
+      "class_name": "205.Panax notoginseng (Burkill) F. H. Chen ex C. H. Chow"
+    },
+    {
+      "relative_path": "206.Morus alba L/120c03839705a5637702c032a41a4821.jpg",
+      "class_index": 205,
+      "class_name": "206.Morus alba L"
+    },
+    {
+      "relative_path": "206.Morus alba L/a26b6a618ae60512d201c359ba75fe58.jpg",
+      "class_index": 205,
+      "class_name": "206.Morus alba L"
+    },
+    {
+      "relative_path": "207.Cornus officinalis Sieb. & Zucc/c55c9dcc39b0f2b3d2cf9e4521aa2ce7.jpg",
+      "class_index": 206,
+      "class_name": "207.Cornus officinalis Sieb. & Zucc"
+    },
+    {
+      "relative_path": "207.Cornus officinalis Sieb. & Zucc/3efb7cea5e111a935fe2c4936222c805.jpg",
+      "class_index": 206,
+      "class_name": "207.Cornus officinalis Sieb. & Zucc"
+    },
+    {
+      "relative_path": "208.Glehnia littoralis F. Schmidt ex Miq/731df9604a5806cce43ab22f6f4feea6.jpg",
+      "class_index": 207,
+      "class_name": "208.Glehnia littoralis F. Schmidt ex Miq"
+    },
+    {
+      "relative_path": "208.Glehnia littoralis F. Schmidt ex Miq/8cf1c42d2a1b5aa8540de811744351d7.jpeg",
+      "class_index": 207,
+      "class_name": "208.Glehnia littoralis F. Schmidt ex Miq"
+    },
+    {
+      "relative_path": "209.Solanum pseudocapsicum L/7221569cc63ee83e60651af404ba69e1.jpg",
+      "class_index": 208,
+      "class_name": "209.Solanum pseudocapsicum L"
+    },
+    {
+      "relative_path": "209.Solanum pseudocapsicum L/ba892c074ff80ab9eb69dbbb74944cfc.jpg",
+      "class_index": 208,
+      "class_name": "209.Solanum pseudocapsicum L"
+    },
+    {
+      "relative_path": "210.Phytolacca acinosa Roxb/23cdc7711af9046042388b1343979d02.jpg",
+      "class_index": 209,
+      "class_name": "210.Phytolacca acinosa Roxb"
+    },
+    {
+      "relative_path": "210.Phytolacca acinosa Roxb/90a2ba7ff27cbc837a4c8593af903bae.jpg",
+      "class_index": 209,
+      "class_name": "210.Phytolacca acinosa Roxb"
+    },
+    {
+      "relative_path": "211.Paeonia lactiflora Pall/201b8fc3e3d8787e06a7e5824c566dc3.jpg",
+      "class_index": 210,
+      "class_name": "211.Paeonia lactiflora Pall"
+    },
+    {
+      "relative_path": "211.Paeonia lactiflora Pall/4fa2b924a49a0d5bc21ced341a4cc96c.jpg",
+      "class_index": 210,
+      "class_name": "211.Paeonia lactiflora Pall"
+    },
+    {
+      "relative_path": "212.Corydalis ophiocarpa Hook. f. & Thomson/d2fbb9d9d0da7300418cde88951e864c.jpg",
+      "class_index": 211,
+      "class_name": "212.Corydalis ophiocarpa Hook. f. & Thomson"
+    },
+    {
+      "relative_path": "212.Corydalis ophiocarpa Hook. f. & Thomson/ce246e7945eb74ac889e16b71ddc4f10.jpg",
+      "class_index": 211,
+      "class_name": "212.Corydalis ophiocarpa Hook. f. & Thomson"
+    },
+    {
+      "relative_path": "213.Belamcanda chinensis (L.) Redouté/d2a4f2a4913ca6dc777577d5f7cfdaa8.jpeg",
+      "class_index": 212,
+      "class_name": "213.Belamcanda chinensis (L.) Redouté"
+    },
+    {
+      "relative_path": "213.Belamcanda chinensis (L.) Redouté/2a0b3355dcb52ac77276ca21004d3306.jpeg",
+      "class_index": 212,
+      "class_name": "213.Belamcanda chinensis (L.) Redouté"
+    },
+    {
+      "relative_path": "214.Actaea cimicifuga L/6c1d012d87156139118c7981e93b7e85.jpg",
+      "class_index": 213,
+      "class_name": "214.Actaea cimicifuga L"
+    },
+    {
+      "relative_path": "214.Actaea cimicifuga L/2d0f6061eab5d4e81659695720688205.jpg",
+      "class_index": 213,
+      "class_name": "214.Actaea cimicifuga L"
+    },
+    {
+      "relative_path": "215.Staphylea bumalda DC/4f7d0f486cb54c17d8ac0ed6010aaa67.jpg",
+      "class_index": 214,
+      "class_name": "215.Staphylea bumalda DC"
+    },
+    {
+      "relative_path": "215.Staphylea bumalda DC/729492cc08a0aa06ec12f2dd4445e83c.jpg",
+      "class_index": 214,
+      "class_name": "215.Staphylea bumalda DC"
+    },
+    {
+      "relative_path": "216.Mahonia fortunei (Lindl.) Fedde/b47ec35252517ca56b85fe7a62be69a7.jpg",
+      "class_index": 215,
+      "class_name": "216.Mahonia fortunei (Lindl.) Fedde"
+    },
+    {
+      "relative_path": "216.Mahonia fortunei (Lindl.) Fedde/d73db38714f95f3a61eeed075aed4e58.jpg",
+      "class_index": 215,
+      "class_name": "216.Mahonia fortunei (Lindl.) Fedde"
+    },
+    {
+      "relative_path": "217.Centipeda minima (L.) A. Braun & Asch/055c8f7120e9ea442699326405b3ebe0.jpeg",
+      "class_index": 216,
+      "class_name": "217.Centipeda minima (L.) A. Braun & Asch"
+    },
+    {
+      "relative_path": "217.Centipeda minima (L.) A. Braun & Asch/c815d018ffd384d5d213d85e78a7f0c8.jpg",
+      "class_index": 216,
+      "class_name": "217.Centipeda minima (L.) A. Braun & Asch"
+    },
+    {
+      "relative_path": "218.Ranunculus sceleratus L/6035d2bbe61d751110d66dc5d2268df7.jpg",
+      "class_index": 217,
+      "class_name": "218.Ranunculus sceleratus L"
+    },
+    {
+      "relative_path": "218.Ranunculus sceleratus L/bbc527d6fda43ba4949dfd73fbafb09e.jpg",
+      "class_index": 217,
+      "class_name": "218.Ranunculus sceleratus L"
+    },
+    {
+      "relative_path": "219.Lycoris radiata (L'Hér.) Herb/13607559c9d739afe6785e03748e4a17.jpg",
+      "class_index": 218,
+      "class_name": "219.Lycoris radiata (L'Hér.) Herb"
+    },
+    {
+      "relative_path": "219.Lycoris radiata (L'Hér.) Herb/8484ecb734059d7141de186fc79cdb54.jpg",
+      "class_index": 218,
+      "class_name": "219.Lycoris radiata (L'Hér.) Herb"
+    },
+    {
+      "relative_path": "220.Pyrrosia lingua (Thunb.) Farw/e979933a81b834e894fc369e94f10e48.jpg",
+      "class_index": 219,
+      "class_name": "220.Pyrrosia lingua (Thunb.) Farw"
+    },
+    {
+      "relative_path": "220.Pyrrosia lingua (Thunb.) Farw/2295ee11dd8fd20aa829e96adbf3cf5a.jpg",
+      "class_index": 219,
+      "class_name": "220.Pyrrosia lingua (Thunb.) Farw"
+    },
+    {
+      "relative_path": "221.Dianthus chinensis L/57dac5bcd22f605ba32022f04439a14a.jpg",
+      "class_index": 220,
+      "class_name": "221.Dianthus chinensis L"
+    },
+    {
+      "relative_path": "221.Dianthus chinensis L/5f39f417a4e38919d9109bdf5c267cc3.jpg",
+      "class_index": 220,
+      "class_name": "221.Dianthus chinensis L"
+    },
+    {
+      "relative_path": "222.Pseudognaphalium affine (D. Don) Anderb/53c6d4ba25c1d51cb2ec2d8e968b1e69.jpg",
+      "class_index": 221,
+      "class_name": "222.Pseudognaphalium affine (D. Don) Anderb"
+    },
+    {
+      "relative_path": "222.Pseudognaphalium affine (D. Don) Anderb/1be05195a6e2cb4aba9e38dcf9163b8c.jpg",
+      "class_index": 221,
+      "class_name": "222.Pseudognaphalium affine (D. Don) Anderb"
+    },
+    {
+      "relative_path": "223.Dioscorea polystachya Turcz/a2369262a19e0cc5c413f7425ffb7cc7.jpg",
+      "class_index": 222,
+      "class_name": "223.Dioscorea polystachya Turcz"
+    },
+    {
+      "relative_path": "223.Dioscorea polystachya Turcz/93be755f7e79e918f029a1c4ac006edd.jpg",
+      "class_index": 222,
+      "class_name": "223.Dioscorea polystachya Turcz"
+    },
+    {
+      "relative_path": "224.Persicaria hydropiper (L.) Spach/31620085f2424d7c0e433ef6deb37d91.jpg",
+      "class_index": 223,
+      "class_name": "224.Persicaria hydropiper (L.) Spach"
+    },
+    {
+      "relative_path": "224.Persicaria hydropiper (L.) Spach/a866cdbd6291b8feaa0e68f71bdbe9dd.jpg",
+      "class_index": 223,
+      "class_name": "224.Persicaria hydropiper (L.) Spach"
+    },
+    {
+      "relative_path": "225.Isatis tinctoria L/3196a5c8baca4dc0f27d0bb9b8974c4e.jpg",
+      "class_index": 224,
+      "class_name": "225.Isatis tinctoria L"
+    },
+    {
+      "relative_path": "225.Isatis tinctoria L/afa237bf49c88198bad8047b39537c55.jpg",
+      "class_index": 224,
+      "class_name": "225.Isatis tinctoria L"
+    },
+    {
+      "relative_path": "226.Cycas revoluta Thunb/ca4bd63cf44c9ea18418fc8122d8bfad.jpg",
+      "class_index": 225,
+      "class_name": "226.Cycas revoluta Thunb"
+    },
+    {
+      "relative_path": "226.Cycas revoluta Thunb/7b722e53b14101bb4e244c1ac555706c.jpeg",
+      "class_index": 225,
+      "class_name": "226.Cycas revoluta Thunb"
+    },
+    {
+      "relative_path": "227.Isodon rubescens (Hemsl.) H. Hara/cf3527f0694ed62a246ae34308240d50.jpeg",
+      "class_index": 226,
+      "class_name": "227.Isodon rubescens (Hemsl.) H. Hara"
+    },
+    {
+      "relative_path": "227.Isodon rubescens (Hemsl.) H. Hara/924d30b8a133497c99dd45e3ef539f98.jpg",
+      "class_index": 226,
+      "class_name": "227.Isodon rubescens (Hemsl.) H. Hara"
+    },
+    {
+      "relative_path": "228.Semiaquilegia adoxoides (DC.) Makino/095174fb16470f9c354bd0766ca7f1a4.jpg",
+      "class_index": 227,
+      "class_name": "228.Semiaquilegia adoxoides (DC.) Makino"
+    },
+    {
+      "relative_path": "228.Semiaquilegia adoxoides (DC.) Makino/29889020a2a19d6d944ae379732e9f77.jpg",
+      "class_index": 227,
+      "class_name": "228.Semiaquilegia adoxoides (DC.) Makino"
+    },
+    {
+      "relative_path": "229.Gastrodia elata Bl/c570d7e36581a5a67f7a118799a9512f.jpeg",
+      "class_index": 228,
+      "class_name": "229.Gastrodia elata Bl"
+    },
+    {
+      "relative_path": "229.Gastrodia elata Bl/2b81ac2172a1a905625043ec4d01de73.jpg",
+      "class_index": 228,
+      "class_name": "229.Gastrodia elata Bl"
+    },
+    {
+      "relative_path": "230.Asparagus cochinchinensis (Lour.) Merr/4adb81723e388f327a9011fec7066223.jpg",
+      "class_index": 229,
+      "class_name": "230.Asparagus cochinchinensis (Lour.) Merr"
+    },
+    {
+      "relative_path": "230.Asparagus cochinchinensis (Lour.) Merr/4debf3cd7abd9c10fa1f8799d87c5f74.jpg",
+      "class_index": 229,
+      "class_name": "230.Asparagus cochinchinensis (Lour.) Merr"
+    },
+    {
+      "relative_path": "231.Carpesium abrotanoides L/7e0f8ab5f83ea56104b80d391dff1260.jpg",
+      "class_index": 230,
+      "class_name": "231.Carpesium abrotanoides L"
+    },
+    {
+      "relative_path": "231.Carpesium abrotanoides L/64507d3e16b6c92e76fd7052c37f99da.jpg",
+      "class_index": 230,
+      "class_name": "231.Carpesium abrotanoides L"
+    },
+    {
+      "relative_path": "232.Arisaema heterophyllum Blume/59a6825a616e461402dabcedc48a7c26.jpg",
+      "class_index": 231,
+      "class_name": "232.Arisaema heterophyllum Blume"
+    },
+    {
+      "relative_path": "232.Arisaema heterophyllum Blume/26d593b1b8627d9372ad8297c07e58a8.jpg",
+      "class_index": 231,
+      "class_name": "232.Arisaema heterophyllum Blume"
+    },
+    {
+      "relative_path": "233.Convolvulus arvensis L/dd5d84d219b6eeefb3661337dd7df79e.jpg",
+      "class_index": 232,
+      "class_name": "233.Convolvulus arvensis L"
+    },
+    {
+      "relative_path": "233.Convolvulus arvensis L/8df4bc658a948d19a4b76c3bceb42832.jpg",
+      "class_index": 232,
+      "class_name": "233.Convolvulus arvensis L"
+    },
+    {
+      "relative_path": "234.Acalypha australis L/b247223504b60217c5930af1e6a6a6e5.jpg",
+      "class_index": 233,
+      "class_name": "234.Acalypha australis L"
+    },
+    {
+      "relative_path": "234.Acalypha australis L/d2f4d2699a7946b3a675c7108641812d.jpg",
+      "class_index": 233,
+      "class_name": "234.Acalypha australis L"
+    },
+    {
+      "relative_path": "235.Clematis florida Thunb/1acd0fe92d9e4017464f77a068964bc8.jpg",
+      "class_index": 234,
+      "class_name": "235.Clematis florida Thunb"
+    },
+    {
+      "relative_path": "235.Clematis florida Thunb/f185c6a7a27822a8287a0baf2293b860.jpg",
+      "class_index": 234,
+      "class_name": "235.Clematis florida Thunb"
+    },
+    {
+      "relative_path": "236.Draba nemorosa L/557c90264a3869fbe1d2b9d3aa028eb0.jpg",
+      "class_index": 235,
+      "class_name": "236.Draba nemorosa L"
+    },
+    {
+      "relative_path": "236.Draba nemorosa L/33db51a11d077de9e3f855b186043bea.jpg",
+      "class_index": 235,
+      "class_name": "236.Draba nemorosa L"
+    },
+    {
+      "relative_path": "237.Mazus pumilus (Burm. f.) Steenis/5a9a19d78d2f715025a95f00d08b5b8a.jpg",
+      "class_index": 236,
+      "class_name": "237.Mazus pumilus (Burm. f.) Steenis"
+    },
+    {
+      "relative_path": "237.Mazus pumilus (Burm. f.) Steenis/e0dc8dfa273f01b34b685676d88b39ab.jpg",
+      "class_index": 236,
+      "class_name": "237.Mazus pumilus (Burm. f.) Steenis"
+    },
+    {
+      "relative_path": "238.Tetrapanax papyrifer (Hook.) K. Koch/560460741ee2551d97b2fe3eb9fd269e.jpg",
+      "class_index": 237,
+      "class_name": "238.Tetrapanax papyrifer (Hook.) K. Koch"
+    },
+    {
+      "relative_path": "238.Tetrapanax papyrifer (Hook.) K. Koch/7a4c79fcd99192f064b6d5edea48afb0.jpg",
+      "class_index": 237,
+      "class_name": "238.Tetrapanax papyrifer (Hook.) K. Koch"
+    },
+    {
+      "relative_path": "239.Pilea pumila (L.) A. Gray/28abbe3f487d75e4928d08034ab6b9dc.jpg",
+      "class_index": 238,
+      "class_name": "239.Pilea pumila (L.) A. Gray"
+    },
+    {
+      "relative_path": "239.Pilea pumila (L.) A. Gray/70d3ddcaf949aea9643fdbf7662b5690.jpg",
+      "class_index": 238,
+      "class_name": "239.Pilea pumila (L.) A. Gray"
+    },
+    {
+      "relative_path": "240.Talinum paniculatum (Jacq.) Gaertn/b288192889eded134a97572459131664.jpg",
+      "class_index": 239,
+      "class_name": "240.Talinum paniculatum (Jacq.) Gaertn"
+    },
+    {
+      "relative_path": "240.Talinum paniculatum (Jacq.) Gaertn/81d3059962b4dfe464f4e27540730c01.jpeg",
+      "class_index": 239,
+      "class_name": "240.Talinum paniculatum (Jacq.) Gaertn"
+    },
+    {
+      "relative_path": "241.Syneilesis aconitifolia (Bunge) Maxim/e4caaeadbe07b15f11b09ef7887e503d.jpg",
+      "class_index": 240,
+      "class_name": "241.Syneilesis aconitifolia (Bunge) Maxim"
+    },
+    {
+      "relative_path": "241.Syneilesis aconitifolia (Bunge) Maxim/a8dde07795311405a6fa3e7dbf64b994.jpg",
+      "class_index": 240,
+      "class_name": "241.Syneilesis aconitifolia (Bunge) Maxim"
+    },
+    {
+      "relative_path": "242.Cuscuta chinensis Lam/fb0626d4761ec9b4a5a8829cd62fada4.jpg",
+      "class_index": 241,
+      "class_name": "242.Cuscuta chinensis Lam"
+    },
+    {
+      "relative_path": "242.Cuscuta chinensis Lam/9c7aca85f30a0b84c636c27ed630e0e0.jpg",
+      "class_index": 241,
+      "class_name": "242.Cuscuta chinensis Lam"
+    },
+    {
+      "relative_path": "243.Orostachys fimbriata (Turcz.) A. Berger/7c0aea53a5a02f3f97e1d2b3e108c8a8.jpg",
+      "class_index": 242,
+      "class_name": "243.Orostachys fimbriata (Turcz.) A. Berger"
+    },
+    {
+      "relative_path": "243.Orostachys fimbriata (Turcz.) A. Berger/a67c96709b246c089b5837670738f079.jpg",
+      "class_index": 242,
+      "class_name": "243.Orostachys fimbriata (Turcz.) A. Berger"
+    },
+    {
+      "relative_path": "244.Lepisorus thunbergianus (Kaulf.) Ching/31bb87b5e8b56fd399bb9c1fe5b84a0b.jpg",
+      "class_index": 243,
+      "class_name": "244.Lepisorus thunbergianus (Kaulf.) Ching"
+    },
+    {
+      "relative_path": "244.Lepisorus thunbergianus (Kaulf.) Ching/679d103d9b490f33a269034ec76f8103.jpg",
+      "class_index": 243,
+      "class_name": "244.Lepisorus thunbergianus (Kaulf.) Ching"
+    },
+    {
+      "relative_path": "245.Euonymus alatus (Thunb.) Siebold/0811bfaefbbcebea703a5dce549c286f.jpeg",
+      "class_index": 244,
+      "class_name": "245.Euonymus alatus (Thunb.) Siebold"
+    },
+    {
+      "relative_path": "245.Euonymus alatus (Thunb.) Siebold/1d12dda3a7dc3b78e6e2cc668397ba56.jpg",
+      "class_index": 244,
+      "class_name": "245.Euonymus alatus (Thunb.) Siebold"
+    },
+    {
+      "relative_path": "246.Equisetum arvense L/71faef6623988e2482bc504237d85bcf.jpg",
+      "class_index": 245,
+      "class_name": "246.Equisetum arvense L"
+    },
+    {
+      "relative_path": "246.Equisetum arvense L/4b9fd184654294d3bb113c5266917038.jpg",
+      "class_index": 245,
+      "class_name": "246.Equisetum arvense L"
+    },
+    {
+      "relative_path": "247.Triadica sebifera (L.) Small/defebfa8cc15d37562ff92f1744412e1.jpg",
+      "class_index": 246,
+      "class_name": "247.Triadica sebifera (L.) Small"
+    },
+    {
+      "relative_path": "247.Triadica sebifera (L.) Small/d2d543ecb833250a9c6dc828647e6a4c.jpg",
+      "class_index": 246,
+      "class_name": "247.Triadica sebifera (L.) Small"
+    },
+    {
+      "relative_path": "248.Aconitum carmichaelii Debeaux/59a19f3e8584f3a495faf27aa3c7ef34.jpg",
+      "class_index": 247,
+      "class_name": "248.Aconitum carmichaelii Debeaux"
+    },
+    {
+      "relative_path": "248.Aconitum carmichaelii Debeaux/afca29a92107ac1c39b34c14dc309d37.jpg",
+      "class_index": 247,
+      "class_name": "248.Aconitum carmichaelii Debeaux"
+    },
+    {
+      "relative_path": "249.Schisandra chinensis (Turcz.) Baill/f75d4ae5cbf4b75e802160d081025314.jpg",
+      "class_index": 248,
+      "class_name": "249.Schisandra chinensis (Turcz.) Baill"
+    },
+    {
+      "relative_path": "249.Schisandra chinensis (Turcz.) Baill/6dad5e3f53695cb0f8278be6a4939d59.jpg",
+      "class_index": 248,
+      "class_name": "249.Schisandra chinensis (Turcz.) Baill"
+    },
+    {
+      "relative_path": "250.Thlaspi arvense L/8e9f4225cd76ca6e384a27cb7a2edd64.jpg",
+      "class_index": 249,
+      "class_name": "250.Thlaspi arvense L"
+    },
+    {
+      "relative_path": "250.Thlaspi arvense L/291939309f2bad2f1c3d36a0688ecb78.jpg",
+      "class_index": 249,
+      "class_name": "250.Thlaspi arvense L"
+    },
+    {
+      "relative_path": "251.Siegesbeckia orientalis L/79627bdd3acc091505716f2fd70a9726.jpg",
+      "class_index": 250,
+      "class_name": "251.Siegesbeckia orientalis L"
+    },
+    {
+      "relative_path": "251.Siegesbeckia orientalis L/c6069fba1e649f03078adabe6ce15475.jpg",
+      "class_index": 250,
+      "class_name": "251.Siegesbeckia orientalis L"
+    },
+    {
+      "relative_path": "252.Asarum heterotropoides F. Schmidt/2c0b1285e92b23d144694d22fa4cdb6d.jpg",
+      "class_index": 251,
+      "class_name": "252.Asarum heterotropoides F. Schmidt"
+    },
+    {
+      "relative_path": "252.Asarum heterotropoides F. Schmidt/75a7455df881d581a86c4d1756f3074a.png",
+      "class_index": 251,
+      "class_name": "252.Asarum heterotropoides F. Schmidt"
+    },
+    {
+      "relative_path": "253.Eleutherococcus nodiflorus (Dunn) S. Y. Hu/ebd3d68add83d26b287ad8ddcff8d4dc.jpg",
+      "class_index": 252,
+      "class_name": "253.Eleutherococcus nodiflorus (Dunn) S. Y. Hu"
+    },
+    {
+      "relative_path": "253.Eleutherococcus nodiflorus (Dunn) S. Y. Hu/ba21edf2ef421962aba460912a3e6dae.jpg",
+      "class_index": 252,
+      "class_name": "253.Eleutherococcus nodiflorus (Dunn) S. Y. Hu"
+    },
+    {
+      "relative_path": "254.Bupleurum scorzonerifolium Willd/cca9f3ea9d0386db7cbcc30d9c5c512d.jpg",
+      "class_index": 253,
+      "class_name": "254.Bupleurum scorzonerifolium Willd"
+    },
+    {
+      "relative_path": "254.Bupleurum scorzonerifolium Willd/e0bd0ad11bd9a1d9ea0f1d6ab6cdb391.jpg",
+      "class_index": 253,
+      "class_name": "254.Bupleurum scorzonerifolium Willd"
+    },
+    {
+      "relative_path": "255.Prunella vulgaris L/cc69703a8791d0da29d9436d56c785e4.jpg",
+      "class_index": 254,
+      "class_name": "255.Prunella vulgaris L"
+    },
+    {
+      "relative_path": "255.Prunella vulgaris L/b8ab5ddb37d2004cc2e02daf271e5c38.jpeg",
+      "class_index": 254,
+      "class_name": "255.Prunella vulgaris L"
+    },
+    {
+      "relative_path": "256.Curculigo orchioides Gaertn/cf1094cd9411fd600800aaf4df84e7dc.jpg",
+      "class_index": 255,
+      "class_name": "256.Curculigo orchioides Gaertn"
+    },
+    {
+      "relative_path": "256.Curculigo orchioides Gaertn/6fbe72cfbb7f44987bb0474ee18e0b94.jpg",
+      "class_index": 255,
+      "class_name": "256.Curculigo orchioides Gaertn"
+    },
+    {
+      "relative_path": "257.Cyperus rotundus L/5e50038f3fe27d8c068f4dc71c0cc73a.jpg",
+      "class_index": 256,
+      "class_name": "257.Cyperus rotundus L"
+    },
+    {
+      "relative_path": "257.Cyperus rotundus L/716c6208e82ffcf035bf23587904c246.jpg",
+      "class_index": 256,
+      "class_name": "257.Cyperus rotundus L"
+    },
+    {
+      "relative_path": "258.Vicia hirsuta (L.) Gray/6e4203611e3f57f54f20bd6ff5e73be9.jpg",
+      "class_index": 257,
+      "class_name": "258.Vicia hirsuta (L.) Gray"
+    },
+    {
+      "relative_path": "258.Vicia hirsuta (L.) Gray/e1bfbeed6241d96695105cc60be4f702.jpg",
+      "class_index": 257,
+      "class_name": "258.Vicia hirsuta (L.) Gray"
+    },
+    {
+      "relative_path": "259.Allium macrostemon Bunge/96e36642d6236b57bdb07543851984c1.jpg",
+      "class_index": 258,
+      "class_name": "259.Allium macrostemon Bunge"
+    },
+    {
+      "relative_path": "259.Allium macrostemon Bunge/75f13e891a4716f56b84548106e17470.jpeg",
+      "class_index": 258,
+      "class_name": "259.Allium macrostemon Bunge"
+    },
+    {
+      "relative_path": "260.Vincetoxicum pycnostelma Kitag/a536da5aaa62275753c3c77d3a05e0a7.jpg",
+      "class_index": 259,
+      "class_name": "260.Vincetoxicum pycnostelma Kitag"
+    },
+    {
+      "relative_path": "260.Vincetoxicum pycnostelma Kitag/8563980e44d092e1f1e441e1067e7caa.jpg",
+      "class_index": 259,
+      "class_name": "260.Vincetoxicum pycnostelma Kitag"
+    },
+    {
+      "relative_path": "261.Scrophularia ningpoensis Hemsl/927ab0bfe9ed8a1fd3045bd364f95aa4.jpg",
+      "class_index": 260,
+      "class_name": "261.Scrophularia ningpoensis Hemsl"
+    },
+    {
+      "relative_path": "261.Scrophularia ningpoensis Hemsl/b59f0855e4b34833d00b5928dd8eecc3.jpg",
+      "class_index": 260,
+      "class_name": "261.Scrophularia ningpoensis Hemsl"
+    },
+    {
+      "relative_path": "262.Inula japonica Thunb/d41ea158c02aa0b6d9da1e004daa0352.jpg",
+      "class_index": 261,
+      "class_name": "262.Inula japonica Thunb"
+    },
+    {
+      "relative_path": "262.Inula japonica Thunb/d64e244a96a6ffbd2b9a571e5e19dd7e.jpg",
+      "class_index": 261,
+      "class_name": "262.Inula japonica Thunb"
+    },
+    {
+      "relative_path": "263.Commelina communis L/d691f7d49bf6c678c9f772a1a6c6dd0f.jpg",
+      "class_index": 262,
+      "class_name": "263.Commelina communis L"
+    },
+    {
+      "relative_path": "263.Commelina communis L/2ba9d8801132b3b398668765598c8a59.jpg",
+      "class_index": 262,
+      "class_name": "263.Commelina communis L"
+    },
+    {
+      "relative_path": "264.Corydalis yanhusuo (Y. H. Chou & C. C. Hsu) W. T. Wang ex Z. Y. Su & C. Y. Wu/83b019c844cff90fd674408d3d448548.jpg",
+      "class_index": 263,
+      "class_name": "264.Corydalis yanhusuo (Y. H. Chou & C. C. Hsu) W. T. Wang ex Z. Y. Su & C. Y. Wu"
+    },
+    {
+      "relative_path": "264.Corydalis yanhusuo (Y. H. Chou & C. C. Hsu) W. T. Wang ex Z. Y. Su & C. Y. Wu/570156517ae2688d7c5d5c98e7525bed.jpg",
+      "class_index": 263,
+      "class_name": "264.Corydalis yanhusuo (Y. H. Chou & C. C. Hsu) W. T. Wang ex Z. Y. Su & C. Y. Wu"
+    },
+    {
+      "relative_path": "265.Rhus chinensis Mill/7ca6c137d675b8c08c86d0d4150860f7.jpg",
+      "class_index": 264,
+      "class_name": "265.Rhus chinensis Mill"
+    },
+    {
+      "relative_path": "265.Rhus chinensis Mill/d9e2bd7a0d0e266bf8c59236aeb59809.jpg",
+      "class_index": 264,
+      "class_name": "265.Rhus chinensis Mill"
+    },
+    {
+      "relative_path": "266.Codonopsis lanceolata (Siebold & Zucc.) Trautv/763389a89f9d6baaab81528db9615a52.jpg",
+      "class_index": 265,
+      "class_name": "266.Codonopsis lanceolata (Siebold & Zucc.) Trautv"
+    },
+    {
+      "relative_path": "266.Codonopsis lanceolata (Siebold & Zucc.) Trautv/b1e8d78de160de56edbaa435f1288810.jpeg",
+      "class_index": 265,
+      "class_name": "266.Codonopsis lanceolata (Siebold & Zucc.) Trautv"
+    },
+    {
+      "relative_path": "267.Daucus carota L/3371b51bd1168ecf0f7f62d3237bdde0.jpeg",
+      "class_index": 266,
+      "class_name": "267.Daucus carota L"
+    },
+    {
+      "relative_path": "267.Daucus carota L/ef9388c21a0b792dde1f044426ad839b.jpg",
+      "class_index": 266,
+      "class_name": "267.Daucus carota L"
+    },
+    {
+      "relative_path": "268.Erigeron annuus (L.) Pers/d56ab140f5585355d3e6f49db428f6d3.jpg",
+      "class_index": 267,
+      "class_name": "268.Erigeron annuus (L.) Pers"
+    },
+    {
+      "relative_path": "268.Erigeron annuus (L.) Pers/4013bf6898889f1fad5ed3552b981b3d.jpg",
+      "class_index": 267,
+      "class_name": "268.Erigeron annuus (L.) Pers"
+    },
+    {
+      "relative_path": "269.Leonurus japonicus Houtt/ecc1ec474440345dc6dd3cb8c25cc555.jpg",
+      "class_index": 268,
+      "class_name": "269.Leonurus japonicus Houtt"
+    },
+    {
+      "relative_path": "269.Leonurus japonicus Houtt/74846e0a512908c6895a8721c44ffd8d.jpg",
+      "class_index": 268,
+      "class_name": "269.Leonurus japonicus Houtt"
+    },
+    {
+      "relative_path": "270.Coix lacryma-jobi L/cf8649c6a717514589cea4cf186a8011.jpg",
+      "class_index": 269,
+      "class_name": "270.Coix lacryma-jobi L"
+    },
+    {
+      "relative_path": "270.Coix lacryma-jobi L/d43f54bf8890fec9e6bf04630aaed037.jpg",
+      "class_index": 269,
+      "class_name": "270.Coix lacryma-jobi L"
+    },
+    {
+      "relative_path": "271.Pteroxygonum giraldii Damm. & Diels/355844b0f357e13b04b01787a3ad7d0e.jpg",
+      "class_index": 270,
+      "class_name": "271.Pteroxygonum giraldii Damm. & Diels"
+    },
+    {
+      "relative_path": "271.Pteroxygonum giraldii Damm. & Diels/0473681cc6c638b5d5f24f422b5c60fb.jpg",
+      "class_index": 270,
+      "class_name": "271.Pteroxygonum giraldii Damm. & Diels"
+    },
+    {
+      "relative_path": "272.Sceptridium ternatum (Thunb.) Lyon/ece78af069a1c35c52373345ce124373.jpg",
+      "class_index": 271,
+      "class_name": "272.Sceptridium ternatum (Thunb.) Lyon"
+    },
+    {
+      "relative_path": "272.Sceptridium ternatum (Thunb.) Lyon/3c0c6b2fc35fffb2366ce25d5d2c272f.jpg",
+      "class_index": 271,
+      "class_name": "272.Sceptridium ternatum (Thunb.) Lyon"
+    },
+    {
+      "relative_path": "273.Siphonostegia chinensis Benth/76c495cce23d6680f70260615a82169c.jpg",
+      "class_index": 272,
+      "class_name": "273.Siphonostegia chinensis Benth"
+    },
+    {
+      "relative_path": "273.Siphonostegia chinensis Benth/2dfd5615f90c9a87feb3afe8c01ba649.jpg",
+      "class_index": 272,
+      "class_name": "273.Siphonostegia chinensis Benth"
+    },
+    {
+      "relative_path": "274.Artemisia capillaris Thunb/5a960dc7293fc0c8ea19c90f5a215b69.jpg",
+      "class_index": 273,
+      "class_name": "274.Artemisia capillaris Thunb"
+    },
+    {
+      "relative_path": "274.Artemisia capillaris Thunb/65f31a60c4ed225c3df8d4e44adbe621.jpg",
+      "class_index": 273,
+      "class_name": "274.Artemisia capillaris Thunb"
+    },
+    {
+      "relative_path": "275.Ginkgo biloba L/395ba017bcedf52c6c0c9d8a716fa584.jpg",
+      "class_index": 274,
+      "class_name": "275.Ginkgo biloba L"
+    },
+    {
+      "relative_path": "275.Ginkgo biloba L/7c0ba088b04e3d0a621430e6f47eb61c.jpg",
+      "class_index": 274,
+      "class_name": "275.Ginkgo biloba L"
+    },
+    {
+      "relative_path": "276.Epimedium brevicornu Maxim/6aa733ecff972179fa6ebde0edbc63a4.jpg",
+      "class_index": 275,
+      "class_name": "276.Epimedium brevicornu Maxim"
+    },
+    {
+      "relative_path": "276.Epimedium brevicornu Maxim/f743387036ec493fc2df76a9989641e3.jpg",
+      "class_index": 275,
+      "class_name": "276.Epimedium brevicornu Maxim"
+    },
+    {
+      "relative_path": "277.Papaver somniferum L/c6adbbab950e5e8f1b1f697541fd5300.jpg",
+      "class_index": 276,
+      "class_name": "277.Papaver somniferum L"
+    },
+    {
+      "relative_path": "277.Papaver somniferum L/748fae4880d605a3b823561cbecda5c5.jpg",
+      "class_index": 276,
+      "class_name": "277.Papaver somniferum L"
+    },
+    {
+      "relative_path": "278.Yulania denudata (Desr.) D. L. Fu/6c6f39a0c1ec1658714c59b59b9d88c4.jpg",
+      "class_index": 277,
+      "class_name": "278.Yulania denudata (Desr.) D. L. Fu"
+    },
+    {
+      "relative_path": "278.Yulania denudata (Desr.) D. L. Fu/4a53f139c414e1791e2749294720f8d0.jpg",
+      "class_index": 277,
+      "class_name": "278.Yulania denudata (Desr.) D. L. Fu"
+    },
+    {
+      "relative_path": "279.Polygonatum odoratum (Mill.) Druce/ed9bc10eaf49e091cfada2743eda6eb3.jpg",
+      "class_index": 278,
+      "class_name": "279.Polygonatum odoratum (Mill.) Druce"
+    },
+    {
+      "relative_path": "279.Polygonatum odoratum (Mill.) Druce/9f6b30165902d829285a20325f8335d4.jpg",
+      "class_index": 278,
+      "class_name": "279.Polygonatum odoratum (Mill.) Druce"
+    },
+    {
+      "relative_path": "280.Iris tectorum Maxim/f21e4a06ce841df50621b606b3303b39.jpg",
+      "class_index": 279,
+      "class_name": "280.Iris tectorum Maxim"
+    },
+    {
+      "relative_path": "280.Iris tectorum Maxim/718740caa57fdc5e365eddd7bc81e4fa.jpg",
+      "class_index": 279,
+      "class_name": "280.Iris tectorum Maxim"
+    },
+    {
+      "relative_path": "281.Hypericum sampsonii Hance/605b76c57dbc5a6b5459740d2d11c366.jpg",
+      "class_index": 280,
+      "class_name": "281.Hypericum sampsonii Hance"
+    },
+    {
+      "relative_path": "281.Hypericum sampsonii Hance/a39b70373baecfe999edf9353fa5c305.jpg",
+      "class_index": 280,
+      "class_name": "281.Hypericum sampsonii Hance"
+    },
+    {
+      "relative_path": "282.Daphne genkwa Siebold & Zucc/d5585dc5e8868bbf0844df2f78c75a76.jpg",
+      "class_index": 281,
+      "class_name": "282.Daphne genkwa Siebold & Zucc"
+    },
+    {
+      "relative_path": "282.Daphne genkwa Siebold & Zucc/13d45e357a9c0151e594b995489e60ec.jpg",
+      "class_index": 281,
+      "class_name": "282.Daphne genkwa Siebold & Zucc"
+    },
+    {
+      "relative_path": "283.Polygala tenuifolia Willd/9e0c3a4b9cbdbc68dd2ad42add9cef61.jpg",
+      "class_index": 282,
+      "class_name": "283.Polygala tenuifolia Willd"
+    },
+    {
+      "relative_path": "283.Polygala tenuifolia Willd/6c9ff193c1d313ae7fe9db4941e9cde3.jpg",
+      "class_index": 282,
+      "class_name": "283.Polygala tenuifolia Willd"
+    },
+    {
+      "relative_path": "284.Gleditsia sinensis Lam/6bedfe32dab7cb74ac6dc41e6b92ce32.jpg",
+      "class_index": 283,
+      "class_name": "284.Gleditsia sinensis Lam"
+    },
+    {
+      "relative_path": "284.Gleditsia sinensis Lam/b3e665ca55f7a8623792eb30200904fc.jpg",
+      "class_index": 283,
+      "class_name": "284.Gleditsia sinensis Lam"
+    },
+    {
+      "relative_path": "285.Euphorbia helioscopia L/3237c5ec1ae4273baac779e73f452d0c.jpg",
+      "class_index": 284,
+      "class_name": "285.Euphorbia helioscopia L"
+    },
+    {
+      "relative_path": "285.Euphorbia helioscopia L/4be732583bc17c0998b294910076d519.jpeg",
+      "class_index": 284,
+      "class_name": "285.Euphorbia helioscopia L"
+    },
+    {
+      "relative_path": "286.Alisma plantago-aquatica L/72dbf0a8f71d884a6244fb85ec306a15.jpg",
+      "class_index": 285,
+      "class_name": "286.Alisma plantago-aquatica L"
+    },
+    {
+      "relative_path": "286.Alisma plantago-aquatica L/866887209c7cb2a0ae2f0f61f894a52f.webp",
+      "class_index": 285,
+      "class_name": "286.Alisma plantago-aquatica L"
+    },
+    {
+      "relative_path": "287.Catharanthus roseus (L.) G. Don/54ccb830e8a21ce9d8dd6575812711fe.jpg",
+      "class_index": 286,
+      "class_name": "287.Catharanthus roseus (L.) G. Don"
+    },
+    {
+      "relative_path": "287.Catharanthus roseus (L.) G. Don/4d1d1422012a285a72ea2d6e5fb8d3ae.jpg",
+      "class_index": 286,
+      "class_name": "287.Catharanthus roseus (L.) G. Don"
+    },
+    {
+      "relative_path": "288.Fritillaria thunbergii Miq/3ea69d843db17ba698bd8e56238e1c02.jpeg",
+      "class_index": 287,
+      "class_name": "288.Fritillaria thunbergii Miq"
+    },
+    {
+      "relative_path": "288.Fritillaria thunbergii Miq/370fdab214d9605dbe5d2de1a8522f91.jpg",
+      "class_index": 287,
+      "class_name": "288.Fritillaria thunbergii Miq"
+    },
+    {
+      "relative_path": "289.Anemarrhena asphodeloides Bunge/73aa1ac89a7a7bc4deaba8aa792c0374.jpg",
+      "class_index": 288,
+      "class_name": "289.Anemarrhena asphodeloides Bunge"
+    },
+    {
+      "relative_path": "289.Anemarrhena asphodeloides Bunge/23a5de3f1d6c3e6d63a0931ec9475778.jpg",
+      "class_index": 288,
+      "class_name": "289.Anemarrhena asphodeloides Bunge"
+    },
+    {
+      "relative_path": "290.Gardenia  jasminoides J. Ellis/bdea4d1e7cf4b29303747920adb06ca1.jpeg",
+      "class_index": 289,
+      "class_name": "290.Gardenia  jasminoides J. Ellis"
+    },
+    {
+      "relative_path": "290.Gardenia  jasminoides J. Ellis/ecf6df8d010129e56d26332401136415.jpg",
+      "class_index": 289,
+      "class_name": "290.Gardenia  jasminoides J. Ellis"
+    },
+    {
+      "relative_path": "291.Ixeris chinensis (Thunb.) Nakai/65cbab41e80136f8062046ff0dd28b54.jpg",
+      "class_index": 290,
+      "class_name": "291.Ixeris chinensis (Thunb.) Nakai"
+    },
+    {
+      "relative_path": "291.Ixeris chinensis (Thunb.) Nakai/1d810acc4475ba1e1906ec1da3ef7d67.jpg",
+      "class_index": 290,
+      "class_name": "291.Ixeris chinensis (Thunb.) Nakai"
+    },
+    {
+      "relative_path": "292.Rumex crispus L/0bd0a15486a6c40a8af934f06e7eb850.jpg",
+      "class_index": 291,
+      "class_name": "292.Rumex crispus L"
+    },
+    {
+      "relative_path": "292.Rumex crispus L/12b778174f585febd3c2ca852dae5723.jpg",
+      "class_index": 291,
+      "class_name": "292.Rumex crispus L"
+    },
+    {
+      "relative_path": "293.Orychophragmus violaceus (L.) O. E. Schulz/f24c74e832d6c7cb3be4e873a24d7e9b.jpg",
+      "class_index": 292,
+      "class_name": "293.Orychophragmus violaceus (L.) O. E. Schulz"
+    },
+    {
+      "relative_path": "293.Orychophragmus violaceus (L.) O. E. Schulz/3f334d6beaf3c487e99184d6c2090d9a.jpg",
+      "class_index": 292,
+      "class_name": "293.Orychophragmus violaceus (L.) O. E. Schulz"
+    },
+    {
+      "relative_path": "294.Lithospermum zollingeri A. DC/2ab02099db8c0b86279f547b8f7f976c.jpeg",
+      "class_index": 293,
+      "class_name": "294.Lithospermum zollingeri A. DC"
+    },
+    {
+      "relative_path": "294.Lithospermum zollingeri A. DC/ee3689bf7f74b879c1508f4cf12eb228.jpg",
+      "class_index": 293,
+      "class_name": "294.Lithospermum zollingeri A. DC"
+    },
+    {
+      "relative_path": "295.Viola philippica Cav/d81e5394d55b7ed81299c1e74c604e3b.jpg",
+      "class_index": 294,
+      "class_name": "295.Viola philippica Cav"
+    },
+    {
+      "relative_path": "295.Viola philippica Cav/3893ab653354de52a2c798843660c44d.jpg",
+      "class_index": 294,
+      "class_name": "295.Viola philippica Cav"
+    },
+    {
+      "relative_path": "296.Angelica decursiva (Miq.) Franch. & Sav/ee3919fcd66a8cc4c1a5985c58ee72e9.jpg",
+      "class_index": 295,
+      "class_name": "296.Angelica decursiva (Miq.) Franch. & Sav"
+    },
+    {
+      "relative_path": "296.Angelica decursiva (Miq.) Franch. & Sav/360caea38bc05d3ebc5a243b9f8de09a.jpg",
+      "class_index": 295,
+      "class_name": "296.Angelica decursiva (Miq.) Franch. & Sav"
+    },
+    {
+      "relative_path": "297.Osmunda japonica Thunb/d95d6b14dd758dcafbdcc85eb4989888.jpg",
+      "class_index": 296,
+      "class_name": "297.Osmunda japonica Thunb"
+    },
+    {
+      "relative_path": "297.Osmunda japonica Thunb/cdffd77fc391c526a019777da297d46f.jpg",
+      "class_index": 296,
+      "class_name": "297.Osmunda japonica Thunb"
+    },
+    {
+      "relative_path": "298.Perilla frutescens (L.) Britton/37e7021a7bef1c39811b99853c4ed6fe.jpg",
+      "class_index": 297,
+      "class_name": "298.Perilla frutescens (L.) Britton"
+    },
+    {
+      "relative_path": "298.Perilla frutescens (L.) Britton/46a451d3da0137b2e580b1a8a4ea4dc2.jpg",
+      "class_index": 297,
+      "class_name": "298.Perilla frutescens (L.) Britton"
+    },
+    {
+      "relative_path": "299.Aster tataricus L. f/285c633b9cd582f896d329f10f53e34f.jpg",
+      "class_index": 298,
+      "class_name": "299.Aster tataricus L. f"
+    },
+    {
+      "relative_path": "299.Aster tataricus L. f/caa4f8dfd9d7349c56aad8cd05a6a893.jpg",
+      "class_index": 298,
+      "class_name": "299.Aster tataricus L. f"
+    },
+    {
+      "relative_path": "300.Callicarpa bodinieri H. Lév/21b28245673a7a0c763d67c2457e087b.jpg",
+      "class_index": 299,
+      "class_name": "300.Callicarpa bodinieri H. Lév"
+    },
+    {
+      "relative_path": "300.Callicarpa bodinieri H. Lév/3fbac96451be4f7e57dd51c073bf30c5.jpg",
+      "class_index": 299,
+      "class_name": "300.Callicarpa bodinieri H. Lév"
+    }
+  ]
+}

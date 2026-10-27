@@ -1,0 +1,28 @@
+{
+  "model": "P",
+  "device": "cuda:0",
+  "batch_size": 1,
+  "warmup_iterations": 40,
+  "measured_iterations": 100,
+  "rounds": 3,
+  "round_median_ms": [
+    5.694699997548014,
+    5.662300001858966,
+    5.610149997664848
+  ],
+  "round_p95_ms": [
+    7.472299999790266,
+    7.2505999996792525,
+    7.528499998443294
+  ],
+  "round_throughput_per_s": [
+    175.60187550363906,
+    176.60667920662877,
+    178.24835350502872
+  ],
+  "median_ms": 5.662300001858966,
+  "p95_ms": 7.472299999790266,
+  "throughput_mean": 176.81896940509887,
+  "throughput_std": 1.3359497742185868,
+  "scope": "model inference only; no disk IO, preprocessing, HTTP or web time"
+}

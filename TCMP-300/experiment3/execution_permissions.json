@@ -1,0 +1,30 @@
+{
+  "config_hash": "4e179c23fa17484dfc0b91a1c827a3f29589e2651ad3d2d8a9e7499be0c23e63",
+  "updated_at": "2026-10-27T12:15:00+08:00",
+  "scope": "GitHub copy: configuration checks and engineering checks only.",
+  "authorized_stages": [
+    1,
+    2,
+    3
+  ],
+  "authorized_by": "Repository distribution default; local authorization is required for long tasks.",
+  "long_tasks_authorized": false,
+  "permissions": {
+    "config_check": true,
+    "selftest": true,
+    "smoke": true,
+    "full_data_audit": false,
+    "baseline_validation": false,
+    "quantization_selection": false,
+    "pruning_screening": false,
+    "full_training": false,
+    "freeze_models": false,
+    "final_evaluation": false,
+    "timing_benchmark": false,
+    "github_sync": false
+  },
+  "notes": [
+    "This repository copy deliberately disables long-running tasks; it is not the original local authorization record.",
+    "config_hash refers to the original unchanged config.json."
+  ]
+}

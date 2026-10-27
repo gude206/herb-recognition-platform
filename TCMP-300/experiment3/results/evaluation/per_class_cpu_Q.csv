@@ -1,0 +1,301 @@
+class_index,class_name,support,precision,recall,f1
+0,001.Veronica persica Poir,32,0.888889,1.000000,0.941176
+1,002.Lysimachia clethroides Duby,19,0.947368,0.947368,0.947368
+2,003.Alangium chinense (Lour.) Harms,22,0.750000,0.818182,0.782609
+3,004.Smilax china L,21,0.882353,0.714286,0.789474
+4,005.Datura metel L,24,0.869565,0.833333,0.851064
+5,006.Bletilla striata (Thunb. ex A. Murray) Rchb. f,22,0.777778,0.954545,0.857143
+6,007.Fraxinus chinensis Roxb,15,0.529412,0.600000,0.562500
+7,008.Ampelopsis japonica (Thunb.) Makino,10,0.750000,0.600000,0.666667
+8,009.Chelidonium majus L,28,0.756757,1.000000,0.861538
+9,010.Cynanchum bungei Decne,12,0.583333,0.583333,0.583333
+10,011.Pulsatilla chinensis (Bunge) Regel,16,1.000000,0.812500,0.896552
+11,012.Solanum lyratum Thunb,19,0.640000,0.842105,0.727273
+12,013.Angelica dahurica (Fisch. ex Hoffm.) Benth. & Hook. f. ex Franch. & Sav,13,0.444444,0.307692,0.363636
+13,014.Lilium brownii F. E. Brown ex Miellez var. viridulum Baker,14,0.916667,0.785714,0.846154
+14,015.Patrinia scabiosaefolia Fisch.ex Trev,24,0.588235,0.833333,0.689655
+15,016.Euphorbia maculata L,14,0.700000,1.000000,0.823529
+16,017.Bothriospermum chinense Bunge,17,0.812500,0.764706,0.787879
+17,018.Lobelia chinensis Lour,17,0.894737,1.000000,0.944444
+18,019.Pinellia ternata (Thunb.) Ten. ex Breitenb,16,0.631579,0.750000,0.685714
+19,020.Scutellaria barbata D. Don,11,0.727273,0.727273,0.727273
+20,021.Mentha canadensis L,16,0.714286,0.625000,0.666667
+21,022.Polygonum aviculare L,17,0.923077,0.705882,0.800000
+22,023.Menispermum dauricum DC,13,0.611111,0.846154,0.709677
+23,024.Areca catechu L,14,0.750000,0.642857,0.692308
+24,025.Descurainia sophia (L.) Webb ex Prantl,19,0.533333,0.842105,0.653061
+25,026.Macleaya cordata (Willd.) R. Br,16,0.923077,0.750000,0.827586
+26,027.Xanthium strumarium L,27,0.875000,0.777778,0.823529
+27,028.Atractylodes lancea (Thunb.) DC,12,0.916667,0.916667,0.916667
+28,029.Platycladus orientalis (L.) Franco,19,0.791667,1.000000,0.883721
+29,030.Acorus calamus L,12,0.750000,1.000000,0.857143
+30,031.Hedera nepalensis var. sinensis (Tobler) Rehder,14,0.785714,0.785714,0.785714
+31,032.Plantago asiatica L,20,0.789474,0.750000,0.769231
+32,033.Penthorum chinense Pursh,14,0.733333,0.785714,0.758621
+33,034.Thladiantha dubia Bunge,21,0.882353,0.714286,0.789474
+34,035.Clerodendrum bungei Steud,25,0.880000,0.880000,0.880000
+35,036.Cyathula officinalis K. C. Kuan,11,0.692308,0.818182,0.750000
+36,037.Ligusticum chuanxiong Hort,11,0.500000,0.545455,0.521739
+37,038.Andrographis paniculata (Burm. f.) Wall. ex Nees in Wallich,10,0.875000,0.700000,0.777778
+38,039.Sagittaria trifolia subsp. leucopetala (Miquel) Q. F. Wang,19,0.772727,0.894737,0.829268
+39,040.Cirsium arvense var. integrifolium Wimm. & Grab,19,0.842105,0.842105,0.842105
+40,041.Aralia elata (Miq.) Seem,17,0.500000,0.823529,0.622222
+41,042.Euphorbia pekinensis Rupr,13,0.615385,0.615385,0.615385
+42,043.Sargentodoxa cuneata (Oliv.) Rehd. & E. H. Wilson in C. S. Sargent,13,0.769231,0.769231,0.769231
+43,044.Salvia miltiorrhiza Bunge,9,0.533333,0.888889,0.666667
+44,045.Mazus stachydifolius (Turcz.) Maxim,9,0.714286,0.555556,0.625000
+45,046.Angelica sinensis (Oliv.) Diels,10,0.125000,0.200000,0.153846
+46,047.Codonopsis pilosula (Franch.) Nannf,11,0.461538,0.545455,0.500000
+47,048.Lapsanastrum apogonoides (Maxim.) Pak & K.Bremer,10,1.000000,0.900000,0.947368
+48,049.Juncus effusus L,14,0.550000,0.785714,0.647059
+49,050.Hypericum japonicum Thunb. in Murr,10,1.000000,0.600000,0.750000
+50,051.Geranium wilfordii Maxim,10,0.666667,0.600000,0.631579
+51,052.Rehmannia glutinosa (Gaertn.) Libosch. ex Fisch. & C. A. Mey,10,1.000000,0.800000,0.888889
+52,053.Lycopus lucidus Turcz. ex Benth,10,0.538462,0.700000,0.608696
+53,054.Sanguisorba officinalis L,20,0.800000,0.800000,0.800000
+54,055.Atropa belladonna L,13,0.900000,0.692308,0.782609
+55,056.Androsace umbellata (Lour.) Merr,14,0.812500,0.928571,0.866667
+56,057.Sauromatum giganteum (Engl.) Cusimano & Hett,14,0.928571,0.928571,0.928571
+57,058.Asarum forbesii Maxim,11,0.533333,0.727273,0.615385
+58,059.Eucommia ulmoides Oliv,14,0.687500,0.785714,0.733333
+59,060.Crocus sativus L,20,0.869565,1.000000,0.930233
+60,061.Potentilla discolor Bunge,10,0.692308,0.900000,0.782609
+61,062.Stellaria media (L.) Vill,23,0.809524,0.739130,0.772727
+62,063.Saposhnikovia divaricata (Turcz.) Schischk,15,0.857143,0.400000,0.545455
+63,064.Euphorbia hirta L,19,0.789474,0.789474,0.789474
+64,065.Phedimus aizoon (L.) 't Hart,22,0.750000,0.818182,0.782609
+65,066.Stephania tetrandra S. Moore,11,0.888889,0.727273,0.800000
+66,067.Clinopodium chinense (Benth.) Kuntze,16,0.647059,0.687500,0.666667
+67,068.Coniogramme japonica (Thunb.) Diels,14,0.666667,0.571429,0.615385
+68,069.Impatiens balsamina L,19,0.857143,0.947368,0.900000
+69,070.Trigonotis peduncularis (Trevis.) Benth. ex Baker & S. Moore,15,0.812500,0.866667,0.838710
+70,071.Rubus idaeus L,20,0.888889,0.800000,0.842105
+71,072.Stachys sieboldii Miq,10,1.000000,0.700000,0.823529
+72,073.Periploca sepium Bunge,12,0.562500,0.750000,0.642857
+73,074.Rhodiola cretinii subsp. sinoalpina (Fröd.) H. Ohba,16,0.900000,0.562500,0.692308
+74,075.Pueraria montana var. lobata (Ohwi) Maesen & S. M. Almeida,10,0.500000,0.400000,0.444444
+75,076.Ilex cornuta Lindl. & Paxton,12,0.909091,0.833333,0.869565
+76,077.Lycium chinense Mill,12,0.857143,1.000000,0.923077
+77,078.Broussonetia papyrifera (L.) L'Hér. ex Vent,15,1.000000,0.333333,0.500000
+78,079.Eriocaulon buergerianum Körn,10,0.500000,0.700000,0.583333
+79,080.Polygala japonica Houtt,12,0.833333,0.833333,0.833333
+80,081.Alkekengi officinarum var. franchetii (Mast.) R. J. Wang,17,0.882353,0.882353,0.882353
+81,082.Hypericum perforatum L,15,0.736842,0.933333,0.823529
+82,083.Cyrtomium fortunei J. Sm,13,0.705882,0.923077,0.800000
+83,084.Vicia cracca L,21,0.904762,0.904762,0.904762
+84,085.Bidens pilosa L,21,0.791667,0.904762,0.844444
+85,086.Lysimachia christinae Hance,11,0.666667,0.727273,0.695652
+86,087.Lygodium japonicum (Thunb.) Sw,13,0.687500,0.846154,0.758621
+87,088.Pittosporum tobira (Thunb.) W. T. Aiton,16,0.764706,0.812500,0.787879
+88,089.Clerodendrum trichotomum Thunb,25,0.913043,0.840000,0.875000
+89,090.Mimosa pudica L,14,0.800000,0.857143,0.827586
+90,091.Scutellaria indica L,16,0.846154,0.687500,0.758621
+91,092.Rorippa indica (L.) Hiern,18,0.833333,0.555556,0.666667
+92,093.Albizia julibrissin Durazz,23,1.000000,0.826087,0.904762
+93,094.Pleuropterus multiflorus (Thunb.) Nakai,13,0.538462,0.538462,0.538462
+94,095.Taxus wallichiana var. chinensis (Pilg.) Florin,16,0.789474,0.937500,0.857143
+95,096.Carthamus tinctorius L,16,0.866667,0.812500,0.838710
+96,097.Oxalis corymbosa DC,19,0.947368,0.947368,0.947368
+97,098.Lycoris aurea (L'Hér.) Herb,20,1.000000,0.950000,0.974359
+98,099.Drynaria roosii Nakaike,11,0.692308,0.818182,0.750000
+99,100.Saxifraga stolonifera Curtis,21,0.904762,0.904762,0.904762
+100,101.Reynoutria japonica Houtt,15,0.750000,0.600000,0.666667
+101,102.Styphnolobium japonicum (L.) Schott,12,0.727273,0.666667,0.695652
+102,103.Youngia japonica (L.) DC,16,0.615385,0.500000,0.551724
+103,104.Hemerocallis citrina Baroni,15,0.789474,1.000000,0.882353
+104,105.Vitex negundo L,10,0.500000,0.400000,0.444444
+105,106.Polygonatum sibiricum Redouté,10,1.000000,0.700000,0.823529
+106,107.Berberis amurensis Rupr,12,0.636364,0.583333,0.608696
+107,108.Scutellaria baicalensis Georgi,12,0.916667,0.916667,0.916667
+108,109.Ranunculus chinensis Bunge,18,0.652174,0.833333,0.731707
+109,110.Glechoma longituba (Nakai) Kupr,14,0.722222,0.928571,0.812500
+110,111.Sedum sarmentosum Bunge,22,0.777778,0.954545,0.857143
+111,112.Agastache rugosa (Fisch. & C. A. Mey.) Kuntze,12,0.923077,1.000000,0.960000
+112,113.Rhodotypos scandens (Thunb.) Makino,16,0.941176,1.000000,0.969697
+113,114.Paederia  foetida L,18,0.812500,0.722222,0.764706
+114,115.Viola acuminata Ledeb,18,0.888889,0.888889,0.888889
+115,116.Chloranthus serratus (Thunb.) Roem. & Schult,14,0.866667,0.928571,0.896552
+116,117.Houttuynia cordata Thunb,14,0.800000,0.857143,0.827586
+117,118.Cirsium japonicum Fisch. ex DC,11,0.900000,0.818182,0.857143
+118,119.Nerium oleander L,24,0.958333,0.958333,0.958333
+119,120.Crepidiastrum sonchifolium (Bunge) Pak & Kawano,12,0.636364,0.583333,0.608696
+120,121.Gynostemma pentaphyllum (Thunb.) Makino,10,0.714286,1.000000,0.833333
+121,122.Sambucus javanica Reinw. ex Blume,18,0.625000,0.555556,0.588235
+122,123.Sambucus williamsii Hance,16,0.352941,0.375000,0.363636
+123,124.Cuscuta japonica Choisy in Zoll,10,0.615385,0.800000,0.695652
+124,125.Stephania cephalantha Hayata,12,0.785714,0.916667,0.846154
+125,126.Rosa laevigata Michx,19,0.826087,1.000000,0.904762
+126,127.Lysimachia grammica Hance,10,0.857143,0.600000,0.705882
+127,128.Ajuga decumbens Thunb,16,0.714286,0.625000,0.666667
+128,129.Nepeta cataria L,9,0.875000,0.777778,0.823529
+129,130.Vicia sativa L,18,0.833333,0.833333,0.833333
+130,131.Platycodon grandiflorus (Jacq.) A. DC,16,0.933333,0.875000,0.903226
+131,132.Chrysanthemum morifolium Ramat,28,0.928571,0.928571,0.928571
+132,133.Gynura japonica (Thunb.) Juel,11,0.555556,0.909091,0.689655
+133,134.Selaginella tamariscina (P. Beauv.) Spring,17,0.875000,0.823529,0.848485
+134,135.Senna tora (L.) Roxb,18,0.866667,0.722222,0.787879
+135,136.Justicia procumbens L,11,0.857143,0.545455,0.666667
+136,137.Persicaria perfoliata (L.) H. Gross,16,1.000000,0.750000,0.857143
+137,138.Corydalis incisa (Thunb.) Pers,17,0.750000,0.882353,0.810811
+138,139.Sophora flavescens Aiton,11,0.666667,0.727273,0.695652
+139,140.Trichosanthes kirilowii Maxim,18,0.608696,0.777778,0.682927
+140,141.Geranium wilfordii Maxim,13,1.000000,0.923077,0.960000
+141,142.Amana edulis (Miq.) Honda,16,0.937500,0.937500,0.937500
+142,143.Viola japonica Langsd. ex DC,17,0.666667,0.588235,0.625000
+143,144.Chenopodium album L,13,0.769231,0.769231,0.769231
+144,145.Veratrum nigrum L,19,0.941176,0.842105,0.888889
+145,146.Eclipta prostrata (L.) L,19,0.944444,0.894737,0.918919
+146,147.Salvia plebeia R. Br,11,0.727273,0.727273,0.727273
+147,148.Forsythia suspensa (Thunb.) Vahl,10,0.666667,0.600000,0.631579
+148,149.Hyoscyamus niger L,17,1.000000,0.941176,0.969697
+149,150.Lysimachia congestiflora Hemsl,10,0.636364,0.700000,0.666667
+150,151.Solanum nigrum L,22,0.904762,0.863636,0.883721
+151,152.Agrimonia pilosa Ledeb,14,0.722222,0.928571,0.812500
+152,153.Adenophora tetraphylla (Thunb.) Fisch,11,0.500000,0.272727,0.352941
+153,154.Apocynum venetum L,13,0.900000,0.692308,0.782609
+154,155.Raphanus sativus L,10,1.000000,0.200000,0.333333
+155,156.Cynanchum rostellatum (Turcz.) Liede & Khanum,15,0.769231,0.666667,0.714286
+156,157.Trachelospermum jasminoides (Lindl.) Lem,17,0.833333,0.882353,0.857143
+157,158.Astilbe chinensis (Maxim.) Franch. & Sav,28,1.000000,0.892857,0.943396
+158,159.Humulus scandens (Lour.) Merr,19,0.904762,1.000000,0.950000
+159,160.Verbena officinalis L,14,0.875000,1.000000,0.933333
+160,161.Zehneria indica (Lour.)Keraudren,10,0.363636,0.400000,0.380952
+161,162.Portulaca oleracea L,18,0.789474,0.833333,0.810811
+162,163.Aristolochia debilis Siebold & Zucc,15,0.923077,0.800000,0.857143
+163,164.Baphicacanthus cusia(Nees)Bremek,22,0.809524,0.772727,0.790698
+164,165.Ophiopogon japonicus (L. f.) Ker Gawl,13,0.923077,0.923077,0.923077
+165,166.Vaccaria segetalis(Neck.)Garcke,10,0.666667,0.600000,0.631579
+166,167.Ranunculus ternatus Thunb,10,0.625000,0.500000,0.555556
+167,168.Ranunculus japonicus Thunb,12,0.583333,0.583333,0.583333
+168,169.Spatholobus suberectus Dunn,10,0.800000,0.400000,0.533333
+169,170.Vitex negundo var. cannabifolia (Siebold & Zucc.) Hand.-Mazz,12,0.600000,0.500000,0.545455
+170,171.Momordica cochinchinensis (Lour.) Spreng,12,0.727273,0.666667,0.695652
+171,172.Cocculus orbiculatus (L.) DC,9,0.461538,0.666667,0.545455
+172,173.Oroxylum indicum (L.) Kurz,14,0.733333,0.785714,0.758621
+173,174.Hibiscus syriacus L,26,0.961538,0.961538,0.961538
+174,175.Equisetum hyemale L,15,0.923077,0.800000,0.857143
+175,176.Nandina domestica Thunb,16,1.000000,0.750000,0.857143
+176,177.Arctium lappa L,23,0.785714,0.956522,0.862745
+177,178.Achyranthes bidentata Blume,11,0.636364,0.636364,0.636364
+178,179.Origanum vulgare L,20,0.900000,0.900000,0.900000
+179,180.Ligustrum lucidum W. T. Aiton,14,0.750000,0.642857,0.692308
+180,181.Eupatorium fortunei Turcz,13,0.857143,0.923077,0.888889
+181,182.Eriobotrya japonica (Thunb.) Lindl,18,0.894737,0.944444,0.918919
+182,183.Sinosenecio oldhamianus (Maxim.) B. Nord,11,0.888889,0.727273,0.800000
+183,184.Taraxacum mongolicum Hand.-Mazz,17,0.789474,0.882353,0.833333
+184,185.Viola diffusa Ging. in DC,11,1.000000,0.636364,0.777778
+185,186.Paris polyphylla Sm,20,0.947368,0.900000,0.923077
+186,187.Capsella bursa-pastoris (L.) Medik,15,0.571429,0.533333,0.551724
+187,188.Adenophora trachelioides Maxim,14,0.750000,0.857143,0.800000
+188,189.Senecio scandens Buch.-Ham. ex D. Don,12,0.800000,0.666667,0.727273
+189,190.Ipomoea nil (L.) Roth,17,0.800000,0.705882,0.750000
+190,191.Peucedanum praeruptorum Dunn,10,0.300000,0.300000,0.300000
+191,192.Euryale ferox Salisb. ex K. D. Koenig & Sims,15,0.722222,0.866667,0.787879
+192,193.Rubia  cordifolia L,17,0.736842,0.823529,0.777778
+193,194.Fagopyrum esculentum Moench,17,0.764706,0.764706,0.764706
+194,195.Cardiocrinum cathayanum (E. H. Wilson) Stearn,18,1.000000,0.833333,0.909091
+195,196.Torilis scabra (Thunb.) DC,18,0.681818,0.833333,0.750000
+196,197.Abutilon theophrasti Medikus,23,0.777778,0.913043,0.840000
+197,198.Dianthus superbus L,22,0.956522,1.000000,0.977778
+198,199.P.bistorta L,13,0.727273,0.615385,0.666667
+199,200.Panax ginseng C. A. Mey,11,0.555556,0.454545,0.500000
+200,201.Lonicera japonica Thunb,14,1.000000,0.857143,0.923077
+201,202.Euphorbia esula L,18,0.916667,0.611111,0.733333
+202,203.Saururus chinensis (Lour.) Baill,17,1.000000,0.705882,0.827586
+203,204.Coptis deltoidea C. Y. Cheng & P. G. Xiao,10,0.555556,0.500000,0.526316
+204,205.Panax notoginseng (Burkill) F. H. Chen ex C. H. Chow,12,0.444444,0.666667,0.533333
+205,206.Morus alba L,10,1.000000,0.800000,0.888889
+206,207.Cornus officinalis Sieb. & Zucc,19,0.842105,0.842105,0.842105
+207,208.Glehnia littoralis F. Schmidt ex Miq,12,1.000000,0.916667,0.956522
+208,209.Solanum pseudocapsicum L,15,0.833333,1.000000,0.909091
+209,210.Phytolacca acinosa Roxb,25,0.814815,0.880000,0.846154
+210,211.Paeonia lactiflora Pall,16,0.933333,0.875000,0.903226
+211,212.Corydalis ophiocarpa Hook. f. & Thomson,11,0.900000,0.818182,0.857143
+212,213.Belamcanda chinensis (L.) Redouté,24,0.909091,0.833333,0.869565
+213,214.Actaea cimicifuga L,17,0.823529,0.823529,0.823529
+214,215.Staphylea bumalda DC,14,0.538462,0.500000,0.518519
+215,216.Mahonia fortunei (Lindl.) Fedde,19,0.809524,0.894737,0.850000
+216,217.Centipeda minima (L.) A. Braun & Asch,11,0.900000,0.818182,0.857143
+217,218.Ranunculus sceleratus L,22,0.888889,0.727273,0.800000
+218,219.Lycoris radiata (L'Hér.) Herb,19,0.950000,1.000000,0.974359
+219,220.Pyrrosia lingua (Thunb.) Farw,19,0.727273,0.842105,0.780488
+220,221.Dianthus chinensis L,28,1.000000,1.000000,1.000000
+221,222.Pseudognaphalium affine (D. Don) Anderb,21,0.720000,0.857143,0.782609
+222,223.Dioscorea polystachya Turcz,21,0.727273,0.380952,0.500000
+223,224.Persicaria hydropiper (L.) Spach,21,0.629630,0.809524,0.708333
+224,225.Isatis tinctoria L,18,0.562500,0.500000,0.529412
+225,226.Cycas revoluta Thunb,21,0.840000,1.000000,0.913043
+226,227.Isodon rubescens (Hemsl.) H. Hara,10,0.857143,0.600000,0.705882
+227,228.Semiaquilegia adoxoides (DC.) Makino,13,0.909091,0.769231,0.833333
+228,229.Gastrodia elata Bl,10,0.777778,0.700000,0.736842
+229,230.Asparagus cochinchinensis (Lour.) Merr,17,0.866667,0.764706,0.812500
+230,231.Carpesium abrotanoides L,12,1.000000,0.583333,0.736842
+231,232.Arisaema heterophyllum Blume,15,0.785714,0.733333,0.758621
+232,233.Convolvulus arvensis L,32,0.937500,0.937500,0.937500
+233,234.Acalypha australis L,21,0.923077,0.571429,0.705882
+234,235.Clematis florida Thunb,19,1.000000,0.842105,0.914286
+235,236.Draba nemorosa L,19,0.650000,0.684211,0.666667
+236,237.Mazus pumilus (Burm. f.) Steenis,24,0.666667,0.666667,0.666667
+237,238.Tetrapanax papyrifer (Hook.) K. Koch,20,0.750000,0.600000,0.666667
+238,239.Pilea pumila (L.) A. Gray,14,0.750000,0.857143,0.800000
+239,240.Talinum paniculatum (Jacq.) Gaertn,20,0.789474,0.750000,0.769231
+240,241.Syneilesis aconitifolia (Bunge) Maxim,17,0.800000,0.941176,0.864865
+241,242.Cuscuta chinensis Lam,10,0.642857,0.900000,0.750000
+242,243.Orostachys fimbriata (Turcz.) A. Berger,18,0.888889,0.888889,0.888889
+243,244.Lepisorus thunbergianus (Kaulf.) Ching,12,0.818182,0.750000,0.782609
+244,245.Euonymus alatus (Thunb.) Siebold,12,0.714286,0.416667,0.526316
+245,246.Equisetum arvense L,19,0.882353,0.789474,0.833333
+246,247.Triadica sebifera (L.) Small,15,0.722222,0.866667,0.787879
+247,248.Aconitum carmichaelii Debeaux,22,0.777778,0.954545,0.857143
+248,249.Schisandra chinensis (Turcz.) Baill,17,0.882353,0.882353,0.882353
+249,250.Thlaspi arvense L,19,0.736842,0.736842,0.736842
+250,251.Siegesbeckia orientalis L,13,0.800000,0.923077,0.857143
+251,252.Asarum heterotropoides F. Schmidt,14,0.600000,0.642857,0.620690
+252,253.Eleutherococcus nodiflorus (Dunn) S. Y. Hu,12,0.473684,0.750000,0.580645
+253,254.Bupleurum scorzonerifolium Willd,14,0.666667,0.285714,0.400000
+254,255.Prunella vulgaris L,23,0.950000,0.826087,0.883721
+255,256.Curculigo orchioides Gaertn,10,0.615385,0.800000,0.695652
+256,257.Cyperus rotundus L,17,0.789474,0.882353,0.833333
+257,258.Vicia hirsuta (L.) Gray,16,0.857143,0.750000,0.800000
+258,259.Allium macrostemon Bunge,10,0.750000,0.600000,0.666667
+259,260.Vincetoxicum pycnostelma Kitag,14,0.533333,0.571429,0.551724
+260,261.Scrophularia ningpoensis Hemsl,9,0.818182,1.000000,0.900000
+261,262.Inula japonica Thunb,16,0.833333,0.937500,0.882353
+262,263.Commelina communis L,27,0.931034,1.000000,0.964286
+263,264.Corydalis yanhusuo (Y. H. Chou & C. C. Hsu) W. T. Wang ex Z. Y. Su & C. Y. Wu,10,1.000000,0.400000,0.571429
+264,265.Rhus chinensis Mill,13,0.800000,0.615385,0.695652
+265,266.Codonopsis lanceolata (Siebold & Zucc.) Trautv,15,0.923077,0.800000,0.857143
+266,267.Daucus carota L,24,0.769231,0.833333,0.800000
+267,268.Erigeron annuus (L.) Pers,26,0.857143,0.923077,0.888889
+268,269.Leonurus japonicus Houtt,15,0.923077,0.800000,0.857143
+269,270.Coix lacryma-jobi L,18,0.750000,0.666667,0.705882
+270,271.Pteroxygonum giraldii Damm. & Diels,12,0.700000,0.583333,0.636364
+271,272.Sceptridium ternatum (Thunb.) Lyon,17,0.535714,0.882353,0.666667
+272,273.Siphonostegia chinensis Benth,10,0.666667,0.800000,0.727273
+273,274.Artemisia capillaris Thunb,9,0.666667,0.666667,0.666667
+274,275.Ginkgo biloba L,14,0.923077,0.857143,0.888889
+275,276.Epimedium brevicornu Maxim,15,0.916667,0.733333,0.814815
+276,277.Papaver somniferum L,13,1.000000,0.769231,0.869565
+277,278.Yulania denudata (Desr.) D. L. Fu,16,0.937500,0.937500,0.937500
+278,279.Polygonatum odoratum (Mill.) Druce,17,0.823529,0.823529,0.823529
+279,280.Iris tectorum Maxim,20,0.947368,0.900000,0.923077
+280,281.Hypericum sampsonii Hance,10,0.833333,0.500000,0.625000
+281,282.Daphne genkwa Siebold & Zucc,18,0.933333,0.777778,0.848485
+282,283.Polygala tenuifolia Willd,11,1.000000,0.636364,0.777778
+283,284.Gleditsia sinensis Lam,13,0.615385,0.615385,0.615385
+284,285.Euphorbia helioscopia L,27,0.928571,0.962963,0.945455
+285,286.Alisma plantago-aquatica L,21,0.944444,0.809524,0.871795
+286,287.Catharanthus roseus (L.) G. Don,20,0.947368,0.900000,0.923077
+287,288.Fritillaria thunbergii Miq,12,0.923077,1.000000,0.960000
+288,289.Anemarrhena asphodeloides Bunge,13,0.800000,0.923077,0.857143
+289,290.Gardenia  jasminoides J. Ellis,13,0.928571,1.000000,0.962963
+290,291.Ixeris chinensis (Thunb.) Nakai,18,0.750000,0.833333,0.789474
+291,292.Rumex crispus L,16,0.785714,0.687500,0.733333
+292,293.Orychophragmus violaceus (L.) O. E. Schulz,20,0.947368,0.900000,0.923077
+293,294.Lithospermum zollingeri A. DC,11,0.909091,0.909091,0.909091
+294,295.Viola philippica Cav,19,0.823529,0.736842,0.777778
+295,296.Angelica decursiva (Miq.) Franch. & Sav,21,0.894737,0.809524,0.850000
+296,297.Osmunda japonica Thunb,10,0.700000,0.700000,0.700000
+297,298.Perilla frutescens (L.) Britton,10,0.900000,0.900000,0.900000
+298,299.Aster tataricus L. f,18,0.875000,0.777778,0.823529
+299,300.Callicarpa bodinieri H. Lév,27,0.925926,0.925926,0.925926

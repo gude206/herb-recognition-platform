@@ -1,0 +1,265 @@
+{
+  "kind": "engineering_smoke_report",
+  "started_at": "2026-10-27T18:59:17",
+  "finished_at": "2026-10-27T18:59:51",
+  "checks": [
+    {
+      "check": "frozen config hash and permission binding",
+      "passed": true,
+      "detail": {
+        "config_sha256": "4e179c23fa17484dfc0b91a1c827a3f29589e2651ad3d2d8a9e7499be0c23e63",
+        "scope": "阶段1–9：正式实验（审计、基线、量化选型、剪枝初筛、剪枝微调、冻结、最终测试与测速）"
+      }
+    },
+    {
+      "check": "environment recorded (deterministic, FP32, no AMP/TF32, threads fixed)",
+      "passed": true,
+      "detail": {
+        "seed": 42,
+        "torch_threads": 4,
+        "torch_interop_threads": 1,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "deterministic_algorithms": true,
+        "cublas_workspace_config": ":4096:8",
+        "cuda_available": true,
+        "device": "NVIDIA GeForce RTX 3050 Laptop GPU"
+      }
+    },
+    {
+      "check": "data split check (counts / disjoint manifests / fingerprint / class order)",
+      "passed": true,
+      "detail": {
+        "train": 36324,
+        "val": 11030,
+        "test": 4735,
+        "classes": 300,
+        "split_fingerprint": "a54b9f2faa7b68053ebaba873a184ef171eaf58407672ab3d464df432b593f09",
+        "class_fingerprint": "3dd51c7a54deb9eac1eb22c68f18e4b9b1b2f76f1cc95b37815fcf05846d8268",
+        "test_split_used": false
+      },
+      "seconds": 10.758
+    },
+    {
+      "check": "model A checkpoint guard (sha256 / classes / split hash / epoch)",
+      "passed": true,
+      "detail": {
+        "sha256": "0853621287adc1055a79b9e937c0b58027b0e6c3f65fc76f310255809fbd571d",
+        "epoch": 19,
+        "classes": 300
+      }
+    },
+    {
+      "check": "synthetic pruning ops (L1 pick / conv2d.slice / BN copy / residual shape / cost)",
+      "passed": true,
+      "detail": {
+        "l1_keep": [
+          1,
+          2,
+          3
+        ],
+        "keep1": 45,
+        "keep2": 45,
+        "output_shape": [
+          2,
+          256,
+          28,
+          28
+        ],
+        "macs": 5419016
+      },
+      "seconds": 0.017
+    },
+    {
+      "check": "0% pruning rebuild consistency",
+      "passed": true,
+      "detail": {
+        "state_dict_identical": true,
+        "max_abs_diff": 0.0,
+        "actual_ratio": 0.0,
+        "bottlenecks": 16
+      },
+      "seconds": 0.752
+    },
+    {
+      "check": "three pruning candidates: structure + one real batch forward",
+      "passed": true,
+      "detail": {
+        "device": "cuda",
+        "candidates": [
+          {
+            "ratio": 0.1,
+            "channel_keep_ratio": 0.9022775423728814,
+            "actual_ratio": 0.09772245762711862,
+            "parameters": 21075805,
+            "parameter_ratio": 0.8736906333826533,
+            "main_operator_flops": 7157848438,
+            "main_operator_flops_drop": 0.12447589880589816,
+            "output_shape": [
+              4,
+              300
+            ],
+            "residual_shapes_consistent": true,
+            "finite": true
+          },
+          {
+            "ratio": 0.2,
+            "channel_keep_ratio": 0.801906779661017,
+            "actual_ratio": 0.19809322033898302,
+            "parameters": 18203842,
+            "parameter_ratio": 0.7546343424119623,
+            "main_operator_flops": 6176041416,
+            "main_operator_flops_drop": 0.2445672527830426,
+            "output_shape": [
+              4,
+              300
+            ],
+            "residual_shapes_consistent": true,
+            "finite": true
+          },
+          {
+            "ratio": 0.3,
+            "channel_keep_ratio": 0.7023305084745762,
+            "actual_ratio": 0.29766949152542377,
+            "parameters": 15586826,
+            "parameter_ratio": 0.6461467963081462,
+            "main_operator_flops": 5256867958,
+            "main_operator_flops_drop": 0.35699747851743724,
+            "output_shape": [
+              4,
+              300
+            ],
+            "residual_shapes_consistent": true,
+            "finite": true
+          }
+        ]
+      },
+      "seconds": 1.684
+    },
+    {
+      "check": "selected pruning model: one real batch forward/backward, no optimizer step",
+      "passed": true,
+      "detail": {
+        "device": "cuda",
+        "loss": 6.309391975402832,
+        "parameters_with_grads": 161,
+        "parameters_with_nonzero_grads": 161,
+        "weights_unchanged_after_backward": true
+      },
+      "seconds": 0.825
+    },
+    {
+      "check": "model A export/reload at batch 1 and 8",
+      "passed": true,
+      "detail": {
+        "model_sha256": "0853621287adc1055a79b9e937c0b58027b0e6c3f65fc76f310255809fbd571d",
+        "epoch": 19,
+        "export_bytes": 97028773,
+        "batch_checks": [
+          {
+            "batch_size": 1,
+            "expected_shape": [
+              1,
+              300
+            ],
+            "actual_shape": [
+              1,
+              300
+            ],
+            "shape_ok": true,
+            "max_abs_diff": 0.0,
+            "consistent": true
+          },
+          {
+            "batch_size": 8,
+            "expected_shape": [
+              8,
+              300
+            ],
+            "actual_shape": [
+              8,
+              300
+            ],
+            "shape_ok": true,
+            "max_abs_diff": 0.0,
+            "consistent": true
+          }
+        ]
+      },
+      "seconds": 3.181
+    },
+    {
+      "check": "quantization: 4-image temporary calibration, quantized ops, export and reload",
+      "passed": true,
+      "detail": {
+        "calibration_images": 4,
+        "quantized_conv_count": 53,
+        "quantized_linear_count": 1,
+        "float_conv_count": 0,
+        "float_linear_count": 0,
+        "quantize_boundaries": 1,
+        "dequantize_boundaries": 1,
+        "export_bytes": 24889623,
+        "batch_checks": [
+          {
+            "batch_size": 1,
+            "expected_shape": [
+              1,
+              300
+            ],
+            "actual_shape": [
+              1,
+              300
+            ],
+            "shape_ok": true,
+            "max_abs_diff": 0.0,
+            "consistent": true
+          },
+          {
+            "batch_size": 8,
+            "expected_shape": [
+              8,
+              300
+            ],
+            "actual_shape": [
+              8,
+              300
+            ],
+            "shape_ok": true,
+            "max_abs_diff": 0.0,
+            "consistent": true
+          }
+        ],
+        "determinism_exception": "torch.use_deterministic_algorithms(False) for CPU INT8 forward only",
+        "repeated_runs_bit_identical": true,
+        "temporary_model_deleted": true
+      },
+      "seconds": 5.536
+    },
+    {
+      "check": "last incomplete accumulation group (5 samples, batch 4, accumulation 4)",
+      "passed": true,
+      "detail": {
+        "samples": 5,
+        "batches": 2,
+        "gradient_equals_mean_over_samples": true
+      },
+      "seconds": 0.008
+    },
+    {
+      "check": "early-stopping rule and checkpoint resume",
+      "passed": true,
+      "detail": {
+        "earliest_stop_epoch_on_flat_metrics": 12,
+        "resume_reproduces_uninterrupted_training": true
+      },
+      "seconds": 0.04
+    }
+  ],
+  "failed": [],
+  "all_passed": true,
+  "scope_note": "Engineering checks only. No full epoch was trained, no final test-set evaluation was run, and no formal model or accuracy result was produced.",
+  "config_sha256": "4e179c23fa17484dfc0b91a1c827a3f29589e2651ad3d2d8a9e7499be0c23e63",
+  "temporary_artefacts_removed": true,
+  "formal_results_produced": false
+}

@@ -1,0 +1,36 @@
+{
+  "baseline_cpu": {
+    "top1": 0.8016319129646419,
+    "top5": 0.9241160471441523,
+    "ce": 1.323205006445366
+  },
+  "allowed_top1_drop": 0.02,
+  "candidates": [
+    {
+      "calibration_per_class": 2,
+      "calibration_images": 600,
+      "calibration_manifest": "D:\\Study\\AI全栈开发\\TCMP-300\\experiment3\\runs\\quantization\\calibration_600_manifest.json",
+      "val_top1": 0.7922030825022666,
+      "val_top5": 0.9209428830462375,
+      "val_ce": 1.3608341968275022,
+      "top1_drop": 0.009428830462375304,
+      "meets_target": true,
+      "key_convolutions_quantized": true,
+      "quantized_conv_count": 53,
+      "quantized_linear_count": 1,
+      "eval_seconds": 187.79700255393982,
+      "target_met": true
+    }
+  ],
+  "selected": {
+    "calibration_per_class": 2,
+    "calibration_images": 600,
+    "calibration_manifest": "D:\\Study\\AI全栈开发\\TCMP-300\\experiment3\\runs\\quantization\\calibration_600_manifest.json",
+    "val_top1": 0.7922030825022666,
+    "val_ce": 1.3608341968275022,
+    "top1_drop": 0.009428830462375304,
+    "target_met": true
+  },
+  "note": "Q and P both start independently from A; no joint pruning+quantization model is built.",
+  "rebuild_rule": "The FX GraphModule is not pickled. Q is rebuilt deterministically from A by re-running calibration with selected.calibration_per_class images per class (same seed, same nested calibration set) whenever a later stage needs it."
+}
