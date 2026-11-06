@@ -1,12 +1,12 @@
 # GitHub 文件与模型恢复说明
 
-代码仓库为 [gude206/herb-recognition-platform](https://github.com/gude206/herb-recognition-platform)，当前为公开仓库。原模型保存在同仓库的 [models-20261007 Release](https://github.com/gude206/herb-recognition-platform/releases/tag/models-20261007)；现有模型恢复脚本使用 GitHub 登录凭据。
+代码仓库为 [gude206/herb-recognition-platform](https://github.com/gude206/herb-recognition-platform)，当前为公开仓库。原模型和实验三 INT8 模型保存在同仓库的 [models-20261007 Release](https://github.com/gude206/herb-recognition-platform/releases/tag/models-20261007)；现有原模型恢复脚本使用 GitHub 登录凭据。
 
 源码、前端资源、CSV 图鉴、数据划分清单、实验指标和报告保存在代码仓库。完整原始图片数据集从作者固定版本恢复；代码中保留 300 张图鉴封面及 4 张识别示例所需的原路径图片，便于恢复模型后直接查看平台。依赖目录、虚拟环境、构建文件、本机日志与 API 密钥不属于上传内容。
 
 ## 实验四 INT8 模型
 
-默认图片识别使用实验三的 `Q.pt`。本次源码提交不包含该模型二进制文件，需将已有实验三模型复制到 `TCMP-300/experiment3/runs/frozen/Q.pt`。300类名称及轮次保存在源码的 `TCMP-300/model_labels.json`，因此 INT8 模式不再要求同时下载原始训练权重。模型尚未取得时，可按下方步骤下载已有原模型，并使用 `TCMP_MODEL=original` 启动。
+默认图片识别使用实验三的 `Q.pt`。从 Release 下载 [experiment3-Q.pt](https://github.com/gude206/herb-recognition-platform/releases/download/models-20261007/experiment3-Q.pt)，保存为 `TCMP-300/experiment3/runs/frozen/Q.pt`。300类名称及轮次保存在源码的 `TCMP-300/model_labels.json`，因此 INT8 模式不要求同时下载原始训练权重。下方安装步骤已包含模型下载。
 
 ## 新电脑安装与启动
 
@@ -20,16 +20,17 @@ Push-Location .\数据标签
 npm.cmd ci
 Copy-Item -LiteralPath .env.example -Destination .env
 Pop-Location
-.\download-models.ps1
-$env:TCMP_MODEL="original"
+New-Item -ItemType Directory -Path .\TCMP-300\experiment3\runs\frozen -Force | Out-Null
+Invoke-WebRequest -Uri 'https://github.com/gude206/herb-recognition-platform/releases/download/models-20261007/experiment3-Q.pt' -OutFile .\TCMP-300\experiment3\runs\frozen\Q.pt
+Remove-Item Env:TCMP_MODEL -ErrorAction SilentlyContinue
 .\start-platform.ps1
 ```
 
 安装步骤直接建立项目内的独立环境，不依赖原电脑的 `sxlwfx` 环境或 `D:\miniconda3`。上面的 PyTorch 安装可用于 CPU；需要 GPU 时，按 [PyTorch 安装页面](https://pytorch.org/get-started/locally/) 选择与本机 CUDA 兼容的安装命令。桌面 PyQt 界面另需 `pip install PyQt5`。
 
-网页地址为 http://127.0.0.1:5173，接口文档为 http://127.0.0.1:8000/docs。停止平台执行 `./stop-platform.ps1`。图鉴使用 CSV，运行网页不需要 MySQL。取得并放好 Q.pt 后，在启动前运行 `Remove-Item Env:TCMP_MODEL -ErrorAction SilentlyContinue` 即可恢复默认 INT8 模式。
+网页地址为 http://127.0.0.1:5173，接口文档为 http://127.0.0.1:8000/docs。停止平台执行 `./stop-platform.ps1`。图鉴使用 CSV，运行网页不需要 MySQL。
 
-## 模型恢复
+## 原模型恢复
 
 ```powershell
 # 默认恢复原模型模式使用的基础版 best.pt（约 96.82 MB）
