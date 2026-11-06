@@ -29,7 +29,7 @@ class BoundedUploadMiddleware:
             return
 
         async def reject(status, detail):
-            await JSONResponse({"detail": detail}, status_code=status)(scope, receive, send)
+            await JSONResponse({"code": status, "result": None, "msg": detail}, status_code=status)(scope, receive, send)
 
         for name, value in scope.get("headers", []):
             if name.lower() != b"content-length":

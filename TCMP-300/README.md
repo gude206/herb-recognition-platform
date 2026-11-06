@@ -29,15 +29,15 @@ cd 'D:\Study\AI全栈开发\TCMP-300'
 & 'D:\miniconda3\envs\sxlwfx\python.exe' .\train_resnet50_ZQ.py --epochs 20
 ```
 
-每个目录会保存 `best.pt`、`last.pt` 和 `metrics.csv`。如果中断，在对应命令后加 `--resume`，并把 `--epochs` 设为大于检查点轮次的总轮数。新检查点记录增强模式、划分指纹、参数、软件版本及 Python/NumPy/Torch/CUDA/DataLoader 随机状态。训练增强按轮次与样本种子生成，不受 persistent worker 生命周期影响。为避免覆盖旧指标，从头训练时若目标目录已有结果，脚本会要求换一个 `--output-dir`。
+每个目录会保存 `best.pt`、`last.pt` 和 `metrics.csv`。`--epochs 0`（也是默认值）不设轮数上限，仅按连续 3 轮验证准确率提升不足 0.01 个百分点的早停规则结束。若有限轮次训练已结束但尚未早停，可运行 `python train_resnet50.py --resume --epochs 0`；原余弦调度降到零时，续训会保留模型、优化器和早停计数，重设较小的非零学习率并逐轮衰减。此次 baseline 已按此方式从第 20 轮续至第 22 轮并早停，脚本会拒绝再次续训已早停的检查点。新检查点记录增强模式、划分指纹、参数、软件版本及 Python/NumPy/Torch/CUDA/DataLoader 随机状态。训练增强按轮次与样本种子生成，不受 persistent worker 生命周期影响。为避免覆盖旧指标，从头训练时若目标目录已有结果，脚本会要求换一个 `--output-dir`。
 
-需要相同软硬件上的轮次边界精确续训时，首次训练和恢复均加 `--deterministic`，并保持 seed、batch_size、accumulation 等参数一致。增加总轮数会保留检查点的原余弦调度，不等价于以新总轮数重新训练。旧检查点仍可恢复，但会提示无法还原当时未保存的随机状态；新记录不能追溯修复旧实验。
+需要相同软硬件上的轮次边界精确续训时，首次训练和恢复均加 `--deterministic`，并保持 seed、batch_size、accumulation 等参数一致。从有限轮次切换到无限续训会重设学习率调度，属于接续实验，不等价于从头以新调度训练。旧检查点仍可恢复，但会提示无法还原当时未保存的随机状态；新记录不能追溯修复旧实验。
 
-两版均已完成 20 轮训练，并保存权重与独立测试结果。基础版测试 Top-1 为 79.85%、Top-5 为 92.29%；增强版分别为 80.00%、92.82%。训练需要 `torch`、`torchvision` 和 `Pillow`；Notebook 还需要 `IPython`。
+基础版从第 20 轮继续后在第 22 轮触发早停，最佳权重仍是第 19 轮；增强版从第 20 轮继续后在第 23 轮触发早停，最佳权重仍是第 20 轮。两版均保存了权重与独立测试结果。基础版最佳权重的测试 Top-1 为 79.85%、Top-5 为 92.29%；增强版分别为 80.00%、92.82%。训练需要 `torch`、`torchvision` 和 `Pillow`；Notebook 还需要 `IPython`。
 
 ## 与 React 前端连接
 
-`api.py` 提供真实识别接口，默认使用与桌面程序相同的 `runs/resnet50_7030_baseline/best.pt`（第 19 轮），在启动时加载一次，优先使用 CUDA，未提供 GPU 时使用 CPU。
+`api.py` 提供真实识别接口，默认在 CPU 上使用实验三导出的 `experiment3/runs/frozen/Q.pt`（INT8），启动时加载一次。类别顺序和第 19 轮信息沿用对应实验二权重，不重新训练。设置环境变量 `TCMP_MODEL=original` 可使用原 ResNet50；原模型优先使用 CUDA，否则使用 CPU。
 
 首次安装（项目内独立虚拟环境，复用现有模型依赖）：
 
@@ -51,7 +51,7 @@ cd 'D:\Study\AI全栈开发\TCMP-300'
 安装后可以在父目录运行 `./start-platform.ps1`，同时启动前后端，并等待模型健康检查和页面均就绪。网页为 http://127.0.0.1:5173 ，接口文档为 http://127.0.0.1:8000/docs 。执行 `./stop-platform.ps1` 停止状态文件记录的本次实例；启动失败自动清理本次进程。后台日志分别位于前端目录 `frontend.<端口>*.log` 和当前目录 `api.<端口>*.log`，已有端口不会被强制清理。自定义 `-ApiPort`、`-FrontendPort` 时，脚本同步设置前端接口地址与仅本地可用的 CORS 来源。
 
 - `GET /api/v1/health`：加载状态与模型指标。
-- `POST /api/v1/predict`：multipart 字段 `file`，返回 `prediction`、5 条按置信度降序排列的 `top_k` 和 `model`。
+- `POST /api/v1/predict`：multipart 字段 `file`，返回 `{code,result,msg}`；`result` 包含 `prediction`、5 条按置信度降序排列的 `top_k`、`model` 和 `timing_ms`。
 - `GET /api/v1/recognition/samples`：四张真实训练集示例，图片通过 `/api/v1/recognition/samples/{id}/image` 提供。
 - GET /api/v1/herbs：读取主 CSV 的 300 类植物，支持 q/family/genus/region/effect/property/part/sort/page/page_size；默认每页 24 条，最多 60 条。
 - GET /api/v1/herbs/filters：真实科属、分布地区与药材筛选选项。
@@ -66,9 +66,9 @@ cd 'D:\Study\AI全栈开发\TCMP-300'
 
 预处理与验证阶段保持一致，并处理 EXIF 方向、RGB 转换和无效图片。限制为一个名为 `file` 的 JPG/PNG/WEBP 文件、10MiB、2500 万原始像素、最长边 10000 像素、最长/最短边比例不超过 20，并要求 Resize 后预计像素不超过 100 万（最终限制可能更严格）。整个请求体在 multipart 解析前按实际接收字节限制为 10MiB 加 64KiB 开销，含缺少长度头或 chunked 的请求。大于 1MiB 的请求会使用有界临时文件，请求结束或取消时关闭；上传内容不写入数据集。
 
-结果中的测试指标读取当前检查点旁的 `test_evaluation/test_metrics.json`，并核对检查点路径、轮次和数据划分指纹。单张图片的 Top 5 置信度与整个测试集的 Top-5 准确率分别显示。
+原模型模式沿用检查点对应的测试指标读取方式。INT8 模式不返回原模型的测试集准确率；单张图片的 softmax 分数仅作为候选置信度。`timing_ms` 的 preprocess、inference、total、api 分别记录预处理、模型前向、图片处理总耗时和路由处理耗时，单位均为 ms。页面另计从提交请求到结果渲染后一帧的耗时。
 
-如需选择其他已有权重，在启动后端前设置 `$env:TCMP_CHECKPOINT` 为其绝对路径；服务不会自动切换模型。
+如需选择其他已有原模型权重，在启动后端前设置 `$env:TCMP_MODEL="original"`，并设置 `$env:TCMP_CHECKPOINT` 为其绝对路径。INT8 模式只使用与现有 Q 模型对应的原始类别映射。
 
 验证接口：
 
@@ -80,7 +80,7 @@ cd 'D:\Study\AI全栈开发\TCMP-300'
 
 ## DeepSeek 大模型问答
 
-首页 AI 助手调用 `POST /api/v1/chat`，由 `deepseek_chat.py` 请求 DeepSeek 的兼容接口。安装更新后的后端依赖：
+首页 AI 助手调用 `POST /api/v1/chat`，由 `deepseek_chat.py` 请求 DeepSeek 的兼容接口。成功返回 `{code,result,msg}`，`result` 为 `answer/references/model`；API 的参数与业务错误返回 `{code,result:null,msg}`。安装更新后的后端依赖：
 
 ```powershell
 & '.\.venv-api\Scripts\python.exe' -m pip install -r requirements-api.txt

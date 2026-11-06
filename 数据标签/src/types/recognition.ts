@@ -28,9 +28,16 @@ export interface ModelInfo {
   epoch: number
   classes: number
   device: string
+  optimization?: 'int8' | 'original'
   test_top1_accuracy?: number
   test_top5_accuracy?: number
   test_images?: number
 }
-export interface RecognitionResult { prediction: Prediction; top_k: TopPrediction[]; model?: ModelInfo }
+export interface RecognitionResult {
+  prediction: Prediction
+  top_k: TopPrediction[]
+  model?: ModelInfo
+  timing_ms?: { preprocess: number; inference: number; total: number; api?: number }
+  startedAt?: number
+}
 export interface RecognitionSample { herb_id: string; name: string; image_url: string }

@@ -6,8 +6,9 @@ from unittest.mock import patch
 
 from fastapi.testclient import TestClient
 from PIL import Image
+import torch
 
-from api import MAX_UPLOAD_BYTES, ROOT, app, allowed_frontend_origins
+from api import MAX_UPLOAD_BYTES, ROOT, QUANTIZED_MODEL, PREPROCESS, app, allowed_frontend_origins
 import herb_catalog
 
 
@@ -28,9 +29,16 @@ class RecognitionAPITest(unittest.TestCase):
         content = path.read_bytes()
         response = self.client.post('/api/v1/predict', files={'file': ('plant.jpg', content, 'image/jpeg')})
         self.assertEqual(response.status_code, 200, response.text)
-        result = response.json()
-        expected = app.state.predictor.predict(content)
-        self.assertEqual([x['herb_id'] for x in result['top_k']], [x['herb_id'] for x in expected['top_k']])
+        self.assertEqual(response.json()['code'], 200)
+        result = response.json()['result']
+        with QUANTIZED_MODEL.open('rb') as model_file:
+            direct_model = torch.jit.load(model_file, map_location='cpu').eval()
+        with Image.open(io.BytesIO(content)) as image, torch.inference_mode():
+            scores, indices = direct_model(PREPROCESS(image.convert('RGB')).unsqueeze(0)).softmax(1)[0].topk(5)
+        expected_ids = [app.state.predictor.labels[index]['herb_id'] for index in indices.tolist()]
+        self.assertEqual([x['herb_id'] for x in result['top_k']], expected_ids)
+        for actual, expected in zip(result['top_k'], scores.tolist()):
+            self.assertAlmostEqual(actual['confidence'], expected, places=6)
         self.assertEqual(len(result['top_k']), 5)
         self.assertEqual(len({item['herb_id'] for item in result['top_k']}), 5)
         scores = [item['confidence'] for item in result['top_k']]
@@ -43,8 +51,11 @@ class RecognitionAPITest(unittest.TestCase):
             expected_identity = herb_catalog.identity_metadata(herb_catalog.rows()[item['herb_id']])
             for field, value in expected_identity.items():
                 self.assertEqual(item[field], value)
-        self.assertEqual(result['model']['test_images'], 4735)
-        self.assertAlmostEqual(result['model']['test_top5_accuracy'], 0.9229144667370645)
+        self.assertEqual(result['model']['optimization'], 'int8')
+        self.assertEqual(result['model']['device'], 'cpu')
+        self.assertNotIn('test_top5_accuracy', result['model'])
+        self.assertGreater(result['timing_ms']['inference'], 0)
+        self.assertGreaterEqual(result['timing_ms']['api'], result['timing_ms']['total'])
 
     def test_real_sample_image_can_be_uploaded(self):
         samples = self.client.get('/api/v1/recognition/samples').json()
@@ -60,6 +71,9 @@ class RecognitionAPITest(unittest.TestCase):
         for content in [b'', b'demo', b'not an image']:
             result = self.client.post('/api/v1/predict', files={'file': ('fake.jpg', content, 'image/jpeg')})
             self.assertEqual(result.status_code, 400)
+            self.assertEqual(result.json()['code'], 400)
+            self.assertIsNone(result.json()['result'])
+            self.assertTrue(result.json()['msg'])
         self.assertEqual(self.client.post('/api/v1/predict').status_code, 422)
 
     def test_oversized_upload(self):
@@ -125,7 +139,7 @@ class RecognitionAPITest(unittest.TestCase):
             Image.new(mode, (64, 64)).save(image, format='PNG')
             result = self.client.post('/api/v1/predict', files={'file': ('plant.png', image.getvalue(), 'image/png')})
             self.assertEqual(result.status_code, 200, result.text)
-            self.assertEqual(len(result.json()['top_k']), 5)
+            self.assertEqual(len(result.json()['result']['top_k']), 5)
 
     def test_unsupported_format(self):
         image = io.BytesIO()

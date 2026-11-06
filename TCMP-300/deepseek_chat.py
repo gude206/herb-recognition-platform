@@ -49,6 +49,12 @@ class ChatResponse(BaseModel):
     model: str
 
 
+class ChatEnvelope(BaseModel):
+    code: int = 200
+    result: ChatResponse
+    msg: str = "回答完成"
+
+
 def settings():
     # Process environment takes precedence; edits to .env apply on the next call.
     values = {**dotenv_values(ENV_FILE, encoding="utf-8-sig"), **os.environ}
@@ -85,7 +91,7 @@ def plant_context(herb_id):
     return {field: herb[field] for field in fields}
 
 
-@router.post("/chat", response_model=ChatResponse)
+@router.post("/chat", response_model=ChatEnvelope)
 async def chat(payload: ChatRequest):
     config = settings()
     context = await run_in_threadpool(plant_context, payload.herb_id)
@@ -119,5 +125,5 @@ async def chat(payload: ChatRequest):
             raise ValueError()
     except (ValueError, KeyError, IndexError, TypeError):
         raise HTTPException(502, "DeepSeek 未返回有效回答，请稍后重试") from None
-    return ChatResponse(answer=answer.strip(), model=config["model"],
-                        references=[context["name"] + " · 平台图鉴参考资料"] if context else [])
+    return ChatEnvelope(result=ChatResponse(answer=answer.strip(), model=config["model"],
+                        references=[context["name"] + " · 平台图鉴参考资料"] if context else []))

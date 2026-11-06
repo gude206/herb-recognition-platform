@@ -1,8 +1,10 @@
 # 中草药识别与知识平台
 
-GitHub 私有仓库与模型下载、跨电脑安装和完整数据恢复说明见 [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md)。模型权重保存在 Releases，API 密钥仅在本地 `.env` 配置。
+GitHub 仓库与模型下载、跨电脑安装和完整数据恢复说明见 [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md)。已有原模型权重保存在 Releases，API 密钥仅在本地 `.env` 配置。
 
-本目录包含 React 前端 `数据标签/`、模型与 FastAPI 后端 `TCMP-300/`，以及本地 MySQL 安装资料 `mysql-local/`。网页图鉴目前只读 CSV，不依赖 MySQL；识别使用已有 ResNet50 权重，问答配置在后端 `.env`。
+本目录包含 React 前端 `数据标签/`、模型与 FastAPI 后端 `TCMP-300/`，以及本地 MySQL 安装资料 `mysql-local/`。网页图鉴目前只读 CSV，不依赖 MySQL；识别默认使用实验三 CPU INT8 模型，问答配置在后端 `.env`。
+
+实验四本次模型接入、接口说明及网页耗时结果见 [实验四记录](experiment4/实验四记录.md)。
 
 ## 启动与停止
 

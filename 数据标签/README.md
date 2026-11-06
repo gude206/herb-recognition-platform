@@ -56,6 +56,8 @@
 | 识别示例 | GET /api/v1/recognition/samples |
 | DeepSeek 问答 | POST /api/v1/chat，JSON 包含 message、可选 herb_id 和 history |
 
+识别默认使用实验三 INT8 模型，结果区显示模型名称、推理耗时和页面展示耗时。图片识别与问答的成功响应通过 `result` 读取，错误提示通过 `msg` 读取。
+
 识别支持 JPG、PNG、WEBP，最大 10MiB；原始图片最长边不超过 10000 像素、总像素不超过 2500 万，缩放后预计像素不超过 100 万，极端长宽比会要求裁剪。单张图片的置信度是模型分数，不等于识别准确率；分布信息不会用于排除模型预测。识别页面保留前五项置信度、候选身份与审核提示，第 51 类明确显示身份冲突。上传预览与结果图片完整显示原比例，更换图片按钮位于预览下方。数据看板与关于项目已从路由、导航和首页入口移除。
 
 测试后端：在 TCMP-300 目录执行 .venv-api\Scripts\python.exe -m unittest test_catalog test_api -v 。测试使用真实 CSV、参考图片及识别模型。

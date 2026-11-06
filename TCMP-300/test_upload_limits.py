@@ -50,7 +50,7 @@ class UploadBodyLimitTest(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(reads, MAX_UPLOAD_REQUEST_BYTES // len(chunk) + 1)
         self.assertLess(reads, len(chunks))
         self.assertIn(b"access-control-allow-origin", dict(start["headers"]))
-        self.assertIn("10MB", json.loads(body)["detail"])
+        self.assertIn("10MB", json.loads(body)["msg"])
 
     async def test_actual_bytes_override_a_false_small_content_length(self):
         async def downstream(*args):

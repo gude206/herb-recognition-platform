@@ -42,9 +42,10 @@ class ChatAPITest(unittest.TestCase):
         with self.upstream(handle):
             response = self.client.post("/api/v1/chat", json={"message": " 它的分布呢？ ", "herb_id": "tcmp-001", "history": history})
         self.assertEqual(response.status_code, 200, response.text)
-        self.assertEqual(response.json()["answer"], "植物资料回答\n第二段")
-        self.assertEqual(response.json()["model"], "deepseek-chat")
-        self.assertTrue(response.json()["references"])
+        self.assertEqual(response.json()["code"], 200)
+        self.assertEqual(response.json()["result"]["answer"], "植物资料回答\n第二段")
+        self.assertEqual(response.json()["result"]["model"], "deepseek-chat")
+        self.assertTrue(response.json()["result"]["references"])
         messages = captured[0]["messages"]
         self.assertIn("阿拉伯婆婆纳", messages[0]["content"])
         self.assertIn('"reviewStatus"', messages[0]["content"])

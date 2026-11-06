@@ -6,13 +6,18 @@ import logging
 import os
 import re
 import threading
+from time import perf_counter
 from contextlib import asynccontextmanager
 from pathlib import Path
 
 import torch
 from fastapi import APIRouter, FastAPI, File, HTTPException, UploadFile, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.exceptions import RequestValidationError
+from pydantic import BaseModel
+from starlette.exceptions import HTTPException as StarletteHTTPException
 from PIL import Image, ImageOps, UnidentifiedImageError
 from starlette.concurrency import run_in_threadpool
 from torch import nn
@@ -23,6 +28,7 @@ from upload_limits import BoundedUploadMiddleware, SingleImageUploadRoute
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_CHECKPOINT = ROOT / "runs/resnet50_7030_baseline/best.pt"
+QUANTIZED_MODEL = ROOT / "experiment3/runs/frozen/Q.pt"
 CLASS_INFO = ROOT / "data/author_tcmp_300/tcmp-info-20250329.csv"
 TRAIN_IMAGES = ROOT / "data/author_tcmp_300/images/tcmp-300/train"
 MAX_UPLOAD_BYTES = 10 * 1024 * 1024
@@ -71,7 +77,16 @@ def allowed_frontend_origins():
 class Predictor:
     def __init__(self, checkpoint=DEFAULT_CHECKPOINT):
         checkpoint = Path(checkpoint).resolve()
-        saved = torch.load(checkpoint, map_location="cpu", weights_only=True)
+        mode = os.environ.get("TCMP_MODEL", "int8")
+        if mode not in {"int8", "original"}:
+            raise ValueError("TCMP_MODEL must be int8 or original")
+        if mode == "int8" and checkpoint != DEFAULT_CHECKPOINT.resolve():
+            raise ValueError("INT8 model uses the experiment-2 class mapping; use TCMP_MODEL=original for another checkpoint")
+        labels_path = ROOT / "model_labels.json"
+        if mode == "int8" and labels_path.is_file():
+            saved = json.loads(labels_path.read_text(encoding="utf-8"))
+        else:
+            saved = torch.load(checkpoint, map_location="cpu", weights_only=True)
         classes = saved["classes"]
         if len(classes) != 300:
             raise ValueError("Expected a TCMP-300 checkpoint with 300 classes")
@@ -93,17 +108,26 @@ class Predictor:
                 "family": row["Family"].strip(), "class_id": int(number),
                 **herb_catalog.identity_metadata(row)})
         torch.set_num_threads(min(4, os.cpu_count() or 4))
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.model = models.resnet50(weights=None)
-        self.model.fc = nn.Linear(self.model.fc.in_features, len(classes))
-        self.model.load_state_dict(saved["model"])
-        self.model.to(self.device).eval()
+        if mode == "int8":
+            torch.backends.quantized.engine = "fbgemm"
+            self.device = torch.device("cpu")
+            # A file object also supports the Chinese project path on Windows.
+            with QUANTIZED_MODEL.open("rb") as file:
+                self.model = torch.jit.load(file, map_location="cpu").eval()
+        else:
+            self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+            self.model = models.resnet50(weights=None)
+            self.model.fc = nn.Linear(self.model.fc.in_features, len(classes))
+            self.model.load_state_dict(saved["model"])
+            self.model.to(self.device).eval()
         self.lock = threading.Lock()
-        self.info = {"name": "ResNet50 · TCMP-300", "run": checkpoint.parent.name,
-                     "epoch": saved["epoch"], "classes": len(classes), "device": self.device.type}
+        self.info = {"name": "ResNet50 INT8 · TCMP-300" if mode == "int8" else "ResNet50 · TCMP-300",
+                     "run": "experiment3/Q" if mode == "int8" else checkpoint.parent.name,
+                     "epoch": saved["epoch"], "classes": len(classes), "device": self.device.type,
+                     "optimization": mode}
         metrics_path = checkpoint.parent / "test_evaluation/test_metrics.json"
         # Only publish evaluation belonging to this checkpoint and split.
-        if metrics_path.is_file():
+        if mode == "original" and metrics_path.is_file():
             metrics = json.loads(metrics_path.read_text(encoding="utf-8"))
             if (Path(metrics["checkpoint"]).resolve() == checkpoint
                     and metrics["epoch"] == saved["epoch"]
@@ -123,6 +147,7 @@ class Predictor:
                 break
 
     def predict(self, content):
+        started = perf_counter()
         try:
             with Image.open(io.BytesIO(content)) as image:
                 if image.format not in {"JPEG", "PNG", "WEBP"}:
@@ -134,11 +159,22 @@ class Predictor:
             raise HTTPException(400, "无法读取图片，请上传有效的 JPG、PNG 或 WEBP 文件")
         except Image.DecompressionBombError:
             raise HTTPException(413, "图片分辨率过大，请缩小后重试")
+        preprocess_ms = (perf_counter() - started) * 1000
         with self.lock, torch.inference_mode():
-            probabilities, indices = self.model(tensor.to(self.device)).softmax(dim=1)[0].topk(5)
+            tensor = tensor.to(self.device)
+            if self.device.type == "cuda":
+                torch.cuda.synchronize()
+            inference_started = perf_counter()
+            logits = self.model(tensor)
+            if self.device.type == "cuda":
+                torch.cuda.synchronize()
+            inference_ms = (perf_counter() - inference_started) * 1000
+            probabilities, indices = logits.softmax(dim=1)[0].topk(5)
         top_k = [dict(self.labels[index], confidence=score)
                  for index, score in zip(indices.tolist(), probabilities.tolist())]
-        return {"prediction": top_k[0], "top_k": top_k, "model": self.info}
+        return {"prediction": top_k[0], "top_k": top_k, "model": self.info,
+                "timing_ms": {"preprocess": round(preprocess_ms, 2), "inference": round(inference_ms, 2),
+                              "total": round((perf_counter() - started) * 1000, 2)}}
 
 
 @asynccontextmanager
@@ -149,6 +185,19 @@ async def lifespan(app):
 
 
 app = FastAPI(title="TCMP-300 草药识别 API", lifespan=lifespan)
+
+
+@app.exception_handler(StarletteHTTPException)
+async def http_error(request, error):
+    return JSONResponse({"code": error.status_code, "result": None, "msg": str(error.detail)},
+                        status_code=error.status_code, headers=error.headers)
+
+
+@app.exception_handler(RequestValidationError)
+async def validation_error(request, error):
+    return JSONResponse({"code": 422, "result": None, "msg": "请求参数无效，请检查文件或输入内容"}, status_code=422)
+
+
 app.include_router(chat_router)
 app.add_middleware(BoundedUploadMiddleware, path="/api/v1/predict", max_bytes=MAX_UPLOAD_REQUEST_BYTES)
 app.add_middleware(CORSMiddleware,
@@ -204,8 +253,20 @@ def sample_image(sample_id: str):
 recognition_router = APIRouter(route_class=SingleImageUploadRoute)
 
 
-@recognition_router.post("/api/v1/predict")
+class PredictionResponse(BaseModel):
+    code: int = 200
+    result: dict
+    msg: str = "识别完成"
+
+
+@recognition_router.post("/api/v1/predict", response_model=PredictionResponse,
+                         summary="使用实验三 INT8 模型识别植物图片",
+                         responses={400: {"description": "空文件或无效图片"},
+                                    413: {"description": "图片大小、尺寸或请求体超限"},
+                                    415: {"description": "不支持的图片格式"},
+                                    500: {"description": "模型推理失败"}})
 async def predict(file: UploadFile = File(...)):
+    started = perf_counter()
     try:
         content = await file.read(MAX_UPLOAD_BYTES + 1)
     finally:
@@ -215,7 +276,9 @@ async def predict(file: UploadFile = File(...)):
     if len(content) > MAX_UPLOAD_BYTES:
         raise HTTPException(413, "图片大小不能超过 10MB")
     try:
-        return await run_in_threadpool(app.state.predictor.predict, content)
+        result = await run_in_threadpool(app.state.predictor.predict, content)
+        result["timing_ms"]["api"] = round((perf_counter() - started) * 1000, 2)
+        return PredictionResponse(result=result)
     except HTTPException:
         raise
     except Exception:
@@ -224,3 +287,16 @@ async def predict(file: UploadFile = File(...)):
 
 
 app.include_router(recognition_router)
+
+
+WEB_DIR = ROOT / "web"
+if WEB_DIR.is_dir():
+    app.mount("/assets", StaticFiles(directory=WEB_DIR / "assets"), name="web-assets")
+
+    @app.get("/", include_in_schema=False)
+    @app.get("/herbs", include_in_schema=False)
+    @app.get("/herbs/{herb_id}", include_in_schema=False)
+    @app.get("/knowledge", include_in_schema=False)
+    @app.get("/login", include_in_schema=False)
+    def frontend(herb_id: str | None = None):
+        return FileResponse(WEB_DIR / "index.html")

@@ -1,4 +1,5 @@
 import { ArrowRight, CheckCircle2, Sparkles } from 'lucide-react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { RecognitionResult as ResultType } from '../../types/recognition'
 import { IdentityWarning } from '../herb/HerbIdentity'
@@ -6,6 +7,12 @@ import { IdentityWarning } from '../herb/HerbIdentity'
 const formatConfidence = (score: number) => score > 0 && score < 0.0001 ? '<0.01%' : `${(score * 100).toFixed(2)}%`
 
 export function RecognitionResult({result, preview}: {result?: ResultType; preview?: string}) {
+  const [displayTime, setDisplayTime] = useState<{result: ResultType; ms: number}>()
+  useEffect(() => {
+    if (result?.startedAt === undefined) return
+    const frame = requestAnimationFrame(() => setDisplayTime({result, ms: performance.now() - result.startedAt!}))
+    return () => cancelAnimationFrame(frame)
+  }, [result])
   return <section className="paper-card recognition-result">
     <div className="mini-heading"><Sparkles size={20}/><h3>识别结果</h3>{result && <span className="success-label"><CheckCircle2 size={14}/>识别完成</span>}</div>
     {result ? <>
@@ -15,6 +22,9 @@ export function RecognitionResult({result, preview}: {result?: ResultType; previ
           <div className="name-score"><h2>{result.prediction.name}</h2><span>置信度 {formatConfidence(result.prediction.confidence)}</span></div>
           <p className="latin">{result.prediction.latin_name}</p>
           {result.prediction.family && <p>科属：{result.prediction.family}</p>}
+          {result.model && <p className="prediction-identity">{result.model.name}</p>}
+          {result.timing_ms && <p className="prediction-identity">模型推理 {result.timing_ms.inference.toFixed(1)} ms
+            {displayTime?.result === result && <> · 页面展示 {displayTime.ms.toFixed(0)} ms</>}</p>}
           <div className="tag-row prediction-status"><span className="tag">模型候选 · 待核实</span><span className="tag">{result.prediction.review_status || '审核状态未提供'}</span></div>
           {result.prediction.identity_conflict && <IdentityWarning className="prediction-warning" originalLatinName={result.prediction.original_latin_name} acceptedLatinName={result.prediction.accepted_latin_name}/>}
           {result.prediction.identity_status && <p className="prediction-identity">身份资料：{result.prediction.identity_status}</p>}

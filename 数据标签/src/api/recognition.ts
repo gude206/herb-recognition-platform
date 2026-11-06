@@ -16,6 +16,7 @@ export function findKnowledgeHerb(prediction?: TopPrediction) {
 
 export function recognitionError(error: unknown): string {
   if (axios.isAxiosError(error)) {
+    if (typeof error.response?.data?.msg === 'string') return error.response.data.msg
     if (typeof error.response?.data?.detail === 'string') return error.response.data.detail
     if (!error.response) return '无法连接识别服务，请启动 TCMP-300 中的 start-api.ps1 后重试'
   }
@@ -32,7 +33,9 @@ export async function predictHerb(file: File): Promise<RecognitionResult> {
   if (!useMockRecognition) {
     const body = new FormData()
     body.append('file', file)
-    return (await apiClient.post<RecognitionResult>('/api/v1/predict', body, {timeout: 60000})).data
+    const startedAt = performance.now()
+    const { data } = await apiClient.post<{code: number; result: RecognitionResult; msg: string}>('/api/v1/predict', body, {timeout: 60000})
+    return { ...data.result, startedAt }
   }
   await wait(1400)
   const herb = mockHerbs.find(item => file.name.includes(item.name)) || mockHerbs[0]
