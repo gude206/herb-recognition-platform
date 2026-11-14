@@ -17,6 +17,9 @@ $nodeExe = (Get-Command node.exe -ErrorAction Stop).Source
 if (-not (Test-Path -LiteralPath $apiPython) -or -not (Test-Path -LiteralPath $viteEntry)) {
     throw '请先按两个项目 README 的说明安装依赖。'
 }
+$managedMysql = & $apiPython -c "from dotenv import dotenv_values; import os,sys; values={**dotenv_values(sys.argv[1]),**os.environ}; print(str(values.get('MYSQL_MANAGED_LOCAL','false')).lower())" (Join-Path $backendDir '.env')
+if ($LASTEXITCODE -ne 0) { throw '无法读取数据库启动配置。' }
+if ($managedMysql.Trim() -in @('true','1','yes')) { & (Join-Path $PSScriptRoot 'start-mysql.ps1') }
 if (Test-Path -LiteralPath $StateFile) {
     $existing = Read-PlatformState -StateFile $StateFile -ProjectRoot $PSScriptRoot
     foreach ($record in $existing.Processes) {
@@ -44,7 +47,13 @@ try {
     $env:TCMP_FRONTEND_ORIGIN = $frontendUrl
     $backend = Start-Process -FilePath $apiPython -ArgumentList '-m','uvicorn','api:app','--app-dir',"`"$backendDir`"",'--host','127.0.0.1','--port',"$ApiPort" -WorkingDirectory $backendDir -WindowStyle Hidden -RedirectStandardOutput $apiLog -RedirectStandardError $apiErrorLog -PassThru
     $records.Add((Get-PlatformProcessRecord -Process $backend -Role 'backend'))
-    $frontend = Start-Process -FilePath $nodeExe -ArgumentList "`"$viteEntry`"",'--config',"`"$viteConfig`"",'--host','127.0.0.1','--port',"$FrontendPort",'--strictPort' -WorkingDirectory $frontendDir -WindowStyle Hidden -RedirectStandardOutput $frontendLog -RedirectStandardError $frontendErrorLog -PassThru
+    # The background server must not bind Vite's terminal shortcuts to the
+    # launcher's console: closing that console can otherwise raise read EPIPE.
+    $previousFrontendCI = $env:CI
+    try {
+        $env:CI = 'true'
+        $frontend = Start-Process -FilePath $nodeExe -ArgumentList "`"$viteEntry`"",'--config',"`"$viteConfig`"",'--host','127.0.0.1','--port',"$FrontendPort",'--strictPort' -WorkingDirectory $frontendDir -WindowStyle Hidden -RedirectStandardOutput $frontendLog -RedirectStandardError $frontendErrorLog -PassThru
+    } finally { $env:CI = $previousFrontendCI }
     $records.Add((Get-PlatformProcessRecord -Process $frontend -Role 'frontend'))
     $deadline = (Get-Date).AddSeconds($StartupTimeoutSeconds)
     $ready = $false

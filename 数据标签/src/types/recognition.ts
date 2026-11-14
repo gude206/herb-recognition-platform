@@ -39,5 +39,7 @@ export interface RecognitionResult {
   model?: ModelInfo
   timing_ms?: { preprocess: number; inference: number; total: number; api?: number }
   startedAt?: number
+  record_id?: string
+  saved?: boolean
 }
 export interface RecognitionSample { herb_id: string; name: string; image_url: string }

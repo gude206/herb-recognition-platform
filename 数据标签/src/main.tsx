@@ -8,5 +8,10 @@ import './styles/tablet.css'
 import './styles/design-system.css'
 import './styles/recognition.css'
 import './styles/atlas.css'
+import './styles/chat.css'
+import './styles/knowledge.css'
+import './styles/auth-admin.css'
+import './styles/brand.css'
+import './styles/profile.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>)

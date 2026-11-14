@@ -1,9 +1,13 @@
-"""Read-only atlas built from the source-backed, single-file plant catalogue."""
+"""Plant atlas backed by MySQL when enabled, with explicit CSV mode otherwise."""
 import csv
 import json
 import re
 from functools import lru_cache
 from pathlib import Path
+import content_store
+import history_store
+import publication_policy as publication
+import curated_content
 
 ROOT=Path(__file__).resolve().parent
 CSV_PATH=ROOT/"data/author_tcmp_300/tcmp-info-20250329.csv"
@@ -66,85 +70,105 @@ def _load(signature):
 
 
 def rows():
+    if history_store.enabled():
+        return content_store.plant_rows()
     stat=CSV_PATH.stat()
     return _load((stat.st_mtime_ns,stat.st_size))
 
 
-def reference_image(herb_id):
-    row=rows().get(herb_id)
-    if not row or not row.get("封面图候选"):return None
-    path=(ROOT/row["封面图候选"]).resolve()
+def reference_image(herb_id, row=None, *, evidence=None, publications=None):
+    row=rows().get(herb_id) if row is None else row
+    if not publication.plant_is_public(row,evidence):return None
+    approved=curated_content.image_path(herb_id,records=publications)
+    if approved is not None:return approved
+    if not publication.plant_image_is_public(row,evidence):return None
+    path=(ROOT/row["封面图"]).resolve()
     if not path.is_relative_to(TRAIN_IMAGES.resolve()) or path.suffix.lower() not in {".jpg",".jpeg",".png",".webp"}:
         return None
     return path if path.is_file() else None
 
 
 def identity_metadata(row):
-    """Share identity warnings with model outputs without confirming candidates."""
+    """Model provenance remains separate from publicly released plant knowledge."""
     conflict="冲突" in row["身份核对状态"]
-    return dict(identity_conflict=conflict,identity_status=row["身份核对状态"],
-        review_status=row["人工审核状态"],original_latin_name=row["Latin Name"].strip(),
+    return dict(identity_conflict=conflict,
+        identity_status="名称冲突，该类别不提供植物资料" if conflict else "模型类别记录",
+        review_status="", original_latin_name="" if conflict else row["Latin Name"].strip(),
         accepted_latin_name="" if conflict else row["规范学名"].strip())
 
 
-def serialize(row,detail=False):
-    materials=json.loads(row["药材记录JSON"] or "[]")
-    nature=attributes(row,materials,"药性")
+def serialize(row,detail=False,*,publications=None):
+    evidence=publication.botanical_evidence(row)
+    if not publication.plant_is_public(row,evidence):return None
+    value=lambda field:publication.botanical_value(evidence,field)
     herb_id=row["植物ID"]
-    distribution=row["活体植物分布地区"]
-    effects=[effect for effect in EFFECTS if effect in row["传统功效"]]
-    identity=identity_metadata(row)
-    image=reference_image(herb_id)
-    result=dict(id=herb_id,classId=int(row["No"]),name=row["活体植物名称"] or row["Chinese Name"],
-        latinName=identity["accepted_latin_name"] or row["Latin Name"],originalLatinName=row["Latin Name"],
-        acceptedLatinName=identity["accepted_latin_name"],
-        aliases=split_values(row["植物别名"]),family=row["规范科名"] or row["Family"],genus=row["属名"],
-        familyChinese=row["资料科名中文"],genusChinese=row["资料属名中文"],
-        medicinalPart=medicinal_parts(row,materials),property="、".join(nature),
-        properties=nature,flavor=attributes(row,materials,"药味"),meridians=attributes(row,materials,"归经"),
-        effects=effects,description=row["简短介绍"] or "植物身份资料尚待核实。",
+    if publications is None:publications=curated_content.publications()[0]
+    latin=value("规范学名") or value("植物智学名")
+    image=reference_image(herb_id,row=row,evidence=evidence,publications=publications)
+    feature_fields=["生长形态","株高特征","叶特征","花特征","果实特征","种子特征",
+                    "茎特征","枝特征","根特征","孢子囊特征","雄球花特征","雌球花特征"]
+    features=[dict(label=field.replace("特征",""),value=value(field)) for field in feature_fields if value(field)]
+    description=value("生长形态") or value("叶特征")
+    result=dict(id=herb_id,classId=int(row["No"]),name=value("规范中文名"),latinName=latin,
+        originalLatinName=value("植物智学名") or latin,acceptedLatinName=latin,
+        aliases=split_values(value("植物别名")),family=value("规范科名"),genus=value("属名"),
+        familyChinese=value("资料科名中文"),genusChinese=value("资料属名中文"),
+        medicinalPart=[],property="",properties=[],flavor=[],meridians=[],effects=[],description=description,
         image=f"/api/v1/herbs/{herb_id}/reference-image" if image else "",
-        imageStatus="dataset_reference" if image else "missing",
-        morphology="",traditionalUses=[],precautions=[],background="",
-        distribution=distribution,distributionStatus=row["分布资料状态"],habitat=row["生境"],
-        growthForm=row["生长形态"],identityStatus=identity["identity_status"],
-        identityConflict=identity["identity_conflict"],toxicity=row["毒性"],reviewStatus=identity["review_status"])
+        imageStatus="published" if image else "missing",morphology="",traditionalUses=[],precautions=[],background="",
+        distribution=value("分布地区"),distributionStatus="",habitat=value("生境"),
+        growthForm=value("生长形态"),identityStatus="",identityConflict=False,toxicity="",reviewStatus="")
     if detail:
-        result.update(morphology=row["活体识别特征"],traditionalUses=[row["传统应用"]] if row["传统应用"] else [],
-            precautions=[row["使用注意"]] if row["使用注意"] else [],background=row["药材与植物关系说明"],
-            elevation=row["海拔"],flowering=row["花期"],fruiting=row["果期"],sporeSeason=row["孢子期"],
-            features=[dict(label=field.replace("特征",""),value=row[field]) for field in
-                ["生长形态","株高特征","叶特征","花特征","果实特征","种子特征","茎特征","枝特征","根特征",
-                 "孢子囊特征","雄球花特征","雌球花特征"] if row[field]],
-            completeIntroduction=row["活体植物完整介绍"],medicinalIntroduction=row["药材完整介绍"],
-            medicinalRegions=row["药材产区"],materials=materials,
-            traditionalEffects=row["传统功效"],natureText=row["药性"],flavorText=row["药味"],
-            meridianText=row["归经"],confusion=row["易混淆植物"],differences=row["主要区别"],
-            confusionRisk=row["易混淆风险"],confusionStatus=row["易混淆审核状态"],
-            taxonomySystem=row["分类体系"],taxonomyStatus=row["分类接受状态"],notes=row["待核实说明"],
-            fieldReview=json.loads(row.get("字段核对状态JSON") or "{}"),
-            sources=list({e["url"]:dict(name=e["source_name"],url=e["url"],version=e["version"],
-                locator=e["locator"]) for e in json.loads(row["字段证据JSON"] or "[]")}.values()),
-            updatedAt=row["更新日期"])
+        used_fields=set(feature_fields+["规范学名","规范中文名","植物智学名","植物别名","规范科名","属名",
+            "资料科名中文","资料属名中文","分布地区","生境","海拔","花期","果期","孢子期","分类体系","分类接受状态"])
+        sources={item["url"]:dict(name=item["source_name"],url=item["url"],version=item.get("version",""),
+                    locator=item.get("locator","")) for field,items in evidence.items() if field in used_fields for item in items}
+        result.update(morphology="；".join(item["value"] for item in features),
+            elevation=value("海拔"),flowering=value("花期"),fruiting=value("果期"),sporeSeason=value("孢子期"),features=features,
+            completeIntroduction="\n\n".join(item["label"]+"："+item["value"] for item in features),
+            medicinalIntroduction="",medicinalRegions="",materials=[],traditionalEffects="",natureText="",flavorText="",
+            meridianText="",confusion="",differences="",confusionRisk="",confusionStatus="",
+            taxonomySystem=value("分类体系"),taxonomyStatus=value("分类接受状态"),notes="",fieldReview={},
+            sources=list(sources.values()),updatedAt=row["更新日期"])
+    editorial=curated_content.plant(herb_id,records=publications)
+    result['curated']=bool(editorial)
+    if editorial:
+        result.update(description=editorial['description'],distribution=editorial['distribution'],habitat=editorial['habitat'],
+            imageCredit=curated_content.public_credit(editorial['imageCredit']),editorialOrder=editorial['displayOrder'])
+        result.update({field:editorial[field] for field in ('family','familyChinese','genus','genusChinese','growthForm') if field in editorial})
+        if image:result['image']+= '?v='+editorial['imageCredit']['sha256'][:12]
+        if detail:
+            result.update(completeIntroduction=editorial['completeIntroduction'],observation=editorial['observation'],
+                features=editorial['features'],sources=editorial['sources'],updatedAt=editorial['updatedAt'],
+                morphology='；'.join(item['value'] for item in editorial['features']),flowering='',fruiting='',
+                elevation='',sporeSeason='')
     return result
 
 
 def list_herbs(q="",family="",genus="",region="",effect="",property="",part="",sort="class",
                page=1,page_size=24,recent_ids=""):
     result=[]
-    for row in rows().values():
-        herb=serialize(row)
-        searchable=" ".join(row.get(k,"") for k in ["Chinese Name","Latin Name","规范中文名","规范学名",
-            "植物别名","药材名称","规范科名","属名","资料科名中文","资料属名中文","活体植物分布地区","传统功效"])
-        if q.strip() and q.strip().casefold() not in searchable.casefold():continue
+    # Share one publication snapshot across all 300 records. Reading it inside
+    # serialize/image lookup repeatedly reparses .env and repeats database checks.
+    source_rows=rows()
+    publications=curated_content.publications()[0]
+    collection_total=0
+    query=q.strip().casefold()
+    for row in source_rows.values():
+        herb=serialize(row,publications=publications)
+        if herb is None:continue
+        collection_total+=1
+        searchable=" ".join([herb["name"],herb["latinName"],*herb["aliases"],herb["family"],herb["genus"],herb["distribution"]])
+        if query and query not in searchable.casefold():continue
         if family and herb["family"]!=family:continue
         if genus and herb["genus"]!=genus:continue
         if region and not region_matches(herb["distribution"],region):continue
-        if effect and effect not in row["传统功效"]:continue
+        if effect and effect not in herb["effects"]:continue
         if property and property not in herb["properties"]:continue
         if part and part not in herb["medicinalPart"]:continue
         result.append(herb)
     if sort=="name":result.sort(key=lambda h:h["name"])
+    elif sort=="featured":result.sort(key=lambda h:(not h['curated'],h.get('editorialOrder',h['classId'])))
     elif sort=="recent":
         recent=list(dict.fromkeys(recent_ids.split(",")))
         order={herb_id:index for index,herb_id in enumerate(recent)}
@@ -152,13 +176,15 @@ def list_herbs(q="",family="",genus="",region="",effect="",property="",part="",s
     else:result.sort(key=lambda h:h["classId"])
     total=len(result)
     page=min(page,max(1,(total+page_size-1)//page_size))
-    return dict(total=total,collectionTotal=len(rows()),page=page,pageSize=page_size,
+    return dict(total=total,collectionTotal=collection_total,page=page,pageSize=page_size,
                 items=result[(page-1)*page_size:page*page_size])
 
 
 def filters():
-    herbs=[serialize(row) for row in rows().values()]
-    return dict(total=len(herbs),distributionCount=sum(bool(h["distribution"]) for h in herbs),
+    source_rows=rows()
+    publications=curated_content.publications()[0]
+    herbs=[herb for row in source_rows.values() if (herb:=serialize(row,publications=publications)) is not None]
+    return dict(total=len(herbs),curatedCount=sum(h['curated'] for h in herbs),distributionCount=sum(bool(h["distribution"]) for h in herbs),
         families=sorted({h["family"] for h in herbs if h["family"]}),
         genera=sorted({h["genus"] for h in herbs if h["genus"]}),
         regions=[r for r in REGIONS if any(region_matches(h["distribution"],r) for h in herbs)],

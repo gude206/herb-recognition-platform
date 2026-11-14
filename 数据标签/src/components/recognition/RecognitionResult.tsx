@@ -19,21 +19,20 @@ export function RecognitionResult({result, preview}: {result?: ResultType; previ
       <div className="result-main">
         {preview && <img src={preview} alt="识别上传图片"/>}
         <div className="result-copy">
-          <div className="name-score"><h2>{result.prediction.name}</h2><span>置信度 {formatConfidence(result.prediction.confidence)}</span></div>
-          <p className="latin">{result.prediction.latin_name}</p>
-          {result.prediction.family && <p>科属：{result.prediction.family}</p>}
+          <div className="name-score"><h2>{result.prediction.identity_conflict ? '无法确定植物名称' : result.prediction.name}</h2><span>置信度 {formatConfidence(result.prediction.confidence)}</span></div>
+          {!result.prediction.identity_conflict && <p className="latin">{result.prediction.latin_name}</p>}
+          {!result.prediction.identity_conflict && result.prediction.family && <p>科属：{result.prediction.family}</p>}
           {result.model && <p className="prediction-identity">{result.model.name}</p>}
           {result.timing_ms && <p className="prediction-identity">模型推理 {result.timing_ms.inference.toFixed(1)} ms
             {displayTime?.result === result && <> · 页面展示 {displayTime.ms.toFixed(0)} ms</>}</p>}
-          <div className="tag-row prediction-status"><span className="tag">模型候选 · 待核实</span><span className="tag">{result.prediction.review_status || '审核状态未提供'}</span></div>
+          <div className="tag-row prediction-status"><span className="tag">模型候选</span></div>
           {result.prediction.identity_conflict && <IdentityWarning className="prediction-warning" originalLatinName={result.prediction.original_latin_name} acceptedLatinName={result.prediction.accepted_latin_name}/>}
-          {result.prediction.identity_status && <p className="prediction-identity">身份资料：{result.prediction.identity_status}</p>}
-          <Link to={'/herbs/'+result.prediction.herb_id} className="text-link">查看植物分布与完整资料 <ArrowRight size={15}/></Link>
+          {!result.prediction.identity_conflict && <Link to={'/herbs/'+result.prediction.herb_id} className="text-link">查看植物分布与完整资料 <ArrowRight size={15}/></Link>}
         </div>
       </div>
       <div className="top-predictions"><strong>Top 5 候选结果 · 置信度</strong>
         {result.top_k.slice(0, 5).map((item, index) => <div className="prediction-row" key={item.herb_id}>
-          <b className={`rank rank-${index + 1}`}>{index + 1}</b><span className="prediction-candidate"><Link to={'/herbs/'+item.herb_id}>{item.name}</Link><small className={item.identity_conflict ? 'candidate-conflict' : ''} title={[item.identity_status,item.review_status].filter(Boolean).join(' · ')}>{item.identity_conflict ? '身份冲突 · 待核实' : '候选 · 待核实'}</small></span><strong>{formatConfidence(item.confidence)}</strong>
+          <b className={`rank rank-${index + 1}`}>{index + 1}</b><span className="prediction-candidate">{item.identity_conflict ? <span>名称信息不一致</span> : <Link to={'/herbs/'+item.herb_id}>{item.name}</Link>}<small className={item.identity_conflict ? 'candidate-conflict' : ''} >{item.identity_conflict ? '不提供植物资料' : '模型候选'}</small></span><strong>{formatConfidence(item.confidence)}</strong>
         </div>)}
       </div>
     </> : <div className="result-placeholder"><Sparkles size={25}/><strong>等待识别</strong><span>上传植物图片，查看前五个预测类别和置信度</span></div>}

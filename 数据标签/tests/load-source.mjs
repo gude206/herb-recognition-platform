@@ -10,6 +10,10 @@ async function moduleURL(sourceURL) {
 }
 
 async function compileSource(sourceURL) {
+  // Vite turns image imports into URLs; keep that contract in server-rendered tests.
+  if (/\.(?:png|jpe?g|svg|webp|gif|ico)$/i.test(sourceURL.pathname)) {
+    return 'data:text/javascript;base64,' + Buffer.from('export default ' + JSON.stringify(sourceURL.href)).toString('base64')
+  }
   const source = await fs.readFile(sourceURL, 'utf8')
   let output = ts.transpileModule(source, {
     compilerOptions: { target: ts.ScriptTarget.ES2020, module: ts.ModuleKind.ESNext, jsx: ts.JsxEmit.ReactJSX },

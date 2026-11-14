@@ -3,7 +3,7 @@ import { ImagePlus, LoaderCircle, RotateCcw, UploadCloud } from 'lucide-react'
 import { predictHerb, recognitionError } from '../../api/recognition'
 import type { RecognitionResult } from '../../types/recognition'
 
-export function ImageUploader({onResult, onStart}: {onResult: (result: RecognitionResult, preview: string) => void; onStart: () => void}) {
+export function ImageUploader({onResult, onStart, onFinish}: {onResult: (result: RecognitionResult, preview: string) => void; onStart: () => void; onFinish?: () => void}) {
   const input = useRef<HTMLInputElement>(null)
   const busy = useRef(false)
   const previewUrl = useRef('')
@@ -44,6 +44,7 @@ export function ImageUploader({onResult, onStart}: {onResult: (result: Recogniti
     } finally {
       busy.current = false
       if (mounted.current) setLoading(false)
+      onFinish?.()
     }
   }
   const drop = (event: DragEvent<HTMLDivElement>) => {event.preventDefault(); void recognize(event.dataTransfer.files[0])}

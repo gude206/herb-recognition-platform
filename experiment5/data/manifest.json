@@ -1,0 +1,19 @@
+{
+  "source_name": "tcmp-info-20250329(1).csv",
+  "source_sha256": "8c012f0aaec2f405a81499638477c0caf7857bf4c410a5c2cd061e3c51a1f324",
+  "source_rows": 300,
+  "seed": 20261114,
+  "counts": {
+    "train": 100,
+    "validation": 10,
+    "test": 10
+  },
+  "split_by": "plant_id",
+  "label_status": "source-field weak supervision, not independently human reviewed",
+  "cleaning": "NFKC and whitespace normalization; retain botanical punctuation and negation",
+  "missing_training_classes": [
+    "本草文化",
+    "其他"
+  ],
+  "excluded": "未公开资料、药效、毒性和身份冲突记录"
+}

@@ -1,0 +1,87 @@
+{
+  "label_basis": "source-field weak labels, not human gold",
+  "samples": [
+    {
+      "plant_id": "tcmp-105",
+      "expected": "植物形态",
+      "predicted": "植物形态",
+      "correct": true,
+      "status": 200,
+      "elapsed_ms": 1047.96
+    },
+    {
+      "plant_id": "tcmp-105",
+      "expected": "分布生境",
+      "predicted": "分布生境",
+      "correct": true,
+      "status": 200,
+      "elapsed_ms": 468.09
+    },
+    {
+      "plant_id": "tcmp-105",
+      "expected": "分类名称",
+      "predicted": "分类名称",
+      "correct": true,
+      "status": 200,
+      "elapsed_ms": 534.27
+    },
+    {
+      "plant_id": "tcmp-085",
+      "expected": "植物形态",
+      "predicted": "植物形态",
+      "correct": true,
+      "status": 200,
+      "elapsed_ms": 941.89
+    },
+    {
+      "plant_id": "tcmp-085",
+      "expected": "分布生境",
+      "predicted": "分布生境",
+      "correct": true,
+      "status": 200,
+      "elapsed_ms": 712.06
+    },
+    {
+      "plant_id": "tcmp-085",
+      "expected": "分类名称",
+      "predicted": "分类名称",
+      "correct": true,
+      "status": 200,
+      "elapsed_ms": 847.58
+    },
+    {
+      "plant_id": "tcmp-258",
+      "expected": "植物形态",
+      "predicted": "植物形态",
+      "correct": true,
+      "status": 200,
+      "elapsed_ms": 818.62
+    },
+    {
+      "plant_id": "tcmp-258",
+      "expected": "分布生境",
+      "predicted": "分布生境",
+      "correct": true,
+      "status": 200,
+      "elapsed_ms": 808.78
+    },
+    {
+      "plant_id": "tcmp-258",
+      "expected": "分类名称",
+      "predicted": "分类名称",
+      "correct": true,
+      "status": 200,
+      "elapsed_ms": 879.94
+    },
+    {
+      "plant_id": "tcmp-291",
+      "expected": "植物形态",
+      "predicted": "植物形态",
+      "correct": true,
+      "status": 200,
+      "elapsed_ms": 918.14
+    }
+  ],
+  "accuracy": 1.0,
+  "mean_elapsed_ms": 797.733
+}

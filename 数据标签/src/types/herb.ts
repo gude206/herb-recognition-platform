@@ -1,4 +1,9 @@
+import type { ImageCredit } from './media'
+
 export interface Herb {
+  curated?: boolean
+  observation?: string
+  imageCredit?: ImageCredit | null
   id: string
   name: string
   latinName: string
@@ -29,7 +34,7 @@ export interface Herb {
   identityStatus?: string
   identityConflict?: boolean
   reviewStatus?: string
-  imageStatus?: 'dataset_reference' | 'missing'
+  imageStatus?: 'published' | 'dataset_reference' | 'missing'
   toxicity?: string
   elevation?: string
   flowering?: string
@@ -72,4 +77,4 @@ export interface HerbQuery {
 }
 
 export interface HerbListResponse { total: number; collectionTotal?: number; page?: number; pageSize?: number; items: Herb[] }
-export interface HerbFilters { total: number; distributionCount: number; families: string[]; genera: string[]; regions: string[]; properties: string[]; parts: string[]; effects: string[] }
+export interface HerbFilters { total: number; curatedCount?: number; distributionCount: number; families: string[]; genera: string[]; regions: string[]; properties: string[]; parts: string[]; effects: string[] }

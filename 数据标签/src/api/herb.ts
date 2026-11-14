@@ -1,39 +1,47 @@
-import { apiClient, wait } from './client'
-import { mockHerbs, effectOptions, partOptions, propertyOptions } from '../data/mockHerbs'
+import { apiClient } from './client'
 import type { Herb, HerbFilters, HerbListResponse, HerbQuery } from '../types/herb'
 import { readRecentHerbs } from '../utils/history'
-import { matchesHerbQuery } from '../utils/herbSearch'
 
-const useMockHerbs = import.meta.env.VITE_MOCK_HERBS === 'true'
 const withImageURL = (herb: Herb): Herb => ({
   ...herb, image: herb.image ? new URL(herb.image, apiClient.defaults.baseURL).href : '',
 })
 
+// Public plant data only: share concurrent requests and short-lived results
+// between gallery/detail visits. Failed requests are always retryable.
+const requests = new Map<string, { expires: number; promise: Promise<unknown> }>()
+function cached<T>(key: string, load: () => Promise<T>): Promise<T> {
+  const existing = requests.get(key)
+  if (existing && existing.expires > Date.now()) return existing.promise as Promise<T>
+  const entry = { expires: Infinity, promise: Promise.resolve().then(load) as Promise<unknown> }
+  requests.delete(key)
+  requests.set(key, entry)
+  if (requests.size > 40) requests.delete(requests.keys().next().value!)
+  entry.promise = entry.promise.then(value => { entry.expires = Date.now() + 10000; return value }, error => {
+    if (requests.get(key) === entry) requests.delete(key)
+    throw error
+  })
+  return entry.promise as Promise<T>
+}
+
 export async function getHerbs(params: HerbQuery = {}): Promise<HerbListResponse> {
-  if (!useMockHerbs) {
-    const {data} = await apiClient.get<HerbListResponse>('/api/v1/herbs', {params})
+  const query = Object.fromEntries(Object.entries(params)
+    .filter(([key, value]) => value !== undefined && value !== '' && (key !== 'recent_ids' || params.sort === 'recent'))
+    .sort(([a], [b]) => a.localeCompare(b)))
+  return cached('list:' + JSON.stringify(query), async () => {
+    const {data} = await apiClient.get<HerbListResponse>('/api/v1/herbs', {params: query})
     return {...data, items: data.items.map(withImageURL)}
-  }
-  await wait(150)
-  const q = params.q?.trim().toLowerCase()
-  let items = mockHerbs.filter(h => matchesHerbQuery(h,q)
-    && (!params.family || h.family === params.family) && (!params.effect || h.effects.includes(params.effect))
-    && (!params.property || h.property === params.property) && (!params.part || h.medicinalPart.includes(params.part)))
-  if (params.sort === 'name') items = [...items].sort((a,b) => a.name.localeCompare(b.name, 'zh-CN'))
-  const total = items.length, size = params.page_size || 24, page = Math.min(params.page || 1, Math.max(1, Math.ceil(total / size)))
-  return {total, collectionTotal: mockHerbs.length, page, pageSize: size, items: items.slice((page-1)*size, page*size)}
+  })
 }
 
 export async function getHerbFilters(): Promise<HerbFilters> {
-  if (!useMockHerbs) return (await apiClient.get<HerbFilters>('/api/v1/herbs/filters')).data
-  return {total: mockHerbs.length, distributionCount: 0, families: [...new Set(mockHerbs.map(h => h.family))],
-    genera: [], regions: [], properties: propertyOptions, parts: partOptions, effects: effectOptions}
+  return cached('filters', async () => (await apiClient.get<HerbFilters>('/api/v1/herbs/filters')).data)
 }
 
 export async function getHerb(id: string): Promise<Herb | undefined> {
-  if (useMockHerbs) return mockHerbs.find(h => h.id === id)
-  const {data} = await apiClient.get<Herb>('/api/v1/herbs/'+encodeURIComponent(id))
-  return withImageURL(data)
+  return cached('detail:' + id, async () => {
+    const {data} = await apiClient.get<Herb>('/api/v1/herbs/'+encodeURIComponent(id))
+    return withImageURL(data)
+  })
 }
 
 export async function getRecentHistory(limit = 5): Promise<Herb[]> {

@@ -1,0 +1,50 @@
+.auth-form-title { font-size: 17px; text-align: center; margin: 0 0 16px; }
+.auth-help { font-size: 11px; color: #7a897c; line-height: 1.7; margin: 9px 0; }
+.auth-claim { display: flex; align-items: flex-start; gap: 8px; font-size: 12px; color: #55735d; line-height: 1.6; margin: 12px 0 18px; }
+.auth-claim input { margin: 3px 0 0; accent-color: var(--green); }
+.auth-claim small { display: block; font-size: 10px; color: #899786; }
+.auth-current { font-size: 13px; line-height: 1.8; padding: 15px 0; }
+.auth-current > div { display: flex; gap: 9px; flex-wrap: wrap; }
+.auth-admin-link { font-size: 12px; color: var(--green); white-space: nowrap; }
+.auth-logout { border: 0; background: transparent; color: #69816f; font-size: 11px; padding: 4px; white-space: nowrap; }
+.admin-articles-page { padding-top: 25px; padding-bottom: 25px; }
+.admin-page-heading { display: flex; justify-content: space-between; gap: 20px; align-items: center; margin-bottom: 18px; }
+.admin-page-heading h1 { display: flex; align-items: center; gap: 9px; font-size: 28px; margin: 9px 0; }
+.admin-page-heading p { font-size: 13px; color: #7b8a7e; margin: 0; }
+.admin-page-heading > div:last-child { display: flex; flex-wrap: wrap; gap: 9px; }
+.admin-article-library { padding: 18px; }
+.admin-toolbar { display: flex; gap: 10px; align-items: center; margin-bottom: 15px; }
+.admin-toolbar .chat-history-search { flex: 1; margin: 0; }
+.admin-toolbar select { padding: 8px; border: 1px solid #d7e1d5; border-radius: 8px; background: #fcfdf9; font-size: 12px; }
+.admin-article-list { display: flex; flex-direction: column; gap: 10px; }
+.admin-article-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; border: 1px solid #e3eade; padding: 15px; border-radius: 10px; background: #fbfcf8; }
+.admin-article-row h3 { margin: 0 0 6px; font-size: 16px; color: #2c4e38; }
+.admin-article-row p { font-size: 11px; color: #708373; margin: 0 0 5px; }
+.admin-article-row small { font-size: 10px; color: #93a08f; }
+.admin-row-actions { display: flex; flex-shrink: 0; gap: 7px; }
+.admin-row-actions .button { font-size: 11px; padding: 8px 11px; }
+.admin-danger { background: #f8eee8; border: 1px solid #e8d3c5; color: #a26243; }
+.admin-pagination { display: flex; align-items: center; justify-content: flex-end; gap: 5px; margin-top: 16px; color: #7d8e7e; font-size: 11px; }
+.admin-pagination > span { margin-right: 9px; }
+.admin-error { padding: 9px; background: #fff1e9; border-radius: 7px; }
+.admin-editor-backdrop { z-index: 60; }
+.admin-editor { width: min(780px, calc(100vw - 28px)); max-height: 90vh; overflow: auto; padding: 23px; }
+.admin-editor-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.admin-editor-heading h2 { font-size: 21px; margin: 0; }
+.admin-editor form > label, .admin-form-grid > label { display: flex; flex-direction: column; gap: 7px; margin-bottom: 13px; color: #54735b; font-size: 12px; }
+.admin-editor input, .admin-editor textarea, .admin-editor select { width: 100%; border: 1px solid #d5e0d0; background: #fcfdf9; padding: 10px; border-radius: 8px; color: #34513f; font-size: 13px; }
+.admin-editor input:focus, .admin-editor textarea:focus, .admin-editor select:focus { outline: 2px solid #adceb3; outline-offset: 1px; }
+.admin-editor textarea { resize: vertical; line-height: 1.8; }
+.admin-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+.admin-form-grid small { font-size: 10px; color: #8a9886; }
+.admin-cover-preview { max-width: 210px; max-height: 140px; object-fit: contain; margin-bottom: 12px; border-radius: 7px; }
+.admin-editor-footer { display: flex; justify-content: flex-end; gap: 10px; padding-top: 10px; }
+@media (max-width: 767px) {
+ .admin-page-heading, .admin-article-row { align-items: flex-start; flex-direction: column; }
+ .admin-page-heading h1 { font-size: 24px; }
+ .admin-article-library { padding: 12px; }
+ .admin-toolbar { flex-wrap: wrap; }
+ .admin-toolbar .chat-history-search { flex-basis: 100%; }
+ .admin-form-grid { grid-template-columns: 1fr; }
+ .admin-editor { padding: 16px; }
+}

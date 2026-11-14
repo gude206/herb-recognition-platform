@@ -1,10 +1,8 @@
 import type { Article } from '../types/article'
-import honeysuckle from '../assets/images/honeysuckle-generated.jpg'
-import astragalus from '../assets/images/astragalus-generated.jpg'
-import licorice from '../assets/images/licorice-generated.jpg'
-import danshen from '../assets/images/danshen-generated.jpg'
-import chrysanthemum from '../assets/images/chrysanthemum-generated.jpg'
-import mint from '../assets/images/mint-generated.jpg'
+import placeholder from '../assets/images/placeholder.svg'
+// The original illustration files are absent from the repository.
+const honeysuckle = placeholder, astragalus = placeholder, licorice = placeholder,
+  danshen = placeholder, chrysanthemum = placeholder, mint = placeholder
 export const mockArticles: Article[] = [
  {id:'a1',title:'金银花的本草故事',category:'本草故事',excerpt:'从忍冬之名到花色由白转黄，认识金银花背后的植物特征与文化记忆。',image:honeysuckle,reads:'12.8万',body:'金银花又名忍冬，初开时花色洁白，随后逐渐转为金黄，因此得名。它的藤蔓坚韧，四季常青，在传统本草典籍与民间园艺中都留下了丰富记录。通过观察花朵与叶片，我们也能认识植物形态与季节变化。'},
  {id:'a2',title:'黄芪的由来与应用',category:'植物知识',excerpt:'从形态特征到传统知识，了解黄芪植物与本草条目的关联。',image:astragalus,reads:'8.6万',body:'黄芪为豆科多年生草本，常见羽状复叶与蝶形花。其植物识别需要结合叶片、花序与生境等特征，知识库也会记录名称、部位与传统应用等信息。'},

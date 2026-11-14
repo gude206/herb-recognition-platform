@@ -1,0 +1,164 @@
+{
+  "cases": [
+    {
+      "case": 1,
+      "question": "查询紫苏的叶片形态，一句话回答。",
+      "status": 200,
+      "expected_tools": [
+        "search_plants"
+      ],
+      "actual_tools": [
+        "plant_details",
+        "search_plants"
+      ],
+      "correct": true,
+      "elapsed_ms": 3253.28,
+      "answer": "紫苏的叶片为宽卵形至近圆形，边缘有粗锯齿，叶柄明显（据平台图鉴，引自《中国植物志》）。",
+      "saved": true
+    },
+    {
+      "case": 2,
+      "question": "查询银杏的分布，一句话回答。",
+      "status": 200,
+      "expected_tools": [
+        "search_plants"
+      ],
+      "actual_tools": [
+        "search_plants"
+      ],
+      "correct": true,
+      "elapsed_ms": 2357.28,
+      "answer": "据平台图鉴，银杏在我国多地栽培，朝鲜半岛、日本及欧美等地也有栽培。",
+      "saved": true
+    },
+    {
+      "case": 3,
+      "question": "查询忍冬的花是什么形状，一句话回答。",
+      "status": 200,
+      "expected_tools": [
+        "search_plants"
+      ],
+      "actual_tools": [
+        "plant_details",
+        "search_plants"
+      ],
+      "correct": true,
+      "elapsed_ms": 2968.08,
+      "answer": "忍冬的花冠为唇形，初开时白色，随后转为黄色，雄蕊和花柱外伸（据平台图鉴，来源《中国植物志》）。",
+      "saved": true
+    },
+    {
+      "case": 4,
+      "question": "读取 tcmp-298 的植物详情，一句话概括。",
+      "status": 200,
+      "expected_tools": [
+        "plant_details"
+      ],
+      "actual_tools": [
+        "plant_details"
+      ],
+      "correct": true,
+      "elapsed_ms": 2715.67,
+      "answer": "紫苏（*Perilla frutescens*）是唇形科紫苏属一年生芳香草本，叶宽卵形至近圆形、边缘有粗锯齿，轮伞花序再排成总状花序，我国多地栽培或逸生，常见于园圃、田边及附近空旷地。\n\n以上信息来自平台图鉴（tcmp-298，来源为《中国植物志》）。该条目未收录传统药用与毒性资料，因此这里不涉及药效或安全性说明；如需了解药用相关内容，请咨询医生或药师。",
+      "saved": true
+    },
+    {
+      "case": 5,
+      "question": "读取 tcmp-275 的植物详情，一句话概括。",
+      "status": 200,
+      "expected_tools": [
+        "plant_details"
+      ],
+      "actual_tools": [
+        "plant_details"
+      ],
+      "correct": true,
+      "elapsed_ms": 2457.41,
+      "answer": "银杏（*Ginkgo biloba* L.，银杏科银杏属）是落叶乔木，以扇形叶、多次二叉分枝的叶脉和长短枝上不同的着叶方式为鲜明特征，我国多地栽培，园林、道路绿地与庭院常见，植物志亦记录天目山有野生状态树木。\n\n以上内容来自平台图鉴（来源：《中国植物志》第7卷）。该条目未收录传统药用与毒性资料，因此这里不作相关说明。",
+      "saved": true
+    },
+    {
+      "case": 6,
+      "question": "请分类这段植物文本：叶片宽卵形，边缘具粗锯齿。",
+      "status": 200,
+      "expected_tools": [
+        "classify_plant_text"
+      ],
+      "actual_tools": [
+        "classify_plant_text"
+      ],
+      "correct": true,
+      "elapsed_ms": 2972.92,
+      "answer": "这段文本属于**植物形态**描述。\n\n- 内容：“叶片宽卵形，边缘具粗锯齿”\n- 判断依据：描述的是叶片的形状（宽卵形）和叶缘特征（粗锯齿），属于器官形态与外观特征，不涉及产地生境、分类命名或本草文化。\n\n补充说明：仅凭“宽卵形、粗锯齿”这类叶形描述，无法确定具体物种，很多植物都有类似特征；如需鉴定，还需花、果、茎、毛被、叶序等信息。",
+      "saved": true
+    },
+    {
+      "case": 7,
+      "question": "请分类这段植物文本：分布于我国华东，常生长在林缘和溪边。",
+      "status": 200,
+      "expected_tools": [
+        "classify_plant_text"
+      ],
+      "actual_tools": [
+        "classify_plant_text"
+      ],
+      "correct": true,
+      "elapsed_ms": 2378.49,
+      "answer": "这段文本属于**分布生境**类。\n\n- 原文：“分布于我国华东，常生长在林缘和溪边。”\n- 内容要点：前半句讲地理分布（华东），后半句讲生长环境（林缘、溪边），都属于分布与生境信息，不涉及形态描述、分类名称或本草文化。\n\n如果你还有更多段落，可以继续发来，我逐段分类。",
+      "saved": true
+    },
+    {
+      "case": 8,
+      "question": "请分类这段植物文本：紫苏属唇形科紫苏属，学名Perilla frutescens。",
+      "status": 200,
+      "expected_tools": [
+        "classify_plant_text"
+      ],
+      "actual_tools": [
+        "classify_plant_text"
+      ],
+      "correct": true,
+      "elapsed_ms": 2915.69,
+      "answer": "这段文本被归为**分类名称**类。\n\n理由：内容只涉及紫苏的科属归属（唇形科紫苏属）和学名（*Perilla frutescens*），属于分类学命名信息，没有描述形态特征、分布生境或本草文化内容。\n\n如果你还有更多关于紫苏的段落（比如叶形、产地、食用或药用记载），可以继续发来，我可以逐段分类。",
+      "saved": true
+    },
+    {
+      "case": 9,
+      "question": "请调用图片识别工具，简短告诉我上传植物的名字。",
+      "status": 200,
+      "expected_tools": [
+        "recognize_plant_image"
+      ],
+      "actual_tools": [
+        "recognize_plant_image"
+      ],
+      "correct": true,
+      "elapsed_ms": 2973.87,
+      "answer": "识别结果：**紫苏**（*Perilla frutescens*，唇形科）。\n\n需要说明的是，这只是模型的初步预测，置信度约 49%，并不算高；次选结果是韩信草（约 30%），两者同属唇形科，叶片形态相近，容易混淆。因此，这个结果只能作为参考，不能当作已经确认的鉴定。\n\n如果想进一步确认，可以补充观察：紫苏的茎常呈四棱形，叶片对生，叶面常带紫色或紫绿色，揉搓后有特殊香气，花序为偏向一侧的总状花序。\n\n需要我调出平台图鉴中紫苏的形态、分布和本草文化资料吗？",
+      "saved": true
+    },
+    {
+      "case": 10,
+      "question": "继续上一轮：这张图片里的植物叶片是什么形状？请查资料，一句话回答。",
+      "status": 200,
+      "expected_tools": [
+        "plant_details",
+        "search_plants"
+      ],
+      "actual_tools": [
+        "plant_details"
+      ],
+      "correct": true,
+      "elapsed_ms": 1998.26,
+      "answer": "按平台图鉴（《中国植物志》紫苏条目）记载，紫苏的叶为**宽卵形至近圆形，边缘具粗锯齿，有明显叶柄**；不过这是紫苏这一物种的形态描述，并非对你这张照片的实测判断。",
+      "saved": true
+    }
+  ],
+  "tool_accuracy": 1.0,
+  "mean_elapsed_ms": 2699.0950000000003,
+  "target_accuracy_met": true,
+  "target_latency_met": true,
+  "persisted_tool_turns": 10,
+  "claimed_tool_turns": 10,
+  "cross_account_image_status": 404
+}

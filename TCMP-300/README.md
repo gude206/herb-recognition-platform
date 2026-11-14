@@ -53,12 +53,14 @@ cd 'D:\Study\AI全栈开发\TCMP-300'
 - `GET /api/v1/health`：加载状态与模型指标。
 - `POST /api/v1/predict`：multipart 字段 `file`，返回 `{code,result,msg}`；`result` 包含 `prediction`、5 条按置信度降序排列的 `top_k`、`model` 和 `timing_ms`。
 - `GET /api/v1/recognition/samples`：四张真实训练集示例，图片通过 `/api/v1/recognition/samples/{id}/image` 提供。
-- GET /api/v1/herbs：读取主 CSV 的 300 类植物，支持 q/family/genus/region/effect/property/part/sort/page/page_size；默认每页 24 条，最多 60 条。
+- GET /api/v1/herbs：读取 MySQL 的 300 类植物资料，支持 q/family/genus/region/effect/property/part/sort/page/page_size；默认每页 24 条，最多 60 条。
 - GET /api/v1/herbs/filters：真实科属、分布地区与药材筛选选项。
 - GET /api/v1/herbs/{id}：活体身份、分布、生境、器官特征、独立药材记录、来源与审核状态。
-- GET /api/v1/herbs/{id}/reference-image：经目录边界检查的本地数据集参考图。网页标注待核对，不作为已核实器官图。
+- GET /api/v1/herbs/{id}/reference-image：经目录边界检查的本地数据集参考图。只提供审核及授权信息完整的正式图片；原候选训练图片不公开。
 
-图鉴适配器 herb_catalog.py 只读 data/author_tcmp_300/tcmp-info-20250329.csv，不修改原 CSV 或现有 MySQL 表。文件发生变化时重读缓存。使用 tcmp-001 至 tcmp-300 对接模型预测；身份冲突、未人工审核和字段缺口原样保留。地区筛选按来源文字匹配，药用部位筛选提取器官名称，药材完整原文保留在详情中。前端 /herbs 默认使用这些真实接口。
+图鉴适配器 herb_catalog.py 在启用 MySQL 时读取 `plant_catalog`，完整保存原 CSV 的 103 个字段，最多缓存一秒；仅明确关闭 MySQL 时使用原 CSV。使用 tcmp-001 至 tcmp-300 对接模型预测；身份冲突、未人工审核和字段缺口原样保留。地区筛选按来源文字匹配，药用部位筛选提取器官名称，药材完整原文保留在详情中。前端 /herbs 默认使用这些真实接口。科普文章通过 `/api/v1/articles` 与详情接口读取 `science_articles`；未审核课程示例仅保留为草稿，公开发布规则见父目录 `CONTENT_PUBLICATION.md`。初始化与升级见父目录 `MYSQL_HISTORY.md`。
+
+真实注册和登录位于 `/api/v1/auth`，使用 Argon2id 密码摘要、HttpOnly 会话 cookie 与 CSRF 校验。历史接口优先使用登录账号，普通注册不能取得管理员权限；`/api/v1/admin/articles` 只允许管理员维护文章，支持版本冲突检查、封面上传和回收站恢复。本机初始化与凭据位置见父目录 `AUTH_ACCOUNTS.md`。专项测试：`.venv-api\Scripts\python.exe -m unittest test_auth_admin_mysql -v`。
 
 图鉴验证：.venv-api\Scripts\python.exe -m unittest test_catalog test_api -v，覆盖 300 类分页、搜索和组合筛选、来源及药材一致性、身份冲突、图片目录边界和原识别接口。
 
@@ -101,7 +103,7 @@ DEEPSEEK_TIMEOUT_SECONDS=60
 
 后端每次请求重读 `.env`，参数改完直接再次提问即可；系统进程环境中同名参数会覆盖文件。首次更新代码需重启后端。密钥不进入前端配置或响应；缺少密钥时仍能正常使用图片识别和图鉴，问答返回明确的未配置提示。
 
-接口接受最多 2000 字的问题，可选 `herb_id` 和最近 12 条 user/assistant 历史。图鉴上下文读取真实 CSV，保留身份冲突与审核状态；不传原图片。历史由前端携带，后端不保存对话。回答为完整文本，当前不使用流式输出；图鉴上下文参考条目不等于模型已核验引文。
+接口接受最多 2000 字的问题，可选 `herb_id` 与 `conversation_id`。启用 MySQL 时，图鉴上下文和最近六轮问答从数据库获取，成功的问题和回答成对保存；保留身份冲突与审核状态，不传原图片。前端历史仅作为未启用数据库时的兼容参数，不覆盖数据库记录。回答为完整文本，当前不使用流式输出；图鉴上下文参考条目不等于模型已核验引文。
 
 验证：`.venv-api\Scripts\python.exe -m unittest test_chat -v`。测试用模拟 DeepSeek HTTP 响应验证消息上下文、参数热更新、输入校验和错误处理，不产生 API 费用；真实服务仍需有效密钥和余额。
 

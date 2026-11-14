@@ -1,0 +1,1031 @@
+[
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "掌状复叶3-6轮生茎顶,叶柄长3-8厘米,无毛;小叶3-5,膜质,中央小叶椭圆形或长圆状椭圆形,长8-12厘米,侧生小叶卵形或菱状卵形,长2-4厘米,先端长渐尖,基部宽楔形,具细密锯齿,齿具刺尖,上面疏被刺毛,下面无毛,侧脉5-6对;小叶柄长0.5-2.5厘米;伞形花序单生茎顶,具30-50花,花序梗长15-30厘米;花梗长0.8-1.5厘米;花淡黄绿色;萼具5小齿,无毛;花瓣5;花丝短;子房2室,花柱2,离生;多年生草本;果扁球形,鲜红色,径6-7毫米",
+    "output": "植物形态",
+    "plant_id": "tcmp-200",
+    "sources": [
+      "https://www.iplant.cn/info/%E4%BA%BA%E5%8F%82?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "俄罗斯(哈巴罗夫斯克、滨海边疆区)、朝鲜;产地记载:辽宁东部、吉林东半部和黑龙江东部; 分布记载:俄罗斯(哈巴罗夫斯克、滨海边疆区)、朝鲜;落叶阔叶林或针叶阔叶混交林下",
+    "output": "分布生境",
+    "plant_id": "tcmp-200",
+    "sources": [
+      "https://www.iplant.cn/info/%E4%BA%BA%E5%8F%82?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "人参;Panax ginseng C.A.Mey.;Araliaceae;Panax",
+    "output": "分类名称",
+    "plant_id": "tcmp-200",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Panax+ginseng+C.+A.+Mey.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E4%BA%BA%E5%8F%82?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶宽卵形或近圆形,长5-27厘米,先端尖、纯或圆、7深裂或浅裂,裂片半圆形、三角形或方形,边缘波状或具粗齿,上面无毛,下面被白粉及被易脱落细绒毛,侧脉2(3)对,细脉常淡红色;叶柄长1-12厘米,具浅槽;圆锥花序长15-40厘米;花梗长2-7毫米;苞片窄披针形;花芽棒状,长约1厘米;萼片倒卵状长圆形,长约1厘米,舟状,黄白色;雄蕊24-30,花药与花丝近等长;亚灌木状草本,基部木质化;果窄倒卵形或倒披针形,长1.3-3厘米,无毛",
+    "output": "植物形态",
+    "plant_id": "tcmp-026",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%8D%9A%E8%90%BD%E5%9B%9E?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "日本也产;产地记载:长江以南、南岭以北的大部分省区均有分布,南至广东,西至贵州,西北达甘肃南部; 分布记载:日本也产;丘陵或低山林中、灌丛中或草丛间",
+    "output": "分布生境",
+    "plant_id": "tcmp-026",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%8D%9A%E8%90%BD%E5%9B%9E?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "博落回;Macleaya cordata (Willd.) R.Br.;Papaveraceae;Macleaya",
+    "output": "分类名称",
+    "plant_id": "tcmp-026",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Macleaya+cordata+%28Willd.%29+R.+Br.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E5%8D%9A%E8%90%BD%E5%9B%9E?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "中小型蕨类;不适用:蕨类或石松类植物,以孢子繁殖;参见孢子囊特征及孢子期。",
+    "output": "植物形态",
+    "plant_id": "tcmp-246",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%97%AE%E8%8D%86?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "日本、朝鲜半岛、喜马拉雅、俄罗斯、欧洲、北美洲;产地记载:黑龙江、吉林、辽宁、内蒙古、北京、天津、河北、山西、陕西、宁夏、甘肃、青海、新疆、山东、江苏、上海、安徽、浙江、江西、福建、河南、湖北、四川、重庆、贵州、云南、西藏; 分布记载:日本、朝鲜半岛、喜马拉雅、俄罗斯、欧洲、北美洲",
+    "output": "分布生境",
+    "plant_id": "tcmp-246",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%97%AE%E8%8D%86?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "问荆;Equisetum arvense L.;Equisetaceae;Equisetum",
+    "output": "分类名称",
+    "plant_id": "tcmp-246",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Equisetum+arvense+L.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E9%97%AE%E8%8D%86?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "雄花单生或聚生短枝上端成假总状花序,有时2-3花生于花序梗上;花梗长1.5-3.5厘米;花萼裂片披针形,外折,长1.2-1.3厘米;花冠黄色,裂片长圆形,长2-2.5厘米,上部外折;雌花单生;花梗长1-2厘米;子房密被淡黄色长柔毛;攀援草质藤本,全株被黄白色长柔毛状硬毛;果2.8厘米,具10条纵纹",
+    "output": "植物形态",
+    "plant_id": "tcmp-034",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%B5%A4%E7%93%9F?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "朝鲜、日本和欧洲有栽培;产地记载:黑龙江、吉林、辽宁、河北、山西、山东、陕西、甘肃和宁夏; 分布记载:朝鲜、日本和欧洲有栽培;山坡、河谷及林缘湿处",
+    "output": "分布生境",
+    "plant_id": "tcmp-034",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%B5%A4%E7%93%9F?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "赤瓟;Thladiantha dubia Bunge;Cucurbitaceae;Thladiantha",
+    "output": "分类名称",
+    "plant_id": "tcmp-034",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Thladiantha+dubia+Bunge&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E8%B5%A4%E7%93%9F?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶5-11,长圆形、倒卵状长圆形或倒披针形,绿色,膜质或纸质,长7-17厘米,宽2.2-6厘米;叶柄长0.1-3.3厘米;花梗长5-24厘米;花基数3-7;萼片绿色,披针形,长2.5-8厘米,花瓣线形,有时具短爪,黄绿色,有时基部黄绿色,上部紫色;雄蕊2轮,长0.9-1.8厘米,花丝长3-7毫米,花药长0.5-1厘米,药隔凸出部分常不明显;子房紫色,具棱或翅,1室,胎座3-7,花柱基紫色,常角盘状,柱头紫色,长0.4-1厘米;蒴果近球形,绿色,不规则开裂,径达4厘米",
+    "output": "植物形态",
+    "plant_id": "tcmp-186",
+    "sources": [
+      "https://www.iplant.cn/info/%E4%B8%83%E5%8F%B6%E4%B8%80%E6%9E%9D%E8%8A%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "不丹、锡金、尼泊尔和越南;产地记载:西藏(东南部)、云南、四川和贵州; 分布记载:不丹、锡金、尼泊尔和越南;林下",
+    "output": "分布生境",
+    "plant_id": "tcmp-186",
+    "sources": [
+      "https://www.iplant.cn/info/%E4%B8%83%E5%8F%B6%E4%B8%80%E6%9E%9D%E8%8A%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "七叶一枝花;Paris polyphylla Sm.;Melanthiaceae;Paris",
+    "output": "分类名称",
+    "plant_id": "tcmp-186",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Paris+polyphylla+Sm.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E4%B8%83%E5%8F%B6%E4%B8%80%E6%9E%9D%E8%8A%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "基生叶5-10,三出复叶,具时少数叶为单叶,叶长达1.5厘米,宽达2.4厘米,小叶菱形,2-3浅裂或深裂,单叶五角形或宽卵形,3浅裂至3全裂,叶柄长2-6厘米;茎生叶较小,无柄,3全裂,裂片线形;单花顶生;花托无毛;萼片5,卵形或宽卵形,长3-4毫米;花瓣5,倒卵形,长5.5-7毫米;雄蕊多数;多年生草本;瘦果卵球形,长1-1.2毫米,无毛;宿存花柱长约0.2毫米",
+    "output": "植物形态",
+    "plant_id": "tcmp-167",
+    "sources": [
+      "https://www.iplant.cn/info/%E7%8C%AB%E7%88%AA%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "日本;产地记载:广西、台湾、江苏、浙江、江西、湖南、安徽、湖北、河南等省; 分布记载:日本;平原湿草地或田边荒地",
+    "output": "分布生境",
+    "plant_id": "tcmp-167",
+    "sources": [
+      "https://www.iplant.cn/info/%E7%8C%AB%E7%88%AA%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "猫爪草;Ranunculus ternatus Thunb.;Ranunculaceae;Ranunculus",
+    "output": "分类名称",
+    "plant_id": "tcmp-167",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Ranunculus+ternatus+Thunb.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E7%8C%AB%E7%88%AA%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶倒卵状披针形、倒披针形或长圆状披针形,长4-20厘米,边缘有时具波状齿或羽状深裂,有时倒向羽状深裂或大头羽状深裂,顶端裂片较大,三角形或三角状戟形,全缘或具齿,每侧裂片3-5,裂片三角形或三角状披针形,通常具齿,平展或倒向,裂片间常生小齿,基部渐窄成叶柄,叶柄及主脉常带红紫色,疏被蛛丝状白色柔毛或几无毛;花葶1至数个,高10-25厘米,上部紫红色,密被总苞钟状,长1.2-1.4厘米,淡绿色,总苞片2-3层,外层卵状披针形或披针形,长0.8-1厘米,边缘宽膜质,基部淡绿色,上部紫红色,先端背面增厚或具角状突起;内层线状披针形,长1-1.6厘米,先端紫红色,背面具小角状突起;多年生草本;瘦果倒卵状披针形,暗褐色,长约4-5毫米,上部具小刺,下部具成行小瘤,顶端渐收缩成长约1毫米圆锥形或圆柱形喙基,喙长0.6-1厘米,纤细;冠毛白色,长约6毫米",
+    "output": "植物形态",
+    "plant_id": "tcmp-184",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%92%B2%E5%85%AC%E8%8B%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "朝鲜、蒙古、俄罗斯;产地记载:黑龙江、吉林、辽宁、内蒙古、河北、山西、陕西、甘肃、青海、山东、江苏、安徽、浙江、福建北部、台湾、河南、湖北、湖南、广东北部、四川、贵州、云南等省区; 分布记载:朝鲜、蒙古、俄罗斯;广泛生于中、低海拔地区的山坡草地、路边、田野、河滩",
+    "output": "分布生境",
+    "plant_id": "tcmp-184",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%92%B2%E5%85%AC%E8%8B%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "蒲公英;Taraxacum mongolicum Hand.-Mazz.;Asteraceae;Taraxacum",
+    "output": "分类名称",
+    "plant_id": "tcmp-184",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Taraxacum+mongolicum+Hand.-Mazz.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E8%92%B2%E5%85%AC%E8%8B%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶近膜质,同对的近等大,菱状卵形或宽卵形,长1-9厘米,先端渐尖、尖或钝尖,基部常宽楔形,有牙齿,稀近全缘,两面疏生透明硬毛,钟乳体线形,基出脉3,侧脉不明显;叶柄长0.5-4.5厘米,托叶卵状长圆形,长2-3毫米;花雌雄同株,常同序,雄花常生于花序下部,花序蝎尾状,密集,长0.5-5厘米;雄花花被片2(3-4),近舟形,近先端有短角;一年生草本;瘦果三角状卵圆形,扁,常有稍隆起褐色斑点",
+    "output": "植物形态",
+    "plant_id": "tcmp-239",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%80%8F%E8%8C%8E%E5%86%B7%E6%B0%B4%E8%8A%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "除新疆、青海、台湾和海南外,分布几遍及全国。俄罗斯西伯利亚、蒙古、朝鲜、日本和北美温带地区广泛分布。;生于海拔400-2 200米山坡林下或岩石缝的阴湿处。",
+    "output": "分布生境",
+    "plant_id": "tcmp-239",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%80%8F%E8%8C%8E%E5%86%B7%E6%B0%B4%E8%8A%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "透茎冷水花;Pilea pumila (L.) A.Gray;Urticaceae;Pilea",
+    "output": "分类名称",
+    "plant_id": "tcmp-239",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Pilea+pumila+%28L.%29+A.+Gray&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E9%80%8F%E8%8C%8E%E5%86%B7%E6%B0%B4%E8%8A%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶长圆状披针形或披针形,长3-10厘米,边缘有细锯齿或波状,两面密被糙毛,无柄或柄极短;头状花序径6-8毫米,花序梗长2-4厘米;总苞球状钟形,总苞片绿色,草质,5-6排成2层,长圆形或长圆状披针形,背面及边缘被白色伏毛;外围雌花2层,舌状,舌片先端2浅裂或全缘;中央两性花多数,花冠管状,白色;一年生草本;瘦果暗褐色,长2.8毫米,雌花瘦果三棱形,两性花瘦果扁四棱形,边缘具白色肋,有小瘤突,无毛",
+    "output": "植物形态",
+    "plant_id": "tcmp-146",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%B3%A2%E8%82%A0?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "世界热带及亚热带地区广泛分布;产地记载:全国各省区; 分布记载:世界热带及亚热带地区广泛分布;河边,田边或路旁",
+    "output": "分布生境",
+    "plant_id": "tcmp-146",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%B3%A2%E8%82%A0?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "鳢肠;Eclipta prostrata (L.) L.;Asteraceae;Eclipta",
+    "output": "分类名称",
+    "plant_id": "tcmp-146",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Eclipta+prostrata+%28L.%29+L.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E9%B3%A2%E8%82%A0?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶互生,剑形,无中脉,嵌迭状2列,长20-40厘米,宽2-4厘米;花序叉状分枝;花梗及花序的分枝处有膜质苞片;花橙红色,有紫褐色斑点,径4-5厘米;花被裂片倒卵形或长椭圆形,长约2.5厘米,宽约1厘米,内轮较外轮裂片稍短窄;雄蕊花药线形外向开裂,长1.8-2厘米;柱头有细短毛,子房倒卵形;蒴果倒卵圆形,长2.5-3厘米,室背开裂果瓣外翻,中央有直立果轴",
+    "output": "植物形态",
+    "plant_id": "tcmp-213",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%B0%84%E5%B9%B2?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "朝鲜、日本、印度、越南、俄罗斯;产地记载:吉林、辽宁、河北、山西、山东、河南、安徽、江苏、浙江、福建、台湾、湖北、湖南、江西、广东、广西、陕西、甘肃、四川、贵州、云南、西藏; 分布记载:朝鲜、日本、印度、越南、俄罗斯;林缘或山坡草地;处也可生长",
+    "output": "分布生境",
+    "plant_id": "tcmp-213",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%B0%84%E5%B9%B2?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "茎生叶3-6轮生,卵圆形或线状披针形,长2-14厘米,边缘有锯齿,两面疏生短柔毛,无柄或有不明显的柄;花序窄圆锥状,花序分枝(聚伞花序)大多轮生,细长或很短,生数花或单花;花萼无毛,萼筒倒圆锥状,裂片钻状,长1-2.5(4)毫米,全缘;花冠筒状细钟形,口部稍缢缩,蓝或蓝紫色,长0.7-1.1厘米,裂片三角形,长2毫米;花盘细管状,长2-4毫米;花柱长约2厘米;蒴果球状圆锥形或卵状圆锥形,长5-7毫米",
+    "output": "植物形态",
+    "plant_id": "tcmp-153",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%BD%AE%E5%8F%B6%E6%B2%99%E5%8F%82?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "朝鲜、日本、俄罗斯东西伯利亚和远东地区的南部、越南北部;产地记载:东北、内蒙古东部、河北、山西(灵空山)、山东(牟平)、华东各省、广东、广西(南宁)、云南(砚山)、四川(峨边、峨眉山)、贵州(兴仁、安龙、普安、毕节); 分布记载:朝鲜、日本、俄罗斯东西伯利亚和远东地区的南部、越南北部;生于草地和灌丛中,在南方可至",
+    "output": "分布生境",
+    "plant_id": "tcmp-153",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%BD%AE%E5%8F%B6%E6%B2%99%E5%8F%82?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶卵形,长4-10厘米,先端钝,基部楔形或宽楔形,下延,全缘或具4-5对不规则波状粗齿,两面无毛或疏被短柔毛,叶脉5-6对;叶柄长2-5厘米;伞形状花序腋外生,具3-6(-10)花,花序梗长2-4厘米;花梗长0.8-1.2厘米,近无毛或被短柔毛;花萼浅杯状,径2-3毫米,萼齿近三角形,长1毫米;花冠白色,长0.8-1厘米,冠檐裂片卵圆形;花丝长1-1.5毫米,花药长2.5-3.5毫米,顶孔向内,花柱长5-6毫米,中下部被白色绒毛;一年生草本;浆果球形,径0.8-1厘米,黑色;果柄弯曲;种子近卵圆形,径1.5-2毫米",
+    "output": "植物形态",
+    "plant_id": "tcmp-151",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%BE%99%E8%91%B5?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "原生分布于欧亚非多国,北美州、大洋洲有传入;产地记载:几遍全国 分布记载:原生分布于欧亚非多国,北美州、大洋洲有传入",
+    "output": "分布生境",
+    "plant_id": "tcmp-151",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%BE%99%E8%91%B5?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "龙葵;Solanum nigrum L.;Solanaceae;Solanum",
+    "output": "分类名称",
+    "plant_id": "tcmp-151",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Solanum+nigrum+L.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E9%BE%99%E8%91%B5?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "基生叶倒卵状长圆形或宽倒卵形,长8-20厘米,羽状全裂,裂片2-4对,倒卵状长圆形,具不规则深裂或浅裂,裂片具圆齿,上面无毛,下面被白粉,疏被短柔毛,叶柄长2-5厘米;茎生叶互生,长2-8厘米,具短柄;花多数,杀形花序腋生,长2-8厘米;具苞片;花瓣4,倒卵形,黄色;雄鸾多数,花丝丝状,子房1室,2心皮,无毛,胚珠多数,花柱明显,柱头2裂;多年生草本;蒴果窄圆柱形,近念珠状,长2-5厘米,无毛,具柄,自基部向顶端2瓣裂,柱头宿存",
+    "output": "植物形态",
+    "plant_id": "tcmp-009",
+    "sources": [
+      "https://www.iplant.cn/info/%E7%99%BD%E5%B1%88%E8%8F%9C?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "朝鲜、日本、俄罗斯及欧洲;产地记载:我国大部分省区均有分布; 分布记载:朝鲜、日本、俄罗斯及欧洲;山坡、山谷林缘草地或路旁、石缝",
+    "output": "分布生境",
+    "plant_id": "tcmp-009",
+    "sources": [
+      "https://www.iplant.cn/info/%E7%99%BD%E5%B1%88%E8%8F%9C?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "白屈菜;Chelidonium majus L.;Papaveraceae;Chelidonium",
+    "output": "分类名称",
+    "plant_id": "tcmp-009",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Chelidonium+majus+L.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E7%99%BD%E5%B1%88%E8%8F%9C?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶纸质,倒卵状椭圆形、椭圆形或卵形、长5-10厘米,宽2.5-5厘米,先端急尖或圆形,基部楔形,上面暗绿色,中脉和侧脉凹陷,网脉不显,背面淡绿色,无光泽,中脉和侧脉微隆起,网脉微显,叶缘平展,每边具40-60细刺齿;叶柄长5-15毫米;总状花序具10-25朵花,长4-10厘米,无毛,总梗长1-3厘米;花梗长5-10毫米;花黄色;萼片2轮,外萼片倒卵形,长约3毫米,宽约2毫米,内萼片与外萼片同形,长5.5-6毫米,宽3-3.4毫米;花瓣椭圆形,长4.5-5毫米,宽2.5-3毫米,先端浅缺裂,基部稍呈爪,具2枚分离腺体;雄蕊长约2.5毫米,药隔先端不延伸,平截;胚珠2枚;落叶灌木;浆果长圆形,长约10毫米,直径约6毫米,红色,顶端不具宿存花柱,不被白粉或仅基部微被霜粉",
+    "output": "植物形态",
+    "plant_id": "tcmp-107",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%BB%84%E8%8A%A6%E6%9C%A8?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "日本、朝鲜、俄罗斯(西伯利亚);产地记载:黑龙江、吉林、辽宁、河北、内蒙古、山东、河南、山西、陕西、甘肃; 分布记载:日本、朝鲜、俄罗斯(西伯利亚);山地灌丛中、沟谷、林缘、疏林中、溪旁或岩石旁",
+    "output": "分布生境",
+    "plant_id": "tcmp-107",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%BB%84%E8%8A%A6%E6%9C%A8?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "黄芦木;Berberis amurensis Rupr.;Berberidaceae;Berberis",
+    "output": "分类名称",
+    "plant_id": "tcmp-107",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Berberis+amurensis+Rupr.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E9%BB%84%E8%8A%A6%E6%9C%A8?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶纸质,线形或线状披针形,长1-3厘米,宽0.5-1(-3)毫米,先端渐尖,基部楔形,无毛或极疏被微柔毛:近无柄;扁侧状顶生总状花序,长5-7厘米,少花;小苞片早落;萼片宿存,无毛,外3枚线状披针形;花瓣紫色,基部合生,侧瓣斜长圆形,基部内侧被柔毛,龙骨瓣稍长,具流苏状附属物:花丝3/4以下合生成鞘,3/4以上中间2枚分离,两侧各3枚合生;多年生草本;果球形,径4毫米,具窄翅,无缘毛",
+    "output": "植物形态",
+    "plant_id": "tcmp-283",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%BF%9C%E5%BF%97?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "朝鲜、蒙古和俄罗斯;产地记载:东北、华北、西北和华中以及四川; 分布记载:朝鲜、蒙古和俄罗斯;草原、山坡草地、灌丛中以及杂木林下",
+    "output": "分布生境",
+    "plant_id": "tcmp-283",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%BF%9C%E5%BF%97?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "远志;Polygala tenuifolia Willd.;Polygalaceae;Polygala",
+    "output": "分类名称",
+    "plant_id": "tcmp-283",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Polygala+tenuifolia+Willd.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E8%BF%9C%E5%BF%97?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶披针形或线状披针形,长1.5-4.5厘米,先端钝,基部圆,全缘,两面无毛或疏被微柔毛,下面密被凹腺点;叶柄长约2毫米,被微柔毛;总状花序长7-15厘米;下部苞叶叶状,上部卵状披针形或披针形;花梗长约3毫米,被微柔毛;花萼长4毫米,密被微柔毛,具缘毛,盾片高1.5毫米;花冠紫红或蓝色,密被腺柔毛,冠筒近基部膝曲,喉部径达6毫米,下唇中裂片三角状卵形;多年生草本;小坚果黑褐色,卵球形,长1.5毫米,被瘤点,腹面近基部具脐状突起",
+    "output": "植物形态",
+    "plant_id": "tcmp-108",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%BB%84%E8%8A%A9?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "俄罗斯东西伯利亚,蒙古,朝鲜,日本均;产地记载:黑龙江,辽宁,内蒙古,河北,河南,甘肃,陕西,山西,山东,四川等地,江苏有栽培; 分布记载:俄罗斯东西伯利亚,蒙古,朝鲜,日本均;向阳草坡地、休荒地上",
+    "output": "分布生境",
+    "plant_id": "tcmp-108",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%BB%84%E8%8A%A9?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "黄芩;Scutellaria baicalensis Georgi;Lamiaceae;Scutellaria",
+    "output": "分类名称",
+    "plant_id": "tcmp-108",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Scutellaria+baicalensis+Georgi&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E9%BB%84%E8%8A%A9?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "基生叶较多,匙形或倒卵状披针形,先端钝圆,基部渐窄下延成翅;轮伞花序多花,下部疏生,上部密集,组成长7-12厘米穗状花序;苞叶披针形;花萼漏斗形,三角形萼齿及边缘疏被柔毛,余无毛;花冠淡蓝或淡红紫色,稀白色,筒状,疏被柔毛,内具毛环,上唇圆形,先端微缺,下唇中裂片窄扇形或倒心形,侧裂片长圆形或近椭圆形;一年生或二年生草本;小坚果合生面约占腹面2/3",
+    "output": "植物形态",
+    "plant_id": "tcmp-128",
+    "sources": [
+      "https://www.iplant.cn/info/Ajuga%20decumbens?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "产地记载:产长江以南各省区,东亚分布",
+    "output": "分布生境",
+    "plant_id": "tcmp-128",
+    "sources": [
+      "https://www.iplant.cn/info/Ajuga%20decumbens?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "金疮小草;Ajuga decumbens Thunb.;Lamiaceae;Ajuga",
+    "output": "分类名称",
+    "plant_id": "tcmp-128",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Ajuga+decumbens+Thunb.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/Ajuga%20decumbens?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶对生,纸质,卵状椭圆形或窄长椭圆形,稀倒卵形,长2-8厘米,宽1-3厘米,具细锯齿,先端尖,基部楔形或钝圆,两面无毛,侧脉7-8对;叶柄长1-3毫米;聚伞花序有1-3花;花序梗长约1厘米;花4数,白绿色,径约8毫米;花萼裂片半圆形;花瓣近圆形;花盘近方形,雄蕊生于边缘,花丝极短;子房埋藏花盘熟时红棕或灰黑色,每分果假种皮橙内;落叶灌木;蒴果1-4深裂,裂瓣椭圆形,长7-8毫米瓣具1-2种子",
+    "output": "植物形态",
+    "plant_id": "tcmp-245",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%8D%AB%E7%9F%9B?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "分布达日本、朝鲜。模式标本采自日本。;产地记载:除东北、新疆、青海、酉藏、广东及海南以外,全国名省区均产。 分布记载:分布达日本、朝鲜。模式标本采自日本。;生长于山坡、沟地边沿。",
+    "output": "分布生境",
+    "plant_id": "tcmp-245",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%8D%AB%E7%9F%9B?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "卫矛;Euonymus alatus (Thunb.) Siebold;Celastraceae;Euonymus",
+    "output": "分类名称",
+    "plant_id": "tcmp-245",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Euonymus+alatus+%28Thunb.%29+Siebold&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E5%8D%AB%E7%9F%9B?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶卵形、卵状三角形、长圆形或椭圆形,长0.2-1.8厘米,宽0.1-1厘米,先端尖或圆,基部心形抱茎至平截,基脉1-3,侧脉1-2对;无柄;花径4-8毫米,平展;萼片窄长圆形、披针形或椭圆形,长2-5.5毫米;花冠白、淡黄至橙黄色,花瓣椭圆形,长2-5毫米,先端钝,无腺点,宿存;雄蕊5-30,不成束,宿存;子房1室,花柱(2)3,离生;一年生或多年生草本;蒴果短圆柱形或球形,长2.5-6毫米,无腺纹",
+    "output": "植物形态",
+    "plant_id": "tcmp-050",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%9C%B0%E8%80%B3%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "日本、朝鲜、尼泊尔、锡金、印度、斯里兰卡、缅甸至印度尼西亚、澳大利亚、新西兰以及美国的夏威夷;产地记载:辽宁、山东至长江以南各省区; 分布记载:日本、朝鲜、尼泊尔、锡金、印度、斯里兰卡、缅甸至印度尼西亚、澳大利亚、新西兰以及美国的夏威夷;田边、沟边、草地以及撩荒地上",
+    "output": "分布生境",
+    "plant_id": "tcmp-050",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%9C%B0%E8%80%B3%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "地耳草;Hypericum japonicum Thunb.;Hypericaceae;Hypericum",
+    "output": "分类名称",
+    "plant_id": "tcmp-050",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Hypericum+japonicum+Thunb.+in+Murr.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E5%9C%B0%E8%80%B3%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶4片轮生,纸质,披针形或长圆状披针形,长0.7-3.5厘米,先端渐尖或钝尖,基部心形,边缘有皮刺,两面粗糙,脉有小皮刺,基出脉3,稀外侧有1对很小的基出脉;叶柄长1-2.5厘米,有倒生皮刺;聚伞花序腋生和顶生,多4分枝,有花十余朵至数十朵,花序梗和分枝有小皮刺;花冠淡黄色,干后淡褐色,裂片近卵形,微伸展,长1.3-1.5毫米,无毛;草质攀援藤本;果球形,径4-5毫米,成熟时桔黄色",
+    "output": "植物形态",
+    "plant_id": "tcmp-193",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%8C%9C%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "朝鲜、日本和俄罗斯远东地区;产地记载:东北、华北、西北和四川(北部)及西藏(昌都地区)等地; 分布记载:朝鲜、日本和俄罗斯远东地区;疏林、林缘、灌丛或草地上",
+    "output": "分布生境",
+    "plant_id": "tcmp-193",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%8C%9C%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "茜草;Rubia cordifolia L.;Rubiaceae;Rubia",
+    "output": "分类名称",
+    "plant_id": "tcmp-193",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Rubia+cordifolia+L.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E8%8C%9C%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶互生,常2-4簇生,叶三角状卵形,长4-7厘米,先端渐尖,基部宽心形或戟形,下面沿叶脉疏被柔毛,具缘毛;叶柄长3-7厘米,常基部弯曲,托叶鞘膜质,宽卵形,基部被柔毛,长4-6毫米;总状花序腋生,长2-5厘米,花序梗粗:苞片窄卵状披针形,长4-6毫米;花梗无毛,长5-8毫米,中下部具关节;花被5深裂,白或淡绿色,花被片椭圆形,长3.5-4毫米;雄蕊8,与花被近等长;花柱3,中下部连合,柱头头状;多年生攀援草本;果序长10-15厘米;瘦果卵形,黑色,具3锐棱,沿棱具黄褐色膜质翅,基部具3个黑色角状附属物:果柄粗,长达2.5厘米,具3个下延窄翅",
+    "output": "植物形态",
+    "plant_id": "tcmp-271",
+    "sources": [
+      "https://www.iplant.cn/info/%E7%BF%BC%E8%93%BC?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "产地记载:河北、山西、河南、陕西、甘肃、湖北及四川;山坡石缝;山谷灌丛",
+    "output": "分布生境",
+    "plant_id": "tcmp-271",
+    "sources": [
+      "https://www.iplant.cn/info/%E7%BF%BC%E8%93%BC?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "翼蓼;Pteroxygonum giraldii Dammer & Diels;Polygonaceae;Pteroxygonum",
+    "output": "分类名称",
+    "plant_id": "tcmp-271",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Pteroxygonum+giraldii+Damm.+%26+Diels&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E7%BF%BC%E8%93%BC?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶卵形或菱状卵形,长2-6厘米,先端尖或渐尖,基部宽楔形,具粗圆齿状锯齿,上面疏被柔毛及腺点,或近无毛,下面密被灰白色微绒毛或近无毛,侧脉3-4对,带淡红色;叶柄长1-3.5厘米;花萼钟形,长2.5-3毫米,密被灰色柔毛及腺点,带红色,10脉,萼齿卵状三角形,长约1.2-1.5毫米;花冠长0.7(-1.2)厘米,雌花花冠长约5毫米,被柔毛及腺点,冠筒长3.5-5毫米雄蕊及花柱伸出;灌木;小坚果淡褐色,倒卵球状三棱形,长约1.3毫米,无毛",
+    "output": "植物形态",
+    "plant_id": "tcmp-227",
+    "sources": [
+      "https://www.iplant.cn/info/%E7%A2%8E%E7%B1%B3%E6%A1%A0?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "产地记载:湖北,四川,贵州,广西,陕西,甘肃,山西,河南,河北,浙江,安徽,江西及湖南;山坡、灌木丛、林地、砾石地及路边等向阳处",
+    "output": "分布生境",
+    "plant_id": "tcmp-227",
+    "sources": [
+      "https://www.iplant.cn/info/%E7%A2%8E%E7%B1%B3%E6%A1%A0?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "碎米桠;Isodon rubescens (Hemsl.) H.Hara;Lamiaceae;Isodon",
+    "output": "分类名称",
+    "plant_id": "tcmp-227",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Isodon+rubescens+%28Hemsl.%29+H.+Hara&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E7%A2%8E%E7%B1%B3%E6%A1%A0?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶椭圆形或椭圆状长圆形,先端锐尖或钝,基部宽楔形或近圆;穗状花序顶生或生上部叶腋,花萼裂片4,花冠粉红色,二唇形,下唇3浅裂;药室不等高,下方1室有距;草本;蒴果上部具4粒种子,下部实心似柄状",
+    "output": "植物形态",
+    "plant_id": "tcmp-136",
+    "sources": [
+      "https://www.iplant.cn/info/%E7%88%B5%E5%BA%8A?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "产地记载:产秦岭以南,东至台湾,西南至西藏吉隆,亚洲南部至澳大利亚广布;生于山坡林间草丛中,为习见野草",
+    "output": "分布生境",
+    "plant_id": "tcmp-136",
+    "sources": [
+      "https://www.iplant.cn/info/%E7%88%B5%E5%BA%8A?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "花常2朵腋生,淡绿色;花梗长2-6毫米,关节生于中部;雄花花被长2.5-3毫米,花丝不贴生花被片,雌花大小和雄花相似;攀援植物;浆果径6-7毫米,成熟时红色,具1种子",
+    "output": "植物形态",
+    "plant_id": "tcmp-230",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%A4%A9%E9%97%A8%E5%86%AC?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "见于朝鲜、日本、老挝和越南;产地记载:从河北、山西、陕西、甘肃等省的南部至华东、中南、西南各省区都; 分布记载:见于朝鲜、日本、老挝和越南;山坡、路旁、疏林下、山谷或荒地上",
+    "output": "分布生境",
+    "plant_id": "tcmp-230",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%A4%A9%E9%97%A8%E5%86%AC?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "天门冬;Asparagus cochinchinensis (Lour.) Merr.;Asparagaceae;Asparagus",
+    "output": "分类名称",
+    "plant_id": "tcmp-230",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Asparagus+cochinchinensis+%28Lour.%29+Merr.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E5%A4%A9%E9%97%A8%E5%86%AC?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶通常2,下部叶盾状圆形,宽20-30厘米,掌状深裂,裂片7-9,每裂片2-3浅裂,小裂片线状披针形,宽4-8毫米,被密蛛丝状绒毛,叶柄长10-16厘米,无毛,基部抱茎;中部叶径12-24厘米,裂片4-5,叶柄长2-6厘米;余叶苞片状,披针形,无柄或具短柄;头状花序在茎端密集成复伞房状,花序梗长0.5-1.6厘米,具数枚线形小苞片;总苞筒状,长0.9-1.2厘米,径5-7毫米,基部有3-4小苞片;总苞片1层,5,长圆形,边缘膜质,背面无毛;小花8-10,花冠淡粉白色,长1厘米;多年生草本;瘦果圆柱形,长5-6毫米,无毛,具肋;冠毛污白至红色,糙毛状",
+    "output": "植物形态",
+    "plant_id": "tcmp-241",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%85%94%E5%84%BF%E4%BC%9E?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "俄罗斯远东地区、朝鲜和日本;产地记载:东北、华北、华中和陕西、甘肃、贵州; 分布记载:俄罗斯远东地区、朝鲜和日本;山坡荒地林缘或路旁",
+    "output": "分布生境",
+    "plant_id": "tcmp-241",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%85%94%E5%84%BF%E4%BC%9E?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "兔儿伞;Syneilesis aconitifolia (Bunge) Maxim.;Asteraceae;Syneilesis",
+    "output": "分类名称",
+    "plant_id": "tcmp-241",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Syneilesis+aconitifolia+%28Bunge%29+Maxim.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E5%85%94%E5%84%BF%E4%BC%9E?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶椭圆形或卵形,长10-20(-25)厘米,先端短渐尖,基部楔形,边缘有稍粗的锯齿,两面无毛,侧脉每边约8条,在两面凸起;叶柄长1.5-2厘米;花无梗,对生,组成腋生或顶生的穗状花序,长10-30厘米;苞片对生,叶状,长1.5-2.5厘米,具短柄,最下部的比花萼长;最下部小苞片比花萼稍短;花萼不等5深裂,裂片线形,后裂片较大;花冠堇、玫瑰红或白色,花冠圆筒形,顶端内弯,喉部扩大呈窄钟形,稍弯曲,不扭弯,花冠筒短圆柱形,喉窄钟形,长为花冠筒的两倍,支撑花柱的毛排列成2列,冠檐5裂,裂片等大,倒心形,旋转状排列;雄蕊2长2短,内藏;子房上半部被毛,每室有胚珠2粒,花柱无毛;草本,多年生一次性结实;蒴果棒状,上端稍大,长2-2.2厘米,稍具4棱",
+    "output": "植物形态",
+    "plant_id": "tcmp-164",
+    "sources": [
+      "https://www.iplant.cn/info/Baphicacanthus%20cusia?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "孟加拉国、印度东北部、缅甸、喜马拉雅等地至中南半岛均;产地记载:广东、海南、香港、台湾、广西、云南、贵州、四川、福建、浙江; 分布记载:孟加拉国、印度东北部、缅甸、喜马拉雅等地至中南半岛均;潮湿地方",
+    "output": "分布生境",
+    "plant_id": "tcmp-164",
+    "sources": [
+      "https://www.iplant.cn/info/Baphicacanthus%20cusia?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶对生,窄披针形或线形,长5-13厘米,宽0.5-1厘米,先端长渐尖,两面无毛或被微柔毛,具缘毛;叶抦长约3毫米;聚伞花序圆锥状,顶生或近顶生,长达7厘米,花序梗长2.5-4厘米;花梗长0.5-1厘米;花萼裂片披针形,长1-1.5毫米,内面具腺体或无;花冠黄绿色,近辐状,无毛,花冠筒短,裂片卵形,长4-5.5毫米;副花冠5深裂,裂片肉质,卵状长圆形,内面基部龙骨状增厚;花药顶端附属物半圆形,花粉块长圆形;柱头稍脐状凸起;多年生草本;蓇葖果披针状圆柱形,长4-8厘米,径3-8毫米",
+    "output": "植物形态",
+    "plant_id": "tcmp-260",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%BE%90%E9%95%BF%E5%8D%BF?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "产于辽宁、内蒙古、山西、河北、河南、陕西、甘肃、四川、贵州、云南、山东、安徽、江苏、浙江、江西、湖北、湖南、广东和广西等省区。生长于向阳山坡及草丛中。日本和朝鲜也有分布。模式标本采自我国北方。;生长于向阳山坡及草丛中。",
+    "output": "分布生境",
+    "plant_id": "tcmp-260",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%BE%90%E9%95%BF%E5%8D%BF?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "基生叶倒披针形或匙形,长3-6厘米,两面被短糙伏毛,具短柄;茎生叶较小,基部渐窄,近无柄;具1花至数花,花序长2-5厘米;多年生匍匐草本,茎高达25厘米,匍匐茎长达30厘米,被开展糙伏毛;小坚果斜卵球形,长3-3.5毫米,乳白色,有时稍带淡黄褐色,平滑,有光泽,腹面具纵沟",
+    "output": "植物形态",
+    "plant_id": "tcmp-294",
+    "sources": [
+      "https://www.iplant.cn/info/%E6%A2%93%E6%9C%A8%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "朝鲜和日本;产地记载:台湾、浙江、江苏、安徽、贵州、四川、陕西至甘肃东南部; 分布记载:朝鲜和日本;丘陵或低山草坡,或灌丛下",
+    "output": "分布生境",
+    "plant_id": "tcmp-294",
+    "sources": [
+      "https://www.iplant.cn/info/%E6%A2%93%E6%9C%A8%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "总叶柄短,长仅2-4厘米,细瘦,淡白色,干后扁平,宽约2毫米;营养叶片的柄细长达3-8厘米,有时更长,宽2-3毫米,光滑无毛;叶片为阔三角形,长通常8-10厘米,宽10-12厘米,短尖头,三回羽状分裂;侧生羽片3-4对,几对生或近互生,有柄,下部两对相距不及2厘米,略张开,基部一对最大,几与中部等大,柄长达2厘米,羽片长宽各约5厘米,阔三角形,短尖头,二回羽状;一回小羽片3-4对,有柄,几对生,基部下方一片较大,稍下先出,柄长约1厘米,一回羽状;末回小羽片为长卵形至卵形,基部下方一片较大,长1-1.2厘米",
+    "output": "植物形态",
+    "plant_id": "tcmp-272",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%98%B4%E5%9C%B0%E8%95%A8?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "日本、朝鲜、越南及喜马拉雅;产地记载:浙江、江苏、安徽、江西(庐山)、福建、湖南、湖北、贵州、四川、台湾; 分布记载:日本、朝鲜、越南及喜马拉雅;丘陵地灌丛阴处",
+    "output": "分布生境",
+    "plant_id": "tcmp-272",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%98%B4%E5%9C%B0%E8%95%A8?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "阴地蕨;Sceptridium ternatum (Thunb.) Lyon;Ophioglossaceae;Sceptridium",
+    "output": "分类名称",
+    "plant_id": "tcmp-272",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Sceptridium+ternatum+%28Thunb.%29+Lyon&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E9%98%B4%E5%9C%B0%E8%95%A8?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶膜质,倒卵状长圆形,长3-4厘米,宽1.5-2.5厘米,先端浑圆,有短尖头,基部广楔形至楔形,渐狭而成叶柄;叶脉在叶面扁平,在叶背略隆起,侧脉约8对。;聚伞花序腋生或顶生,有花2-3朵;花萼5深裂,内面无腺体或腺体不明显,萼片披针形或钻状渐尖,长约3毫米;花冠红色,高脚碟状,花冠筒圆筒状,长约2.6厘米,内面具疏柔毛,喉部紧缩,具刚毛;花冠裂片宽倒卵形,长和宽约1.5厘米;雄蕊着生于花冠筒的上半部,但花药隐藏于花喉之内,与柱头离生;子房和花盘与属的特征相同。;半灌木。;蓇葖双生,直立,平行或略叉开,长约2.5厘米,直径3毫米;外果皮厚纸质,有条纹,被柔毛;种子黑色,长圆状圆筒形,两端截形,具有颗粒状小瘤。",
+    "output": "植物形态",
+    "plant_id": "tcmp-287",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%95%BF%E6%98%A5%E8%8A%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "原产非洲东部,现栽培于各热带和亚热带地区。;产地记载:我国栽培于西南、中南及华东等省区。 分布记载:原产非洲东部,现栽培于各热带和亚热带地区。",
+    "output": "分布生境",
+    "plant_id": "tcmp-287",
+    "sources": [
+      "https://www.iplant.cn/info/%E9%95%BF%E6%98%A5%E8%8A%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "长春花;Catharanthus roseus (L.) G.Don;Apocynaceae;Catharanthus",
+    "output": "分类名称",
+    "plant_id": "tcmp-287",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Catharanthus+roseus+%28L.%29+G.+Don&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E9%95%BF%E6%98%A5%E8%8A%B1?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "基生叶多数,一回三出复叶;小叶扇状菱形或倒卵状菱形,长0.6-2.5厘米,宽1-2.8厘米,3深裂,裂片疏生粗齿;叶柄长3-12厘米;花序具2至数花;萼片5,白色,带淡紫色,窄楠圆形,长4-6毫米;花瓣匙形,长2.5-3.5毫米,基部囊状;-雄蕊8-14,花药椭圆形,退化雄蕊2,窄披针形;心皮3-5,花柱短;蓇葖果长6-7毫米",
+    "output": "植物形态",
+    "plant_id": "tcmp-228",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%A4%A9%E8%91%B5?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "日本;产地记载:四川、贵州、湖北、湖南、广西北部、江西、福建、浙江、江苏、安徽、陕西南部; 分布记载:日本;疏林下、路旁或山谷地较阴处",
+    "output": "分布生境",
+    "plant_id": "tcmp-228",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%A4%A9%E8%91%B5?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "天葵;Semiaquilegia adoxoides (DC.) Makino;Ranunculaceae;Semiaquilegia",
+    "output": "分类名称",
+    "plant_id": "tcmp-228",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Semiaquilegia+adoxoides+%28DC.%29+Makino&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E5%A4%A9%E8%91%B5?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶具长柄,基部具鞘,叶片二回三出,一回羽片具短柄,二回羽片近无柄,菱形或宽楔形,约长2厘米,宽1厘米,三深裂,裂片具缺刻状齿;总状花序长3-12厘米,多花,先密集,后疏离;苞片约与花梗等长,菱形或楔形,具缺刻状齿;灰绿色直立草本;蒴果线形至长圆形,长1.5-2厘米,具1列种子",
+    "output": "植物形态",
+    "plant_id": "tcmp-138",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%88%BB%E5%8F%B6%E7%B4%AB%E5%A0%87?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "日本和朝鲜;产地记载:河北南部、山西南部、河南、陕西南部、甘肃东南部、四川、湖北、湖南、广西东北部、安徽、江苏、浙江、福建、台湾; 分布记载:日本和朝鲜;林缘,路边或疏林下",
+    "output": "分布生境",
+    "plant_id": "tcmp-138",
+    "sources": [
+      "https://www.iplant.cn/info/%E5%88%BB%E5%8F%B6%E7%B4%AB%E5%A0%87?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "刻叶紫堇;Corydalis incisa (Thunb.) Pers.;Papaveraceae;Corydalis",
+    "output": "分类名称",
+    "plant_id": "tcmp-138",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Corydalis+incisa+%28Thunb.%29+Pers.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E5%88%BB%E5%8F%B6%E7%B4%AB%E5%A0%87?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶椭圆状卵形或椭圆状披针形,先端钝或尖,基部圆或楔形,具齿;轮伞花序具6花,多数,组成长10-25厘米总状或圆锥花序,密被柔毛;苞片披针形;花梗长约1毫米;花萼钟形,长约2.7毫米,被柔毛及稀疏黄褐色腺点,上唇具3个细尖齿,下唇具2三角形齿;花冠淡红、淡紫、紫、紫蓝或蓝色,稀白色,长约4.5毫籴,冠檐被微柔毛,冠筒无毛,内具毛环,上唇长圆形,下唇中裂片宽倒心形,侧裂片近半圆形;雄蕊稍伸出,花丝长约1.5毫米,药隔长约1.5毫米,弧曲,上臂及下臂等长;一年生或二年生草本;小坚果倒卵球形,径0.4毫米",
+    "output": "植物形态",
+    "plant_id": "tcmp-147",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%8D%94%E6%9E%9D%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "朝鲜,日本,阿富汗,印度,缅甸,泰国,越南,马来西亚至澳大利亚;产地记载:除新疆、甘肃、青海及西藏外几产全国各地,广布喜马拉雅地区,南至澳洲,东北至日本; 分布记载:朝鲜,日本,阿富汗,印度,缅甸,泰国,越南,马来西亚至澳大利亚;山坡;路旁沟边田野潮湿的土壤上",
+    "output": "分布生境",
+    "plant_id": "tcmp-147",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%8D%94%E6%9E%9D%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "荔枝草;Salvia plebeia R.Br.;Lamiaceae;Salvia",
+    "output": "分类名称",
+    "plant_id": "tcmp-147",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Salvia+plebeia+R.+Br.&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E8%8D%94%E6%9E%9D%E8%8D%89?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "基生叶多数,长10-50厘米,叶柄与叶片近等长,具膜质翅,叶二回或一回羽状全裂,一回羽片4-5对,具短柄,二回羽片2-3对,无柄,倒卵圆形或长圆形,3-5裂,裂片长0.3-1厘米;茎生叶与基生叶同形,下部叶具长柄,上部叶具短柄,近一回羽状全裂,叶柄具翅;总状花序长10-30厘米,多花;苞片线状披针形,长约5毫米;花梗长5-7毫米;花冠淡黄或苍白色,外花瓣先端色较深,上花瓣长0.9-1.2厘米,距短囊状,长3-4毫米,蜜腺贯穿距长1/2,下花瓣舟状,内花瓣先端暗紫红或暗绿色,鸡冠状突起伸出顶端,爪短于瓣片;雄蕊束上部缢缩成丝状;子房长于花柱;柱头具4乳突;丛生草本;蒴果线形,长1.5-2.5厘米,弯曲,种子1列",
+    "output": "植物形态",
+    "plant_id": "tcmp-212",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%9B%87%E6%9E%9C%E9%BB%84%E5%A0%87?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "锡金、不丹、日本;产地记载:西藏、云南、贵州、四川、青海、甘肃、宁夏、陕西、山西、河北、河南、湖北、湖南、江西、安徽、台湾; 分布记载:锡金、不丹、日本;沟谷林缘",
+    "output": "分布生境",
+    "plant_id": "tcmp-212",
+    "sources": [
+      "https://www.iplant.cn/info/%E8%9B%87%E6%9E%9C%E9%BB%84%E5%A0%87?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "蛇果黄堇;Corydalis ophiocarpa Hook.fil. & Thomson;Papaveraceae;Corydalis",
+    "output": "分类名称",
+    "plant_id": "tcmp-212",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Corydalis+ophiocarpa+Hook.+f.+%26+Thomson&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E8%9B%87%E6%9E%9C%E9%BB%84%E5%A0%87?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶柄长约2厘米,叶长6-19厘米,宽4-8厘米,3回羽状深裂,小裂片线形或长圆形,长(0.2-)0.3-1厘米;萼片窄长圆形,背面具分叉柔毛;花瓣黄色,长圆状倒卵形,长2-2.5毫米,基部具爪;雄蕊比花瓣长1/3;一年生草本;长角果圆筒状,长2.5-3厘米,无毛,种子间缢缩,开裂;果瓣中脉明显;果柄长1-2厘米",
+    "output": "植物形态",
+    "plant_id": "tcmp-025",
+    "sources": [
+      "https://www.iplant.cn/info/%E6%92%AD%E5%A8%98%E8%92%BF?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "亚洲、欧洲、非洲及北美洲均;产地记载:除华南外全国各地均产; 分布记载:亚洲、欧洲、非洲及北美洲均;山坡、田野及农田",
+    "output": "分布生境",
+    "plant_id": "tcmp-025",
+    "sources": [
+      "https://www.iplant.cn/info/%E6%92%AD%E5%A8%98%E8%92%BF?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "播娘蒿;Descurainia sophia (L.) Webb ex Prantl;Brassicaceae;Descurainia",
+    "output": "分类名称",
+    "plant_id": "tcmp-025",
+    "sources": [
+      "https://api.gbif.org/v1/species/match?name=Descurainia+sophia+%28L.%29+Webb+ex+Prantl&kingdom=Plantae&strict=true",
+      "https://www.iplant.cn/info/%E6%92%AD%E5%A8%98%E8%92%BF?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  },
+  {
+    "instruction": "将植物科普文本分类为：植物形态、分布生境、分类名称、本草文化、其他。仅输出类别。",
+    "input": "叶全部茎生,卵形或椭圆形,顶端急尖或钝,边缘每边有1-3不对称排列的波状牙齿,上面近无毛或沿叶脉有疏柔毛,下面生腺毛,长3-8厘米,宽1.5-5厘米,开花部分的叶无柄,基部半抱茎或宽楔形,茎下部的叶有柄;花在茎中下部单生叶腋,在茎上端单生苞状叶腋内组成蝎尾式总状花序,常偏向一侧,花近无梗或梗极短;花萼筒状钟形,长1-1.5厘米,裂片稍不等大,花后坛状,长2-2.5厘米,径1-1.5厘米,具纵肋,裂片张开,刺状;花冠钟状,长约花萼1倍,黄色,肋纹紫堇色;雄蕊稍伸出;一年生或二年生草本;蒴果长卵圆形,长约1.5厘米",
+    "output": "植物形态",
+    "plant_id": "tcmp-149",
+    "sources": [
+      "https://www.iplant.cn/info/Hyoscyamus%20niger?t=z"
+    ],
+    "labeling_method": "由来源字段生成主题弱标签，需人工复核"
+  }
+]

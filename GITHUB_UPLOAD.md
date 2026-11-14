@@ -28,7 +28,7 @@ Remove-Item Env:TCMP_MODEL -ErrorAction SilentlyContinue
 
 安装步骤直接建立项目内的独立环境，不依赖原电脑的 `sxlwfx` 环境或 `D:\miniconda3`。上面的 PyTorch 安装可用于 CPU；需要 GPU 时，按 [PyTorch 安装页面](https://pytorch.org/get-started/locally/) 选择与本机 CUDA 兼容的安装命令。桌面 PyQt 界面另需 `pip install PyQt5`。
 
-网页地址为 http://127.0.0.1:5173，接口文档为 http://127.0.0.1:8000/docs。停止平台执行 `./stop-platform.ps1`。图鉴使用 CSV，运行网页不需要 MySQL。
+网页地址为 http://127.0.0.1:5173，接口文档为 http://127.0.0.1:8000/docs。停止平台执行 `./stop-platform.ps1`。完整功能按 [MYSQL_HISTORY.md](MYSQL_HISTORY.md) 配置 MySQL，保存图鉴、文章和历史记录；原 CSV 与文章种子用于首次导入。`MYSQL_ENABLED=false` 时可使用文件资料兼容模式。数据库、上传原图和连接凭据保留在本机，不随 Git 克隆恢复。
 
 ## 原模型恢复
 

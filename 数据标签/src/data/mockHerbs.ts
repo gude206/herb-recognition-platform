@@ -1,12 +1,9 @@
 import type { Herb } from '../types/herb'
-import honeysuckle from '../assets/images/honeysuckle-generated.jpg'
-import astragalus from '../assets/images/astragalus-generated.jpg'
-import licorice from '../assets/images/licorice-generated.jpg'
-import danshen from '../assets/images/danshen-generated.jpg'
-import chrysanthemum from '../assets/images/chrysanthemum-generated.jpg'
-import forsythia from '../assets/images/forsythia-generated.jpg'
-import angelica from '../assets/images/angelica-generated.jpg'
-import mint from '../assets/images/mint-generated.jpg'
+import placeholder from '../assets/images/placeholder.svg'
+// The original illustration files are absent from the repository.
+const honeysuckle = placeholder, astragalus = placeholder, licorice = placeholder,
+  danshen = placeholder, chrysanthemum = placeholder, forsythia = placeholder,
+  angelica = placeholder, mint = placeholder
 
 const base = (id: string, name: string, latinName: string, image: string, property: string, effects: string[], part: string, aliases: string | string[], family: string, flavor: string[], meridians: string[], description: string, morphology: string): Herb => ({
   id, name, latinName, image, property, effects, medicinalPart: [part], aliases: Array.isArray(aliases) ? aliases : aliases.split('、'), family, flavor, meridians, description, morphology,

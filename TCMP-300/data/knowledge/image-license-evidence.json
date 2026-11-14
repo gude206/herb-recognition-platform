@@ -1,0 +1,2332 @@
+{
+  "retrievedAt": "2026-11-13",
+  "provider": "Wikimedia Commons",
+  "files": [
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "137747124": {
+            "pageid": 137747124,
+            "ns": 6,
+            "title": "File:2023-09-17 13 07 25 Shiso leaves and flowers on the edge of the forest within Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 4378935,
+                "width": 4032,
+                "height": 3024,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 960,
+                "responsiveUrls": {
+                  "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 960,
+                  "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=137747124",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2023-09-17 18:05:43",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "2023-09-17 13 07 25 Shiso leaves and flowers on the edge of the forest within Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Perilla frutescens|Self-published work|September 2023 in New Jersey|United States photographs taken on 2023-09-17|Files with coordinates missing SDC location of creation|Lamiaceae (flowers)|Forest in Ann M. Banchoff Park|Lamiaceae leaves|Famartin's 2023 photos|Perilla in Ewing Township, New Jersey|Famartin's September 2023 photos",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "GPSLatitude": {
+                    "value": "40.277436",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSLongitude": {
+                    "value": "-74.839653",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSMapDatum": {
+                    "value": "WGS-84",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Shiso leaves and flowers on the edge of the forest within Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2023-09-17 13:07:25",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Famartin\" title=\"User:Famartin\">Famartin</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 4.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-4.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "149254783": {
+            "pageid": 149254783,
+            "ns": 6,
+            "title": "File:Mentha canadensis - Wild Mint 02.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 18397168,
+                "width": 7728,
+                "height": 5152,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg/1280px-Mentha_canadensis_-_Wild_Mint_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 853,
+                "responsiveUrls": {
+                  "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg/3840px-Mentha_canadensis_-_Wild_Mint_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg/1280px-Mentha_canadensis_-_Wild_Mint_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 853,
+                  "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg/3840px-Mentha_canadensis_-_Wild_Mint_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mentha_canadensis_-_Wild_Mint_02.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149254783",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2024-06-11 00:50:22",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Mentha canadensis - Wild Mint 02",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Mentha canadensis|CC-Zero|Flora of Minnesota|Self-published work|Files with coordinates missing SDC location of creation",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "GPSLatitude": {
+                    "value": "47.660450",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSLongitude": {
+                    "value": "-96.096530",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSMapDatum": {
+                    "value": "WGS-84",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Wild Mint <i>Mentha canadensis</i>, Rydell National Wildlife Refuge, Polk County, Minnesota, USA",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2023-07-17 12:41:19",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jdshide\" title=\"User:Jdshide\">Jasper Shide</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Zero, Public Domain Dedication",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "false",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "33621364": {
+            "pageid": 33621364,
+            "ns": 6,
+            "title": "File:Japanese Honeysuckle (Lonicera japonica) 1.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 2007575,
+                "width": 3920,
+                "height": 2204,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg/1280px-Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 720,
+                "responsiveUrls": {
+                  "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg/3840px-Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg/1280px-Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 720,
+                  "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg/3840px-Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Japanese_Honeysuckle_(Lonicera_japonica)_1.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=33621364",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2014-06-28 08:24:59",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Japanese Honeysuckle (Lonicera japonica) 1",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Lonicera japonica|Taken with Sony Xperia Z|Self-published work",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Lonicera japonica. Common names: Japanese Honeysuckle. Jin Yin Hua 金银花 (Chinese). \nThis evergreen trailing twining vine has flowers that are white but quickly fade to yellow, earning the plant the name “Gold and Silver Flower” in Chinese. The leaves and flowers are used in Traditional Chinese Medicine. G6PD deficient patients should avoid consuming this plant.",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2014-06-25 19:02:19",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mokkie&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mokkie (page does not exist)\">Mokkie</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 3.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-3.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "2492334": {
+            "pageid": 2492334,
+            "ns": 6,
+            "title": "File:Ginkgo biloba - leaves.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 3304084,
+                "width": 3072,
+                "height": 2304,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Ginkgo_biloba_-_leaves.jpg/1280px-Ginkgo_biloba_-_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 960,
+                "responsiveUrls": {
+                  "2": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ginkgo_biloba_-_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Ginkgo_biloba_-_leaves.jpg/1280px-Ginkgo_biloba_-_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 960,
+                  "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ginkgo_biloba_-_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ginkgo_biloba_-_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_-_leaves.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2492334",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2007-07-31 19:32:51",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Ginkgo biloba - leaves",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "GFDL|Taken with Panasonic Lumix DMC-LZ6|License migration redundant|Self-published work|Ginkgo biloba leaves",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Ginkgo biloba - leaves photographed in Wirty Arboretum, Poland.",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Merlin\" title=\"User:Merlin\">Merlin</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY 2.5",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution 2.5",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by/2.5",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-2.5",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "147083155": {
+            "pageid": 147083155,
+            "ns": 6,
+            "title": "File:2021-06-16 Houttuynia cordata ドクダミ DSCF3457.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 1433277,
+                "width": 3264,
+                "height": 2176,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg/1280px-2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 853,
+                "responsiveUrls": {
+                  "2": "https://upload.wikimedia.org/wikipedia/commons/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg/1280px-2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 853,
+                  "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147083155",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2024-04-04 16:09:01",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "2021-06-16 Houttuynia cordata ドクダミ DSCF3457",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Houttuynia cordata|Tambasasayama, Hyogo|Self-published work",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "2021-06-16 Houttuynia cordata ドクダミ",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2021-06-16 14:43:09",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E6%9D%BE%E5%B2%A1%E6%98%8E%E8%8A%B3\" title=\"User:松岡明芳\">松岡明芳</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY 4.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution 4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by/4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-4.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "7045263": {
+            "pageid": 7045263,
+            "ns": 6,
+            "title": "File:Plantago asiatica 1.JPG",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 5129141,
+                "width": 4272,
+                "height": 2848,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Plantago_asiatica_1.JPG/1280px-Plantago_asiatica_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 853,
+                "responsiveUrls": {
+                  "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Plantago_asiatica_1.JPG/3840px-Plantago_asiatica_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Plantago_asiatica_1.JPG/1280px-Plantago_asiatica_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 853,
+                  "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Plantago_asiatica_1.JPG/3840px-Plantago_asiatica_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Plantago_asiatica_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Plantago_asiatica_1.JPG",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7045263",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2009-06-17 05:22:06",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Plantago asiatica 1",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Plantago asiatica|Taken with Canon EOS 450D|Self-published work",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Plantago asiatica in Bupyung, Korea",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2009-05-18",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dalgial\" title=\"User:Dalgial\">Dalgial</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 3.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-3.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "4802181": {
+            "pageid": 4802181,
+            "ns": 6,
+            "title": "File:Portulaca oleracea blossom.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 1359321,
+                "width": 2221,
+                "height": 1732,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Portulaca_oleracea_blossom.jpg/1280px-Portulaca_oleracea_blossom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 998,
+                "responsiveUrls": {
+                  "2": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Portulaca_oleracea_blossom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Portulaca_oleracea_blossom.jpg/1280px-Portulaca_oleracea_blossom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 998,
+                  "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Portulaca_oleracea_blossom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Portulaca_oleracea_blossom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Portulaca_oleracea_blossom.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4802181",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2008-09-17 06:11:57",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Portulaca oleracea blossom",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Self-published work|Portulaca oleracea (flowers)",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "<i>Portulaca oleracea</i> blossom",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ethel_Aardvark&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ethel Aardvark (page does not exist)\">Ethel Aardvark</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY 3.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution 3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by/3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-3.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "4474575": {
+            "pageid": 4474575,
+            "ns": 6,
+            "title": "File:Leonurus japonicus 03.JPG",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 2673260,
+                "width": 3264,
+                "height": 2448,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Leonurus_japonicus_03.JPG/1280px-Leonurus_japonicus_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 960,
+                "responsiveUrls": {
+                  "2": "https://upload.wikimedia.org/wikipedia/commons/0/09/Leonurus_japonicus_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Leonurus_japonicus_03.JPG/1280px-Leonurus_japonicus_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 960,
+                  "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/09/Leonurus_japonicus_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Leonurus_japonicus_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Leonurus_japonicus_03.JPG",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4474575",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2008-07-31 03:32:34",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Leonurus japonicus 03",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Leonurus japonicus|Self-published work",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Leonurus japonicus in Gyeongbokgung palace, Korea",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2008-07-28",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dalgial\" title=\"User:Dalgial\">Dalgial</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 3.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-3.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "72029387": {
+            "pageid": 72029387,
+            "ns": 6,
+            "title": "File:Platycodon grandiflorus (flower s2).jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 3247043,
+                "width": 3840,
+                "height": 3840,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Platycodon_grandiflorus_%28flower_s2%29.jpg/1280px-Platycodon_grandiflorus_%28flower_s2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 1280,
+                "responsiveUrls": {
+                  "2": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Platycodon_grandiflorus_%28flower_s2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Platycodon_grandiflorus_%28flower_s2%29.jpg/1280px-Platycodon_grandiflorus_%28flower_s2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 1280,
+                  "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Platycodon_grandiflorus_%28flower_s2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Platycodon_grandiflorus_%28flower_s2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Platycodon_grandiflorus_(flower_s2).jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72029387",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2018-08-26 09:10:26",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Platycodon grandiflorus (flower s2)",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Platycodon grandiflorus|Self-published work|Flora in Yumihari Mountains",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "<i>Platycodon grandiflorus</i> in Yumihari Mountains, Shinshiro, Aichi Prefecture, Japan.",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2018-08-25 10:00:17",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Alpsdake\" title=\"User:Alpsdake\">Alpsdake</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 4.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-4.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "continue": {
+        "iistart": "2014-02-12T06:40:43Z",
+        "continue": "||"
+      },
+      "query": {
+        "pages": {
+          "31125946": {
+            "pageid": 31125946,
+            "ns": 6,
+            "title": "File:Cape Jasmine (Gardenia jasminoides) 1.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 1701041,
+                "width": 3920,
+                "height": 2204,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg/1280px-Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 720,
+                "responsiveUrls": {
+                  "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg/3840px-Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg/1280px-Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 720,
+                  "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg/3840px-Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cape_Jasmine_(Gardenia_jasminoides)_1.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=31125946",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2014-02-26 17:40:22",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Cape Jasmine (Gardenia jasminoides) 1",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Gardenia jasminoides|Self-published work",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Gardenia jasminoides. Common names: Cape Jasmine. Common Gardenia. zhī zi (栀子) Chinese",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2014-02-09 10:16:16",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mokkie&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mokkie (page does not exist)\">Mokkie</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 3.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-3.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "51036056": {
+            "pageid": 51036056,
+            "ns": 6,
+            "title": "File:Forsythia suspensa 01.JPG",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 321170,
+                "width": 1024,
+                "height": 768,
+                "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Forsythia_suspensa_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "thumbwidth": 1280,
+                "thumbheight": 960,
+                "thumbattribs": {
+                  "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Forsythia_suspensa_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 960
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Forsythia_suspensa_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Forsythia_suspensa_01.JPG",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51036056",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2016-09-01 19:08:16",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Forsythia suspensa 01",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Forsythia suspensa|GFDL|License migration redundant|Self-published work",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "<i>Forsythia suspensa</i>. The Botanical Garden of the University of Latvia",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2016-05-27",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:AfroBrazilian\" title=\"User:AfroBrazilian\">AfroBrazilian</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 4.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-4.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "3374729": {
+            "pageid": 3374729,
+            "ns": 6,
+            "title": "File:2007-07-09Hibiscus syriacus05.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 1602485,
+                "width": 1600,
+                "height": 1400,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/2007-07-09Hibiscus_syriacus05.jpg/1280px-2007-07-09Hibiscus_syriacus05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 1120,
+                "responsiveUrls": {
+                  "2": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2007-07-09Hibiscus_syriacus05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/2007-07-09Hibiscus_syriacus05.jpg/1280px-2007-07-09Hibiscus_syriacus05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 1120,
+                  "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2007-07-09Hibiscus_syriacus05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2007-07-09Hibiscus_syriacus05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:2007-07-09Hibiscus_syriacus05.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3374729",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2008-01-12 02:07:00",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "2007-07-09Hibiscus syriacus05",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Hibiscus syriacus|GFDL|Taken with Fujifilm FinePix E550|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Self-published work|Files by User:Wildfeuer",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Rose of Sharon",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2007-07-09",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Wildfeuer\" title=\"User:Wildfeuer\">Wildfeuer</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 3.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-3.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "114046431": {
+            "pageid": 114046431,
+            "ns": 6,
+            "title": "File:Salvia miltiorrhiza kz01.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 3142365,
+                "width": 3012,
+                "height": 4218,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Salvia_miltiorrhiza_kz01.jpg/1280px-Salvia_miltiorrhiza_kz01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 1793,
+                "responsiveUrls": {
+                  "2": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Salvia_miltiorrhiza_kz01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Salvia_miltiorrhiza_kz01.jpg/1280px-Salvia_miltiorrhiza_kz01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 1793,
+                  "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Salvia_miltiorrhiza_kz01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Salvia_miltiorrhiza_kz01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Salvia_miltiorrhiza_kz01.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114046431",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2022-01-06 16:09:48",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Salvia miltiorrhiza kz01",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Salvia miltiorrhiza|Self-published work|Plants in Wrocław University Botanical Garden",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Salvia miltiorrhiza in Wrocław University Botanical Garden",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2017-09-26 17:52:14",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 4.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-4.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "71983861": {
+            "pageid": 71983861,
+            "ns": 6,
+            "title": "File:Starr-170208-6835-Lycium chinense-flower-Home Depot Kahului-Maui (33252996701).jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 3161598,
+                "width": 3456,
+                "height": 4608,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg/1280px-Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 1707,
+                "responsiveUrls": {
+                  "2": "https://upload.wikimedia.org/wikipedia/commons/6/60/Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg/1280px-Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 1707,
+                  "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/60/Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_(33252996701).jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71983861",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2018-08-24 23:00:33",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Starr-170208-6835-Lycium chinense-flower-Home Depot Kahului-Maui (33252996701)",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Lycium chinense|Flickr images reviewed by FlickreviewR 2|Plant files uploaded by Tyler de Noche|Starr Environmental 2016",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.starrenvironmental.com/images/species/?q=Lycium+chinense\"><b><i>Lycium chinense</i> (Goji berry)</b></a></li></ul><b>\n</b><p>Flower at Home Depot Kahului, Maui, Hawaii.\nFebruary 08, 2017\n</p>\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.starrenvironmental.com/images/search/?q=170208-6835\">#170208-6835</a></li></ul>\n<p><br>\n</p>\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/starr-environmental/\">Image Use Policy</a></li></ul>",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2017-02-08 12:41",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/starr-environmental/33252996701/\">starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/97499887@N06\">Forest and Kim Starr</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY 3.0 us",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution 3.0 us",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Attribution": {
+                    "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.starrenvironmental.com/\">Forest &amp; Kim Starr</a>",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-3.0-us",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "163482884": {
+            "pageid": 163482884,
+            "ns": 6,
+            "title": "File:(MHNT) Morus alba - immatures inflorescences and flowers.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 29154533,
+                "width": 8334,
+                "height": 5284,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg/1280px-%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 812,
+                "responsiveUrls": {
+                  "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg/3840px-%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg/1280px-%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 812,
+                  "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg/3840px-%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:(MHNT)_Morus_alba_-_immatures_inflorescences_and_flowers.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163482884",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2025-04-12 16:11:37",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "(MHNT) Morus alba - immatures inflorescences and flowers",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Morus alba|Supported by Wikimedia France|Images with annotations|Self-published work|Supported by Projet Phoebus|Media supported by Wikimedia France|Service Bibliothèque et documentation Muséum de Toulouse - Botanique|Images by Archaeodontosaurus Botanique|April 2025 in Haute-Garonne|Moraceae in Haute-Garonne|Specimen missing SDC depicts|Occitanie photographs taken on 2025-04-12",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "valued",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Artist": {
+                    "value": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a></div>",
+                    "source": "commons-desc-page"
+                  },
+                  "ImageDescription": {
+                    "value": "<i><a href=\"https://en.wikipedia.org/wiki/Morus_alba\" class=\"extiw\" title=\"w:Morus alba\">Morus alba</a></i> - immatures inflorescences and flowers.",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "Taken on 12 April 2025",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Permission": {
+                    "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 4.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-4.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "167832525": {
+            "pageid": 167832525,
+            "ns": 6,
+            "title": "File:20250615Prunella vulgaris1.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 2360907,
+                "width": 4000,
+                "height": 3000,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/20250615Prunella_vulgaris1.jpg/1280px-20250615Prunella_vulgaris1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 960,
+                "responsiveUrls": {
+                  "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/20250615Prunella_vulgaris1.jpg/3840px-20250615Prunella_vulgaris1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/20250615Prunella_vulgaris1.jpg/1280px-20250615Prunella_vulgaris1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 960,
+                  "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/20250615Prunella_vulgaris1.jpg/3840px-20250615Prunella_vulgaris1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/20250615Prunella_vulgaris1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:20250615Prunella_vulgaris1.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=167832525",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2025-06-16 20:08:31",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "20250615Prunella vulgaris1",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Prunella vulgaris|CC-Zero|Self-published work|Flora of Halberg (Saarland)|Mentheae in Brebach-Fechingen|Images from Wiki Loves Earth 2025 in Germany|Lamiaceae in Saarbrücken in June 2025|Images from Wiki Loves Earth missing SDC depicts|Files with coordinates missing SDC location of creation (49° N, 7° E)|Images from Wiki Loves Earth missing SDC location of creation|Mentheae in the Northern Hemisphere in June 2025|Images from Wiki Loves Earth 2025|Specimen missing SDC depicts|Images from Wiki Loves Earth missing SDC creator|Halberg (Saarland) in June 2025|Images from Wiki Loves Earth 2025, DE detail|Images from Wiki Loves Earth 2025, DE-SL|Saarbrücken photographs taken on 2025-06-15",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "GPSLatitude": {
+                    "value": "49.223215",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSLongitude": {
+                    "value": "7.031376",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSMapDatum": {
+                    "value": "WGS-84",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Artist": {
+                    "value": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:AnRo0002\" title=\"User:AnRo0002\">AnRo0002</a></div>",
+                    "source": "commons-desc-page"
+                  },
+                  "ImageDescription": {
+                    "value": "Kleine Braunelle (<i>Prunella vulgaris</i>) am Halberg in Saarbrücken",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "Taken on 15 June 2025",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Zero, Public Domain Dedication",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "false",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "149460787": {
+            "pageid": 149460787,
+            "ns": 6,
+            "title": "File:Acorus calamus kz05.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 601006,
+                "width": 3067,
+                "height": 2191,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Acorus_calamus_kz05.jpg/1280px-Acorus_calamus_kz05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 914,
+                "responsiveUrls": {
+                  "2": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Acorus_calamus_kz05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Acorus_calamus_kz05.jpg/1280px-Acorus_calamus_kz05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 914,
+                  "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Acorus_calamus_kz05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Acorus_calamus_kz05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Acorus_calamus_kz05.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149460787",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2024-06-17 05:36:17",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Acorus calamus kz05",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Acorus calamus|Self-published work|Acoraceae in the Botanischer Garten, Berlin-Dahlem",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Acorus calamus in the Botanischer Garten, Berlin-Dahlem",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2024-06-16 09:15:15",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 4.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-4.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "147491837": {
+            "pageid": 147491837,
+            "ns": 6,
+            "title": "File:Taraxacum mongolicum-IMG 20180401 161137.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 2278354,
+                "width": 4048,
+                "height": 3036,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Taraxacum_mongolicum-IMG_20180401_161137.jpg/1280px-Taraxacum_mongolicum-IMG_20180401_161137.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 960,
+                "responsiveUrls": {
+                  "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Taraxacum_mongolicum-IMG_20180401_161137.jpg/3840px-Taraxacum_mongolicum-IMG_20180401_161137.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Taraxacum_mongolicum-IMG_20180401_161137.jpg/1280px-Taraxacum_mongolicum-IMG_20180401_161137.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 960,
+                  "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Taraxacum_mongolicum-IMG_20180401_161137.jpg/3840px-Taraxacum_mongolicum-IMG_20180401_161137.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Taraxacum_mongolicum-IMG_20180401_161137.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Taraxacum_mongolicum-IMG_20180401_161137.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147491837",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2024-04-18 16:06:17",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Taraxacum mongolicum-IMG 20180401 161137",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Uploaded with pattypan|Self-published work|Taraxacum mongolicum|Files with coordinates missing SDC location of creation|Photographs by Sun Jiao|Flora of Central China Normal University",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "GPSLatitude": {
+                    "value": "30.517336",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSLongitude": {
+                    "value": "114.353467",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSMapDatum": {
+                    "value": "WGS-84",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Artist": {
+                    "value": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Interaccoonale\" title=\"User:Interaccoonale\">Sun Jiao (Interaccoonale)</a></div>",
+                    "source": "commons-desc-page"
+                  },
+                  "ImageDescription": {
+                    "value": "<i>Taraxacum mongolicum</i>, photographed in Central China Normal University, Wuhan, Hubei Province, China",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "1 April 2018, 16:11",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY 4.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution 4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by/4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-4.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "40471839": {
+            "pageid": 40471839,
+            "ns": 6,
+            "title": "File:Oxalis debilis flower1 (14726476581).jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 2056358,
+                "width": 2592,
+                "height": 1944,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Oxalis_debilis_flower1_%2814726476581%29.jpg/1280px-Oxalis_debilis_flower1_%2814726476581%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 960,
+                "responsiveUrls": {
+                  "2": "https://upload.wikimedia.org/wikipedia/commons/6/69/Oxalis_debilis_flower1_%2814726476581%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Oxalis_debilis_flower1_%2814726476581%29.jpg/1280px-Oxalis_debilis_flower1_%2814726476581%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 960,
+                  "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/69/Oxalis_debilis_flower1_%2814726476581%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Oxalis_debilis_flower1_%2814726476581%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Oxalis_debilis_flower1_(14726476581).jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40471839",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2015-05-26 15:10:18",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Oxalis debilis flower1 (14726476581)",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Oxalis debilis|Flickr images reviewed by FlickreviewR|Photographs by Harry Rose|Oxalidaceae in the Southern Hemisphere in July|Oxalis (flowers)",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Introduced, yearlong green, perennial herb with reduced stems (appearing absent). Bulbs are rounded, light brown and vertically ridged; bulbils are sessile and formed from old bulbs. Leaves are trifoliolate, with obcordate leaflets, 1–4 cm long and wide; petioles are hairless or nearly so and 5–20 cm long; stipules taper into the petiole. Flowerheads are 8–15-flowered in an umbel-like cyime held well above the leaves. Flowers have 5 sepals and 5 pink, 12–18 mm long, fused petals. Fruit are not formed in Australia. Flowering occurs throughout the year. A native of South America, it is planted as an ornamental, but has escaped to be a widespread environmental weed.",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2006-07-22 04:38",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/macleaygrassman/14726476581/\">Oxalis debilis flower1</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/73840284@N04\">Harry Rose</a> from South West Rocks, Australia",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY 2.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution 2.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by/2.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-2.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "106963955": {
+            "pageid": 106963955,
+            "ns": 6,
+            "title": "File:20210620 Hortus botanicus Leiden - Eriobotrya japonica.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "size": 5735537,
+                "width": 6000,
+                "height": 4000,
+                "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg/1280px-20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "thumbwidth": 1280,
+                "thumbheight": 853,
+                "responsiveUrls": {
+                  "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg/3840px-20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                },
+                "thumbattribs": {
+                  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg/1280px-20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "decoding": "async",
+                  "loading": "lazy",
+                  "width": 1280,
+                  "height": 853,
+                  "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg/3840px-20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+                },
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=106963955",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2021-06-25 06:17:51",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "20210620 Hortus botanicus Leiden - Eriobotrya japonica",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Eriobotrya japonica|Self-published work|Netherlands photographs taken on 2021-06-20|Photographs by Rudolphous of Nature (Netherlands)|Rosales in Botanical garden, Leiden",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "GPSLatitude": {
+                    "value": "52.156020",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSLongitude": {
+                    "value": "4.484439",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSMapDatum": {
+                    "value": "WGS-84",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Eriobotrya japonica, Hortus botanicus Leiden, Netherlands",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2021-06-20 13:21:59",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Rudolphous\" title=\"User:Rudolphous\">Rudolphous</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 4.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-4.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                },
+                "mime": "image/jpeg"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

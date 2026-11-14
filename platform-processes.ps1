@@ -97,18 +97,43 @@ function Assert-PlatformInspection {
     # Fail before launch if Windows process/network inspection is unavailable.
     $current = Get-CimInstance Win32_Process -Filter "ProcessId = $PID" -ErrorAction Stop
     if (-not $current) { throw '无法核实当前进程，请在可访问 Windows 系统查询的 PowerShell 中运行。' }
-    $null = Get-NetTCPConnection -ErrorAction Stop
+    $null = [System.Net.NetworkInformation.IPGlobalProperties]::GetIPGlobalProperties().GetActiveTcpListeners()
+}
+
+function ConvertFrom-PlatformListenerText {
+    param([string[]]$Lines, [int]$Port)
+    foreach ($line in $Lines) {
+        if ($line -match '^\s*TCP\s+\S+:(\d+)\s+\S+\s+LISTENING\s+(\d+)\s*$' -and [int]$Matches[1] -eq $Port) {
+            [pscustomobject]@{ LocalPort = [int]$Matches[1]; OwningProcess = [int]$Matches[2] }
+        }
+    }
 }
 
 function Get-PlatformListeners {
     param([int]$Port)
-    # Absent listeners must not mask an access error from Windows inspection.
-    Get-NetTCPConnection -ErrorAction Stop | Where-Object { $_.State -eq 'Listen' -and $_.LocalPort -eq $Port }
+    # NetTCPIP's CIM provider can stall for minutes in Windows PowerShell 5.1.
+    # Probe with .NET, then obtain PID ownership from the system netstat binary.
+    $network = [System.Net.NetworkInformation.IPGlobalProperties]::GetIPGlobalProperties()
+    if (-not @($network.GetActiveTcpListeners() | Where-Object Port -eq $Port).Count) { return }
+    $lines = @(& (Join-Path $env:SystemRoot 'System32\netstat.exe') -ano -p tcp)
+    if ($LASTEXITCODE -ne 0) { throw '无法查询端口所属进程，未继续启动或停止服务。' }
+    $listeners = @(ConvertFrom-PlatformListenerText -Lines $lines -Port $Port)
+    if ($listeners.Count -eq 0 -and @($network.GetActiveTcpListeners() | Where-Object Port -eq $Port).Count -gt 0) {
+        throw "无法核实端口 $Port 的进程，未继续启动或停止服务。"
+    }
+    return $listeners
 }
 
 function Read-PlatformState {
     param([string]$StateFile, [string]$ProjectRoot)
-    $state = Get-Content -LiteralPath $StateFile -Raw -Encoding UTF8 | ConvertFrom-Json
+    $stateJson = Get-Content -LiteralPath $StateFile -Raw -Encoding UTF8
+    # PowerShell 7.5+ parses ISO timestamps into DateTime by default. Identity checks
+    # compare the exact serialized timestamp, so preserve the string representation.
+    if ((Get-Command ConvertFrom-Json).Parameters.ContainsKey('DateKind')) {
+        $state = $stateJson | ConvertFrom-Json -DateKind String
+    } else {
+        $state = $stateJson | ConvertFrom-Json
+    }
     if ($state.Version -ne 1 -or
         -not [string]::Equals([string]$state.ProjectRoot, $ProjectRoot, [StringComparison]::OrdinalIgnoreCase) -or
         @($state.Processes).Count -ne 2) {

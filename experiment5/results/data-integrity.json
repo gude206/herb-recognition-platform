@@ -1,0 +1,26 @@
+{
+  "businessBefore": {
+    "app_users": 1,
+    "auth_sessions": 1,
+    "chat_conversations": 9,
+    "chat_messages": 18,
+    "recognition_records": 2,
+    "plant_catalog": 300,
+    "plant_publications": 20,
+    "science_articles": 12,
+    "content_assets": 25
+  },
+  "businessAfter": {
+    "app_users": 1,
+    "auth_sessions": 1,
+    "chat_conversations": 9,
+    "chat_messages": 18,
+    "recognition_records": 2,
+    "plant_catalog": 300,
+    "plant_publications": 20,
+    "science_articles": 12,
+    "content_assets": 25
+  },
+  "businessCountsUnchanged": true,
+  "testSchemaRemoved": true
+}

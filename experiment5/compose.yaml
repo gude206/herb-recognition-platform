@@ -1,0 +1,44 @@
+services:
+  redis:
+    image: redis:7.4-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  api:
+    build:
+      context: ..
+      dockerfile: experiment5/Dockerfile
+    env_file: ../TCMP-300/.env
+    environment:
+      AGENT_QUEUE_ENABLED: "true"
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/1
+      # Point to an existing reachable MySQL service; migrations/import remain explicit.
+      MYSQL_HOST: ${AGENT_MYSQL_HOST:?Set AGENT_MYSQL_HOST to an initialized MySQL service}
+      TCMP_FRONTEND_ORIGIN: http://localhost:5173
+    ports: ["127.0.0.1:8001:8000"]
+    volumes:
+      - ../TCMP-300/runs:/app/TCMP-300/runs:ro
+      - ../TCMP-300/experiment3/runs:/app/TCMP-300/experiment3/runs:ro
+      - ../TCMP-300/uploads:/app/TCMP-300/uploads
+    depends_on:
+      redis: {condition: service_healthy}
+  worker:
+    build:
+      context: ..
+      dockerfile: experiment5/Dockerfile
+    env_file: ../TCMP-300/.env
+    environment:
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/1
+      MYSQL_HOST: ${AGENT_MYSQL_HOST:?Set AGENT_MYSQL_HOST}
+    command: ["celery", "-A", "agent_worker:app", "worker", "--loglevel=INFO", "--concurrency=2", "-Q", "herb_tools"]
+    volumes:
+      - ../TCMP-300/runs:/app/TCMP-300/runs:ro
+      - ../TCMP-300/experiment3/runs:/app/TCMP-300/experiment3/runs:ro
+      - ../TCMP-300/uploads:/app/TCMP-300/uploads
+    depends_on:
+      redis: {condition: service_healthy}

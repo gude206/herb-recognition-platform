@@ -82,3 +82,9 @@
  .atlas-pagination{gap:12px}
  .detail-back{gap:8px}
 }
+
+.detail-overview.detail-overview-text,.knowledge-preview.knowledge-preview-text{grid-template-columns:1fr}
+.photo-credit{display:block;font-size:10px;line-height:1.6;color:#65766a;overflow-wrap:anywhere}
+.photo-credit a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.plant-image figcaption .photo-credit{color:#fff;font-size:inherit}
+.editorial-introduction p{font-size:15px;line-height:2.05;max-width:70ch}

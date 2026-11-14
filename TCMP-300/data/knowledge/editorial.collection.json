@@ -1,0 +1,1878 @@
+{
+  "version": 1,
+  "publishedAt": "2026-11-13",
+  "textRights": "本平台原创科普与植物说明；资料来源见各条目。图片分别遵循其开放许可。",
+  "plants": [
+    {
+      "id": "tcmp-298",
+      "displayOrder": 0,
+      "name": "紫苏",
+      "description": "紫苏是唇形科紫苏属的一年生草本，茎叶常带芳香。宽大的锯齿叶和枝端细密的花序，是认识它的两个观察入口。",
+      "completeIntroduction": "紫苏的茎直立，表面有柔毛，颜色可呈绿色或紫色。叶片宽卵形至近圆形，边缘带有较粗的锯齿，叶柄明显。植株颜色具有变化，不能把“叶片必须全紫”当作紫苏的定义。\n\n开花时，许多小花沿花序排列。花萼和花冠都较小，结实后形成近球形的小坚果。观察时应同时拍到叶片、叶柄和花序，单张叶片照片难以呈现完整的植物特征。",
+      "observation": "对照叶缘粗锯齿、茎上的毛和花序结构；记录叶片两面的颜色。",
+      "distribution": "我国多地有栽培，也见逸生植株；亚洲其他地区亦有分布或栽培。",
+      "habitat": "园圃、田边及附近的空旷地。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶宽卵形至近圆形，边缘具粗锯齿，有明显叶柄。"
+        },
+        {
+          "label": "花与花序",
+          "value": "小花组成轮伞状花序，再排列成总状花序。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "小坚果近球形，灰褐色。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 紫苏",
+          "url": "https://www.iplant.cn/info/Perilla%20frutescens?t=z",
+          "version": "《中国植物志》  第66卷 (1977) >> 282页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-298.jpg",
+      "imageCredit": {
+        "title": "2023-09-17 13 07 25 Shiso leaves and flowers on the edge of the forest within Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg",
+        "author": "Famartin",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1280px-thumbnail.jpg",
+        "description": "Shiso leaves and flowers on the edge of the forest within Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "41330e94a1cf7ce7062f0132ed61a20b11eb4a55719ef127a45b73f9b3fb6160",
+        "width": 1280,
+        "height": 960,
+        "path": "assets/plants/editorial/tcmp-298.jpg",
+        "pageId": 137747124
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Lamiaceae",
+      "familyChinese": "唇形科",
+      "genus": "Perilla",
+      "genusChinese": "紫苏属",
+      "growthForm": "一年生草本"
+    },
+    {
+      "id": "tcmp-021",
+      "displayOrder": 1,
+      "name": "薄荷",
+      "description": "薄荷是唇形科薄荷属的多年生草本，具有根茎，常在较湿润的环境生长。叶腋中成轮排列的小花与有齿的叶片，可作为观察重点。",
+      "completeIntroduction": "本条目介绍的薄荷为 Mentha canadensis。它的茎常分枝，叶片多为卵状披针形或长圆形，边缘有较明显的齿。地下根茎使植株能够在适宜的地方延伸生长。\n\n薄荷的小花并不主要聚成一个显眼的顶生花球，而是在叶腋形成近球形的轮伞花序。花冠通常淡紫色或白色。花的位置、叶形以及茎叶表面的毛，需要结合起来观察；园艺中被称为“薄荷”的植物还包括薄荷属其他种类。",
+      "observation": "拍摄开花枝，保留叶腋小花与上下相邻叶片的位置关系。",
+      "distribution": "我国南北多地可见；亚洲及北美洲部分地区亦有分布。",
+      "habitat": "水旁及其他潮湿地段。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶卵状披针形或长圆形，边缘有粗牙齿状锯齿。"
+        },
+        {
+          "label": "花与花序",
+          "value": "轮伞花序生于叶腋，花冠淡紫色或白色。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "小坚果黄褐色，表面具细小洼点。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 薄荷",
+          "url": "https://www.iplant.cn/info/Mentha%20canadensis?t=z",
+          "version": "《中国植物志》  第66卷 (1977) >> 262页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-021.jpg",
+      "imageCredit": {
+        "title": "Mentha canadensis - Wild Mint 02.jpg",
+        "author": "Jasper Shide",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mentha_canadensis_-_Wild_Mint_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg/1280px-Mentha_canadensis_-_Wild_Mint_02.jpg",
+        "description": "Wild Mint Mentha canadensis, Rydell National Wildlife Refuge, Polk County, Minnesota, USA",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "ca1fb8a2dc8f8675e46191703d24d296d9b03ebd79f3776ad5532620130a2a49",
+        "width": 1280,
+        "height": 853,
+        "path": "assets/plants/editorial/tcmp-021.jpg",
+        "pageId": 149254783
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Lamiaceae",
+      "familyChinese": "唇形科",
+      "genus": "Mentha",
+      "genusChinese": "薄荷属",
+      "growthForm": "多年生草本"
+    },
+    {
+      "id": "tcmp-201",
+      "displayOrder": 2,
+      "name": "忍冬",
+      "description": "忍冬是忍冬科忍冬属的半常绿藤本，又有金银花、金银藤等名称。花冠由白色逐渐变为黄色，是一株藤上出现两种花色的原因。",
+      "completeIntroduction": "忍冬以藤蔓攀援生长，叶片卵形或长圆状卵形，成对着生。它的花冠细长，前端分为上下两唇，雄蕊和花柱伸出花冠之外。\n\n同一枝条上的花开放时间不同，较早开放的花转黄，较新的花仍呈白色，因此能够同时看到白花与黄花。花后可形成圆形、成熟时蓝黑色的果实。认识忍冬时，应把藤本习性、对生叶和花冠结构一起纳入观察，而不要仅根据花色命名。",
+      "observation": "记录同一花朵数日的颜色变化，并拍摄花冠侧面与成对叶片。",
+      "distribution": "我国华东、中南、西南及北方部分地区有分布，亦广泛栽培。",
+      "habitat": "山坡疏林、灌丛、路边及村落附近。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶纸质，卵形至长圆状卵形，成对着生。"
+        },
+        {
+          "label": "花与花序",
+          "value": "花冠唇形，初为白色，随后转为黄色；雄蕊和花柱外伸。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "果实近圆形，成熟时蓝黑色。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 忍冬",
+          "url": "https://www.iplant.cn/info/Lonicera%20japonica?t=z",
+          "version": "《中国植物志》  第72卷 (1988) >> 236页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-201.jpg",
+      "imageCredit": {
+        "title": "Japanese Honeysuckle (Lonicera japonica) 1.jpg",
+        "author": "Mokkie",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Honeysuckle_(Lonicera_japonica)_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg/1280px-Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg",
+        "description": "Lonicera japonica. Common names: Japanese Honeysuckle. Jin Yin Hua 金银花 (Chinese). \nThis evergreen trailing twining vine has flowers that are white but quickly fade to yellow, earning the plant the name “Gold and Silver Flower” in Chinese. The leaves and flowers are used in Traditional Chinese Medicine. G6PD deficient patients should avoid consuming this plant.",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "2a617a4c20ae02d56cb41081a26d43e0b20c60d6338bc498ab489aa620c757c6",
+        "width": 1280,
+        "height": 720,
+        "path": "assets/plants/editorial/tcmp-201.jpg",
+        "pageId": 33621364
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Caprifoliaceae",
+      "familyChinese": "忍冬科",
+      "genus": "Lonicera",
+      "genusChinese": "忍冬属",
+      "growthForm": "半常绿藤本"
+    },
+    {
+      "id": "tcmp-275",
+      "displayOrder": 3,
+      "name": "银杏",
+      "description": "银杏是银杏科银杏属的落叶乔木。扇形叶片、反复分叉的叶脉，以及长枝和短枝上的不同着叶方式，构成了鲜明的形态特征。",
+      "completeIntroduction": "银杏的叶片有长柄，叶缘常呈波状，中部有时分裂较深。长枝上的叶片散生，短枝上的叶片常簇生，观察同一棵树便能看到两种排列效果。\n\n银杏属于裸子植物，胚珠和种子不包藏在子房与真正的果实内。民间所称的“白果”与银杏种子有关，不能按日常水果的结构来理解。它有雌株和雄株之分，秋季叶片常转为黄色，是城市绿化中广为栽培的树种。",
+      "observation": "寻找长枝与短枝，比较散生叶和簇生叶；近距离观察扇形叶上的分叉叶脉。",
+      "distribution": "我国多地栽培，朝鲜半岛、日本及欧美等地也有栽培。",
+      "habitat": "园林、道路绿地与庭院；植物志亦记录天目山的野生状态树木。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶扇形，有长柄，叶脉多次二叉分枝；短枝上的叶常簇生。"
+        },
+        {
+          "label": "花与花序",
+          "value": "雌雄异株，雄球花与雌性生殖结构着生在短枝附近。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "种子外有肉质外种皮，不形成真正的果实。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 银杏",
+          "url": "https://www.iplant.cn/info/Ginkgo%20biloba?t=z",
+          "version": "《中国植物志》  第7卷 (1978) >> 018页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-275.jpg",
+      "imageCredit": {
+        "title": "Ginkgo biloba - leaves.jpg",
+        "author": "Merlin",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_-_leaves.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ginkgo_biloba_-_leaves.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Ginkgo_biloba_-_leaves.jpg/1280px-Ginkgo_biloba_-_leaves.jpg",
+        "description": "Ginkgo biloba - leaves photographed in Wirty Arboretum, Poland.",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "f46ad4df3d38468989929588338355890ebc0706b76364412a87617d285bc1f7",
+        "width": 1280,
+        "height": 960,
+        "path": "assets/plants/editorial/tcmp-275.jpg",
+        "pageId": 2492334
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Ginkgoaceae",
+      "familyChinese": "银杏科",
+      "genus": "Ginkgo",
+      "genusChinese": "银杏属",
+      "growthForm": "落叶乔木"
+    },
+    {
+      "id": "tcmp-117",
+      "displayOrder": 4,
+      "name": "蕺菜",
+      "description": "蕺菜又名鱼腥草，是三白草科蕺菜属的多年生草本。心形叶片和穗状花序下的白色总苞片，是它容易观察的特征。",
+      "completeIntroduction": "蕺菜具根茎，茎下部常伏地生长，上部直立。叶片宽卵形至卵状心形，基部凹入，叶片下面有时带紫色，植株具有明显的特殊气味。\n\n花序中央密集排列着许多细小的花，基部通常有四片白色、形似花瓣的总苞片。白色部分属于苞片，不等于一朵花的花瓣。把花序侧面和正面都拍清楚，有助于理解小花与总苞片的关系。",
+      "observation": "对照心形叶基，观察白色总苞片与中央细小花的层次。",
+      "distribution": "我国中部、东南及西南多省区有分布；东亚、东南亚其他地区亦可见。",
+      "habitat": "沟边、溪边和林下湿地。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶宽卵形或卵状心形，基部心形，表面有腺点。"
+        },
+        {
+          "label": "花与花序",
+          "value": "穗状花序基部通常有四片白色、花瓣状的总苞片。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "蒴果顶端保留花柱，成熟后开裂。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 蕺菜",
+          "url": "https://www.iplant.cn/info/Houttuynia%20cordata?t=z",
+          "version": "《中国植物志》  第20(1)卷 (1982) >> 008页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-117.jpg",
+      "imageCredit": {
+        "title": "2021-06-16 Houttuynia cordata ドクダミ DSCF3457.jpg",
+        "author": "松岡明芳",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg/1280px-2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg",
+        "description": "2021-06-16 Houttuynia cordata ドクダミ",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "54a07700ba599e6c39fe89f94d9add21eed87e12df83806273eda8e4eec9aaa0",
+        "width": 1280,
+        "height": 853,
+        "path": "assets/plants/editorial/tcmp-117.jpg",
+        "pageId": 147083155
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Saururaceae",
+      "familyChinese": "三白草科",
+      "genus": "Houttuynia",
+      "genusChinese": "蕺菜属",
+      "growthForm": "多年生草本"
+    },
+    {
+      "id": "tcmp-032",
+      "displayOrder": 5,
+      "name": "车前",
+      "description": "车前是车前科车前属的草本植物，常见于路旁、草地和田边。基部呈莲座状排列的宽叶，与向上抽出的细长花序形成明显对比。",
+      "completeIntroduction": "车前的叶片主要集中在地面附近，叶柄明显，叶片宽卵形或宽椭圆形，数条叶脉从叶基附近向前延伸。边缘可呈波状，也可有不明显的齿。\n\n花葶从叶丛间抽出，上部密集着生细小的花，组成细圆柱形穗状花序。结实后形成小型蒴果，成熟时沿周向裂开。观察时应同时记录叶丛和花葶，而不是把细长的花葶当作普通的有叶茎。",
+      "observation": "拍摄整株莲座叶丛，再对照花葶、穗状花序与叶片主脉。",
+      "distribution": "我国大部分地区有分布，东亚及亚洲其他部分地区亦有记录。",
+      "habitat": "草地、路旁、沟边、田埂与河岸湿地。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶基生呈莲座状，宽卵形至宽椭圆形，有数条明显的脉。"
+        },
+        {
+          "label": "花与花序",
+          "value": "花葶上部形成细圆柱形穗状花序，小花的雄蕊和花柱外伸。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "蒴果较小，成熟时周裂。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 车前",
+          "url": "https://www.iplant.cn/info/Plantago%20asiatica?t=z",
+          "version": "《中国植物志》  第70卷 (2002) >> 325页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-032.jpg",
+      "imageCredit": {
+        "title": "Plantago asiatica 1.JPG",
+        "author": "Dalgial",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plantago_asiatica_1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Plantago_asiatica_1.JPG",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Plantago_asiatica_1.JPG/1280px-Plantago_asiatica_1.JPG",
+        "description": "Plantago asiatica in Bupyung, Korea",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "7c9c762d25d22196b0fdaf927d4efb2a552928d55563adcc6c4cb7b2fc0968c4",
+        "width": 1280,
+        "height": 853,
+        "path": "assets/plants/editorial/tcmp-032.jpg",
+        "pageId": 7045263
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Plantaginaceae",
+      "familyChinese": "车前科",
+      "genus": "Plantago",
+      "genusChinese": "车前属",
+      "growthForm": "草本植物"
+    },
+    {
+      "id": "tcmp-162",
+      "displayOrder": 6,
+      "name": "马齿苋",
+      "description": "马齿苋是马齿苋科马齿苋属的一年生草本。铺展的肉质茎、肥厚而全缘的小叶，以及小型黄花，是认识它的基本线索。",
+      "completeIntroduction": "马齿苋的茎常贴地或斜向伸展，分枝较多，颜色可由淡绿带到暗红。叶片扁平而肥厚，多呈倒卵形，先端圆钝，叶缘完整，没有明显锯齿。\n\n枝端可见数朵黄色小花聚在一起，花的大小远小于常见的大花园艺马齿苋。花后形成小蒴果。它在菜园、农田和路旁广泛出现，观察其肉质叶和铺展茎，比单独比较花色更能认识整株结构。",
+      "observation": "用整株照片记录铺展分枝，再拍叶片厚度与枝端小花。",
+      "distribution": "我国南北各地均有，广布于世界温带与热带地区。",
+      "habitat": "菜园、农田、路旁及其他开阔地。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶倒卵形，扁平肥厚，全缘，叶柄短。"
+        },
+        {
+          "label": "花与花序",
+          "value": "黄色小花常数朵聚于枝端。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "蒴果较小，含细小种子。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 马齿苋",
+          "url": "https://www.iplant.cn/info/Portulaca%20oleracea?t=z",
+          "version": "《中国植物志》  第26卷 (1996) >> 037页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-162.jpg",
+      "imageCredit": {
+        "title": "Portulaca oleracea blossom.jpg",
+        "author": "Ethel Aardvark",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portulaca_oleracea_blossom.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Portulaca_oleracea_blossom.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Portulaca_oleracea_blossom.jpg/1280px-Portulaca_oleracea_blossom.jpg",
+        "description": "Portulaca oleracea blossom",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "afd9eb017a4ce5c897959aa45c449ab3fbf5f28aae9c0820b7a3f58d2037e8d7",
+        "width": 1280,
+        "height": 998,
+        "path": "assets/plants/editorial/tcmp-162.jpg",
+        "pageId": 4802181
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Portulacaceae",
+      "familyChinese": "马齿苋科",
+      "genus": "Portulaca",
+      "genusChinese": "马齿苋属",
+      "growthForm": "一年生草本"
+    },
+    {
+      "id": "tcmp-269",
+      "displayOrder": 7,
+      "name": "益母草",
+      "description": "益母草是唇形科益母草属的草本植物。直立的茎、随位置变化的叶形，以及叶腋处成轮排列的小花，是值得连贯观察的特征。",
+      "completeIntroduction": "益母草的叶片不是从基部到顶部都相同。下部叶通常有较长的叶柄，叶片分裂较明显；上部叶趋于狭窄，分裂形态也发生变化。只截取一片叶，容易遗漏这种沿茎变化的特征。\n\n开花时，许多小花在叶腋密集组成轮伞花序，花冠通常淡红至紫红色，呈唇形。记录完整的开花枝，可以同时呈现叶序、叶片变化和花序的位置，为查阅植物志提供更充分的形态信息。",
+      "observation": "连续拍摄茎的下部、中部与上部，比较叶片分裂和花序位置。",
+      "distribution": "我国大部分地区有分布，亚洲其他地区亦有记录。",
+      "habitat": "荒地、田边、路旁、溪边及向阳草地。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶对生，沿茎上下的叶形及分裂程度有变化。"
+        },
+        {
+          "label": "花与花序",
+          "value": "轮伞花序腋生，花冠唇形，常淡红至紫红色。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "结实后形成小坚果，保留在宿存花萼中。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 益母草",
+          "url": "https://www.iplant.cn/info/Leonurus%20japonicus?t=z",
+          "version": "《中国植物志》  第65(2)卷 (1977) >> 508页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-269.jpg",
+      "imageCredit": {
+        "title": "Leonurus japonicus 03.JPG",
+        "author": "Dalgial",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leonurus_japonicus_03.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Leonurus_japonicus_03.JPG",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Leonurus_japonicus_03.JPG/1280px-Leonurus_japonicus_03.JPG",
+        "description": "Leonurus japonicus in Gyeongbokgung palace, Korea",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "e3aa16580ae7e524147d1c801ad0bbdd68e646e5ef32660d91ec783d9339458c",
+        "width": 1280,
+        "height": 960,
+        "path": "assets/plants/editorial/tcmp-269.jpg",
+        "pageId": 4474575
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Lamiaceae",
+      "familyChinese": "唇形科",
+      "genus": "Leonurus",
+      "genusChinese": "益母草属",
+      "growthForm": "草本植物"
+    },
+    {
+      "id": "tcmp-131",
+      "displayOrder": 8,
+      "name": "桔梗",
+      "description": "桔梗是桔梗科桔梗属的多年生草本。鼓起的花蕾与开放后宽钟状的蓝紫色花冠，构成了它最醒目的花部特征。",
+      "completeIntroduction": "桔梗的茎直立，叶片卵形至披针形，边缘具锯齿；叶在不同部位可呈轮生、对生或互生。花蕾在开放前明显膨大，花冠展开后呈宽钟状，通常可见五个裂片。\n\n花后形成蒴果。植株可见于阳处草丛或灌丛，也常作为观赏植物栽培。观察桔梗时，可同时记录膨大的花蕾、开放的花和叶片排列，这比只用一张正面花照更完整。",
+      "observation": "对照花蕾和开放花的形态，并拍摄花冠侧面与茎上叶序。",
+      "distribution": "我国东北、华北、华东及中南、西南部分地区有分布，朝鲜半岛、日本和俄罗斯部分地区亦有。",
+      "habitat": "阳处草丛、灌丛，少见于林下；亦有园艺栽培。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶卵形至披针形，具锯齿，排列可有变化。"
+        },
+        {
+          "label": "花与花序",
+          "value": "花蕾膨大，花冠宽钟状，常蓝色至紫色，顶端五裂。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "蒴果可呈球状或倒卵状。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 桔梗",
+          "url": "https://www.iplant.cn/info/Platycodon%20grandiflorus?t=z",
+          "version": "《中国植物志》  第73(2)卷 (1983) >> 077页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-131.jpg",
+      "imageCredit": {
+        "title": "Platycodon grandiflorus (flower s2).jpg",
+        "author": "Alpsdake",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Platycodon_grandiflorus_(flower_s2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Platycodon_grandiflorus_%28flower_s2%29.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Platycodon_grandiflorus_%28flower_s2%29.jpg/1280px-Platycodon_grandiflorus_%28flower_s2%29.jpg",
+        "description": "Platycodon grandiflorus in Yumihari Mountains, Shinshiro, Aichi Prefecture, Japan.",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "de86a31210cca4bd91824f32e87d7f7faaae0ddcc32137fd629920dd3d44d057",
+        "width": 1280,
+        "height": 1280,
+        "path": "assets/plants/editorial/tcmp-131.jpg",
+        "pageId": 72029387
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Campanulaceae",
+      "familyChinese": "桔梗科",
+      "genus": "Platycodon",
+      "genusChinese": "桔梗属",
+      "growthForm": "多年生草本"
+    },
+    {
+      "id": "tcmp-290",
+      "displayOrder": 9,
+      "name": "栀子",
+      "description": "栀子是茜草科栀子属的灌木，具有光亮的叶片和白色花冠。花后形成的黄橙色、具纵棱的果实，也是重要的观察特征。",
+      "completeIntroduction": "栀子的叶片常对生，部分节上也可轮生，质地较厚，叶面有光泽。花通常单生于枝端，花冠有明显的筒部，展开部分为白色或逐渐转为淡黄色。\n\n果实成熟时呈黄色至橙黄色，表面可见纵棱，顶端保留花萼裂片。园艺中还常见重瓣栽培类型，花部外观与单瓣类型不同。图文对照时，应同时观察叶序、花冠和果实，不宜把花瓣层数当作唯一标准。",
+      "observation": "观察对生叶、枝端花和果实上的纵棱及宿存萼片。",
+      "distribution": "我国华东、中南、西南多地有分布；北方部分地区及国外多地有栽培。",
+      "habitat": "丘陵、山谷溪边、灌丛和林中，也常栽于庭园。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶多对生，较厚，上面光亮。"
+        },
+        {
+          "label": "花与花序",
+          "value": "花多单生枝端，花冠白色或淡黄色，筒部明显。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "果实黄至橙黄，具纵棱，顶端有宿存萼片。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 栀子",
+          "url": "https://www.iplant.cn/info/Gardenia%20jasminoides?t=z",
+          "version": "《中国植物志》  第71(1)卷 (1999) >> 332页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-290.jpg",
+      "imageCredit": {
+        "title": "Cape Jasmine (Gardenia jasminoides) 1.jpg",
+        "author": "Mokkie",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Jasmine_(Gardenia_jasminoides)_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg/1280px-Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg",
+        "description": "Gardenia jasminoides. Common names: Cape Jasmine. Common Gardenia. zhī zi (栀子) Chinese",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "1eb6e6db35f4dd05a20695b045ff9ad804da3e75a2e0e32f125af4271aa23ff9",
+        "width": 1280,
+        "height": 720,
+        "path": "assets/plants/editorial/tcmp-290.jpg",
+        "pageId": 31125946
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Rubiaceae",
+      "familyChinese": "茜草科",
+      "genus": "Gardenia",
+      "genusChinese": "栀子属",
+      "growthForm": "灌木"
+    },
+    {
+      "id": "tcmp-148",
+      "displayOrder": 10,
+      "name": "连翘",
+      "description": "连翘是木犀科连翘属的落叶灌木，枝条开展或下垂。早春的黄色四裂花冠和花后展开的叶片，是常见的季节景象。",
+      "completeIntroduction": "连翘的花常先于叶片开放。花冠黄色，前端深分为四个裂片，花可单生或数朵着生在叶腋位置。枝条的节间通常中空，叶片多为单叶，也可出现三出复叶。\n\n它的果实为蒴果，形状近卵形，成熟后开裂。连翘不仅可在山坡灌丛中见到，也常被栽作春季观花灌木。观察花期与叶片展开的先后顺序，可以更好地理解同一植株在不同季节的外观。",
+      "observation": "花期拍下黄色四裂花冠，展叶后补拍叶片和下垂枝条。",
+      "distribution": "我国河北、山西、陕西、山东、河南及安徽、湖北、四川部分地区有分布，园林中常栽培。",
+      "habitat": "山坡灌丛、林缘及庭园绿地。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶对生，多为单叶，有时可见三出复叶。"
+        },
+        {
+          "label": "花与花序",
+          "value": "花冠黄色、四裂，通常先于叶开放。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "蒴果卵形，成熟时开裂。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 连翘",
+          "url": "https://www.iplant.cn/info/Forsythia%20suspensa?t=z",
+          "version": "《中国植物志》  第61卷 (1992) >> 042页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-148.jpg",
+      "imageCredit": {
+        "title": "Forsythia suspensa 01.JPG",
+        "author": "AfroBrazilian",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forsythia_suspensa_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Forsythia_suspensa_01.JPG",
+        "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Forsythia_suspensa_01.JPG",
+        "description": "Forsythia suspensa. The Botanical Garden of the University of Latvia",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "bbd5189d0b9667314d2870f8e970e616b93db23f3fc5c5fdd3444781db30c43e",
+        "width": 1024,
+        "height": 768,
+        "path": "assets/plants/editorial/tcmp-148.jpg",
+        "pageId": 51036056
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Oleaceae",
+      "familyChinese": "木犀科",
+      "genus": "Forsythia",
+      "genusChinese": "连翘属",
+      "growthForm": "落叶灌木"
+    },
+    {
+      "id": "tcmp-174",
+      "displayOrder": 11,
+      "name": "木槿",
+      "description": "木槿是锦葵科木槿属的落叶灌木，常见于庭园和道路绿化。花单生于叶腋，中央显著的雄蕊柱与略带裂片的叶片值得细看。",
+      "completeIntroduction": "木槿的叶片常呈卵状菱形或宽披针形，叶缘有齿，有的叶片浅分为三裂。花生于枝上部的叶腋，花瓣可呈淡紫、粉红或白色，花外还有副萼和花萼。\n\n花中央的雄蕊花丝基部联合，形成明显的雄蕊柱。花后形成蒴果。园艺栽培的花色与重瓣程度变化较多，判断植物时，叶形、叶腋着花的位置和花外结构，都应与花色一同记录。",
+      "observation": "拍下花中央的雄蕊柱、花背面的副萼，以及同枝叶片。",
+      "distribution": "我国多省区有分布或栽培，世界其他地区也广为栽培。",
+      "habitat": "庭园、公园、公共绿地及村落附近。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶卵状菱形至宽披针形，常不裂或浅三裂，边缘具齿。"
+        },
+        {
+          "label": "花与花序",
+          "value": "花单生叶腋，花外有副萼，中央有显著雄蕊柱。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "蒴果卵球形或椭圆体形，表面被毛。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 木槿",
+          "url": "https://www.iplant.cn/info/Hibiscus%20syriacus?t=z",
+          "version": "《中国植物志》  第49(2)卷 (1984) >> 075页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-174.jpg",
+      "imageCredit": {
+        "title": "2007-07-09Hibiscus syriacus05.jpg",
+        "author": "Wildfeuer",
+        "credit": "Self-photographed",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2007-07-09Hibiscus_syriacus05.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2007-07-09Hibiscus_syriacus05.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/2007-07-09Hibiscus_syriacus05.jpg/1280px-2007-07-09Hibiscus_syriacus05.jpg",
+        "description": "Rose of Sharon",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "8e6bcd70b6743059117535e678c7a59b2fa7dd4f1b746c3db42dca31bd6e554a",
+        "width": 1280,
+        "height": 1120,
+        "path": "assets/plants/editorial/tcmp-174.jpg",
+        "pageId": 3374729
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Malvaceae",
+      "familyChinese": "锦葵科",
+      "genus": "Hibiscus",
+      "genusChinese": "木槿属",
+      "growthForm": "落叶灌木"
+    },
+    {
+      "id": "tcmp-044",
+      "displayOrder": 12,
+      "name": "丹参",
+      "description": "丹参是唇形科鼠尾草属的多年生草本。成对排列的羽状复叶，与蓝紫色唇形花冠，共同构成了地上部分的主要特征。",
+      "completeIntroduction": "丹参的叶片多为奇数羽状复叶，常由三至七枚小叶组成，小叶边缘具有圆齿，叶面与叶背可见毛。它的根外皮呈朱红色，但认识野外植株时应优先观察可见的地上器官。\n\n开花时，轮伞花序沿花序轴排列，形成总状花序。花冠通常蓝紫色，上唇形状弯曲，下唇展开。把复叶结构与花冠侧面拍清楚，可以与同属其他观赏鼠尾草作更有效的资料对照。",
+      "observation": "保留整片复叶与小叶的连接关系，侧拍花冠上下唇；不为识别而挖根。",
+      "distribution": "我国河北、山西、陕西、山东、河南及华中、西南等部分地区有分布，亦有栽培。",
+      "habitat": "山坡草地、林缘、路旁与溪边。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "奇数羽状复叶，小叶通常三至七枚，边缘有圆齿。"
+        },
+        {
+          "label": "花与花序",
+          "value": "蓝紫色唇形花，轮伞花序排列成总状花序。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "小坚果椭圆形。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 丹参",
+          "url": "https://www.iplant.cn/info/Salvia%20miltiorrhiza?t=z",
+          "version": "《中国植物志》  第66卷 (1977) >> 145页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-044.jpg",
+      "imageCredit": {
+        "title": "Salvia miltiorrhiza kz01.jpg",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salvia_miltiorrhiza_kz01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Salvia_miltiorrhiza_kz01.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Salvia_miltiorrhiza_kz01.jpg/1280px-Salvia_miltiorrhiza_kz01.jpg",
+        "description": "Salvia miltiorrhiza in Wrocław University Botanical Garden",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "c5a9e68d72bea0110c9347d19cabc7d7a543e4e393fea719305d9d41c9120d69",
+        "width": 1280,
+        "height": 1793,
+        "path": "assets/plants/editorial/tcmp-044.jpg",
+        "pageId": 114046431
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Lamiaceae",
+      "familyChinese": "唇形科",
+      "genus": "Salvia",
+      "genusChinese": "鼠尾草属",
+      "growthForm": "多年生草本"
+    },
+    {
+      "id": "tcmp-077",
+      "displayOrder": 13,
+      "name": "枸杞",
+      "description": "枸杞是茄科枸杞属的灌木，细长枝条常弯曲或下垂。淡紫色漏斗状花冠和红色浆果，为认识植株提供了不同季节的线索。",
+      "completeIntroduction": "本条目介绍的枸杞为 Lycium chinense。枝条多分枝，常具短刺，叶片可呈卵形、菱状卵形或长椭圆形，单生或数片簇生。\n\n花着生于叶腋，花冠淡紫色，前端分裂并向外展开。果实成熟后变红。商品名称“枸杞”不等于某一个活体植物种的完整鉴定信息；观察本种时，应依据枝、叶、花、果的组合特征，并核对科学名称。",
+      "observation": "拍摄带叶和花的细枝，结实时补充果实与果柄的位置。",
+      "distribution": "我国大部分地区有分布，亦有栽培。",
+      "habitat": "山坡、田埂、丘陵与沟旁。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶形有变化，可单生或簇生，边缘完整。"
+        },
+        {
+          "label": "花与花序",
+          "value": "花腋生，花冠淡紫色、漏斗状，前端五裂。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "浆果成熟时红色，多呈卵圆形至长圆形。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 枸杞",
+          "url": "https://www.iplant.cn/info/Lycium%20chinense?t=z",
+          "version": "《中国植物志》  第67(1)卷 (1978) >> 015页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-077.jpg",
+      "imageCredit": {
+        "title": "Starr-170208-6835-Lycium chinense-flower-Home Depot Kahului-Maui (33252996701).jpg",
+        "author": "Forest and Kim Starr",
+        "credit": "starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui",
+        "attribution": "Forest & Kim Starr",
+        "license": "CC BY 3.0 us",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_(33252996701).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg/1280px-Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg",
+        "description": "Lycium chinense (Goji berry)\nFlower at Home Depot Kahului, Maui, Hawaii.\nFebruary 08, 2017\n\n#170208-6835\n\n\nImage Use Policy",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "ee6f8c7eeed35472f0ab798f5695f5fd61a765d50a9c366bf5633e699f2be28a",
+        "width": 1280,
+        "height": 1707,
+        "path": "assets/plants/editorial/tcmp-077.jpg",
+        "pageId": 71983861
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Solanaceae",
+      "familyChinese": "茄科",
+      "genus": "Lycium",
+      "genusChinese": "枸杞属",
+      "growthForm": "灌木"
+    },
+    {
+      "id": "tcmp-206",
+      "displayOrder": 14,
+      "name": "桑",
+      "description": "桑是桑科桑属的乔木或灌木状植物，叶形可在同株出现变化。春季的小型花序与后来形成的桑椹，展示了花与聚花果的联系。",
+      "completeIntroduction": "桑叶通常呈卵形或宽卵形，边缘有粗锯齿，有时出现明显裂片。叶片的这种变化说明，植物鉴别不能只依靠一张固定形状的叶子。\n\n桑的花体积很小，雌花密集排列成花序。花后形成的桑椹是聚花果，由一个花序的多朵花参与形成。我国栽桑历史悠久，各地普遍栽培；观察桑时可按展叶、开花、结实的顺序记录同一枝条。",
+      "observation": "比较同株不同位置的叶形，记录小花序与桑椹的前后变化。",
+      "distribution": "原产我国中部、北部，现我国多地及亚洲、欧洲其他地区均有栽培。",
+      "habitat": "丘陵、山坡、村旁与田野，亦广泛栽培。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶卵形或宽卵形，边缘有粗钝齿，有时分裂。"
+        },
+        {
+          "label": "花与花序",
+          "value": "花细小，排列成雌花序或雄花序。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "桑椹为聚花果，成熟颜色可有变化。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 桑",
+          "url": "https://www.iplant.cn/info/Morus%20alba?t=z",
+          "version": "《中国植物志》  第23(1)卷 (1998) >> 007页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-206.jpg",
+      "imageCredit": {
+        "title": "(MHNT) Morus alba - immatures inflorescences and flowers.jpg",
+        "author": "Didier Descouens",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:(MHNT)_Morus_alba_-_immatures_inflorescences_and_flowers.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg/1280px-%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg",
+        "description": "Morus alba - immatures inflorescences and flowers.",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "2f63f1739b5e76e09e88655e7c33f20eb9a9ff335f559135a9430945762866b2",
+        "width": 1280,
+        "height": 812,
+        "path": "assets/plants/editorial/tcmp-206.jpg",
+        "pageId": 163482884
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Moraceae",
+      "familyChinese": "桑科",
+      "genus": "Morus",
+      "genusChinese": "桑属",
+      "growthForm": "乔木或灌木状"
+    },
+    {
+      "id": "tcmp-255",
+      "displayOrder": 15,
+      "name": "夏枯草",
+      "description": "夏枯草是唇形科夏枯草属的多年生草本。茎顶密集的短花序和层叠苞片，使它在草地中具有独特的轮廓。",
+      "completeIntroduction": "夏枯草的叶片成对着生，多为卵形或卵状长圆形，叶缘近全缘或有浅波状齿。花序位于茎顶，由密集排列的轮伞花序组成，苞片较宽，常带淡紫色。\n\n花冠通常紫色或紫红色，呈唇形，上唇略呈盔状。开花后，苞片和花萼仍可留在原处，花序外观随成熟逐渐变化。观察时应记录开花期和花后阶段，区分花冠、花萼与苞片。",
+      "observation": "侧拍顶生花序，比较紫色花冠与层叠苞片，花后补拍原花序。",
+      "distribution": "我国秦岭以南及新疆等地有分布，欧亚大陆其他地区及北非亦可见。",
+      "habitat": "路旁、山坡草丛、林缘及其他草地。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶对生，卵形至卵状长圆形，近全缘或有浅齿。"
+        },
+        {
+          "label": "花与花序",
+          "value": "花序顶生且密集，花冠唇形，常为紫色至紫红色。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "形成小坚果；苞片与花萼在花后仍可保留。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 夏枯草",
+          "url": "https://www.iplant.cn/info/Prunella%20vulgaris?t=z",
+          "version": "《中国植物志》  第65(2)卷 (1977) >> 387页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-255.jpg",
+      "imageCredit": {
+        "title": "20250615Prunella vulgaris1.jpg",
+        "author": "AnRo0002",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250615Prunella_vulgaris1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/20250615Prunella_vulgaris1.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/20250615Prunella_vulgaris1.jpg/1280px-20250615Prunella_vulgaris1.jpg",
+        "description": "Kleine Braunelle (Prunella vulgaris) am Halberg in Saarbrücken",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "3460d3200681a39577366c640b95eafc7ca963a23f5ea43b00d4826f6d84e334",
+        "width": 1280,
+        "height": 960,
+        "path": "assets/plants/editorial/tcmp-255.jpg",
+        "pageId": 167832525
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Lamiaceae",
+      "familyChinese": "唇形科",
+      "genus": "Prunella",
+      "genusChinese": "夏枯草属",
+      "growthForm": "多年生草本"
+    },
+    {
+      "id": "tcmp-030",
+      "displayOrder": 16,
+      "name": "菖蒲",
+      "description": "菖蒲是菖蒲科菖蒲属的多年生草本，生于水边湿地。成丛的剑状叶和侧伸的圆柱状肉穗花序，是其醒目的外部特征。",
+      "completeIntroduction": "菖蒲具横走根茎，叶片由基部抽出，狭长如剑，中央有较明显的中肋。水边成丛生长的叶片常随风摆动，但单靠线形叶并不能与其他湿地植物可靠区分。\n\n开花时，细小的花密集着生在圆柱状肉穗花序上；旁侧还有很长的叶状佛焰苞，容易与普通叶片混看。认识菖蒲时，找到花序并拍下它与叶状佛焰苞的连接处，往往比只拍叶丛更有价值。",
+      "observation": "记录剑状叶中肋、肉穗花序和长叶状佛焰苞的相对位置。",
+      "distribution": "我国多地有分布，亚洲及北半球其他地区亦有记录。",
+      "habitat": "池沼、湖岸、河边及其他浅水湿地。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶基生，剑状线形，中肋明显。"
+        },
+        {
+          "label": "花与花序",
+          "value": "细小花密集形成圆柱状肉穗花序，旁有叶状佛焰苞。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "果为浆果，着生于肉穗花序轴上。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 菖蒲",
+          "url": "https://www.iplant.cn/info/Acorus%20calamus?t=z",
+          "version": "《中国植物志》  第13(2)卷 (1979) >> 005页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "GBIF · 菖蒲名称分类",
+          "url": "https://api.gbif.org/v1/species/match?name=Acorus+calamus+L.&kingdom=Plantae&strict=true",
+          "version": "GBIF Backbone Taxonomy",
+          "locator": "Acoraceae",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-030.jpg",
+      "imageCredit": {
+        "title": "Acorus calamus kz05.jpg",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acorus_calamus_kz05.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Acorus_calamus_kz05.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Acorus_calamus_kz05.jpg/1280px-Acorus_calamus_kz05.jpg",
+        "description": "Acorus calamus in the Botanischer Garten, Berlin-Dahlem",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "15add34d0344919ac8cd385bcfeb7b2c87e75bb55bb3bd5e143dbb98014249e4",
+        "width": 1280,
+        "height": 914,
+        "path": "assets/plants/editorial/tcmp-030.jpg",
+        "pageId": 149460787
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Acoraceae",
+      "familyChinese": "菖蒲科",
+      "genus": "Acorus",
+      "genusChinese": "菖蒲属",
+      "growthForm": "多年生草本"
+    },
+    {
+      "id": "tcmp-184",
+      "displayOrder": 17,
+      "name": "蒲公英",
+      "description": "蒲公英是菊科蒲公英属的多年生草本。本条目对应 Taraxacum mongolicum，基生叶丛、黄色头状花序与白色冠毛，是其常见外观。",
+      "completeIntroduction": "蒲公英的叶片集中在植株基部，叶缘可呈齿状至羽状深裂，裂片形状具有变化。花葶从叶丛中抽出，顶端承托一个由许多小花组成的头状花序。\n\n花后所见的白色“绒球”由许多带冠毛的小果实组成，冠毛与果实相连。蒲公英属包含多个种，叶片深裂或出现白色绒球并不足以区分所有成员；查阅资料时还应观察总苞片和果实等细部。",
+      "observation": "拍整株叶丛、花序侧面的总苞片，以及成熟果实和冠毛。",
+      "distribution": "我国东北、华北、华东及中南、西南部分地区广布，朝鲜半岛、蒙古和俄罗斯亦有。",
+      "habitat": "中低海拔的山坡草地、路边、田野和河滩。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶基生，形态变化较大，边缘常具齿或羽状分裂。"
+        },
+        {
+          "label": "花与花序",
+          "value": "黄色小花聚成头状花序，花葶由基部叶丛抽出。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "瘦果顶端具细喙和白色冠毛。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 蒲公英",
+          "url": "https://www.iplant.cn/info/Taraxacum%20mongolicum?t=z",
+          "version": "《中国植物志》  第80(2)卷 (1999) >> 032页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-184.jpg",
+      "imageCredit": {
+        "title": "Taraxacum mongolicum-IMG 20180401 161137.jpg",
+        "author": "Sun Jiao (Interaccoonale)",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taraxacum_mongolicum-IMG_20180401_161137.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Taraxacum_mongolicum-IMG_20180401_161137.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Taraxacum_mongolicum-IMG_20180401_161137.jpg/1280px-Taraxacum_mongolicum-IMG_20180401_161137.jpg",
+        "description": "Taraxacum mongolicum, photographed in Central China Normal University, Wuhan, Hubei Province, China",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "5ce685b38a00e405ad285eab9d0596c22c335e71700e69fb46af10c510fa64c9",
+        "width": 1280,
+        "height": 960,
+        "path": "assets/plants/editorial/tcmp-184.jpg",
+        "pageId": 147491837
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Asteraceae",
+      "familyChinese": "菊科",
+      "genus": "Taraxacum",
+      "genusChinese": "蒲公英属",
+      "growthForm": "多年生草本"
+    },
+    {
+      "id": "tcmp-097",
+      "displayOrder": 18,
+      "name": "红花酢浆草",
+      "description": "红花酢浆草是酢浆草科酢浆草属的多年生草本。三枚倒心形小叶和淡紫至紫红色的花，在城市花坛与路旁较为常见。",
+      "completeIntroduction": "红花酢浆草的叶柄由地下部分抽出，每片复叶由三枚小叶组成，小叶前端有明显凹口。植株具鳞茎，可通过小鳞茎繁殖。\n\n花序高出叶丛，花冠常呈淡紫色至紫红色，通常可以看到五枚花瓣。它原产南美洲，在我国多地引种或归化。植物志中常以 Oxalis corymbosa 收录，现有分类资料也采用 Oxalis debilis 这一名称。对照照片时，三小叶结构比泛称“三叶草”更准确。",
+      "observation": "拍清三枚小叶与一根叶柄的连接关系，再拍花序和五瓣花冠。",
+      "distribution": "原产南美洲，世界热带、亚热带多地归化；我国多地有栽培或逸生。",
+      "habitat": "山地路旁、田边、荒地和花坛附近。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "复叶具三枚倒心形小叶，小叶顶端凹入。"
+        },
+        {
+          "label": "花与花序",
+          "value": "花高出叶丛，五瓣，常淡紫色至紫红色。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "地下具鳞茎及小鳞茎。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 红花酢浆草",
+          "url": "https://www.iplant.cn/info/Oxalis%20corymbosa?t=z",
+          "version": "《中国植物志》  第43(1)卷 (1998) >> 010页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-097.jpg",
+      "imageCredit": {
+        "title": "Oxalis debilis flower1 (14726476581).jpg",
+        "author": "Harry Rose from South West Rocks, Australia",
+        "credit": "Oxalis debilis flower1",
+        "attribution": "",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oxalis_debilis_flower1_(14726476581).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Oxalis_debilis_flower1_%2814726476581%29.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Oxalis_debilis_flower1_%2814726476581%29.jpg/1280px-Oxalis_debilis_flower1_%2814726476581%29.jpg",
+        "description": "Introduced, yearlong green, perennial herb with reduced stems (appearing absent). Bulbs are rounded, light brown and vertically ridged; bulbils are sessile and formed from old bulbs. Leaves are trifoliolate, with obcordate leaflets, 1–4 cm long and wide; petioles are hairless or nearly so and 5–20 cm long; stipules taper into the petiole. Flowerheads are 8–15-flowered in an umbel-like cyime held well above the leaves. Flowers have 5 sepals and 5 pink, 12–18 mm long, fused petals. Fruit are not formed in Australia. Flowering occurs throughout the year. A native of South America, it is planted as an ornamental, but has escaped to be a widespread environmental weed.",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "6bf3d8dbb96ce65aa852d8ee18624aa869c00aa41392d612e277fdd025de8f7b",
+        "width": 1280,
+        "height": 960,
+        "path": "assets/plants/editorial/tcmp-097.jpg",
+        "pageId": 40471839
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Oxalidaceae",
+      "familyChinese": "酢浆草科",
+      "genus": "Oxalis",
+      "genusChinese": "酢浆草属",
+      "growthForm": "多年生草本"
+    },
+    {
+      "id": "tcmp-182",
+      "displayOrder": 19,
+      "name": "枇杷",
+      "description": "枇杷是蔷薇科的常绿小乔木，叶片厚而有明显侧脉，叶背密被绒毛。白色花序与黄橙色果实，是观察其季节变化的线索。",
+      "completeIntroduction": "枇杷叶片较大，质地革质，形状可呈倒披针形至椭圆状长圆形，上部叶缘通常有齿，叶背的灰棕色绒毛很显著。许多白色小花聚集成枝端的圆锥花序。\n\n枇杷常在秋冬开花，果实在翌年成熟，具体时期随地区和栽培条件变化。植物志以 Eriobotrya japonica 记载本种，现有分类名录也使用 Rhaphiolepis bibas。观察时可把厚叶、叶背绒毛、花序与果实连续记录。",
+      "observation": "比较叶片正反两面，记录叶背绒毛、侧脉与枝端花序。",
+      "distribution": "我国华东、华中、华南及西南等地广泛栽培，亚洲其他地区也有栽培。",
+      "habitat": "村边、庭园、平地或坡地果园。",
+      "features": [
+        {
+          "label": "叶",
+          "value": "叶较大且厚，侧脉明显，下面密被灰棕色绒毛。"
+        },
+        {
+          "label": "花与花序",
+          "value": "白色小花组成顶生圆锥花序。"
+        },
+        {
+          "label": "果实与其他器官",
+          "value": "果实球形至长圆形，成熟时黄色或橙黄色。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "中国植物志 · 枇杷",
+          "url": "https://www.iplant.cn/info/Eriobotrya%20japonica?t=z",
+          "version": "《中国植物志》  第36卷 (1974) >> 262页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ],
+      "imagePath": "assets/plants/editorial/tcmp-182.jpg",
+      "imageCredit": {
+        "title": "20210620 Hortus botanicus Leiden - Eriobotrya japonica.jpg",
+        "author": "Rudolphous",
+        "credit": "Own work",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg/1280px-20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg",
+        "description": "Eriobotrya japonica, Hortus botanicus Leiden, Netherlands",
+        "modifications": "原图等比例缩放；网页以容器裁切显示",
+        "retrievedAt": "2026-11-13",
+        "sha256": "8a3c4fded5303230b637f761865aa5242417aa468e17f7defd83d32ba77ba3aa",
+        "width": 1280,
+        "height": 853,
+        "path": "assets/plants/editorial/tcmp-182.jpg",
+        "pageId": 106963955
+      },
+      "updatedAt": "2026-11-13",
+      "editorialStatus": "published",
+      "family": "Rosaceae",
+      "familyChinese": "蔷薇科",
+      "genus": "Eriobotrya",
+      "genusChinese": "枇杷属",
+      "growthForm": "常绿小乔木"
+    }
+  ],
+  "articles": [
+    {
+      "id": "editorial-observe-plants",
+      "title": "从叶序到花序：怎样完整地观察一株植物",
+      "category": "植物知识",
+      "excerpt": "从整株、叶片到花果，用一套可重复的观察顺序建立植物记录。照片中的信息越完整，资料对照就越有依据。",
+      "body": "看见一朵花，往往是认识植物的开始。不过，花的颜色只是形态信息的一部分。把镜头从花朵拉远，观察枝条怎样生长、叶片怎样排列，再回到花与果实的细节，通常能得到更完整的记录。植物志正是把这些器官特征组合起来描述植物。\n\n先看整株与生长位置\n观察植株是木本还是草本，是直立、匍匐还是攀援；同时记录它生长在林下、路边、水旁还是栽培花坛。忍冬以藤蔓攀援，车前的叶片集中在近地面的叶丛，菖蒲则常在水边形成剑状叶丛。这些差别在整株照片中很直观，却容易在一张局部照片中消失。生境可以帮助缩小查找范围，但不能替代形态对照。\n\n再看叶序与一片叶的边界\n叶序指叶片在茎上的排列。观察时要找到叶柄与茎的连接位置，分清相邻叶片是成对着生，还是沿茎交替排列。接着判断看到的是一片单叶，还是由多枚小叶组成的复叶：紫苏具有宽大的单叶，丹参常具羽状复叶，红花酢浆草的一片叶则有三枚小叶。小叶与叶柄的关系，比“叶子像什么”更容易准确记录。\n\n把花与花序分开理解\n一处显眼的花部结构，不一定只是一朵花。蒲公英的黄色头状花序包含许多小花；蕺菜中央的细小花密集成穗，外围白色部分是总苞片。拍摄时可补充正面和侧面两张照片，保留花序与茎叶的连接关系，避免只留下颜色和轮廓。\n\n给同一植株补上时间信息\n植物在展叶、开花和结实阶段的外观会改变。对同一植株持续记录，可以把不同器官联系起来，也能发现同株叶形的差异。桑的叶片有时完整、有时分裂；忍冬的新花与较早开放的花可能呈现不同颜色。把日期、地点和生长状态写在记录中，往往比增加一个没有依据的名称更有用。\n\n一份便于复查的记录\n可按整株、枝条、叶正反面、花序侧面、果实的顺序拍照，保留原始照片，并记录地点和日期。已有花果时优先利用可见器官，不必为了识别而挖根或摘除花果。最后再把观察结果与植物志的物种描述逐项对照。图像识别提供候选名称，完整观察与来源资料共同帮助理解植物。",
+      "cover_path": "editorial/editorial-observe-plants.jpg",
+      "status": "published",
+      "review_status": "已审核",
+      "source_kind": "editorial",
+      "source_note": "本平台原创科普 · 依据《中国植物志》物种条目整理 · 2026-11-13\n中国植物志 · 紫苏 https://www.iplant.cn/info/Perilla%20frutescens?t=z\n中国植物志 · 车前 https://www.iplant.cn/info/Plantago%20asiatica?t=z\n中国植物志 · 菖蒲 https://www.iplant.cn/info/Acorus%20calamus?t=z\n中国植物志 · 丹参 https://www.iplant.cn/info/Salvia%20miltiorrhiza?t=z\n中国植物志 · 红花酢浆草 https://www.iplant.cn/info/Oxalis%20corymbosa?t=z\n中国植物志 · 蕺菜 https://www.iplant.cn/info/Houttuynia%20cordata?t=z\n中国植物志 · 蒲公英 https://www.iplant.cn/info/Taraxacum%20mongolicum?t=z\n中国植物志 · 桑 https://www.iplant.cn/info/Morus%20alba?t=z\n中国植物志 · 忍冬 https://www.iplant.cn/info/Lonicera%20japonica?t=z",
+      "display_order": -100,
+      "legacy_read_label": "",
+      "references": [
+        {
+          "name": "中国植物志 · 紫苏",
+          "url": "https://www.iplant.cn/info/Perilla%20frutescens?t=z",
+          "version": "《中国植物志》  第66卷 (1977) >> 282页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "中国植物志 · 车前",
+          "url": "https://www.iplant.cn/info/Plantago%20asiatica?t=z",
+          "version": "《中国植物志》  第70卷 (2002) >> 325页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "中国植物志 · 菖蒲",
+          "url": "https://www.iplant.cn/info/Acorus%20calamus?t=z",
+          "version": "《中国植物志》  第13(2)卷 (1979) >> 005页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "中国植物志 · 丹参",
+          "url": "https://www.iplant.cn/info/Salvia%20miltiorrhiza?t=z",
+          "version": "《中国植物志》  第66卷 (1977) >> 145页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "中国植物志 · 红花酢浆草",
+          "url": "https://www.iplant.cn/info/Oxalis%20corymbosa?t=z",
+          "version": "《中国植物志》  第43(1)卷 (1998) >> 010页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "中国植物志 · 蕺菜",
+          "url": "https://www.iplant.cn/info/Houttuynia%20cordata?t=z",
+          "version": "《中国植物志》  第20(1)卷 (1982) >> 008页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "中国植物志 · 蒲公英",
+          "url": "https://www.iplant.cn/info/Taraxacum%20mongolicum?t=z",
+          "version": "《中国植物志》  第80(2)卷 (1999) >> 032页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "中国植物志 · 桑",
+          "url": "https://www.iplant.cn/info/Morus%20alba?t=z",
+          "version": "《中国植物志》  第23(1)卷 (1998) >> 007页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "中国植物志 · 忍冬",
+          "url": "https://www.iplant.cn/info/Lonicera%20japonica?t=z",
+          "version": "《中国植物志》  第72卷 (1988) >> 236页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "editorial-honeysuckle",
+      "title": "一藤金银色：读懂忍冬的花与果",
+      "category": "本草故事",
+      "excerpt": "忍冬的白花与黄花常出现在同一株藤上。沿着花的开放过程，认识它的叶、花冠与成熟果实。",
+      "body": "在一株忍冬藤上，白花与黄花常相邻开放。“金银花”这个名称，为它的花色留下了生动的印象。从植物学角度看，两种颜色并不意味着同一株藤上长着两种植物，而与花朵处在不同的开放阶段有关。\n\n同一枝条上的不同时间\n《中国植物志》记载忍冬的花冠由白色转为黄色。新开放的花与较早开放的花并存，便构成了一藤双色的景象。若想观察这个过程，可以在不损伤花朵的位置给同一枝条做拍摄记录，隔日从相近角度重拍，比较花色与花冠姿态，而不是只比较不同植株的照片。\n\n花色以外，还要看什么\n忍冬属于忍冬科忍冬属，是半常绿藤本。叶片成对着生，通常为卵形或长圆状卵形。花冠细长，前端呈明显的唇形，雄蕊与花柱伸出花冠之外。整株的攀援习性、对生叶与伸出的花部结构，能够把“金银色的花”补充为一组可供对照的特征。\n\n为什么要保留侧面照片\n正面照片容易突出颜色，却可能压缩花冠筒的长度。侧面照片更有利于看到细长花冠、上下唇和外伸的雄蕊、花柱；将附近叶片一并拍入，还可以记录花与叶腋的位置关系。多角度记录有助于把植物志中的结构名称与眼前的器官对应起来。\n\n花后还有一段故事\n忍冬花后可形成近圆形果实，成熟时呈蓝黑色。因此，植物档案不应停在开花的一个瞬间。把同一藤蔓的展叶、开花与结实连接起来，能够看到植物生命周期的变化。它常见于山坡疏林、灌丛、路旁和村落附近，也有广泛栽培。\n\n名称与使用应分别理解\n“金银花”常用于指称忍冬相关的花部材料，但一个日常名称并不能替代活体植物的种级识别。本文以 Lonicera japonica 的植物志描述为依据，讨论花色和形态。认识植物是一项观察活动，看到相似的花或果实，不应据此自行采食或配制药用材料。",
+      "cover_path": "editorial/editorial-honeysuckle.jpg",
+      "status": "published",
+      "review_status": "已审核",
+      "source_kind": "editorial",
+      "source_note": "本平台原创科普 · 依据《中国植物志》物种条目整理 · 2026-11-13\n中国植物志 · 忍冬 https://www.iplant.cn/info/Lonicera%20japonica?t=z",
+      "display_order": -99,
+      "legacy_read_label": "",
+      "references": [
+        {
+          "name": "中国植物志 · 忍冬",
+          "url": "https://www.iplant.cn/info/Lonicera%20japonica?t=z",
+          "version": "《中国植物志》  第72卷 (1988) >> 236页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "editorial-ginkgo",
+      "title": "银杏的“果”是什么：从扇形叶认识裸子植物",
+      "category": "植物知识",
+      "excerpt": "扇形叶让银杏很容易被注意到，种子的结构则揭示了它与开花植物的差别。用准确的器官名称重新认识身边的银杏。",
+      "body": "秋天的银杏常以一树金黄进入人们的视野。它的叶片、枝条和种子，也提供了观察植物结构的好材料。理解这些结构，首先需要把日常语言里的“果”与植物学意义上的果实区分开来。\n\n扇形叶上的两种线索\n银杏叶有长柄，叶片呈扇形，上缘可有浅深不一的缺刻，中部有时分成两裂。叶脉不是一条粗主脉加许多侧脉的典型网状图案，而是向前反复分叉。对着光线观察完整叶片，可以看到细密叶脉逐渐展开的走向。\n\n长枝与短枝怎样着叶\n同一棵银杏树上，长枝的叶片沿枝散生，短枝上的叶片常簇生。若只拍一处叶簇，容易把枝条结构忽略。把镜头稍微拉远，保留叶柄基部和小枝，便能理解不同着叶方式来自不同的枝条部位。\n\n它为什么没有真正的果实\n银杏属于裸子植物。与被子植物的胚珠包藏在子房内不同，银杏的胚珠不被子房包裹，成熟后形成种子。因此，树下看起来像小果实的结构，应从种子及种皮来认识。植物学上的器官名称依据结构与发育来源，不能仅凭外表是否圆润、多汁来决定。\n\n“白果”与种皮的层次\n银杏种子外层为肉质外种皮，内侧还有较坚硬的种皮层。日常称呼的“白果”并不是像桃、李那样的真正果实。这一区别也提醒我们：熟悉一个名称，不等于已经了解其全部结构，更不能把园林中落下的种子直接当作普通水果处理。\n\n从一棵树建立四季档案\n银杏有雌株与雄株之分，不能要求每棵树都出现相同的生殖结构。可以在春季观察展叶和短枝，在夏季比较叶脉，在秋季记录叶色与落叶，保留同一观察点的日期。银杏在我国及世界多地广为栽培；一份持续的形态记录，能让城市绿化中的熟悉树木呈现出更具体的植物学面貌。",
+      "cover_path": "editorial/editorial-ginkgo.jpg",
+      "status": "published",
+      "review_status": "已审核",
+      "source_kind": "editorial",
+      "source_note": "本平台原创科普 · 依据《中国植物志》物种条目整理 · 2026-11-13\n中国植物志 · 银杏 https://www.iplant.cn/info/Ginkgo%20biloba?t=z",
+      "display_order": -98,
+      "legacy_read_label": "",
+      "references": [
+        {
+          "name": "中国植物志 · 银杏",
+          "url": "https://www.iplant.cn/info/Ginkgo%20biloba?t=z",
+          "version": "《中国植物志》  第7卷 (1978) >> 018页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "editorial-lamiaceae",
+      "title": "薄荷、紫苏与夏枯草：相似之中看结构",
+      "category": "植物知识",
+      "excerpt": "同属唇形科的三种常见植物，花的位置和叶片轮廓各有特点。通过对照具体器官，建立比气味和颜色更清晰的观察方法。",
+      "body": "薄荷、紫苏和夏枯草都属于唇形科，但它们并不是同一种植物。把三者并排观察，可以体会植物分类中的“共同特征”与物种之间的差别，也能练习把一张照片拆解成叶、茎与花序的信息。\n\n薄荷：把视线移到叶腋\n本平台的薄荷条目对应 Mentha canadensis。它是具有根茎的多年生草本，叶片常呈卵状披针形或长圆形，叶缘有齿。许多淡紫色或白色小花在叶腋形成轮伞花序，沿着茎的若干节位出现。拍摄开花枝时，应保留花序上下的叶片，才能看清这种位置关系。\n\n紫苏：宽叶与细密花序\n紫苏为一年生草本，叶片通常较宽，叶缘有粗锯齿，叶柄明显，茎叶表面可见毛。它的小花排列成细密花序，花后形成近球形小坚果。紫苏的叶色可有绿色、紫色等变化，因此紫色并非能够独立定义该种的条件。叶片轮廓、叶缘和花序都应纳入观察。\n\n夏枯草：看茎顶的层叠结构\n夏枯草的轮伞花序密集排列在茎顶，形成短而紧凑的花序，层叠的宽苞片很醒目。花冠多为紫色或紫红色，上唇略呈盔状。开花后，苞片与花萼仍可留下；花冠脱落不等于整个花序结构立即消失。追踪同一枝条的变化，能帮助区分这些器官。\n\n把对照写成可以复查的句子\n与其只写“像薄荷”或“紫色小花”，不如记录“花在叶腋成轮排列”“叶片宽、叶柄明显”“茎顶花序短而密集”。这类句子包含位置、形态与器官信息，便于再次查看照片或植物志。三种植物的观察重点各不相同，来自某一个特征的直觉需要由其他器官共同支持。\n\n气味不能替代完整观察\n芳香可以成为接近植物的体验，却不应通过尝味来识别，也不能替代科学名称和形态资料。同一个日常商品名或园艺名称还可能指向不同物种。以有明确学名的条目为起点，记录整株、叶片和开花枝，再逐项对照来源，是更容易复查的学习路径。",
+      "cover_path": "editorial/editorial-lamiaceae.jpg",
+      "status": "published",
+      "review_status": "已审核",
+      "source_kind": "editorial",
+      "source_note": "本平台原创科普 · 依据《中国植物志》物种条目整理 · 2026-11-13\n中国植物志 · 薄荷 https://www.iplant.cn/info/Mentha%20canadensis?t=z\n中国植物志 · 紫苏 https://www.iplant.cn/info/Perilla%20frutescens?t=z\n中国植物志 · 夏枯草 https://www.iplant.cn/info/Prunella%20vulgaris?t=z",
+      "display_order": -97,
+      "legacy_read_label": "",
+      "references": [
+        {
+          "name": "中国植物志 · 薄荷",
+          "url": "https://www.iplant.cn/info/Mentha%20canadensis?t=z",
+          "version": "《中国植物志》  第66卷 (1977) >> 262页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "中国植物志 · 紫苏",
+          "url": "https://www.iplant.cn/info/Perilla%20frutescens?t=z",
+          "version": "《中国植物志》  第66卷 (1977) >> 282页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        },
+        {
+          "name": "中国植物志 · 夏枯草",
+          "url": "https://www.iplant.cn/info/Prunella%20vulgaris?t=z",
+          "version": "《中国植物志》  第65(2)卷 (1977) >> 387页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "editorial-houttuynia",
+      "title": "鱼腥草的白色部分是花瓣吗：认识苞片与花序",
+      "category": "植物知识",
+      "excerpt": "从心形叶到白色总苞片，重新观察蕺菜。中央细小的花与外围醒目的结构，说明一眼看到的“花”可能包含多个层次。",
+      "body": "蕺菜又名鱼腥草。开花时，绿色叶丛上常出现白色的十字形轮廓，中央带着一段浅色的小穗。这个外观很容易被概括为“一朵四瓣白花”，但植物学描述呈现了另一种结构。\n\n白色部分属于总苞片\n蕺菜的花序为穗状花序，基部通常有四片白色、形似花瓣的总苞片。真正的小花密集着生在中央花序轴上。因此，白色部分与中央小花不是同一层次的器官；总苞片位于整个花序外围，不能简单当作中央某一朵花的四枚花瓣。\n\n怎样用照片看清层次\n正面照片适合记录白色总苞片的数量和排列，侧面照片则更容易显示中央花序的长度，以及它怎样与花序梗连接。近拍时保留一片相邻叶，可以把花序大小与整株结构联系起来。观察的目的不是用照片替代放大镜，而是清楚保留每一部分的位置关系。\n\n叶片与茎同样重要\n蕺菜是具根茎的多年生草本，茎下部常伏地，节部可生根，上部直立。叶片宽卵形至卵状心形，叶基凹入，下面有时带紫色。它常生长在沟边、溪边或林下湿地。叶片形状、茎的生长方式和花序结构结合起来，比只记住一种气味更完整。\n\n从这株植物理解术语\n苞片、花萼和花瓣都是植物描述中的结构名称，不能仅凭颜色判断。显眼、白色的结构未必就是花瓣；花序外围的结构也不等同于一朵花的组成部分。对照植物志中的文字，再看原始照片，能够逐步把器官名称与具体位置对应起来。\n\n把观察留在自然中\n可选定一小片植株，记录开花前后花序和叶丛的变化，并注明日期与生长环境。蕺菜在我国中部、东南和西南多地及亚洲其他地区均有分布。本文讨论的是活体植物的结构；日常食用名称或药材名称涉及不同的使用场景，不能仅凭相似外观就判断一株野生植物适合采食。",
+      "cover_path": "editorial/editorial-houttuynia.jpg",
+      "status": "published",
+      "review_status": "已审核",
+      "source_kind": "editorial",
+      "source_note": "本平台原创科普 · 依据《中国植物志》物种条目整理 · 2026-11-13\n中国植物志 · 蕺菜 https://www.iplant.cn/info/Houttuynia%20cordata?t=z",
+      "display_order": -96,
+      "legacy_read_label": "",
+      "references": [
+        {
+          "name": "中国植物志 · 蕺菜",
+          "url": "https://www.iplant.cn/info/Houttuynia%20cordata?t=z",
+          "version": "《中国植物志》  第20(1)卷 (1982) >> 008页 PDF",
+          "locator": "物种形态、产地与生境",
+          "retrievedAt": "2026-11-13"
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "assets/plants/editorial/tcmp-298.jpg": {
+      "title": "2023-09-17 13 07 25 Shiso leaves and flowers on the edge of the forest within Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg",
+      "author": "Famartin",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1280px-thumbnail.jpg",
+      "description": "Shiso leaves and flowers on the edge of the forest within Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "41330e94a1cf7ce7062f0132ed61a20b11eb4a55719ef127a45b73f9b3fb6160",
+      "width": 1280,
+      "height": 960,
+      "path": "assets/plants/editorial/tcmp-298.jpg",
+      "pageId": 137747124
+    },
+    "assets/plants/editorial/tcmp-021.jpg": {
+      "title": "Mentha canadensis - Wild Mint 02.jpg",
+      "author": "Jasper Shide",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mentha_canadensis_-_Wild_Mint_02.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg/1280px-Mentha_canadensis_-_Wild_Mint_02.jpg",
+      "description": "Wild Mint Mentha canadensis, Rydell National Wildlife Refuge, Polk County, Minnesota, USA",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "ca1fb8a2dc8f8675e46191703d24d296d9b03ebd79f3776ad5532620130a2a49",
+      "width": 1280,
+      "height": 853,
+      "path": "assets/plants/editorial/tcmp-021.jpg",
+      "pageId": 149254783
+    },
+    "assets/plants/editorial/tcmp-201.jpg": {
+      "title": "Japanese Honeysuckle (Lonicera japonica) 1.jpg",
+      "author": "Mokkie",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Honeysuckle_(Lonicera_japonica)_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg/1280px-Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg",
+      "description": "Lonicera japonica. Common names: Japanese Honeysuckle. Jin Yin Hua 金银花 (Chinese). \nThis evergreen trailing twining vine has flowers that are white but quickly fade to yellow, earning the plant the name “Gold and Silver Flower” in Chinese. The leaves and flowers are used in Traditional Chinese Medicine. G6PD deficient patients should avoid consuming this plant.",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "2a617a4c20ae02d56cb41081a26d43e0b20c60d6338bc498ab489aa620c757c6",
+      "width": 1280,
+      "height": 720,
+      "path": "assets/plants/editorial/tcmp-201.jpg",
+      "pageId": 33621364
+    },
+    "assets/plants/editorial/tcmp-275.jpg": {
+      "title": "Ginkgo biloba - leaves.jpg",
+      "author": "Merlin",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_-_leaves.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ginkgo_biloba_-_leaves.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Ginkgo_biloba_-_leaves.jpg/1280px-Ginkgo_biloba_-_leaves.jpg",
+      "description": "Ginkgo biloba - leaves photographed in Wirty Arboretum, Poland.",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "f46ad4df3d38468989929588338355890ebc0706b76364412a87617d285bc1f7",
+      "width": 1280,
+      "height": 960,
+      "path": "assets/plants/editorial/tcmp-275.jpg",
+      "pageId": 2492334
+    },
+    "assets/plants/editorial/tcmp-117.jpg": {
+      "title": "2021-06-16 Houttuynia cordata ドクダミ DSCF3457.jpg",
+      "author": "松岡明芳",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg/1280px-2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg",
+      "description": "2021-06-16 Houttuynia cordata ドクダミ",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "54a07700ba599e6c39fe89f94d9add21eed87e12df83806273eda8e4eec9aaa0",
+      "width": 1280,
+      "height": 853,
+      "path": "assets/plants/editorial/tcmp-117.jpg",
+      "pageId": 147083155
+    },
+    "assets/plants/editorial/tcmp-032.jpg": {
+      "title": "Plantago asiatica 1.JPG",
+      "author": "Dalgial",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plantago_asiatica_1.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Plantago_asiatica_1.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Plantago_asiatica_1.JPG/1280px-Plantago_asiatica_1.JPG",
+      "description": "Plantago asiatica in Bupyung, Korea",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "7c9c762d25d22196b0fdaf927d4efb2a552928d55563adcc6c4cb7b2fc0968c4",
+      "width": 1280,
+      "height": 853,
+      "path": "assets/plants/editorial/tcmp-032.jpg",
+      "pageId": 7045263
+    },
+    "assets/plants/editorial/tcmp-162.jpg": {
+      "title": "Portulaca oleracea blossom.jpg",
+      "author": "Ethel Aardvark",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portulaca_oleracea_blossom.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Portulaca_oleracea_blossom.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Portulaca_oleracea_blossom.jpg/1280px-Portulaca_oleracea_blossom.jpg",
+      "description": "Portulaca oleracea blossom",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "afd9eb017a4ce5c897959aa45c449ab3fbf5f28aae9c0820b7a3f58d2037e8d7",
+      "width": 1280,
+      "height": 998,
+      "path": "assets/plants/editorial/tcmp-162.jpg",
+      "pageId": 4802181
+    },
+    "assets/plants/editorial/tcmp-269.jpg": {
+      "title": "Leonurus japonicus 03.JPG",
+      "author": "Dalgial",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leonurus_japonicus_03.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Leonurus_japonicus_03.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Leonurus_japonicus_03.JPG/1280px-Leonurus_japonicus_03.JPG",
+      "description": "Leonurus japonicus in Gyeongbokgung palace, Korea",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "e3aa16580ae7e524147d1c801ad0bbdd68e646e5ef32660d91ec783d9339458c",
+      "width": 1280,
+      "height": 960,
+      "path": "assets/plants/editorial/tcmp-269.jpg",
+      "pageId": 4474575
+    },
+    "assets/plants/editorial/tcmp-131.jpg": {
+      "title": "Platycodon grandiflorus (flower s2).jpg",
+      "author": "Alpsdake",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Platycodon_grandiflorus_(flower_s2).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Platycodon_grandiflorus_%28flower_s2%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Platycodon_grandiflorus_%28flower_s2%29.jpg/1280px-Platycodon_grandiflorus_%28flower_s2%29.jpg",
+      "description": "Platycodon grandiflorus in Yumihari Mountains, Shinshiro, Aichi Prefecture, Japan.",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "de86a31210cca4bd91824f32e87d7f7faaae0ddcc32137fd629920dd3d44d057",
+      "width": 1280,
+      "height": 1280,
+      "path": "assets/plants/editorial/tcmp-131.jpg",
+      "pageId": 72029387
+    },
+    "assets/plants/editorial/tcmp-290.jpg": {
+      "title": "Cape Jasmine (Gardenia jasminoides) 1.jpg",
+      "author": "Mokkie",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Jasmine_(Gardenia_jasminoides)_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg/1280px-Cape_Jasmine_%28Gardenia_jasminoides%29_1.jpg",
+      "description": "Gardenia jasminoides. Common names: Cape Jasmine. Common Gardenia. zhī zi (栀子) Chinese",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "1eb6e6db35f4dd05a20695b045ff9ad804da3e75a2e0e32f125af4271aa23ff9",
+      "width": 1280,
+      "height": 720,
+      "path": "assets/plants/editorial/tcmp-290.jpg",
+      "pageId": 31125946
+    },
+    "assets/plants/editorial/tcmp-148.jpg": {
+      "title": "Forsythia suspensa 01.JPG",
+      "author": "AfroBrazilian",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forsythia_suspensa_01.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Forsythia_suspensa_01.JPG",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Forsythia_suspensa_01.JPG",
+      "description": "Forsythia suspensa. The Botanical Garden of the University of Latvia",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "bbd5189d0b9667314d2870f8e970e616b93db23f3fc5c5fdd3444781db30c43e",
+      "width": 1024,
+      "height": 768,
+      "path": "assets/plants/editorial/tcmp-148.jpg",
+      "pageId": 51036056
+    },
+    "assets/plants/editorial/tcmp-174.jpg": {
+      "title": "2007-07-09Hibiscus syriacus05.jpg",
+      "author": "Wildfeuer",
+      "credit": "Self-photographed",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2007-07-09Hibiscus_syriacus05.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2007-07-09Hibiscus_syriacus05.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/2007-07-09Hibiscus_syriacus05.jpg/1280px-2007-07-09Hibiscus_syriacus05.jpg",
+      "description": "Rose of Sharon",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "8e6bcd70b6743059117535e678c7a59b2fa7dd4f1b746c3db42dca31bd6e554a",
+      "width": 1280,
+      "height": 1120,
+      "path": "assets/plants/editorial/tcmp-174.jpg",
+      "pageId": 3374729
+    },
+    "assets/plants/editorial/tcmp-044.jpg": {
+      "title": "Salvia miltiorrhiza kz01.jpg",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salvia_miltiorrhiza_kz01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Salvia_miltiorrhiza_kz01.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Salvia_miltiorrhiza_kz01.jpg/1280px-Salvia_miltiorrhiza_kz01.jpg",
+      "description": "Salvia miltiorrhiza in Wrocław University Botanical Garden",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "c5a9e68d72bea0110c9347d19cabc7d7a543e4e393fea719305d9d41c9120d69",
+      "width": 1280,
+      "height": 1793,
+      "path": "assets/plants/editorial/tcmp-044.jpg",
+      "pageId": 114046431
+    },
+    "assets/plants/editorial/tcmp-077.jpg": {
+      "title": "Starr-170208-6835-Lycium chinense-flower-Home Depot Kahului-Maui (33252996701).jpg",
+      "author": "Forest and Kim Starr",
+      "credit": "starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui",
+      "attribution": "Forest & Kim Starr",
+      "license": "CC BY 3.0 us",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_(33252996701).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg/1280px-Starr-170208-6835-Lycium_chinense-flower-Home_Depot_Kahului-Maui_%2833252996701%29.jpg",
+      "description": "Lycium chinense (Goji berry)\nFlower at Home Depot Kahului, Maui, Hawaii.\nFebruary 08, 2017\n\n#170208-6835\n\n\nImage Use Policy",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "ee6f8c7eeed35472f0ab798f5695f5fd61a765d50a9c366bf5633e699f2be28a",
+      "width": 1280,
+      "height": 1707,
+      "path": "assets/plants/editorial/tcmp-077.jpg",
+      "pageId": 71983861
+    },
+    "assets/plants/editorial/tcmp-206.jpg": {
+      "title": "(MHNT) Morus alba - immatures inflorescences and flowers.jpg",
+      "author": "Didier Descouens",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:(MHNT)_Morus_alba_-_immatures_inflorescences_and_flowers.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg/1280px-%28MHNT%29_Morus_alba_-_immatures_inflorescences_and_flowers.jpg",
+      "description": "Morus alba - immatures inflorescences and flowers.",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "2f63f1739b5e76e09e88655e7c33f20eb9a9ff335f559135a9430945762866b2",
+      "width": 1280,
+      "height": 812,
+      "path": "assets/plants/editorial/tcmp-206.jpg",
+      "pageId": 163482884
+    },
+    "assets/plants/editorial/tcmp-255.jpg": {
+      "title": "20250615Prunella vulgaris1.jpg",
+      "author": "AnRo0002",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250615Prunella_vulgaris1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/20250615Prunella_vulgaris1.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/20250615Prunella_vulgaris1.jpg/1280px-20250615Prunella_vulgaris1.jpg",
+      "description": "Kleine Braunelle (Prunella vulgaris) am Halberg in Saarbrücken",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "3460d3200681a39577366c640b95eafc7ca963a23f5ea43b00d4826f6d84e334",
+      "width": 1280,
+      "height": 960,
+      "path": "assets/plants/editorial/tcmp-255.jpg",
+      "pageId": 167832525
+    },
+    "assets/plants/editorial/tcmp-030.jpg": {
+      "title": "Acorus calamus kz05.jpg",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acorus_calamus_kz05.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Acorus_calamus_kz05.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Acorus_calamus_kz05.jpg/1280px-Acorus_calamus_kz05.jpg",
+      "description": "Acorus calamus in the Botanischer Garten, Berlin-Dahlem",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "15add34d0344919ac8cd385bcfeb7b2c87e75bb55bb3bd5e143dbb98014249e4",
+      "width": 1280,
+      "height": 914,
+      "path": "assets/plants/editorial/tcmp-030.jpg",
+      "pageId": 149460787
+    },
+    "assets/plants/editorial/tcmp-184.jpg": {
+      "title": "Taraxacum mongolicum-IMG 20180401 161137.jpg",
+      "author": "Sun Jiao (Interaccoonale)",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taraxacum_mongolicum-IMG_20180401_161137.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Taraxacum_mongolicum-IMG_20180401_161137.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Taraxacum_mongolicum-IMG_20180401_161137.jpg/1280px-Taraxacum_mongolicum-IMG_20180401_161137.jpg",
+      "description": "Taraxacum mongolicum, photographed in Central China Normal University, Wuhan, Hubei Province, China",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "5ce685b38a00e405ad285eab9d0596c22c335e71700e69fb46af10c510fa64c9",
+      "width": 1280,
+      "height": 960,
+      "path": "assets/plants/editorial/tcmp-184.jpg",
+      "pageId": 147491837
+    },
+    "assets/plants/editorial/tcmp-097.jpg": {
+      "title": "Oxalis debilis flower1 (14726476581).jpg",
+      "author": "Harry Rose from South West Rocks, Australia",
+      "credit": "Oxalis debilis flower1",
+      "attribution": "",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oxalis_debilis_flower1_(14726476581).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Oxalis_debilis_flower1_%2814726476581%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Oxalis_debilis_flower1_%2814726476581%29.jpg/1280px-Oxalis_debilis_flower1_%2814726476581%29.jpg",
+      "description": "Introduced, yearlong green, perennial herb with reduced stems (appearing absent). Bulbs are rounded, light brown and vertically ridged; bulbils are sessile and formed from old bulbs. Leaves are trifoliolate, with obcordate leaflets, 1–4 cm long and wide; petioles are hairless or nearly so and 5–20 cm long; stipules taper into the petiole. Flowerheads are 8–15-flowered in an umbel-like cyime held well above the leaves. Flowers have 5 sepals and 5 pink, 12–18 mm long, fused petals. Fruit are not formed in Australia. Flowering occurs throughout the year. A native of South America, it is planted as an ornamental, but has escaped to be a widespread environmental weed.",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "6bf3d8dbb96ce65aa852d8ee18624aa869c00aa41392d612e277fdd025de8f7b",
+      "width": 1280,
+      "height": 960,
+      "path": "assets/plants/editorial/tcmp-097.jpg",
+      "pageId": 40471839
+    },
+    "assets/plants/editorial/tcmp-182.jpg": {
+      "title": "20210620 Hortus botanicus Leiden - Eriobotrya japonica.jpg",
+      "author": "Rudolphous",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg/1280px-20210620_Hortus_botanicus_Leiden_-_Eriobotrya_japonica.jpg",
+      "description": "Eriobotrya japonica, Hortus botanicus Leiden, Netherlands",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "8a3c4fded5303230b637f761865aa5242417aa468e17f7defd83d32ba77ba3aa",
+      "width": 1280,
+      "height": 853,
+      "path": "assets/plants/editorial/tcmp-182.jpg",
+      "pageId": 106963955
+    },
+    "assets/articles/editorial/editorial-observe-plants.jpg": {
+      "title": "2023-09-17 13 07 25 Shiso leaves and flowers on the edge of the forest within Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg",
+      "author": "Famartin",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/2023-09-17_13_07_25_Shiso_leaves_and_flowers_on_the_edge_of_the_forest_within_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1280px-thumbnail.jpg",
+      "description": "Shiso leaves and flowers on the edge of the forest within Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "41330e94a1cf7ce7062f0132ed61a20b11eb4a55719ef127a45b73f9b3fb6160",
+      "width": 1280,
+      "height": 960,
+      "path": "assets/articles/editorial/editorial-observe-plants.jpg",
+      "pageId": 137747124
+    },
+    "assets/articles/editorial/editorial-honeysuckle.jpg": {
+      "title": "Japanese Honeysuckle (Lonicera japonica) 1.jpg",
+      "author": "Mokkie",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Honeysuckle_(Lonicera_japonica)_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg/1280px-Japanese_Honeysuckle_%28Lonicera_japonica%29_1.jpg",
+      "description": "Lonicera japonica. Common names: Japanese Honeysuckle. Jin Yin Hua 金银花 (Chinese). \nThis evergreen trailing twining vine has flowers that are white but quickly fade to yellow, earning the plant the name “Gold and Silver Flower” in Chinese. The leaves and flowers are used in Traditional Chinese Medicine. G6PD deficient patients should avoid consuming this plant.",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "2a617a4c20ae02d56cb41081a26d43e0b20c60d6338bc498ab489aa620c757c6",
+      "width": 1280,
+      "height": 720,
+      "path": "assets/articles/editorial/editorial-honeysuckle.jpg",
+      "pageId": 33621364
+    },
+    "assets/articles/editorial/editorial-ginkgo.jpg": {
+      "title": "Ginkgo biloba - leaves.jpg",
+      "author": "Merlin",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_-_leaves.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ginkgo_biloba_-_leaves.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Ginkgo_biloba_-_leaves.jpg/1280px-Ginkgo_biloba_-_leaves.jpg",
+      "description": "Ginkgo biloba - leaves photographed in Wirty Arboretum, Poland.",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "f46ad4df3d38468989929588338355890ebc0706b76364412a87617d285bc1f7",
+      "width": 1280,
+      "height": 960,
+      "path": "assets/articles/editorial/editorial-ginkgo.jpg",
+      "pageId": 2492334
+    },
+    "assets/articles/editorial/editorial-lamiaceae.jpg": {
+      "title": "Mentha canadensis - Wild Mint 02.jpg",
+      "author": "Jasper Shide",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mentha_canadensis_-_Wild_Mint_02.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Mentha_canadensis_-_Wild_Mint_02.jpg/1280px-Mentha_canadensis_-_Wild_Mint_02.jpg",
+      "description": "Wild Mint Mentha canadensis, Rydell National Wildlife Refuge, Polk County, Minnesota, USA",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "ca1fb8a2dc8f8675e46191703d24d296d9b03ebd79f3776ad5532620130a2a49",
+      "width": 1280,
+      "height": 853,
+      "path": "assets/articles/editorial/editorial-lamiaceae.jpg",
+      "pageId": 149254783
+    },
+    "assets/articles/editorial/editorial-houttuynia.jpg": {
+      "title": "2021-06-16 Houttuynia cordata ドクダミ DSCF3457.jpg",
+      "author": "松岡明芳",
+      "credit": "Own work",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg/1280px-2021-06-16_Houttuynia_cordata_%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F_DSCF3457.jpg",
+      "description": "2021-06-16 Houttuynia cordata ドクダミ",
+      "modifications": "原图等比例缩放；网页以容器裁切显示",
+      "retrievedAt": "2026-11-13",
+      "sha256": "54a07700ba599e6c39fe89f94d9add21eed87e12df83806273eda8e4eec9aaa0",
+      "width": 1280,
+      "height": 853,
+      "path": "assets/articles/editorial/editorial-houttuynia.jpg",
+      "pageId": 147083155
+    }
+  }
+}

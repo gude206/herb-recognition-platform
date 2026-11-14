@@ -11,7 +11,7 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 
 import torch
-from fastapi import APIRouter, FastAPI, File, HTTPException, UploadFile, Query
+from fastapi import APIRouter, FastAPI, File, Header, HTTPException, UploadFile, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
@@ -23,7 +23,15 @@ from starlette.concurrency import run_in_threadpool
 from torch import nn
 from torchvision import models, transforms
 import herb_catalog
+import content_store
+from content_api import router as content_router
+import history_store
+from auth_api import router as auth_router, request_history_owner
+from admin_articles import router as admin_router
+from auth_limits import AuthBodyLimitMiddleware
+from history_api import router as history_router
 from deepseek_chat import router as chat_router
+from agent_service import router as agent_router
 from upload_limits import BoundedUploadMiddleware, SingleImageUploadRoute
 
 ROOT = Path(__file__).resolve().parent
@@ -63,6 +71,7 @@ def validate_image_dimensions(width, height):
 
 def allowed_frontend_origins():
     origins = ["http://localhost:5173", "http://127.0.0.1:5173",
+               "http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:8001", "http://127.0.0.1:8001",
                "http://localhost:4173", "http://127.0.0.1:4173"]
     custom = os.environ.get("TCMP_FRONTEND_ORIGIN", "").strip()
     if custom:
@@ -90,8 +99,7 @@ class Predictor:
         classes = saved["classes"]
         if len(classes) != 300:
             raise ValueError("Expected a TCMP-300 checkpoint with 300 classes")
-        with CLASS_INFO.open(encoding="utf-8-sig", newline="") as file:
-            rows = list(csv.DictReader(file))
+        rows = list(herb_catalog.rows().values())
         by_number = {int(row["No"]): row for row in rows}
         if len(rows) != 300 or len(by_number) != 300:
             raise ValueError("Class metadata must contain 300 unique classes")
@@ -107,9 +115,15 @@ class Predictor:
                 "name": row["Chinese Name"].strip(), "latin_name": row["Latin Name"].strip(),
                 "family": row["Family"].strip(), "class_id": int(number),
                 **herb_catalog.identity_metadata(row)})
+            if self.labels[-1]['identity_conflict']:
+                self.labels[-1].update(name='无法确定植物名称', latin_name='', family='')
         torch.set_num_threads(min(4, os.cpu_count() or 4))
         if mode == "int8":
-            torch.backends.quantized.engine = "fbgemm"
+            engines = torch.backends.quantized.supported_engines
+            engine = next((name for name in ("fbgemm", "x86", "onednn", "qnnpack") if name in engines), None)
+            if engine is None:
+                raise RuntimeError("No INT8 inference engine is available; use TCMP_MODEL=original")
+            torch.backends.quantized.engine = engine
             self.device = torch.device("cpu")
             # A file object also supports the Chinese project path on Windows.
             with QUANTIZED_MODEL.open("rb") as file:
@@ -189,25 +203,42 @@ app = FastAPI(title="TCMP-300 草药识别 API", lifespan=lifespan)
 
 @app.exception_handler(StarletteHTTPException)
 async def http_error(request, error):
-    return JSONResponse({"code": error.status_code, "result": None, "msg": str(error.detail)},
+    return JSONResponse({"code": error.status_code, "result": None, "msg": str(error.detail), "detail": error.detail},
                         status_code=error.status_code, headers=error.headers)
 
 
 @app.exception_handler(RequestValidationError)
-async def validation_error(request, error):
-    return JSONResponse({"code": 422, "result": None, "msg": "请求参数无效，请检查文件或输入内容"}, status_code=422)
-
+async def validation_error(request: Request, error: RequestValidationError):
+    message = "请求参数无效，请检查文件或输入内容"
+    detail = message
+    if request.url.path.startswith(('/api/v1/auth/', '/api/v1/admin/')):
+        # Never echo submitted passwords or complete draft bodies in validation responses.
+        detail = [{key: value for key, value in item.items() if key in {'type', 'loc', 'msg'}} for item in error.errors()]
+    return JSONResponse({"code": 422, "result": None, "msg": message, "detail": detail}, status_code=422)
 
 app.include_router(chat_router)
+app.include_router(agent_router)
+app.include_router(history_router)
+app.include_router(content_router)
+app.include_router(auth_router)
+app.include_router(admin_router)
 app.add_middleware(BoundedUploadMiddleware, path="/api/v1/predict", max_bytes=MAX_UPLOAD_REQUEST_BYTES)
+app.add_middleware(BoundedUploadMiddleware, path="/api/v1/agent/chat", max_bytes=64*1024)
+app.add_middleware(BoundedUploadMiddleware, path="/api/v1/agent/chat/stream", max_bytes=64*1024)
+app.add_middleware(BoundedUploadMiddleware, path="/api/v1/text/classify", max_bytes=32*1024)
+app.add_middleware(AuthBodyLimitMiddleware)
 app.add_middleware(CORSMiddleware,
     allow_origins=allowed_frontend_origins(),
-    allow_methods=["GET", "POST"], allow_headers=["*"])
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE"], allow_headers=["*"])
 
 
 @app.get("/api/v1/health")
 def health():
-    return {"status": "ready", "model": app.state.predictor.info}
+    database = history_store.health()
+    content = content_store.health()
+    return {"status": "degraded" if database['status'] == 'unavailable' or content['status'] == 'unavailable' else "ready",
+            "model": app.state.predictor.info, "database": database, "content": content}
 
 
 @app.get("/api/v1/herbs")
@@ -225,8 +256,9 @@ def herb_filters():
 @app.get("/api/v1/herbs/{herb_id}")
 def herb_detail(herb_id: str):
     row=herb_catalog.rows().get(herb_id)
-    if row is None:raise HTTPException(404,"未找到该植物条目")
-    return herb_catalog.serialize(row,detail=True)
+    herb = herb_catalog.serialize(row,detail=True) if row else None
+    if herb is None:raise HTTPException(404,"该植物资料未公开或不存在")
+    return herb
 
 
 @app.get("/api/v1/herbs/{herb_id}/reference-image")
@@ -239,15 +271,16 @@ def herb_reference_image(herb_id: str):
 @app.get("/api/v1/recognition/samples")
 def samples():
     return [dict(metadata, image_url=f"/api/v1/recognition/samples/{sample_id}/image")
-            for sample_id, (metadata, _) in app.state.predictor.samples.items()]
+            for sample_id, (metadata, _) in app.state.predictor.samples.items()
+            if herb_catalog.reference_image(sample_id) is not None]
 
 
 @app.get("/api/v1/recognition/samples/{sample_id}/image")
 def sample_image(sample_id: str):
     sample = app.state.predictor.samples.get(sample_id)
-    if sample is None:
+    if sample is None or herb_catalog.reference_image(sample_id) is None:
         raise HTTPException(404, "示例图片不存在")
-    return FileResponse(sample[1])
+    return FileResponse(herb_catalog.reference_image(sample_id))
 
 
 recognition_router = APIRouter(route_class=SingleImageUploadRoute)
@@ -265,7 +298,7 @@ class PredictionResponse(BaseModel):
                                     413: {"description": "图片大小、尺寸或请求体超限"},
                                     415: {"description": "不支持的图片格式"},
                                     500: {"description": "模型推理失败"}})
-async def predict(file: UploadFile = File(...)):
+async def predict(request: Request, file: UploadFile = File(...), x_history_token: str | None = Header(default=None)):
     started = perf_counter()
     try:
         content = await file.read(MAX_UPLOAD_BYTES + 1)
@@ -275,15 +308,21 @@ async def predict(file: UploadFile = File(...)):
         raise HTTPException(400, "上传图片不能为空")
     if len(content) > MAX_UPLOAD_BYTES:
         raise HTTPException(413, "图片大小不能超过 10MB")
+    owner = await run_in_threadpool(request_history_owner, request, x_history_token) if history_store.enabled() else None
     try:
         result = await run_in_threadpool(app.state.predictor.predict, content)
-        result["timing_ms"]["api"] = round((perf_counter() - started) * 1000, 2)
-        return PredictionResponse(result=result)
     except HTTPException:
         raise
     except Exception:
         logging.exception("Model prediction failed")
         raise HTTPException(500, "模型识别失败，请稍后重试")
+    if owner:
+        with Image.open(io.BytesIO(content)) as image:
+            image_format = image.format
+        record_id = await run_in_threadpool(history_store.save_recognition, owner, file.filename, content, image_format, result)
+        result = {**result, 'record_id': record_id, 'saved': True}
+    result.setdefault("timing_ms", {})["api"] = round((perf_counter() - started) * 1000, 2)
+    return PredictionResponse(result=result)
 
 
 app.include_router(recognition_router)
@@ -298,5 +337,7 @@ if WEB_DIR.is_dir():
     @app.get("/herbs/{herb_id}", include_in_schema=False)
     @app.get("/knowledge", include_in_schema=False)
     @app.get("/login", include_in_schema=False)
+    @app.get("/profile", include_in_schema=False)
+    @app.get("/admin/articles", include_in_schema=False)
     def frontend(herb_id: str | None = None):
         return FileResponse(WEB_DIR / "index.html")

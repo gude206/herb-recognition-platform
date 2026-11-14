@@ -59,7 +59,7 @@ class RecognitionAPITest(unittest.TestCase):
 
     def test_real_sample_image_can_be_uploaded(self):
         samples = self.client.get('/api/v1/recognition/samples').json()
-        self.assertEqual(len(samples), 4)
+        self.assertEqual(samples, [])
         for sample in samples:
             image = self.client.get(sample['image_url'])
             self.assertEqual(image.status_code, 200)
@@ -115,12 +115,12 @@ class RecognitionAPITest(unittest.TestCase):
         conflict = by_id['tcmp-051']
         row = herb_catalog.rows()['tcmp-051']
         self.assertEqual(conflict['class_id'], 51)
-        self.assertEqual(conflict['latin_name'], row['Latin Name'])
-        self.assertEqual(conflict['original_latin_name'], row['Latin Name'])
+        self.assertEqual(conflict['latin_name'], '')
+        self.assertEqual(conflict['original_latin_name'], '')
         self.assertTrue(conflict['identity_conflict'])
         self.assertEqual(conflict['accepted_latin_name'], '')
-        self.assertEqual(conflict['identity_status'], row['身份核对状态'])
-        self.assertEqual(conflict['review_status'], row['人工审核状态'])
+        self.assertIn('不提供植物资料', conflict['identity_status'])
+        self.assertEqual(conflict['review_status'], '')
         self.assertEqual(len(by_id), 300)
 
     def test_optional_frontend_origin_only_accepts_local_http_ports(self):

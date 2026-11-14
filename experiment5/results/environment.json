@@ -1,0 +1,13 @@
+{
+  "python": "3.13.5",
+  "packages": {
+    "fastapi": "0.142.2",
+    "torch": "2.14.1",
+    "langchain": "1.5.0",
+    "langchain-openai": "1.8.0",
+    "celery": "5.7.0",
+    "redis": "6.4.0"
+  },
+  "inference_mode": "remote provider; local INT8 image classifier",
+  "agent_queue": "direct execution; Celery deployment not exercised"
+}

@@ -1,0 +1,8 @@
+# Separate training environment only; do not install into the web API environment.
+torch>=2.5
+transformers>=4.56,<5
+accelerate>=1.0,<2
+peft>=0.17,<1
+trl>=0.23,<1
+datasets>=3,<5
+bitsandbytes>=0.47,<1

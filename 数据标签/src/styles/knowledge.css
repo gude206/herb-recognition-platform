@@ -1,0 +1,16 @@
+.article-source-note { padding: 9px 12px; border-radius: 8px; background: #edf3e8; color: #68816c; font-size: 11px; line-height: 1.7; }
+.article-body-content { white-space: pre-wrap; overflow-wrap: anywhere; }
+.knowledge-page .featured-article .tag-row { margin-bottom: 8px; }
+.featured-copy>.photo-credit{margin:0 0 14px}
+.article-card .photo-credit{margin:0 0 7px;font-size:9px;line-height:1.5}
+.article-modal>.photo-credit{margin:8px 0 20px}
+.editorial-article-body{color:#405449;font-size:16px;line-height:2}
+.editorial-article-body h3,.article-references h3{font-size:20px;margin:30px 0 12px;color:#214d3c}
+.editorial-article-body p{margin:0 0 20px;white-space:pre-line}
+.article-references{margin-top:32px;padding-top:8px;border-top:1px solid #dce5db}
+.article-references li{font-size:13px;line-height:1.9;margin:6px 0}
+.article-references a{color:#267456;text-decoration:underline;text-underline-offset:3px}
+.article-scope-note{font-size:12px!important;color:#7c897e!important;line-height:1.8!important;margin-top:25px!important}
+.knowledge-page .reading-list > button > small { white-space: nowrap; }
+
+.knowledge-layout.knowledge-layout-empty{grid-template-columns:1fr}

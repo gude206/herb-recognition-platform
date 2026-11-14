@@ -16,11 +16,9 @@ test('a conflicting top prediction and conflicting Top 5 candidate are visibly m
     original_latin_name: 'Original species', accepted_latin_name: 'Accepted species'}
   const markup = renderResult({prediction, top_k: [prediction]})
   assert.match(markup, /植物身份存在冲突/)
-  assert.match(markup, /身份冲突 · 待核实/)
-  assert.match(markup, /原始学名：Original species/)
-  assert.match(markup, /图鉴规范学名：Accepted species/)
-  assert.match(markup, /未人工审核/)
-  assert.match(markup, /模型候选 · 待核实/)
+  assert.match(markup, /无法确定植物名称/)
+  assert.match(markup, /不提供植物资料/)
+  assert.doesNotMatch(markup, /待核实|未人工审核|Original species|Accepted species|href="\/herbs\/tcmp-051"/)
   assert.doesNotMatch(markup, /身份已确认/)
 })
 
@@ -29,7 +27,7 @@ test('legacy mock predictions still render as candidates when identity metadata 
   const markup = renderResult({prediction, top_k: [prediction]})
   assert.match(markup, /金银花/)
   assert.match(markup, /92.80%/)
-  assert.match(markup, /候选 · 待核实/)
+  assert.match(markup, /模型候选/)
   assert.doesNotMatch(markup, /植物身份存在冲突/)
 })
 
@@ -48,5 +46,5 @@ test('a missing accepted Latin name never promotes the original name to a normal
 test('the shared identity warning used by home, results and detail pages explains the conflict', () => {
   const markup = renderToStaticMarkup(createElement(IdentityWarning))
   assert.match(markup, /植物身份存在冲突/)
-  assert.match(markup, /需核实身份后再用于物种判断/)
+  assert.match(markup, /本次结果不能作为物种判断依据/)
 })

@@ -11,6 +11,10 @@
 *.p12
 *.pfx
 /mysql-local/
+/TCMP-300/uploads/
+/TCMP-300/assets/articles/*.jpg
+/TCMP-300/assets/articles/*.png
+/TCMP-300/assets/articles/*.webp
 
 # Dependencies, caches, generated files and logs
 node_modules/
@@ -41,3 +45,5 @@ Thumbs.db
 
 # Downloaded archives stay local
 .downloads/
+/experiment5/artifacts/
+/experiment5/checkpoints/

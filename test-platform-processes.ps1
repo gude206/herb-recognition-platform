@@ -4,6 +4,20 @@
     $ErrorActionPreference = 'Stop'
     . (Join-Path $PSScriptRoot 'platform-processes.ps1')
     $projectRoot = $PSScriptRoot
+    $listenerFixture = @(
+        '  TCP    127.0.0.1:8000  0.0.0.0:0  LISTENING  1234',
+        '  TCP    [::1]:8000      [::]:0     LISTENING  1234',
+        '  TCP    127.0.0.1:8001  0.0.0.0:0  LISTENING  5678',
+        '  TCP    127.0.0.1:8000  127.0.0.1:90 ESTABLISHED 9999'
+    )
+    $parsedListeners = @(ConvertFrom-PlatformListenerText -Lines $listenerFixture -Port 8000)
+    if ($parsedListeners.Count -ne 2 -or @($parsedListeners | Where-Object OwningProcess -ne 1234).Count) {
+        throw 'FAILED: IPv4/IPv6 listener ownership parsing'
+    }
+    if (@(ConvertFrom-PlatformListenerText -Lines $listenerFixture -Port 9000).Count) {
+        throw 'FAILED: Absent port must not claim another listener'
+    }
+    Write-Output 'PASS: IPv4/IPv6 port ownership ignores other ports and established connections'
     $script:mockBaseTime = [DateTime]::SpecifyKind([DateTime]'2026-10-01T00:00:00', [DateTimeKind]::Utc)
 
     function Reset-MockProcesses {
@@ -167,5 +181,15 @@
     Save-PlatformServiceRecord -Record $record -Port 8100 -ProjectRoot $projectRoot
     Assert-Mock ($record.Service.Id -eq 200) 'A verified direct service child is saved'
 
-    Write-Output 'All in-memory platform process checks passed; no native process was started or stopped.'
+    # The only filesystem check uses a temporary state file inside this project.
+    $statePath = Join-Path $projectRoot ('.platform-process-test-' + [Guid]::NewGuid().ToString('N') + '.json')
+    try {
+        [ordered]@{ Version=1; ProjectRoot=$projectRoot; Processes=@((New-MockRecord 100),(New-MockRecord 200)) } |
+            ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $statePath -Encoding UTF8
+        $restored = Read-PlatformState -StateFile $statePath -ProjectRoot $projectRoot
+        Assert-Mock ($restored.Processes[0].StartTimeUtc -is [string]) 'JSON preserves timestamps as strings on current PowerShell'
+        Assert-Mock ($null -ne (Get-VerifiedPlatformProcess -Record $restored.Processes[0] -ProjectRoot $projectRoot)) 'Restored process identity remains verifiable'
+    } finally { Remove-Item -LiteralPath $statePath -ErrorAction SilentlyContinue }
+
+    Write-Output 'All platform process checks passed; no native process was started or stopped.'
 }

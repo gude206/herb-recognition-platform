@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#eef3ec"/>
+  <path d="M320 235c-65-5-100-48-95-108 60-5 100 30 95 108Zm0 0c5-65 48-100 108-95 5 60-30 100-108 95Z" fill="#a5b99c"/>
+  <path d="M320 265v-70" stroke="#718969" stroke-width="8" stroke-linecap="round"/>
+  <text x="320" y="320" text-anchor="middle" fill="#52634b" font-family="sans-serif" font-size="26">图片待补充</text>
+</svg>
